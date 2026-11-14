@@ -19,6 +19,8 @@ Gra działa pod adresem http://localhost:3110 (port można zmienić zmienną `PO
 
 Żeby znajomi spoza Twojej sieci mogli wejść, serwer musi być dostępny z internetu (hosting obsługujący Node.js i WebSocket albo tunel do `localhost:3110`).
 
+W poczekalni i przy stanowisku można puszczać emotki (ludek macha, skacze, tańczy…). Interfejs ma przełącznik PL/EN; pytania są po polsku.
+
 ## Zasady
 
 - **Etap 1 — Rozgrzewka:** każdy dostaje dwa pytania. Błąd to utrata szansy, dwa błędy to koniec gry.
