@@ -10,6 +10,8 @@ const { norm, isCorrect } = require('./match');
 const PORT = process.env.PORT || 3110;
 const PUB = path.join(__dirname, 'public');
 const MAX_PLAYERS = 10;
+const AV_KEYS = ['skin', 'hair', 'hairColor', 'eyes', 'mouth', 'shirt', 'outfit', 'hat', 'glasses', 'beard'];
+const EMOTES = 8;
 
 // ---------- baza pytań ----------
 const CATS = [];
@@ -61,10 +63,13 @@ function newCode() {
 function cleanName(n) { return String(n || '').replace(/\s+/g, ' ').trim().slice(0, 16) || 'Gracz'; }
 function cleanAvatar(a) {
   const o = {};
-  for (const k of ['skin', 'hair', 'hairColor', 'eyes', 'mouth', 'shirt', 'acc']) o[k] = Math.max(0, Math.min(30, parseInt(a && a[k], 10) || 0));
+  for (const k of AV_KEYS) o[k] = Math.max(0, Math.min(30, parseInt(a && a[k], 10) || 0));
   return o;
 }
-function randomAvatar() { return { skin: rint(8), hair: rint(8), hairColor: rint(9), eyes: rint(6), mouth: rint(6), shirt: rint(10), acc: rint(8) }; }
+function randomAvatar() {
+  const opt = (n, pNone) => (Math.random() < pNone ? 0 : rint(n));
+  return { skin: rint(10), hair: rint(12), hairColor: rint(10), eyes: rint(8), mouth: rint(8), shirt: rint(12), outfit: rint(6), hat: opt(9, 0.5), glasses: opt(5, 0.6), beard: opt(5, 0.65) };
+}
 const byId = (r, id) => r.players.find(p => p.id === id);
 const alive = r => r.players.filter(p => !p.out);
 
@@ -93,7 +98,14 @@ function send(r) {
   const s = pub(r);
   for (const p of r.players) if (!p.isBot && p.connected && p.ws && p.ws.readyState === 1) p.ws.send(JSON.stringify({ t: 'state', s, you: p.id }));
 }
-function err(ws, msg, fatal) { if (ws.readyState === 1) ws.send(JSON.stringify({ t: 'error', msg, fatal: !!fatal })); }
+function err(ws, code, fatal) { if (ws.readyState === 1) ws.send(JSON.stringify({ t: 'error', code, fatal: !!fatal })); }
+function emote(r, p, e) {
+  const now = Date.now();
+  if (now - (p.lastEmote || 0) < 700) return;
+  p.lastEmote = now;
+  const msg = JSON.stringify({ t: 'emote', id: p.id, e });
+  for (const x of r.players) if (!x.isBot && x.connected && x.ws && x.ws.readyState === 1) x.ws.send(msg);
+}
 
 function clearTimers(r) {
   clearTimeout(r.timer); r.timer = null; r.deadline = 0; r.onTimeout = null;
@@ -220,6 +232,7 @@ function resolve(r, text) {
   }
   g.mode = 'reveal';
   g.reveal = { pid: p.id, given: text, ok, answer: g.cur.item.a[0], eliminated: p.out, gained };
+  if (p.isBot && Math.random() < 0.45) setTimeout(() => { if (r.game === g) emote(r, p, ok ? rand([1, 3, 4]) : rand([6, 7])); }, 500);
   setDeadline(r, 4200, () => next(r));
   send(r);
 }
@@ -330,9 +343,9 @@ wss.on('connection', ws => {
     if (m.t === 'join') {
       if (room) return;
       const r = rooms.get(String(m.code || '').toUpperCase().trim());
-      if (!r) return err(ws, 'Nie ma pokoju o takim kodzie.', true);
-      if (r.phase !== 'lobby') return err(ws, 'Gra w tym pokoju już trwa. Poczekaj na następną rundę.', true);
-      if (r.players.length >= MAX_PLAYERS) return err(ws, 'Pokój jest pełny (10 osób).', true);
+      if (!r) return err(ws, 'no_room', true);
+      if (r.phase !== 'lobby') return err(ws, 'in_progress', true);
+      if (r.players.length >= MAX_PLAYERS) return err(ws, 'full', true);
       const p = makePlayer(m.name, m.avatar, ws);
       r.players.push(p);
       return attach(r, p);
@@ -341,7 +354,7 @@ wss.on('connection', ws => {
       if (room) return;
       const r = rooms.get(String(m.code || ''));
       const p = r && r.players.find(x => x.id === m.id && x.secret === m.secret && !x.isBot);
-      if (!p) return err(ws, 'Sesja wygasła.', true);
+      if (!p) return err(ws, 'session', true);
       if (p.ws && p.ws !== ws) { try { p.ws.close(); } catch {} }
       return attach(r, p);
     }
@@ -354,7 +367,7 @@ wss.on('connection', ws => {
         me.name = cleanName(m.name); me.avatar = cleanAvatar(m.avatar); return send(r);
       case 'addBot': {
         if (!isHost || r.phase !== 'lobby') return;
-        if (r.players.length >= MAX_PLAYERS) return err(ws, 'Pokój jest pełny (10 osób).');
+        if (r.players.length >= MAX_PLAYERS) return err(ws, 'full');
         const level = LEVELS[m.level] ? m.level : 'sredni';
         const free = BOT_NAMES.filter(n => !r.players.some(p => p.name === 'Bot ' + n));
         const b = makePlayer('Bot ' + rand(free.length ? free : BOT_NAMES), randomAvatar(), null);
@@ -365,7 +378,7 @@ wss.on('connection', ws => {
         if (!isHost || r.phase !== 'lobby') return;
         const p = byId(r, m.id);
         if (!p || p.id === me.id) return;
-        if (!p.isBot && p.ws) { err(p.ws, 'Gospodarz usunął Cię z pokoju.', true); try { p.ws.close(); } catch {} }
+        if (!p.isBot && p.ws) { err(p.ws, 'kicked', true); try { p.ws.close(); } catch {} }
         return removePlayer(r, p);
       }
       case 'settings': {
@@ -373,18 +386,23 @@ wss.on('connection', ws => {
         const s = m.settings || {};
         if (Array.isArray(s.categories)) r.settings.categories = CATS.map(c => c.id).filter(id => s.categories.includes(id));
         if ([15, 25, 40, 60].includes(s.answerTime)) r.settings.answerTime = s.answerTime;
-        if ([10, 15, 20, 30].includes(s.finalQuestions)) r.settings.finalQuestions = s.finalQuestions;
+        if ([10, 15, 20, 30, 40, 50].includes(s.finalQuestions)) r.settings.finalQuestions = s.finalQuestions;
         return send(r);
       }
       case 'start':
         if (!isHost || r.phase !== 'lobby') return;
-        if (r.players.length < 2) return err(ws, 'Potrzeba co najmniej 2 uczestników — zaproś znajomego albo dodaj bota.');
-        if (!r.settings.categories.length) return err(ws, 'Wybierz przynajmniej jedną kategorię.');
+        if (r.players.length < 2) return err(ws, 'need2');
+        if (!r.settings.categories.length) return err(ws, 'need_cat');
         return startGame(r);
       case 'answer':
         if (g && g.mode === 'question' && g.turn === me.id) resolve(r, m.text);
         return;
       case 'buzz': return buzz(r, me.id);
+      case 'emote': {
+        const e = parseInt(m.e, 10);
+        if (e >= 0 && e < EMOTES) emote(r, me, e);
+        return;
+      }
       case 'nominate': return nominate(r, me.id, m.id);
       case 'again':
         if (!isHost || r.phase !== 'end') return;
