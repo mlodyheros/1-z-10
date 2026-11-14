@@ -1,0 +1,154 @@
+# Rośliny, grzyby i przyroda
+Jakie drzewo ma białą korę?|brzoza
+Jakie drzewo ma owoce zwane żołędziami?|dąb
+Jakie drzewo ma owoce zwane kasztanami?|kasztanowiec
+Jakie drzewo ma owoce zwane bukwią?|buk
+Jakie drzewo iglaste zrzuca igły na zimę?|modrzew
+Jakie drzewo iglaste ma długie igły zebrane po dwie i rośnie na piaskach?|sosna
+Jakie drzewo iglaste jest najpopularniejszą choinką w Polsce?|świerk
+Jakie drzewo iglaste ma szyszki stojące pionowo na gałęziach?|jodła
+Jakie drzewo ma liście drżące przy najlżejszym wietrze?|osika|topola osika
+Jakie drzewo ma zwisające gałęzie i rośnie nad wodą, zwane „płaczącym”?|wierzba
+Jakie drzewo kwitnie w lipcu i daje pachnący miód?|lipa
+Jakie drzewo ma liść widniejący na fladze Kanady?|klon
+Jakie drzewo ma czerwone korale jesienią, przysmak ptaków?|jarzębina|jarząb
+Jakie drzewo jest najdłużej żyjącym w Polsce gatunkiem, często trujące i chronione?|cis
+Jakie drzewo daje owoce zwane daktylami?|palma daktylowa|daktylowiec
+Jakie drzewo daje oliwki?|oliwka|drzewo oliwne
+Jakie drzewo daje korek?|dąb korkowy
+Jakie drzewo afrykańskie ma ogromny pień magazynujący wodę?|baobab
+Jakie drzewo jest najwyższe na świecie?|sekwoja|sekwoja wieczniezielona
+Jakie drzewo jest pokarmem koali?|eukaliptus
+Jakie drzewo jest symbolem Libanu?|cedr
+Jakie drzewo japońskie słynie z różowych kwiatów wiosną?|wiśnia|sakura
+Jakie drzewo daje syrop popularny w Kanadzie?|klon|klon cukrowy
+Jakie drzewo daje kauczuk naturalny?|kauczukowiec
+Jakie drzewo owocowe daje czereśnie?|czereśnia
+Jak nazywa się najsłynniejszy polski dąb, rosnący w Zagnańsku?|Bartek|dąb Bartek
+Jak nazywa się roślina, z której robi się len?|len
+Jak nazywa się roślina, z której robi się olej w Polsce, kwitnąca na żółto w maju?|rzepak
+Jak nazywa się roślina, z której robi się piwo, pnąca się po tyczkach?|chmiel
+Jak nazywa się roślina, z której robi się tequilę?|agawa
+Jak nazywa się roślina, z której robi się cukier w tropikach?|trzcina cukrowa
+Jak nazywa się roślina, z której robi się tkaninę na dżinsy?|bawełna
+Jak nazywa się roślina, z której liści robi się herbatę?|herbata|krzew herbaciany
+Jak nazywa się roślina, z której ziaren robi się kawę?|kawowiec|kawa
+Jak nazywa się roślina, z której robi się papirus?|papirus|cibora papirusowa
+Jak nazywa się roślina, z której otrzymuje się opium?|mak|mak lekarski
+Jak nazywa się roślina, z której liści robi się papierosy?|tytoń
+Jak nazywa się roślina, której korzeń ma kształt człowieka i według legend krzyczy?|mandragora
+Jak nazywa się roślina owadożerna rosnąca na polskich torfowiskach?|rosiczka
+Jak nazywa się roślina owadożerna z „paszczą” zamykającą się na musze?|muchołówka
+Jak nazywa się roślina parząca, z której robi się zupę i herbatki?|pokrzywa
+Jak nazywa się roślina pustynna z kolcami magazynująca wodę?|kaktus
+Jak nazywa się roślina o liściach z leczniczym żelem, popularna w kosmetykach?|aloes
+Jak nazywa się roślina wodna o dużych pływających liściach i białych kwiatach?|grzybień|lilia wodna|nenufar
+Jak nazywa się roślina pasożytnicza rosnąca na drzewach, wieszana na Boże Narodzenie?|jemioła
+Jak nazywa się roślina doniczkowa z czerwonymi liśćmi, symbol Bożego Narodzenia?|gwiazda betlejemska|poinsecja
+Jak nazywa się roślina, której czterolistna odmiana przynosi szczęście?|koniczyna
+Jak nazywa się roślina o żółtych kwiatach zamieniających się w dmuchawce?|mniszek|mniszek lekarski|mlecz
+Jak nazywa się pierwszy wiosenny biały kwiat przebijający śnieg?|przebiśnieg
+Jak nazywa się fioletowy kwiat kwitnący wiosną w Dolinie Chochołowskiej?|krokus|szafran spiski
+Jak nazywa się górski kwiat o białych, filcowych płatkach, symbol Alp i Tatr?|szarotka|szarotka alpejska
+Jak nazywa się niebieski kwiat rosnący w zbożu?|chaber|bławatek
+Jak nazywa się czerwony kwiat rosnący w zbożu?|mak|mak polny
+Jak nazywa się kwiat obracający się za słońcem?|słonecznik
+Jak nazywa się kwiat będący symbolem Holandii?|tulipan
+Jak nazywa się kwiat będący symbolem miłości, z kolcami?|róża
+Jak nazywa się biały pachnący kwiat kwitnący w maju, z dzwoneczkami?|konwalia
+Jak nazywa się niebieski drobny kwiatek, którego nazwa prosi o pamięć?|niezapominajka
+Jak nazywa się kwiat, z którego wróży się „kocha, nie kocha”?|stokrotka|margerytka|rumianek
+Jak nazywa się kwiat kładziony na groby 1 listopada?|chryzantema
+Jak nazywa się kwiat wręczany w PRL-u na Dzień Kobiet?|goździk
+Jak nazywa się krzew o fioletowych pachnących kiściach kwitnący w maju?|bez|lilak
+Jak nazywa się fioletowa pachnąca roślina uprawiana w Prowansji?|lawenda
+Jak nazywa się największy kwiat świata, cuchnący padliną?|raflezja|bukietnica Arnolda
+Jak nazywa się najszybciej rosnąca roślina świata, trawa o zdrewniałych pędach?|bambus
+Jak nazywa się zboże, z którego robi się chleb pszenny?|pszenica
+Jak nazywa się zboże będące podstawą wyżywienia w Azji?|ryż
+Jak nazywa się zboże pochodzące z Ameryki, z kolbami?|kukurydza
+Jak nazywa się zboże, z którego robi się płatki na owsiankę?|owies
+Jak nazywa się zboże, z którego robi się słód do piwa?|jęczmień
+Z którego kontynentu pochodzą pomidory?|Ameryka Południowa|Ameryka
+Z jakiego kraju pochodzi kiwi jako roślina?|Chiny|z Chin
+Jaki owoc jest symbolem Nowego Jorku?|jabłko
+Jaki owoc według Biblii zerwała Ewa w potocznej tradycji?|jabłko
+Jaki owoc ma odmiany antonówka i papierówka?|jabłko
+Jaki owoc ma odmiany węgierka i renkloda?|śliwka
+Jaki owoc ma odmianę klapsa i konferencja?|gruszka
+Jaki owoc cytrusowy jest krzyżówką pomarańczy i pomelo, gorzkawy?|grejpfrut
+Jaki owoc tropikalny ma koronę z liści i kolczastą skórę?|ananas
+Jaki owoc nazywany jest „królem owoców” w Azji i słynie z okropnego zapachu?|durian
+Jaki owoc ma włochatą brązową skórkę i zielony miąższ?|kiwi
+Jaki owoc suszony nazywa się rodzynką?|winogrono
+Jaki orzech rośnie pod ziemią i jest w rzeczywistości rośliną strączkową?|orzech ziemny|orzeszek ziemny|arachid
+Jaki orzech ma kształt mózgu?|orzech włoski|włoski
+Jaki orzech jest podstawą kremów czekoladowych?|orzech laskowy|laskowy
+Jaka roślina strączkowa jest podstawą hummusu?|ciecierzyca
+Jakie warzywo sprawia, że płaczemy przy krojeniu?|cebula
+Jakie warzywo odstrasza wampiry według legend?|czosnek
+Jakie warzywo jest pomarańczowe i podobno poprawia wzrok?|marchew|marchewka
+Jakie warzywo wydrąża się na Halloween?|dynia
+Jakie warzywo jadł Popeye, by nabrać siły?|szpinak
+Jakie warzywo jest głównym składnikiem frytek?|ziemniak
+Jakie warzywo kisi się w Polsce w beczkach obok kapusty?|ogórek|ogórki
+Jakie warzywo sprowadziła do Polski królowa Bona — zestaw nazywany od jej pochodzenia?|włoszczyzna
+Jaki jest najbardziej trujący grzyb w Polsce?|muchomor sromotnikowy|muchomor zielonawy|sromotnikowy
+Jaki grzyb ma czerwony kapelusz w białe kropki?|muchomor czerwony|muchomor
+Jaki grzyb nazywany jest królem grzybów?|borowik szlachetny|prawdziwek|borowik
+Jaki grzyb jest żółty, lejkowaty i nazywany pieprznikiem jadalnym?|kurka
+Jaki grzyb ma śliski brązowy kapelusz i rośnie pod sosnami?|maślak
+Jaki grzyb rośnie pod brzozami i ma szary łuskowaty trzon?|koźlarz|kozak
+Jaki grzyb o pomarańczowoczerwonym kapeluszu rośnie pod osikami?|koźlarz czerwony|kozak czerwony|czerwony kozak
+Jaki grzyb jest najpopularniejszym grzybem uprawnym?|pieczarka
+Jaki grzyb podziemny, bardzo drogi, wyszukują świnie i psy?|trufla
+Jaki grzyb jadalny ma kapelusz jak parasol?|kania|czubajka kania
+Jaki grzyb wydziela pomarańczowe mleczko po przekrojeniu?|rydz
+Jak nazywa się zbieranie grzybów?|grzybobranie
+Jak nazywa się nauka o drzewach?|dendrologia
+Jak nazywa się ogród z kolekcją drzew?|arboretum
+Jak nazywają się słoje, po których liczy się wiek drzewa?|słoje roczne|przyrosty roczne
+Jak nazywa się substancja wyciekająca ze zranionego drzewa iglastego?|żywica
+Jak nazywa się słodki płyn zbierany przez pszczoły z kwiatów?|nektar
+Jak nazywa się las zalewany okresowo przez rzekę?|łęg|las łęgowy
+Jak nazywa się las sosnowy?|bór
+Jak nazywa się las liściasty z dębami i grabami?|grąd
+Jak nazywa się las bukowy?|buczyna
+Jak nazywa się las pierwotny, nietknięty przez człowieka?|puszcza|las pierwotny
+Jak nazywa się podmokły teren z torfem?|torfowisko|bagno
+Jak nazywa się zarośnięta trawą przestrzeń koszona na siano?|łąka
+Jak nazywa się górska łąka w Tatrach wypasana przez owce?|hala|polana
+Jak nazywa się karłowata sosna rosnąca w górach?|kosodrzewina|kosówka
+Jak nazywa się piętro roślinności w Tatrach powyżej lasu?|kosodrzewina|piętro kosodrzewiny
+Jak nazywa się pora roku zaczynająca się 21 marca?|wiosna
+Jak nazywa się pora roku zaczynająca się około 23 września?|jesień
+Jak nazywa się zamarznięta rosa na trawie?|szron
+Jak nazywa się lód osadzający się na gałęziach z mgły?|szadź
+Jak nazywa się opad lodowych kulek?|grad
+Jak nazywa się skroplona para wodna tuż przy ziemi ograniczająca widoczność?|mgła
+Jak nazywają się chmury burzowe o kształcie kowadła?|cumulonimbus
+Jak nazywają się pierzaste chmury wysokie?|cirrus|cirrusy
+Jak nazywa się wiatr wiejący w Tatrach, ciepły i porywisty?|halny
+Jak nazywa się wirujący lej powietrza niszczący wszystko na drodze?|tornado|trąba powietrzna
+Jak nazywa się tropikalny cyklon na Atlantyku?|huragan
+Jak nazywa się tropikalny cyklon na zachodnim Pacyfiku?|tajfun
+Jak nazywa się fala morska wywołana trzęsieniem dna?|tsunami
+Jak nazywa się gorące źródło wyrzucające okresowo wodę i parę?|gejzer
+Jak nazywa się roztopiona skała pod powierzchnią Ziemi?|magma
+Jak nazywa się roztopiona skała wypływająca z wulkanu?|lawa
+Jak nazywa się skała osadowa, z której zbudowana jest Jura Krakowsko-Częstochowska?|wapień
+Jak nazywa się skała, z której zbudowane są Tatry Wysokie?|granit
+Jak nazywa się naciek zwisający ze stropu jaskini?|stalaktyt
+Jak nazywa się naciek rosnący z dna jaskini?|stalagmit
+Jak nazywa się nauka o pogodzie?|meteorologia
+Jak nazywa się nauka o skałach i budowie Ziemi?|geologia
+Jak nazywa się nauka o jaskiniach?|speleologia
+Jak nazywa się nauka o wodach?|hydrologia
+Jak nazywa się nauka o glebie?|gleboznawstwo|pedologia
+Jak nazywa się najżyźniejsza gleba, czarna i próchniczna?|czarnoziem
+Jak nazywa się naturalny nawóz z rozłożonych resztek roślin?|kompost
+Jak nazywa się zwierzę spulchniające glebę, różowe i bez nóg?|dżdżownica
+Jak nazywa się proces niszczenia skał przez wodę i wiatr?|erozja
+Jak nazywa się wylesianie, czyli wycinanie lasów?|deforestacja|wylesianie
+Jak nazywa się największy las równikowy świata?|Amazonia|Puszcza Amazońska
+Jaki gaz pochłaniają drzewa z powietrza?|dwutlenek węgla

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trzy Szanse — quiz ze znajomymi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="home" class="screen">
+  <div class="home-wrap">
+    <h1 class="logo"><span>Trzy</span> <span class="logo-b">Szanse</span></h1>
+    <p class="tag">Quiz na żywo: odpowiadasz, wyznaczasz rywala, zostaje najlepszy.</p>
+    <div class="card home-card">
+      <div class="editor">
+        <div class="preview" id="av-preview"></div>
+        <div class="parts" id="av-parts"></div>
+      </div>
+      <div class="home-form">
+        <label class="lbl" for="name">Twoje imię</label>
+        <input id="name" class="inp" maxlength="16" placeholder="np. Ania" autocomplete="off">
+        <button id="btn-random" class="btn ghost">🎲 Losuj ludka</button>
+        <button id="btn-create" class="btn primary">Stwórz pokój</button>
+        <div class="or">albo dołącz do znajomych</div>
+        <div class="join-row">
+          <input id="code" class="inp code-inp" maxlength="5" placeholder="KOD" autocomplete="off">
+          <button id="btn-join" class="btn">Dołącz</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<main id="lobby" class="screen hidden"></main>
+
+<main id="game" class="screen hidden">
+  <div id="stage"><div id="world"></div></div>
+  <header id="hud"></header>
+  <section id="panel"></section>
+</main>
+
+<div id="toast"></div>
+<script src="avatar.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

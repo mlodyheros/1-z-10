@@ -1,0 +1,154 @@
+# Świat zwierząt
+Jakie jest najszybsze zwierzę lądowe?|gepard
+Jakie jest najwyższe zwierzę lądowe?|żyrafa
+Jakie jest największe zwierzę lądowe?|słoń afrykański|słoń
+Jaki jest największy ptak świata?|struś
+Jaki jest najmniejszy ptak świata?|koliber
+Jaki ptak nurkuje najszybciej, osiągając ponad 300 km/h?|sokół wędrowny|sokół
+Jaki jest największy gatunek niedźwiedzia?|niedźwiedź polarny|polarny|biały
+Jaki jest największy gatunek kota?|tygrys
+Jaki jest największy wąż świata pod względem masy?|anakonda
+Jaki jest największy żyjący jaszczur?|waran z Komodo|waran
+Jaki jest największy gatunek pingwina?|pingwin cesarski|cesarski
+Jaki jest największy gatunek rekina?|rekin wielorybi|wielorybi
+Jaki jest największy ssak lądowy Europy?|żubr
+Jaki jest największy płaz świata?|salamandra olbrzymia
+Jakie zwierzę jest nazywane królem zwierząt?|lew
+Jakie zwierzę jest nazywane okrętem pustyni?|wielbłąd
+Jakie zwierzę jest najlepszym przyjacielem człowieka?|pies
+Jakie zwierzę ma najdłuższą szyję?|żyrafa
+Jakie zwierzę ma trąbę?|słoń
+Jakie zwierzę ma paski czarno-białe i żyje w Afryce?|zebra
+Jakie zwierzę nosi dom na grzbiecie i jest bardzo powolne?|ślimak
+Jakie zwierzę zmienia kolor skóry w zależności od otoczenia?|kameleon
+Jakie zwierzę śpi do góry nogami?|nietoperz
+Jaki ssak potrafi aktywnie latać?|nietoperz
+Jaki ssak składa jaja i ma dziób?|dziobak
+Jaki torbacz jest symbolem Australii i skacze na tylnych nogach?|kangur
+Jaki torbacz żywi się liśćmi eukaliptusa?|koala
+Jakie zwierzę żywi się prawie wyłącznie bambusem?|panda wielka|panda
+Jakie zwierzę buduje tamy na rzekach?|bóbr
+Jakie zwierzę jest największym gryzoniem świata?|kapibara
+Jakie zwierzę jest symbolem mądrości?|sowa
+Jakie zwierzę jest symbolem pokoju?|gołąb
+Jakie zwierzę ma kolce i zwija się w kulkę?|jeż
+Jakie zwierzę ma garb lub dwa garby?|wielbłąd
+Ile garbów ma dromader?|1
+Ile garbów ma baktrian?|2
+Ile serc ma ośmiornica?|3
+Ile ramion ma ośmiornica?|8
+Ile nóg ma rak?|10
+Ile żołądków — komór żołądka — ma krowa?|4
+Ile palców ma koń u każdej nogi?|1
+Jak nazywa się samica psa?|suka
+Jak nazywa się samiec owcy?|baran|tryk
+Jak nazywa się samiec kury?|kogut
+Jak nazywa się samiec krowy?|byk
+Jak nazywa się samiec konia?|ogier
+Jak nazywa się samica konia?|klacz
+Jak nazywa się samica jelenia?|łania
+Jak nazywa się samica dzika?|locha
+Jak nazywa się samiec świni?|knur
+Jak nazywa się samiec kozy?|kozioł|cap
+Jak nazywa się samica lisa?|lisica
+Jak nazywa się młode jelenia?|cielę|jelonek
+Jak nazywa się młode dzika?|warchlak
+Jak nazywa się młode żaby?|kijanka
+Jak nazywa się młode kury?|kurczę|kurczak|pisklę
+Jak nazywa się młode niedźwiedzia?|niedźwiadek|niedźwiedziątko
+Jak nazywa się młode lwa?|lwiątko
+Jak nazywa się dom pszczół?|ul
+Jak nazywa się dom mrówek?|mrowisko
+Jak nazywa się dom lisa?|nora
+Jak nazywa się dom niedźwiedzia zimą?|gawra
+Jak nazywa się dom bobra?|żeremie
+Jak nazywa się dom wiewiórki?|dziupla
+Jak nazywa się grupa wilków?|wataha
+Jak nazywa się grupa lwów?|stado
+Jak nazywa się grupa ryb płynących razem?|ławica
+Jak nazywa się grupa pszczół z królową?|rój
+Jak nazywa się okres godowy jeleni?|rykowisko
+Jak nazywa się okres godowy dzików?|huczka
+Jak nazywa się okres godowy głuszców i cietrzewi?|tokowisko|toki
+Jaki ptak podrzuca jaja do cudzych gniazd?|kukułka
+Jaki ptak jest symbolem Polski?|orzeł biały|bielik|orzeł
+Jaki ptak przynosi dzieci według legendy?|bocian
+Jaki ptak nie potrafi latać, żyje na Antarktydzie i świetnie pływa?|pingwin
+Jaki ptak nielot jest symbolem Nowej Zelandii?|kiwi
+Jaki ptak potrafi naśladować ludzką mowę?|papuga
+Jaki ptak słynie z pięknego ogona rozkładanego jak wachlarz?|paw
+Jaki ptak stoi na jednej nodze i ma różowe pióra?|flaming
+Jaki ptak stuka dziobem w drzewa?|dzięcioł
+Jaki ptak jest zwiastunem wiosny i buduje gniazda z gliny pod okapami?|jaskółka
+Jaki ptak drapieżny poluje nocą i obraca głowę o 270 stopni?|sowa
+Jaki ptak morski ma największą rozpiętość skrzydeł?|albatros
+Jaki ptak ma worek skórny pod dziobem do łowienia ryb?|pelikan
+Jaki ptak padlinożerny krąży nad sawanną?|sęp
+Jaki czarny ptak uchodzi za jednego z najinteligentniejszych?|kruk
+Jaka ryba jest królem polskich rzek, drapieżnikiem z zębatą paszczą?|szczupak
+Jaka ryba jest tradycyjnie jedzona w Polsce w Wigilię?|karp
+Jaka ryba płynie na tarło w górę rzeki, skacząc przez progi?|łosoś
+Jaka ryba ma kształt węża i wędruje do Morza Sargassowego?|węgorz
+Jaka ryba ma długi „miecz” na pysku?|miecznik|włócznik
+Jaka ryba południowoamerykańska słynie z ostrych zębów i żarłoczności?|pirania
+Jaka ryba potrafi nadymać się jak balon?|rozdymka|najeżka
+Jaka ryba mieszka wśród parzydełek ukwiału i jest pomarańczowo-biała?|błazenek
+Jaki ssak morski słynie z inteligencji i echolokacji?|delfin
+Jaki ssak morski ma długi kieł jak jednorożec?|narwal
+Jaki ssak morski ma dwa długie kły i żyje w Arktyce?|mors
+Jaki drapieżny ssak morski, czarno-biały, nazywany jest wielorybem zabójcą?|orka
+Jaki gad ma pancerz i może żyć ponad 100 lat?|żółw
+Jaki gad jest największym drapieżnikiem Nilu?|krokodyl nilowy|krokodyl
+Jaki wąż ma grzechotkę na końcu ogona?|grzechotnik
+Jaki wąż rozpościera „kaptur”, gdy jest zagrożony?|kobra
+Jaki jest jedyny jadowity wąż w Polsce?|żmija zygzakowata|żmija
+Jaki wąż niejadowity w Polsce ma żółte plamy za głową?|zaskroniec
+Jaki płaz ma czarno-żółte ubarwienie i występuje w polskich górach?|salamandra plamista|salamandra
+Jaki owad produkuje miód?|pszczoła
+Jaki owad wytwarza jedwab?|jedwabnik
+Jaki owad przenosi malarię?|komar
+Jaki owad świeci w nocy?|świetlik|robaczek świętojański
+Jaki owad ma czerwone skrzydła w czarne kropki?|biedronka
+Jaki owad „modli się”, czyhając na ofiarę?|modliszka
+Jaki owad afrykański przenosi śpiączkę?|mucha tse-tse|tse-tse
+Jaki owad niszczy uprawy, wędrując w ogromnych chmarach?|szarańcza
+Jaki owad jest szkodnikiem ziemniaków, w żółto-czarne paski?|stonka ziemniaczana|stonka
+Jaki pajęczak ma kolec jadowy na końcu odwłoka?|skorpion
+Jaki pajęczak przenosi boreliozę?|kleszcz
+Jaki duży włochaty pająk bywa hodowany w terrariach?|ptasznik
+Jaki pająk, którego samica zjada samca, nazywany jest czarną...?|wdowa|czarna wdowa
+Jakie zwierzę jest najbliższym krewnym psa domowego?|wilk
+Jakie zwierzę jest przodkiem świni domowej?|dzik
+Jakie zwierzę afrykańskie śmieje się i poluje stadnie?|hiena
+Jakie zwierzę afrykańskie ma róg na nosie?|nosorożec
+Jakie zwierzę, którego nazwa znaczy „koń rzeczny”, żyje w afrykańskich rzekach?|hipopotam
+Jakie zwierzę z Ameryki Południowej porusza się bardzo wolno i wisi na gałęziach?|leniwiec
+Jakie zwierzę z Ameryki Południowej ma długi język do zjadania mrówek?|mrówkojad
+Jakie zwierzę z Andów daje wełnę i potrafi pluć?|lama
+Jaki duży kot z Ameryki ma cętki i świetnie pływa?|jaguar
+Jaki duży kot żyje w Himalajach i ma gęste jasne futro?|irbis|pantera śnieżna
+Jaki dziki kot z pędzelkami na uszach żyje w polskich lasach?|ryś
+Jaki ssak z polskich gór gwiżdże i zapada w sen zimowy?|świstak
+Jaki ssak leśny z łopatami na głowie jest największym jeleniowatym?|łoś
+Jakie zwierzę jest symbolem Australii obok kangura — duży nielot?|emu
+Jaka małpa jest największa?|goryl
+Jaka ruda małpa człekokształtna żyje na Borneo i Sumatrze?|orangutan
+Jakie małe zwierzęta z Madagaskaru mają pierścieniowany ogon i wielkie oczy?|lemury|lemur
+Jakie zwierzę afrykańskie stoi „na baczność” i mieszka w norach — bohater bajki o Timonie?|surykatka
+Jakim zwierzęciem jest Pumba z „Króla Lwa”?|guziec
+Jakie zwierzę ma najgrubsze futro i pływa na plecach, rozbijając muszle kamieniem?|wydra morska|wydra
+Jakie zwierzę morskie ma osiem ramion i wypuszcza atrament?|ośmiornica
+Jakie zwierzę morskie ma kształt gwiazdy?|rozgwiazda
+Jakie zwierzę morskie ma parzydełka i galaretowate ciało?|meduza
+Jakie zwierzę wytwarza perły?|perłopław|małż|ostryga
+Jakie zwierzę morskie, w którym to samiec „rodzi” młode, przypomina figurę szachową?|konik morski|pławikonik
+Jakie zwierzę buduje rafy koralowe?|koralowiec|koralowce
+Jakie zwierzę domowe mruczy?|kot
+Jaka rasa psa ratuje ludzi w Alpach i nosi beczułkę?|bernardyn
+Jaka rasa psa jest najmniejsza na świecie?|chihuahua
+Jaka rasa psa ciągnie zaprzęgi i ma często niebieskie oczy?|husky|husky syberyjski
+Jaka rasa psa jest biała w czarne cętki?|dalmatyńczyk
+Jaka rasa kota nie ma sierści?|sfinks
+Jaka rasa konia jest najmniejsza — popularna u dzieci?|kucyk|kuc szetlandzki
+Jakie zwierzę jest wymarłym przodkiem bydła domowego, wytępionym w Polsce w 1627 roku?|tur
+Jakie zwierzę żyje najdłużej wśród ssaków, nawet ponad 200 lat?|wal grenlandzki

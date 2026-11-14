@@ -1,0 +1,27 @@
+{
+  "name": "trzy-szanse",
+  "version": "1.0.0",
+  "description": "Trzy Szanse — quiz na żywo ze znajomymi i botami",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "gen": "node tools/gen.js",
+    "sim": "node tools/sim.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlodyheros/1-z-10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mlodyheros/1-z-10/issues"
+  },
+  "homepage": "https://github.com/mlodyheros/1-z-10#readme",
+  "dependencies": {
+    "ws": "^8.23.0"
+  },
+  "private": true
+}

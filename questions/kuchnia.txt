@@ -1,0 +1,158 @@
+# Kuchnia i kulinaria
+Z jakiego kraju pochodzi pizza?|Włochy|z Włoch
+Z jakiego kraju pochodzi sushi?|Japonia|z Japonii
+Z jakiego kraju pochodzi paella?|Hiszpania|z Hiszpanii
+Z jakiego kraju pochodzi gulasz?|Węgry|z Węgier
+Z jakiego kraju pochodzi croissant w dzisiejszej postaci?|Francja|z Francji
+Z jakiego kraju pochodzi fondue?|Szwajcaria|ze Szwajcarii
+Z jakiego kraju pochodzi moussaka?|Grecja|z Grecji
+Z jakiego kraju pochodzi kebab?|Turcja|z Turcji
+Z jakiego kraju pochodzi curry?|Indie|z Indii
+Z jakiego kraju pochodzi tacos?|Meksyk|z Meksyku
+Z jakiego kraju pochodzi kimchi?|Korea|z Korei
+Z jakiego kraju pochodzi pho?|Wietnam|z Wietnamu
+Z jakiego kraju pochodzi pad thai?|Tajlandia|z Tajlandii
+Z jakiego kraju pochodzi feta?|Grecja|z Grecji
+Z jakiego kraju pochodzi ser gouda?|Holandia|Niderlandy
+Z jakiego kraju pochodzi ser camembert?|Francja|z Francji
+Z jakiego kraju pochodzi ser parmezan?|Włochy|z Włoch
+Z jakiego kraju pochodzi ser cheddar?|Anglia|Wielka Brytania
+Z jakiego kraju pochodzi tiramisu?|Włochy|z Włoch
+Z jakiego kraju pochodzi barszcz ukraiński?|Ukraina|z Ukrainy
+Z jakiego kraju pochodzi tequila?|Meksyk|z Meksyku
+Z jakiego kraju pochodzi whisky bourbon?|Stany Zjednoczone|USA
+Z jakiego kraju pochodzi sake?|Japonia|z Japonii
+Z jakiego kraju pochodzi porto?|Portugalia|z Portugalii
+Z jakiego kraju pochodzi sangria?|Hiszpania|z Hiszpanii
+Z jakiego kraju pochodzi piwo Guinness?|Irlandia|z Irlandii
+Z jakiego kraju pochodzi sznycel wiedeński?|Austria|z Austrii
+Z jakiego kraju pochodzi ratatouille?|Francja|z Francji
+Z jakiego kraju pochodzi chaczapuri?|Gruzja|z Gruzji
+Z jakiego regionu Francji pochodzi szampan?|Szampania|z Szampanii
+Z jakiego miasta pochodzi pizza margherita?|Neapol|z Neapolu
+Z jakiego miasta pochodzi sos boloński?|Bolonia|z Bolonii
+Z jakiego miasta pochodzi obwarzanek z certyfikatem unijnym?|Kraków|z Krakowa
+Z jakiego miasta pochodzą rogale świętomarcińskie?|Poznań|z Poznania
+Z jakiego miasta pochodzą pierniki o wielowiekowej tradycji w Polsce?|Toruń|z Torunia
+Z jakiego regionu pochodzi oscypek?|Podhale|z Podhala
+Z jakiego regionu pochodzą kluski śląskie?|Śląsk|ze Śląska
+Z jakiego regionu pochodzą pyry z gzikiem?|Wielkopolska|z Wielkopolski
+Z jakiego regionu pochodzą kartacze i sękacz?|Podlasie|z Podlasia
+Z jakiego mleka robi się tradycyjny oscypek?|owcze|z owczego
+Z jakiego mleka robi się tradycyjną mozzarellę di bufala?|bawole|z bawolego
+Z jakiego zboża robi się popcorn?|kukurydza|z kukurydzy
+Z jakiego zboża robi się mąkę do tradycyjnego chleba razowego w Polsce?|żyto|z żyta
+Z jakiej rośliny robi się tofu?|soja|z soi
+Z jakiej rośliny robi się czekoladę?|kakaowiec|z kakaowca
+Z jakiej rośliny robi się cukier w Polsce?|burak cukrowy|z buraków
+Z jakiego owocu robi się wino?|winogrona|z winogron
+Z jakiego owocu robi się cydr?|jabłko|z jabłek
+Z jakiego owocu robi się powidła?|śliwka|ze śliwek
+Z jakiego owocu robi się guacamole?|awokado|z awokado
+Z jakiego warzywa robi się frytki?|ziemniak|z ziemniaków
+Z jakiego warzywa robi się ketchup?|pomidor|z pomidorów
+Z jakiego warzywa robi się barszcz czerwony?|burak|z buraków
+Z jakiego warzywa robi się bigos, obok mięsa?|kapusta|z kapusty
+Z czego robi się hummus?|ciecierzyca|z ciecierzycy
+Z czego robi się masło?|śmietana|ze śmietany|mleko
+Z czego robi się kaszankę, obok kaszy?|krew|z krwi
+Z czego robi się żurek — z zakwasu z jakiej mąki?|żytnia|żytniej
+Z czego robi się chałwę?|sezam|z sezamu
+Z czego robi się marcepan?|migdały|z migdałów
+Z czego robi się tahini?|sezam|z sezamu
+Z czego robi się polentę?|kasza kukurydziana|mąka kukurydziana|kukurydza
+Z czego robi się kaszę jaglaną?|proso|z prosa
+Z czego robi się kaszę mannę?|pszenica|z pszenicy
+Z czego robi się kaszę gryczaną?|gryka|z gryki
+Z ikry jakiej ryby robi się najdroższy kawior?|jesiotr|bieługa
+Jak nazywa się włoski makaron w kształcie długich nitek?|spaghetti
+Jak nazywa się włoski makaron w kształcie rurek ściętych ukośnie?|penne
+Jak nazywa się włoski makaron w kształcie kokardek?|farfalle
+Jak nazywa się włoski makaron w formie płatów do zapiekania?|lasagne
+Jak nazywają się włoskie pierożki nadziewane, kwadratowe?|ravioli
+Jak nazywają się włoskie kluseczki ziemniaczane?|gnocchi
+Jak nazywa się włoskie danie z ryżu gotowanego na kremowo?|risotto
+Jak nazywa się włoski sos z bazylii, orzeszków piniowych i parmezanu?|pesto
+Jak nazywa się włoska kawa z dużą ilością spienionego mleka?|cappuccino|latte
+Jak nazywa się mała, mocna kawa parzona pod ciśnieniem?|espresso
+Jak nazywają się włoskie lody?|gelato
+Jak nazywa się hiszpańska zimna zupa pomidorowa?|gazpacho
+Jak nazywają się hiszpańskie małe przekąski podawane do wina?|tapas
+Jak nazywa się francuska zupa rybna z Marsylii?|bouillabaisse
+Jak nazywa się francuska tarta z boczkiem i jajkami z Lotaryngii?|quiche|quiche lorraine
+Jak nazywa się francuski deser z karmelizowaną skorupką?|crème brûlée|creme brulee
+Jak nazywają się francuskie cienkie naleśniki?|crêpes|crepes
+Jak nazywa się długa francuska bułka?|bagietka
+Jak nazywa się pasztet z gęsich wątróbek?|foie gras
+Jak nazywa się japońska zupa na bazie pasty z soi?|miso|zupa miso
+Jak nazywa się japoński makaron w rosole, popularny na całym świecie?|ramen
+Jak nazywa się surowa ryba krojona w plastry bez ryżu?|sashimi
+Jak nazywa się zielona ostra pasta podawana do sushi?|wasabi
+Jak nazywają się wodorosty do zawijania sushi?|nori
+Jak nazywa się japońskie danie smażone w cieście — warzywa i krewetki?|tempura
+Jak nazywają się chińskie pierożki gotowane na parze?|dim sum|pierożki dim sum
+Jak nazywa się głęboka chińska patelnia?|wok
+Jak nazywa się indyjski chlebek pieczony w piecu tandoor?|naan
+Jak nazywa się meksykański placek z kukurydzy lub pszenicy?|tortilla
+Jak nazywa się gruzińskie pierożki z rosołem w środku?|chinkali
+Jak nazywa się rosyjska zupa z kapusty?|szczi|kapuśniak
+Jak nazywają się rosyjskie pierożki z mięsem?|pielmieni
+Jak nazywa się grecki sos z jogurtu, ogórka i czosnku?|tzatziki
+Jak nazywa się turecki deser z ciasta filo, orzechów i syropu?|baklawa
+Jak nazywa się bliskowschodnie danie z kulek z ciecierzycy?|falafel
+Jak nazywa się amerykańska kanapka z kotletem wołowym w bułce?|hamburger|burger
+Jak nazywa się kanapka z parówką w podłużnej bułce?|hot dog
+Jak nazywa się angielskie danie z ryby w cieście i frytek?|fish and chips
+Jak nazywa się szkocka potrawa z owczych podrobów w żołądku?|haggis
+Jak nazywa się polska zupa na zakwasie z białą kiełbasą i jajkiem?|żurek|żur
+Jak nazywa się polska zupa z flaków wołowych?|flaki|flaczki
+Jak nazywa się polska zupa z kiszonej kapusty?|kapuśniak
+Jak nazywa się polska zupa z kiszonych ogórków?|ogórkowa
+Jak nazywa się polska zupa z kaczej krwi?|czernina
+Jak nazywa się polska zimna zupa z botwiny i kefiru?|chłodnik
+Jak nazywa się polska zupa z grochu, popularna w wojsku?|grochówka
+Jak nazywa się polska zupa z kurczaka z makaronem, jadana w niedzielę?|rosół
+Jak nazywa się polska potrawa z kapusty i różnych mięs, duszona długo?|bigos
+Jak nazywają się polskie pierogi z ziemniakami i serem?|ruskie|pierogi ruskie
+Jak nazywają się zawijane liście kapusty z farszem z ryżu i mięsa?|gołąbki
+Jak nazywa się kotlet z rozbitego schabu w panierce?|schabowy|kotlet schabowy
+Jak nazywa się kotlet z mielonego mięsa?|mielony|kotlet mielony
+Jak nazywają się placki z tartych ziemniaków?|placki ziemniaczane
+Jak nazywają się kluski z ciasta ziemniaczanego w kształcie rombów?|kopytka
+Jak nazywają się kluski z twarogu?|leniwe|pierogi leniwe
+Jak nazywa się galareta z mięsa, np. z nóżek?|zimne nóżki|galareta|studzienina
+Jak nazywa się surowe mięso wołowe siekane z żółtkiem i cebulą?|tatar|befsztyk tatarski
+Jak nazywa się ciasto drożdżowe pieczone na Wielkanoc w wysokiej formie?|babka|baba wielkanocna
+Jak nazywa się płaskie wielkanocne ciasto z bakaliami i lukrem?|mazurek
+Jak nazywa się ciasto z makiem zwijane w rulon?|makowiec
+Jak nazywa się ciasto z twarogu?|sernik
+Jak nazywa się ciasto z jabłkami na kruchym spodzie?|szarlotka|jabłecznik
+Jak nazywa się ciasto przekładane kremem, ulubione przez Jana Pawła II?|kremówka|napoleonka
+Jak nazywają się chrupiące smażone ciastka w kształcie wstążek jadane w karnawale?|faworki|chrust
+Jak nazywa się wigilijna potrawa z pszenicy, maku i miodu?|kutia
+Jak nazywa się napój z suszonych owoców podawany w Wigilię?|kompot z suszu|susz
+Ile potraw tradycyjnie stawia się na wigilijnym stole?|12
+Jak nazywa się dzień, w którym je się pączki?|tłusty czwartek
+Jak nazywa się napój z fermentowanego mleka z Kaukazu?|kefir
+Jak nazywa się napój z fermentowanej herbaty?|kombucha
+Jak nazywa się napój z chleba popularny w Europie Wschodniej?|kwas chlebowy
+Jak nazywa się miód pitny rozcieńczony w proporcji pół na pół z wodą?|dwójniak
+Jak nazywa się najdroższa przyprawa świata?|szafran
+Jak nazywa się przyprawa z kory drzewa, dodawana do szarlotki?|cynamon
+Jak nazywa się przyprawa nadająca curry żółty kolor?|kurkuma
+Jak nazywa się zioło będące podstawą pesto?|bazylia
+Jak nazywa się zioło dodawane do pizzy i kuchni włoskiej, inaczej lebiodka?|oregano
+Jak nazywa się zielenina dodawana do młodych ziemniaków?|koperek|koper
+Jak nazywa się ostra substancja w papryczkach chili?|kapsaicyna
+Jak nazywa się skala ostrości papryk?|skala Scoville'a|Scoville'a
+Jak nazywa się piąty smak, odkryty w Japonii?|umami
+Jak nazywa się białko w pszenicy, którego nie tolerują osoby z celiakią?|gluten
+Jak nazywa się dieta wykluczająca wszystkie produkty odzwierzęce?|weganizm|wegańska
+Jak nazywa się przewodnik przyznający restauracjom gwiazdki?|Michelin|Przewodnik Michelin
+Ile gwiazdek Michelin to maksimum dla restauracji?|3
+Jak nazywa się zawód osoby doradzającej w doborze win?|sommelier
+Jak nazywa się zawód osoby parzącej kawę?|barista
+Jak nazywa się gotowanie w próżniowych woreczkach w niskiej temperaturze?|sous vide
+Jak nazywa się krótkie zanurzenie warzyw we wrzątku?|blanszowanie
+Jak nazywa się stopień wysmażenia steku „krwisty” po angielsku?|rare
+Jak nazywa się makaron ugotowany „na ząb”, lekko twardy?|al dente

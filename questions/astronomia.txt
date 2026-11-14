@@ -1,0 +1,153 @@
+# Kosmos i astronomia
+Jaka planeta jest najbliżej Słońca?|Merkury
+Jaka planeta jest druga od Słońca?|Wenus
+Jaka planeta jest trzecia od Słońca?|Ziemia
+Jaka planeta jest czwarta od Słońca?|Mars
+Jaka planeta jest największa w Układzie Słonecznym?|Jowisz
+Jaka planeta jest najmniejsza w Układzie Słonecznym?|Merkury
+Jaka planeta słynie z okazałych pierścieni?|Saturn
+Jaka planeta nazywana jest Czerwoną Planetą?|Mars
+Jaka planeta jest najgorętsza w Układzie Słonecznym?|Wenus
+Jaka planeta jest najdalej od Słońca?|Neptun
+Jaka planeta „toczy się” po orbicie, bo jej oś jest prawie pozioma?|Uran
+Jaka planeta nazywana jest Gwiazdą Poranną i Wieczorną?|Wenus
+Jaka planeta ma Wielką Czerwoną Plamę?|Jowisz
+Jaka planeta ma najkrótszy rok?|Merkury
+Jaka planeta została odkryta w 1781 roku przez Williama Herschela?|Uran
+Jaka planeta została odkryta w 1846 roku dzięki obliczeniom matematycznym?|Neptun
+Jakie ciało niebieskie utraciło status planety w 2006 roku?|Pluton
+Ile planet ma Układ Słoneczny?|8
+Ile naturalnych satelitów ma Ziemia?|1
+Ile księżyców ma Mars?|2
+Jak nazywają się księżyce Marsa — podaj większy z nich.|Fobos
+Jak nazywa się mniejszy księżyc Marsa?|Deimos
+Jak nazywa się największy księżyc w Układzie Słonecznym?|Ganimedes
+Jak nazywa się największy księżyc Saturna?|Tytan
+Jak nazywa się wulkaniczny księżyc Jowisza?|Io
+Jak nazywa się księżyc Jowisza z oceanem pod lodową skorupą?|Europa
+Jak nazywa się największy księżyc Plutona?|Charon
+Jak nazywa się największy księżyc Neptuna?|Tryton
+Jak nazywa się najwyższa góra w Układzie Słonecznym, leżąca na Marsie?|Olympus Mons|Olimp
+Jak nazywa się nasza galaktyka?|Droga Mleczna
+Jak nazywa się najbliższa duża galaktyka sąsiadująca z Drogą Mleczną?|Galaktyka Andromedy|Andromeda
+Jak nazywa się gwiazda najbliższa Ziemi?|Słońce
+Jak nazywa się najbliższa gwiazda poza Słońcem?|Proxima Centauri|Proxima
+Jak nazywa się najjaśniejsza gwiazda nocnego nieba?|Syriusz
+Jak nazywa się gwiazda wskazująca północ?|Gwiazda Polarna|Polarna
+Jak nazywa się czerwony nadolbrzym w gwiazdozbiorze Oriona?|Betelgeza
+Jak nazywa się najjaśniejsza gwiazda Lutni, jedna z wierzchołków Trójkąta Letniego?|Wega
+W jakim gwiazdozbiorze leży Gwiazda Polarna?|Mała Niedźwiedzica|Mały Wóz
+Jak potocznie nazywa się najjaśniejsze gwiazdy Wielkiej Niedźwiedzicy?|Wielki Wóz
+Jaki gwiazdozbiór zimowy ma charakterystyczny „pas” z trzech gwiazd?|Orion
+Jaki gwiazdozbiór ma kształt litery W?|Kasjopeja
+Ile jest znaków zodiaku?|12
+Ile oficjalnych gwiazdozbiorów wyróżnia Międzynarodowa Unia Astronomiczna?|88
+Z jakiego pierwiastka głównie składa się Słońce?|wodór|z wodoru
+Jaki pierwiastek powstaje w Słońcu z wodoru?|hel
+Ile minut, w przybliżeniu, światło biegnie ze Słońca do Ziemi?|8
+Ile wynosi w przybliżeniu wiek Wszechświata w miliardach lat?|13,8|14
+Ile wynosi w przybliżeniu wiek Ziemi w miliardach lat?|4,5|4,6
+Ile dni trwa rok przestępny?|366
+Ile godzin trwa w przybliżeniu obrót Ziemi wokół osi?|24
+Ile dni, w zaokrągleniu, trwa obieg Księżyca wokół Ziemi?|27|28
+Jak nazywa się zjawisko, gdy Księżyc zasłania Słońce?|zaćmienie Słońca
+Jak nazywa się zjawisko, gdy Księżyc wchodzi w cień Ziemi?|zaćmienie Księżyca
+Jak nazywa się faza Księżyca, gdy widać całą tarczę?|pełnia
+Jak nazywa się faza Księżyca, gdy jest niewidoczny?|nów
+Jak nazywa się zjawisko podnoszenia i opadania poziomu mórz wywołane przez Księżyc?|pływy|przypływy i odpływy
+Jak nazywa się dzień, w którym dzień i noc trwają tyle samo?|równonoc
+Jak nazywa się najdłuższy dzień w roku na półkuli północnej?|przesilenie letnie
+Jak nazywa się droga, po której ciało niebieskie krąży wokół innego?|orbita
+Jaki kształt mają orbity planet?|elipsa|eliptyczny
+Jak nazywa się ciało niebieskie z warkoczem zbudowane z lodu i pyłu?|kometa
+Jak nazywa się najsłynniejsza kometa, powracająca co około 76 lat?|kometa Halleya|Halleya
+Jak nazywa się świetlny ślad drobiny spalającej się w atmosferze?|meteor|spadająca gwiazda
+Jak nazywa się kosmiczna skała, która spadła na powierzchnię Ziemi?|meteoryt
+Jak nazywają się skaliste ciała krążące głównie między Marsem a Jowiszem?|planetoidy|asteroidy
+Jak nazywa się największy obiekt pasa planetoid, uznany za planetę karłowatą?|Ceres
+Jak nazywa się pas lodowych ciał za orbitą Neptuna?|Pas Kuipera|Kuipera
+Jak nazywa się hipotetyczny obłok komet otaczający Układ Słoneczny?|Obłok Oorta|Oorta
+Jak nazywa się wybuch kończący życie masywnej gwiazdy?|supernowa
+Jak nazywa się obiekt, z którego nie może uciec nawet światło?|czarna dziura
+Jak nazywa się granica czarnej dziury, zza której nie ma powrotu?|horyzont zdarzeń
+Jak nazywa się niezwykle gęsta pozostałość po supernowej złożona z neutronów?|gwiazda neutronowa
+Jak nazywa się szybko wirująca gwiazda neutronowa wysyłająca regularne impulsy?|pulsar
+Jak nazywa się końcowe stadium gwiazdy podobnej do Słońca, małe i gęste?|biały karzeł
+Jak nazywa się obłok gazu i pyłu w przestrzeni kosmicznej?|mgławica
+Jak nazywa się planeta krążąca wokół innej gwiazdy niż Słońce?|egzoplaneta|planeta pozasłoneczna
+Jaki polski astronom współodkrył pierwsze planety pozasłoneczne?|Aleksander Wolszczan|Wolszczan
+Jaki polski astronom stworzył teorię heliocentryczną?|Mikołaj Kopernik|Kopernik
+Jak nazywa się dzieło Kopernika z 1543 roku?|O obrotach sfer niebieskich|De revolutionibus
+Jaki gdański astronom stworzył słynny atlas nieba i mapy Księżyca?|Jan Heweliusz|Heweliusz
+Kto jako pierwszy użył lunety do obserwacji nieba?|Galileusz|Galileo Galilei
+Kto odkrył, że galaktyki się od siebie oddalają?|Edwin Hubble|Hubble
+Jak nazywa się kosmiczny teleskop wyniesiony na orbitę w 1990 roku?|Hubble'a|Teleskop Hubble'a|Hubble
+Jak nazywa się kosmiczny teleskop podczerwony uruchomiony w 2021 roku?|Teleskop Jamesa Webba|Webba|James Webb
+Kto był pierwszym człowiekiem w kosmosie?|Jurij Gagarin|Gagarin
+W którym roku Gagarin poleciał w kosmos?|1961
+Kto był pierwszą kobietą w kosmosie?|Walentina Tierieszkowa|Tierieszkowa
+Kto był pierwszym człowiekiem na Księżycu?|Neil Armstrong|Armstrong
+Kto jako drugi stanął na Księżycu?|Buzz Aldrin|Aldrin
+W którym roku człowiek po raz pierwszy wylądował na Księżycu?|1969
+Jak nazywała się misja, która pierwsza wylądowała na Księżycu?|Apollo 11
+Jak nazywała się misja Apollo, której awarię opisuje zdanie „Houston, mamy problem”?|Apollo 13
+Kto był pierwszym Polakiem w kosmosie?|Mirosław Hermaszewski|Hermaszewski
+W którym roku Mirosław Hermaszewski poleciał w kosmos?|1978
+Kto jako drugi Polak poleciał w kosmos, w 2025 roku?|Sławosz Uznański-Wiśniewski|Uznański|Sławosz Uznański
+Jak nazywało się pierwsze zwierzę na orbicie, pies?|Łajka
+Jak nazywał się pierwszy sztuczny satelita Ziemi?|Sputnik|Sputnik 1
+W którym roku wystrzelono pierwszego Sputnika?|1957
+Jak nazywa się amerykańska agencja kosmiczna?|NASA
+Jak nazywa się europejska agencja kosmiczna — podaj skrót.|ESA
+Jak nazywa się stacja kosmiczna krążąca wokół Ziemi od 1998 roku — podaj skrót angielski.|ISS
+Jak nazywała się radziecka, potem rosyjska stacja orbitalna zatopiona w 2001 roku?|Mir
+Jak nazywał się amerykański program wahadłowców — podaj angielską nazwę pojazdu.|Space Shuttle
+Jak nazywał się wahadłowiec, który eksplodował w 1986 roku?|Challenger
+Jak nazywał się wahadłowiec, który rozpadł się przy powrocie w 2003 roku?|Columbia
+Jak nazywa się firma kosmiczna Elona Muska?|SpaceX
+Jak nazywa się łazik NASA, który wylądował na Marsie w 2021 roku?|Perseverance
+Jak nazywa się łazik NASA badający Marsa od 2012 roku?|Curiosity
+Jak nazywa się sonda, która w 2015 roku przeleciała obok Plutona?|New Horizons
+Jak nazywają się dwie sondy wystrzelone w 1977 roku, które opuściły heliosferę?|Voyager|Voyager 1 i 2
+Jak nazywa się rakieta, która wyniosła astronautów na Księżyc?|Saturn V|Saturn 5
+Jak nazywa się kosmodrom w Kazachstanie, z którego startował Gagarin?|Bajkonur
+Jak nazywa się przylądek na Florydzie, z którego startują amerykańskie rakiety?|Canaveral|Przylądek Canaveral
+Jak nazywa się człowiek latający w kosmos w nomenklaturze amerykańskiej?|astronauta
+Jak nazywa się człowiek latający w kosmos w nomenklaturze rosyjskiej?|kosmonauta
+Jak nazywa się stan braku odczuwalnego ciężaru na orbicie?|nieważkość
+Jak nazywa się nauka o budowie i ewolucji Wszechświata?|kosmologia
+Jak nazywa się teoria powstania Wszechświata z gorącego, gęstego stanu?|Wielki Wybuch
+Jak nazywa się jednostka odległości równa średniej odległości Ziemi od Słońca?|jednostka astronomiczna
+Jak nazywa się jednostka odległości równa około 3,26 roku świetlnego?|parsek
+Jak nazywa się przyrząd do obserwacji nieba wykorzystujący soczewki lub zwierciadła?|teleskop
+Jak nazywa się budynek z kopułą do obserwacji nieba?|obserwatorium
+Jak nazywa się sala z kopułą, na której wyświetla się sztuczne niebo?|planetarium
+Jak nazywa się zewnętrzna warstwa atmosfery Słońca widoczna podczas zaćmienia?|korona
+Jak nazywają się ciemniejsze, chłodniejsze obszary na powierzchni Słońca?|plamy słoneczne|plamy
+Jak nazywa się strumień cząstek wyrzucanych przez Słońce?|wiatr słoneczny
+Jakie zjawisko na niebie wywołuje wiatr słoneczny w okolicach biegunów?|zorza polarna|zorza
+Jak nazywa się rój meteorów widoczny w sierpniu?|Perseidy
+Jak nazywa się pozorna droga Słońca na tle gwiazd w ciągu roku?|ekliptyka
+Jak nazywa się kalendarz wprowadzony w 1582 roku, używany do dziś?|gregoriański|kalendarz gregoriański
+Co ile lat wypada zazwyczaj rok przestępny?|4
+Jaki miesiąc ma w roku przestępnym 29 dni?|luty
+Z czego głównie zbudowane są pierścienie Saturna?|lód|z lodu
+Jaki gaz dominuje w atmosferze Marsa?|dwutlenek węgla
+Jaki gaz nadaje Neptunowi niebieską barwę?|metan
+Jak nazywają się cztery planety skaliste łącznie — planety grupy...?|ziemskiej|ziemska
+Jak nazywa się zjawisko przejścia planety na tle tarczy Słońca?|tranzyt
+Jak nazywają się ciemne równiny na Księżycu?|morza|morza księżycowe
+Jak nazywa się zagłębienie powstałe po uderzeniu meteorytu?|krater
+Jak nazywało się morze, na którym wylądował Apollo 11?|Morze Spokoju
+Jak nazywa się zjawisko pozornego cofania się planety na niebie?|ruch wsteczny|retrogradacja
+Jak nazywa się najjaśniejszy typ aktywnych jąder galaktyk?|kwazar
+Jak nazywa się poszukiwanie sygnałów od cywilizacji pozaziemskich — podaj skrót.|SETI
+Jak nazywa się paradoks pytający, dlaczego nie widzimy obcych cywilizacji?|paradoks Fermiego|Fermiego
+Jak nazywa się obszar wokół gwiazdy, gdzie może istnieć ciekła woda?|ekosfera|strefa życia|strefa zamieszkiwalna
+Jak nazywa się pierwsza prywatna załogowa kapsuła SpaceX, która poleciała do ISS?|Crew Dragon|Dragon
+Jak nazywa się program NASA mający przywrócić ludzi na Księżyc?|Artemis
+Jak nazywa się chińska stacja kosmiczna?|Tiangong
+Jak nazywa się polski pierwszy satelita naukowy z 2013 roku?|Lem
+Jak nazywa się twórca podstaw astronautyki, rosyjski nauczyciel?|Konstanty Ciołkowski|Ciołkowski
+Jak nazywał się główny konstruktor rakiety Saturn V?|Wernher von Braun|von Braun
+Jak nazywał się główny konstruktor radzieckich rakiet?|Siergiej Korolow|Korolow
