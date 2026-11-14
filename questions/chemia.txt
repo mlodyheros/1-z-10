@@ -1,0 +1,161 @@
+# Chemia
+Jaki pierwiastek ma symbol chemiczny H?|wodór
+Podaj symbol chemiczny pierwiastka: wodór.|H
+Jaki pierwiastek ma symbol chemiczny He?|hel
+Podaj symbol chemiczny pierwiastka: hel.|He
+Jaki pierwiastek ma symbol chemiczny Li?|lit
+Podaj symbol chemiczny pierwiastka: lit.|Li
+Jaki pierwiastek ma symbol chemiczny Be?|beryl
+Podaj symbol chemiczny pierwiastka: beryl.|Be
+Jaki pierwiastek ma symbol chemiczny B?|bor
+Podaj symbol chemiczny pierwiastka: bor.|B
+Jaki pierwiastek ma symbol chemiczny C?|węgiel
+Podaj symbol chemiczny pierwiastka: węgiel.|C
+Jaki pierwiastek ma symbol chemiczny N?|azot
+Podaj symbol chemiczny pierwiastka: azot.|N
+Jaki pierwiastek ma symbol chemiczny O?|tlen
+Podaj symbol chemiczny pierwiastka: tlen.|O
+Jaki pierwiastek ma symbol chemiczny F?|fluor
+Podaj symbol chemiczny pierwiastka: fluor.|F
+Jaki pierwiastek ma symbol chemiczny Ne?|neon
+Podaj symbol chemiczny pierwiastka: neon.|Ne
+Jaki pierwiastek ma symbol chemiczny Na?|sód
+Podaj symbol chemiczny pierwiastka: sód.|Na
+Jaki pierwiastek ma symbol chemiczny Mg?|magnez
+Podaj symbol chemiczny pierwiastka: magnez.|Mg
+Jaki pierwiastek ma symbol chemiczny Al?|glin|aluminium
+Podaj symbol chemiczny pierwiastka: glin.|Al
+Jaki pierwiastek ma symbol chemiczny Si?|krzem
+Podaj symbol chemiczny pierwiastka: krzem.|Si
+Jaki pierwiastek ma symbol chemiczny P?|fosfor
+Podaj symbol chemiczny pierwiastka: fosfor.|P
+Jaki pierwiastek ma symbol chemiczny S?|siarka
+Podaj symbol chemiczny pierwiastka: siarka.|S
+Jaki pierwiastek ma symbol chemiczny Cl?|chlor
+Podaj symbol chemiczny pierwiastka: chlor.|Cl
+Jaki pierwiastek ma symbol chemiczny Ar?|argon
+Podaj symbol chemiczny pierwiastka: argon.|Ar
+Jaki pierwiastek ma symbol chemiczny K?|potas
+Podaj symbol chemiczny pierwiastka: potas.|K
+Jaki pierwiastek ma symbol chemiczny Ca?|wapń
+Podaj symbol chemiczny pierwiastka: wapń.|Ca
+Jaki pierwiastek ma symbol chemiczny Ti?|tytan
+Podaj symbol chemiczny pierwiastka: tytan.|Ti
+Jaki pierwiastek ma symbol chemiczny Cr?|chrom
+Podaj symbol chemiczny pierwiastka: chrom.|Cr
+Jaki pierwiastek ma symbol chemiczny Mn?|mangan
+Podaj symbol chemiczny pierwiastka: mangan.|Mn
+Jaki pierwiastek ma symbol chemiczny Fe?|żelazo
+Podaj symbol chemiczny pierwiastka: żelazo.|Fe
+Jaki pierwiastek ma symbol chemiczny Co?|kobalt
+Podaj symbol chemiczny pierwiastka: kobalt.|Co
+Jaki pierwiastek ma symbol chemiczny Ni?|nikiel
+Podaj symbol chemiczny pierwiastka: nikiel.|Ni
+Jaki pierwiastek ma symbol chemiczny Cu?|miedź
+Podaj symbol chemiczny pierwiastka: miedź.|Cu
+Jaki pierwiastek ma symbol chemiczny Zn?|cynk
+Podaj symbol chemiczny pierwiastka: cynk.|Zn
+Jaki pierwiastek ma symbol chemiczny As?|arsen
+Podaj symbol chemiczny pierwiastka: arsen.|As
+Jaki pierwiastek ma symbol chemiczny Br?|brom
+Podaj symbol chemiczny pierwiastka: brom.|Br
+Jaki pierwiastek ma symbol chemiczny Kr?|krypton
+Podaj symbol chemiczny pierwiastka: krypton.|Kr
+Jaki pierwiastek ma symbol chemiczny Sr?|stront
+Podaj symbol chemiczny pierwiastka: stront.|Sr
+Jaki pierwiastek ma symbol chemiczny Ag?|srebro
+Podaj symbol chemiczny pierwiastka: srebro.|Ag
+Jaki pierwiastek ma symbol chemiczny Sn?|cyna
+Podaj symbol chemiczny pierwiastka: cyna.|Sn
+Jaki pierwiastek ma symbol chemiczny I?|jod
+Podaj symbol chemiczny pierwiastka: jod.|I
+Jaki pierwiastek ma symbol chemiczny Xe?|ksenon
+Podaj symbol chemiczny pierwiastka: ksenon.|Xe
+Jaki pierwiastek ma symbol chemiczny Ba?|bar
+Podaj symbol chemiczny pierwiastka: bar.|Ba
+Jaki pierwiastek ma symbol chemiczny W?|wolfram
+Podaj symbol chemiczny pierwiastka: wolfram.|W
+Jaki pierwiastek ma symbol chemiczny Pt?|platyna
+Podaj symbol chemiczny pierwiastka: platyna.|Pt
+Jaki pierwiastek ma symbol chemiczny Au?|złoto
+Podaj symbol chemiczny pierwiastka: złoto.|Au
+Jaki pierwiastek ma symbol chemiczny Hg?|rtęć
+Podaj symbol chemiczny pierwiastka: rtęć.|Hg
+Jaki pierwiastek ma symbol chemiczny Pb?|ołów
+Podaj symbol chemiczny pierwiastka: ołów.|Pb
+Jaki pierwiastek ma symbol chemiczny Rn?|radon
+Podaj symbol chemiczny pierwiastka: radon.|Rn
+Jaki pierwiastek ma symbol chemiczny Ra?|rad
+Podaj symbol chemiczny pierwiastka: rad.|Ra
+Jaki pierwiastek ma symbol chemiczny U?|uran
+Podaj symbol chemiczny pierwiastka: uran.|U
+Jaki pierwiastek ma symbol chemiczny Pu?|pluton
+Podaj symbol chemiczny pierwiastka: pluton.|Pu
+Jaki pierwiastek ma symbol chemiczny Bi?|bizmut
+Podaj symbol chemiczny pierwiastka: bizmut.|Bi
+Jaki pierwiastek ma symbol chemiczny Cs?|cez
+Podaj symbol chemiczny pierwiastka: cez.|Cs
+Jaki pierwiastek ma symbol chemiczny Sb?|antymon
+Podaj symbol chemiczny pierwiastka: antymon.|Sb
+Jaki pierwiastek ma symbol chemiczny Se?|selen
+Podaj symbol chemiczny pierwiastka: selen.|Se
+Jaki jest wzór chemiczny wody?|H2O
+Jaki jest wzór chemiczny dwutlenku węgla?|CO2
+Jaki jest wzór chemiczny soli kuchennej?|NaCl
+Jaki jest wzór chemiczny tlenu cząsteczkowego?|O2
+Jaki jest wzór chemiczny ozonu?|O3
+Jaki jest wzór chemiczny amoniaku?|NH3
+Jaki jest wzór chemiczny metanu?|CH4
+Jaki jest wzór chemiczny kwasu siarkowego(VI)?|H2SO4
+Jaki jest wzór chemiczny kwasu solnego?|HCl
+Jaki jest wzór chemiczny tlenku węgla, czyli czadu?|CO
+Jaki jest wzór chemiczny wodorotlenku sodu?|NaOH
+Jaki gaz stanowi około 78% powietrza?|azot
+Jaki gaz jest niezbędny do spalania?|tlen
+Jaki jest najlżejszy pierwiastek?|wodór
+Jaki pierwiastek jest podstawą związków organicznych?|węgiel
+Jak nazywa się najtwardsza naturalna odmiana węgla?|diament
+Z jakiego pierwiastka zbudowany jest grafit?|węgiel|z węgla
+Jaki metal jest ciekły w temperaturze pokojowej?|rtęć
+Jakie pH ma roztwór obojętny?|7
+Jaki odczyn ma roztwór o pH mniejszym od 7?|kwasowy|kwaśny
+Jaki odczyn ma roztwór o pH większym od 7?|zasadowy
+Kto stworzył układ okresowy pierwiastków?|Dmitrij Mendelejew
+Jak nazywa się cząstka o ładunku ujemnym krążąca wokół jądra atomu?|elektron
+Jak nazywa się cząstka o ładunku dodatnim w jądrze atomu?|proton
+Jak nazywa się obojętna cząstka w jądrze atomu?|neutron
+Jak nazywa się przejście ze stanu stałego bezpośrednio w gazowy?|sublimacja
+Jak nazywa się przejście cieczy w gaz?|parowanie
+Jak nazywa się przejście gazu w ciecz?|skraplanie|kondensacja
+Jak nazywa się przejście cieczy w ciało stałe?|krzepnięcie
+Jak nazywa się przejście ciała stałego w ciecz?|topnienie
+Jak nazywa się substancja przyspieszająca reakcję chemiczną?|katalizator
+Jaki wskaźnik barwi się na malinowo w zasadach?|fenoloftaleina
+Jak nazywa się stop miedzi i cyny?|brąz
+Jak nazywa się stop miedzi i cynku?|mosiądz
+Jak nazywa się stop żelaza z węglem używany w budownictwie?|stal
+Jaki gaz szlachetny wypełnia balony unoszące się w powietrzu?|hel
+Jaki pierwiastek odkryła Maria Skłodowska-Curie i nazwała na cześć Polski?|polon
+Jaki drugi pierwiastek, obok polonu, odkryli małżonkowie Curie?|rad
+Jaki kwas znajduje się w żołądku człowieka?|solny|kwas solny|chlorowodorowy
+Jaki kwas znajduje się w occie?|octowy|kwas octowy
+Jaki kwas nadaje kwaśny smak cytrynie?|cytrynowy|kwas cytrynowy
+Jak potocznie nazywa się stały dwutlenek węgla?|suchy lód
+Jaki gaz powstaje podczas fotosyntezy?|tlen
+Jaki gaz jest głównym składnikiem gazu ziemnego?|metan
+Jak nazywa się proces powlekania stali cynkiem?|cynkowanie
+Jak nazywa się niszczenie metali pod wpływem otoczenia?|korozja
+Jaki pierwiastek dodaje się do soli kuchennej, by zapobiegać chorobom tarczycy?|jod
+Jaki pierwiastek jest głównym składnikiem piasku obok tlenu?|krzem
+Ile wynosi liczba atomowa wodoru?|1
+Ile wynosi liczba atomowa węgla?|6
+Ile wynosi liczba atomowa tlenu?|8
+Ile atomów wodoru zawiera cząsteczka wody?|2
+Jak nazywa się reakcja kwasu z zasadą?|zobojętnianie|neutralizacja
+Jak nazywają się atomy tego samego pierwiastka różniące się liczbą neutronów?|izotopy
+Jak nazywa się nauka o związkach węgla?|chemia organiczna
+Jaki alkohol znajduje się w napojach alkoholowych?|etanol|alkohol etylowy
+Jaki cukier prosty jest podstawowym źródłem energii dla komórek?|glukoza
+Jak nazywa się cukier występujący w mleku?|laktoza
+Jak chemicy nazywają cukier stołowy?|sacharoza
+Jaki metal szlachetny ma najwyższą przewodność elektryczną?|srebro

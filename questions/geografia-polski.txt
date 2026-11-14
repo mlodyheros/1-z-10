@@ -1,0 +1,158 @@
+# Geografia Polski
+Jaka jest najdłuższa rzeka Polski?|Wisła
+Jaka jest druga co do długości rzeka Polski?|Odra
+Jaki jest najwyższy szczyt Polski?|Rysy
+Jaki jest najwyższy szczyt Sudetów?|Śnieżka
+Jaki jest najwyższy szczyt Bieszczadów po polskiej stronie?|Tarnica
+Jaki jest najwyższy szczyt Beskidów w Polsce?|Babia Góra|Diablak
+Jaki jest najwyższy szczyt Gór Świętokrzyskich?|Łysica
+Jakie jest największe jezioro w Polsce?|Śniardwy
+Jakie jest najgłębsze jezioro w Polsce?|Hańcza
+Jakie jest drugie co do wielkości jezioro Polski?|Mamry
+Nad jakim morzem leży Polska?|Bałtyckie|Morze Bałtyckie|Bałtyk
+Z iloma państwami graniczy Polska?|7
+Ile województw ma Polska?|16
+Jakie miasto jest stolicą województwa małopolskiego?|Kraków
+Jakie miasto jest stolicą województwa pomorskiego?|Gdańsk
+Jakie miasto jest stolicą województwa dolnośląskiego?|Wrocław
+Jakie miasto jest stolicą województwa wielkopolskiego?|Poznań
+Jakie miasto jest stolicą województwa śląskiego?|Katowice
+Jakie miasto jest stolicą województwa lubelskiego?|Lublin
+Jakie miasto jest stolicą województwa podlaskiego?|Białystok
+Jakie miasto jest stolicą województwa zachodniopomorskiego?|Szczecin
+Jakie miasto jest stolicą województwa warmińsko-mazurskiego?|Olsztyn
+Jakie miasto jest stolicą województwa podkarpackiego?|Rzeszów
+Jakie miasto jest stolicą województwa świętokrzyskiego?|Kielce
+Jakie miasto jest stolicą województwa opolskiego?|Opole
+Jakie miasto jest stolicą województwa łódzkiego?|Łódź
+Nad jaką rzeką leży Kraków?|Wisła|nad Wisłą
+Nad jaką rzeką leży Wrocław?|Odra|nad Odrą
+Nad jaką rzeką leży Poznań?|Warta|nad Wartą
+Nad jaką rzeką leży Bydgoszcz?|Brda|nad Brdą
+Nad jaką rzeką leży Rzeszów?|Wisłok|nad Wisłokiem
+Nad jaką rzeką leży Opole?|Odra|nad Odrą
+Nad jaką rzeką leży Toruń?|Wisła|nad Wisłą
+Nad jaką rzeką leży Gdańsk?|Motława|nad Motławą
+Nad jaką rzeką leży Sandomierz?|Wisła|nad Wisłą
+Nad jaką rzeką leży Przemyśl?|San|nad Sanem
+Jaka rzeka jest najdłuższym dopływem Wisły?|Bug
+Jaka rzeka jest najdłuższym dopływem Odry?|Warta
+Do jakiej rzeki wpada Dunajec?|Wisła|do Wisły
+Do jakiej rzeki wpada San?|Wisła|do Wisły
+Do jakiej rzeki wpada Nysa Łużycka?|Odra|do Odry
+Jaka rzeka przepływa przez Pieniny, tworząc słynny przełom?|Dunajec
+Jakie góry są najwyższe w Polsce?|Tatry
+Jak nazywa się najstarsze pasmo górskie w Polsce?|Góry Świętokrzyskie
+W jakim paśmie górskim leży Zakopane?|Tatry|w Tatrach
+W jakich górach leży Karpacz?|Karkonosze|w Karkonoszach
+W jakich górach leży Szczyrk?|Beskid Śląski|Beskidy
+Jak nazywa się największe jezioro tatrzańskie?|Morskie Oko
+Jak nazywa się najgłębsze jezioro Tatr?|Wielki Staw Polski|Wielki Staw
+Jak nazywa się szczyt nad Zakopanem przypominający śpiącego rycerza?|Giewont
+Jak nazywa się szczyt Tatr, na który wjeżdża kolej linowa z Kuźnic?|Kasprowy Wierch
+Jaka puszcza leży na granicy Polski i Białorusi i słynie z żubrów?|Białowieska|Puszcza Białowieska
+Jaka puszcza leży tuż pod Warszawą?|Kampinoska|Puszcza Kampinoska
+Jaki jest największy park narodowy w Polsce?|Biebrzański|Biebrzański Park Narodowy
+Jaki jest najstarszy park narodowy w Polsce?|Białowieski|Białowieski Park Narodowy
+W jakim parku narodowym znajdują się ruchome wydmy koło Łeby?|Słowiński|Słowiński Park Narodowy
+Jaki jest najmniejszy park narodowy w Polsce?|Ojcowski|Ojcowski Park Narodowy
+Jak nazywa się półwysep oddzielający Zatokę Pucką od Bałtyku?|Hel|Półwysep Helski|Mierzeja Helska
+Jaka jest największa polska wyspa?|Wolin
+Na jakiej wyspie leży większa część Świnoujścia?|Uznam
+Jak nazywa się zalew przy ujściu Odry?|Szczeciński|Zalew Szczeciński
+Jak nazywa się zalew dzielony przez Polskę z obwodem królewieckim?|Wiślany|Zalew Wiślany
+Jakie miasto tworzy Trójmiasto razem z Gdańskiem i Gdynią?|Sopot
+Jakie jest największe pod względem powierzchni miasto Polski?|Warszawa
+Jakie miasto nazywane jest stolicą polskich gór?|Zakopane
+Jakie miasto nazywane jest polską stolicą piosenki?|Opole
+Jakie miasto słynie z pierników?|Toruń
+Jakie miasto słynie z koziołków na ratuszu?|Poznań
+Jakie miasto słynie z krasnali rozmieszczonych na ulicach?|Wrocław
+W jakim mieście znajduje się Wawel?|Kraków|w Krakowie
+W jakim mieście znajduje się Jasna Góra?|Częstochowa|w Częstochowie
+W jakim mieście znajduje się zamek krzyżacki będący największym ceglanym zamkiem świata?|Malbork|w Malborku
+W jakim mieście znajduje się zabytkowa kopalnia soli wpisana na listę UNESCO?|Wieliczka|w Wieliczce
+W jakim mieście znajduje się Hala Stulecia?|Wrocław|we Wrocławiu
+W jakim mieście znajduje się Spodek?|Katowice|w Katowicach
+W jakim mieście znajduje się ulica Piotrkowska?|Łódź|w Łodzi
+W jakim mieście znajduje się Żuraw nad Motławą?|Gdańsk|w Gdańsku
+W jakim mieście urodził się Mikołaj Kopernik?|Toruń|w Toruniu
+W jakim mieście znajdują się Łazienki Królewskie?|Warszawa|w Warszawie
+W jakim mieście znajduje się zamek Książąt Pomorskich?|Szczecin|w Szczecinie
+Jakie miasto nazywane jest perłą renesansu i ma rynek z ormiańskimi kamienicami?|Zamość
+Jakie miasto nad Wisłą słynie z rynku i corocznego festiwalu filmu i sztuki „Dwa Brzegi”?|Kazimierz Dolny
+Jakie uzdrowisko nazywane jest perłą polskich uzdrowisk i leży w Beskidzie Sądeckim?|Krynica-Zdrój|Krynica
+Jakie miasto jest największym polskim portem morskim nad Zatoką Gdańską?|Gdańsk
+Z jakim państwem Polska ma najdłuższą granicę?|Czechy|z Czechami
+Z jakim państwem Polska ma najkrótszą granicę?|Litwa|z Litwą
+Jakie państwo graniczy z Polską od zachodu?|Niemcy
+Jak nazywa się najniżej położony punkt Polski, leżący na Żuławach?|Raczki Elbląskie
+Jak nazywa się kraina geograficzna w delcie Wisły?|Żuławy|Żuławy Wiślane
+Jak nazywa się kraina tysiąca jezior w północno-wschodniej Polsce?|Mazury
+Jak nazywa się region wokół Poznania?|Wielkopolska
+Jak nazywa się region, którego stolicą jest Kraków?|Małopolska
+Jak nazywa się region nad morzem wokół Kartuz, znany z haftu i języka?|Kaszuby
+Jak nazywa się kraina, której głównym miastem jest Zakopane?|Podhale
+Jak nazywa się pustynia na pograniczu Małopolski i Śląska?|Błędowska|Pustynia Błędowska
+Jak nazywa się szlak zamków między Krakowem a Częstochową?|Szlak Orlich Gniazd|Orlich Gniazd
+Jak nazywa się maczuga skalna w Ojcowskim Parku Narodowym?|Maczuga Herkulesa
+Jak nazywa się kanał z pochylniami, po których statki „pływają” po trawie?|Elbląski|Kanał Elbląski
+Jak nazywa się kanał łączący Wisłę z Niemnem przez Biebrzę?|Augustowski|Kanał Augustowski
+Jak nazywa się zapora i zbiornik wodny w Bieszczadach?|Solina|Jezioro Solińskie
+Jak nazywa się największe sztuczne jezioro w Polsce?|Jezioro Solińskie|Solina
+Jak nazywa się zapora na Wiśle zbudowana w latach 60. XX wieku w pobliżu Płocka?|Włocławek|zapora we Włocławku
+Jakie miasto jest siedzibą największej polskiej rafinerii?|Płock
+Jaki surowiec wydobywa się w okolicach Bełchatowa?|węgiel brunatny
+Jaki surowiec wydobywa się w okolicach Lubina i Polkowic?|miedź|rudy miedzi
+Jaki surowiec kojarzony jest z Górnym Śląskiem?|węgiel kamienny|węgiel
+Jaki surowiec wydobywano w Bochni i Wieliczce?|sól|sól kamienna
+Jak nazywa się kopiec usypany w Krakowie na cześć przywódcy insurekcji z 1794 roku?|Kopiec Kościuszki|Kościuszki
+Jak nazywa się najwyższy budynek w Polsce, oddany w Warszawie w 2022 roku?|Varso Tower|Varso
+Jak nazywa się socrealistyczny wieżowiec w centrum Warszawy z 1955 roku?|Pałac Kultury i Nauki|Pałac Kultury
+Jakie miasto jest najdalej na wschód wysuniętym miastem wojewódzkim Polski?|Białystok
+Jak nazywa się miasto podzielone granicą z Czechami na Olzie?|Cieszyn
+Jak nazywa się miasto podzielone granicą z Niemcami, sąsiadujące z Görlitz?|Zgorzelec
+Jak nazywa się miasto leżące naprzeciw Frankfurtu nad Odrą?|Słubice
+Jakie miasto jest najstarszą stolicą Polski według tradycji?|Gniezno
+Jakie miasto na Dolnym Śląsku słynie z ceramiki?|Bolesławiec
+Jakie miasto słynie z huty szkła i kryształów na Podkarpaciu?|Krosno
+Jakie miasto nazywano polskim Manchesterem ze względu na przemysł włókienniczy?|Łódź
+Jaki port lotniczy jest największy w Polsce?|Lotnisko Chopina|Okęcie|Warszawa
+Jak nazywa się najdłuższe molo drewniane w Europie?|molo w Sopocie|Sopot
+Jak nazywa się przylądek uznawany tradycyjnie za północny kraniec Polski?|Rozewie|Przylądek Rozewie
+Jak nazywa się szczyt będący najdalej na południe wysuniętym punktem Polski?|Opołonek
+Jak nazywa się jezioro, nad którym leży Mikołajki?|Mikołajskie|Jezioro Mikołajskie
+Jak nazywa się nizina zajmująca centralną Polskę wokół Warszawy?|Mazowiecka|Nizina Mazowiecka
+Jak nazywa się wyżyna, na której leży Lublin?|Lubelska|Wyżyna Lubelska
+Jak nazywa się pasmo, w którym leży Śnieżnik?|Masyw Śnieżnika|Sudety
+Jak nazywają się skalne labirynty w Górach Stołowych?|Błędne Skały
+Jak nazywa się najwyższy szczyt Gór Stołowych?|Szczeliniec Wielki|Szczeliniec
+Jak nazywa się jaskinia koło Kielc znana z pięknych nacieków?|Raj|Jaskinia Raj
+Jak nazywa się jaskinia w Kletnie na Dolnym Śląsku?|Niedźwiedzia|Jaskinia Niedźwiedzia
+Jak nazywa się dolina w Tatrach, przez którą prowadzi droga do Morskiego Oka — bierze nazwę od potoku?|Dolina Rybiego Potoku|Rybiego Potoku
+Jak nazywa się najsłynniejsza ulica Zakopanego?|Krupówki
+Jak nazywa się wzgórze nad Zakopanem z kolejką linowo-terenową?|Gubałówka
+Jak nazywa się zwierzę będące symbolem Tatrzańskiego Parku Narodowego?|kozica
+Jakie zwierzę jest symbolem Białowieskiego Parku Narodowego?|żubr
+Jakie zwierzę jest symbolem Biebrzańskiego Parku Narodowego — ptak z bojowymi zwyczajami?|batalion
+Jakie zwierzę jest symbolem Bieszczadzkiego Parku Narodowego?|ryś
+Jaki ptak jest w godle Polski?|orzeł|orzeł biały
+Jakie miasto jest stolicą Kaszub według tradycji — leży nad jeziorami i ma muzeum kaszubskie?|Kartuzy
+Jakie miasto jest największe na Mazurach i nazywane ich letnią stolicą żeglarzy?|Giżycko
+Jakie miasto nad Bałtykiem słynie z festiwalu gwiazd i promenady, a leży na wyspie Wolin?|Międzyzdroje
+Jakie miasto jest stolicą polskiego bursztynu?|Gdańsk
+Jaka jest przybliżona powierzchnia Polski w tysiącach km kwadratowych?|313|312
+W jakiej strefie czasowej leży Polska — podaj skrót czasu zimowego.|CET
+Jaki numer kierunkowy ma Polska w telefonii międzynarodowej?|48
+Jakie miasto jest stolicą województwa kujawsko-pomorskiego obok Torunia?|Bydgoszcz
+Jakie miasto jest stolicą województwa lubuskiego obok Gorzowa Wielkopolskiego?|Zielona Góra
+Jakie miasto jest stolicą województwa mazowieckiego?|Warszawa
+Nad jaką rzeką leży Warszawa?|Wisła|nad Wisłą
+Nad jaką rzeką leży Szczecin?|Odra|nad Odrą
+Nad jaką rzeką leży Łomża i Ostrołęka?|Narew|nad Narwią
+Do jakiego morza wpada Wisła?|Bałtyckie|Morze Bałtyckie|Bałtyk
+W jakich górach ma źródła Wisła?|Beskid Śląski|Beskidy
+Na stokach jakiej góry wypływa Wisła?|Barania Góra
+Jakie miasto jest najmniejszym miastem wojewódzkim pod względem ludności?|Gorzów Wielkopolski|Gorzów
+W jakim mieście znajduje się Stadion Śląski?|Chorzów|w Chorzowie
+W jakim mieście znajduje się pomnik Neptuna przy Długim Targu?|Gdańsk|w Gdańsku

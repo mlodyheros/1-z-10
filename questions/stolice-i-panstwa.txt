@@ -1,0 +1,243 @@
+# Stolice i państwa
+Jakie miasto jest stolicą państwa: Francja?|Paryż
+Stolicą którego państwa jest Paryż?|Francja
+Jakie miasto jest stolicą państwa: Niemcy?|Berlin
+Stolicą którego państwa jest Berlin?|Niemcy
+Jakie miasto jest stolicą państwa: Włochy?|Rzym
+Stolicą którego państwa jest Rzym?|Włochy
+Jakie miasto jest stolicą państwa: Hiszpania?|Madryt
+Stolicą którego państwa jest Madryt?|Hiszpania
+Jakie miasto jest stolicą państwa: Portugalia?|Lizbona
+Stolicą którego państwa jest Lizbona?|Portugalia
+Jakie miasto jest stolicą państwa: Wielka Brytania?|Londyn
+Stolicą którego państwa jest Londyn?|Wielka Brytania|Zjednoczone Królestwo
+Jakie miasto jest stolicą państwa: Irlandia?|Dublin
+Stolicą którego państwa jest Dublin?|Irlandia
+Jakie miasto jest stolicą państwa: Islandia?|Reykjavik|Rejkiawik
+Stolicą którego państwa jest Reykjavik?|Islandia
+Jakie miasto jest stolicą państwa: Norwegia?|Oslo
+Stolicą którego państwa jest Oslo?|Norwegia
+Jakie miasto jest stolicą państwa: Szwecja?|Sztokholm
+Stolicą którego państwa jest Sztokholm?|Szwecja
+Jakie miasto jest stolicą państwa: Finlandia?|Helsinki
+Stolicą którego państwa jest Helsinki?|Finlandia
+Jakie miasto jest stolicą państwa: Dania?|Kopenhaga
+Stolicą którego państwa jest Kopenhaga?|Dania
+Jakie miasto jest stolicą państwa: Holandia?|Amsterdam
+Stolicą którego państwa jest Amsterdam?|Holandia|Niderlandy
+Jakie miasto jest stolicą państwa: Belgia?|Bruksela
+Stolicą którego państwa jest Bruksela?|Belgia
+Jakie miasto jest stolicą państwa: Szwajcaria?|Berno
+Stolicą którego państwa jest Berno?|Szwajcaria
+Jakie miasto jest stolicą państwa: Austria?|Wiedeń
+Stolicą którego państwa jest Wiedeń?|Austria
+Jakie miasto jest stolicą państwa: Czechy?|Praga
+Stolicą którego państwa jest Praga?|Czechy
+Jakie miasto jest stolicą państwa: Słowacja?|Bratysława
+Stolicą którego państwa jest Bratysława?|Słowacja
+Jakie miasto jest stolicą państwa: Węgry?|Budapeszt
+Stolicą którego państwa jest Budapeszt?|Węgry
+Jakie miasto jest stolicą państwa: Rumunia?|Bukareszt
+Stolicą którego państwa jest Bukareszt?|Rumunia
+Jakie miasto jest stolicą państwa: Bułgaria?|Sofia
+Stolicą którego państwa jest Sofia?|Bułgaria
+Jakie miasto jest stolicą państwa: Grecja?|Ateny
+Stolicą którego państwa jest Ateny?|Grecja
+Jakie miasto jest stolicą państwa: Turcja?|Ankara
+Stolicą którego państwa jest Ankara?|Turcja
+Jakie miasto jest stolicą państwa: Ukraina?|Kijów
+Stolicą którego państwa jest Kijów?|Ukraina
+Jakie miasto jest stolicą państwa: Białoruś?|Mińsk
+Stolicą którego państwa jest Mińsk?|Białoruś
+Jakie miasto jest stolicą państwa: Litwa?|Wilno
+Stolicą którego państwa jest Wilno?|Litwa
+Jakie miasto jest stolicą państwa: Łotwa?|Ryga
+Stolicą którego państwa jest Ryga?|Łotwa
+Jakie miasto jest stolicą państwa: Estonia?|Tallin
+Stolicą którego państwa jest Tallin?|Estonia
+Jakie miasto jest stolicą państwa: Rosja?|Moskwa
+Stolicą którego państwa jest Moskwa?|Rosja
+Jakie miasto jest stolicą państwa: Chorwacja?|Zagrzeb
+Stolicą którego państwa jest Zagrzeb?|Chorwacja
+Jakie miasto jest stolicą państwa: Słowenia?|Lublana
+Stolicą którego państwa jest Lublana?|Słowenia
+Jakie miasto jest stolicą państwa: Serbia?|Belgrad
+Stolicą którego państwa jest Belgrad?|Serbia
+Jakie miasto jest stolicą państwa: Bośnia i Hercegowina?|Sarajewo
+Stolicą którego państwa jest Sarajewo?|Bośnia i Hercegowina|Bośnia
+Jakie miasto jest stolicą państwa: Czarnogóra?|Podgorica
+Stolicą którego państwa jest Podgorica?|Czarnogóra
+Jakie miasto jest stolicą państwa: Albania?|Tirana
+Stolicą którego państwa jest Tirana?|Albania
+Jakie miasto jest stolicą państwa: Macedonia Północna?|Skopje
+Stolicą którego państwa jest Skopje?|Macedonia Północna|Macedonia
+Jakie miasto jest stolicą państwa: Mołdawia?|Kiszyniów
+Stolicą którego państwa jest Kiszyniów?|Mołdawia
+Jakie miasto jest stolicą państwa: Malta?|Valletta
+Stolicą którego państwa jest Valletta?|Malta
+Jakie miasto jest stolicą państwa: Cypr?|Nikozja
+Stolicą którego państwa jest Nikozja?|Cypr
+Jakie miasto jest stolicą państwa: Polska?|Warszawa
+Stolicą którego państwa jest Warszawa?|Polska
+Jakie miasto jest stolicą państwa: Gruzja?|Tbilisi
+Stolicą którego państwa jest Tbilisi?|Gruzja
+Jakie miasto jest stolicą państwa: Armenia?|Erywań
+Stolicą którego państwa jest Erywań?|Armenia
+Jakie miasto jest stolicą państwa: Azerbejdżan?|Baku
+Stolicą którego państwa jest Baku?|Azerbejdżan
+Jakie miasto jest stolicą państwa: Kazachstan?|Astana
+Stolicą którego państwa jest Astana?|Kazachstan
+Jakie miasto jest stolicą państwa: Uzbekistan?|Taszkent
+Stolicą którego państwa jest Taszkent?|Uzbekistan
+Jakie miasto jest stolicą państwa: Kirgistan?|Biszkek
+Stolicą którego państwa jest Biszkek?|Kirgistan
+Jakie miasto jest stolicą państwa: Tadżykistan?|Duszanbe
+Stolicą którego państwa jest Duszanbe?|Tadżykistan
+Jakie miasto jest stolicą państwa: Turkmenistan?|Aszchabad
+Stolicą którego państwa jest Aszchabad?|Turkmenistan
+Jakie miasto jest stolicą państwa: Chiny?|Pekin
+Stolicą którego państwa jest Pekin?|Chiny
+Jakie miasto jest stolicą państwa: Japonia?|Tokio
+Stolicą którego państwa jest Tokio?|Japonia
+Jakie miasto jest stolicą państwa: Korea Południowa?|Seul
+Stolicą którego państwa jest Seul?|Korea Południowa
+Jakie miasto jest stolicą państwa: Korea Północna?|Pjongjang|Phenian
+Stolicą którego państwa jest Pjongjang?|Korea Północna
+Jakie miasto jest stolicą państwa: Mongolia?|Ułan Bator
+Stolicą którego państwa jest Ułan Bator?|Mongolia
+Jakie miasto jest stolicą państwa: Indie?|Nowe Delhi|Delhi
+Stolicą którego państwa jest Nowe Delhi?|Indie
+Jakie miasto jest stolicą państwa: Pakistan?|Islamabad
+Stolicą którego państwa jest Islamabad?|Pakistan
+Jakie miasto jest stolicą państwa: Bangladesz?|Dhaka|Dakka
+Stolicą którego państwa jest Dhaka?|Bangladesz
+Jakie miasto jest stolicą państwa: Nepal?|Katmandu
+Stolicą którego państwa jest Katmandu?|Nepal
+Jakie miasto jest stolicą państwa: Afganistan?|Kabul
+Stolicą którego państwa jest Kabul?|Afganistan
+Jakie miasto jest stolicą państwa: Iran?|Teheran
+Stolicą którego państwa jest Teheran?|Iran
+Jakie miasto jest stolicą państwa: Irak?|Bagdad
+Stolicą którego państwa jest Bagdad?|Irak
+Jakie miasto jest stolicą państwa: Syria?|Damaszek
+Stolicą którego państwa jest Damaszek?|Syria
+Jakie miasto jest stolicą państwa: Liban?|Bejrut
+Stolicą którego państwa jest Bejrut?|Liban
+Jakie miasto jest stolicą państwa: Jordania?|Amman
+Stolicą którego państwa jest Amman?|Jordania
+Jakie miasto jest stolicą państwa: Arabia Saudyjska?|Rijad
+Stolicą którego państwa jest Rijad?|Arabia Saudyjska
+Jakie miasto jest stolicą państwa: Zjednoczone Emiraty Arabskie?|Abu Zabi|Abu Dhabi
+Stolicą którego państwa jest Abu Zabi?|Zjednoczone Emiraty Arabskie|ZEA|Emiraty
+Jakie miasto jest stolicą państwa: Katar?|Doha|Ad-Dauha
+Stolicą którego państwa jest Doha?|Katar
+Jakie miasto jest stolicą państwa: Oman?|Maskat
+Stolicą którego państwa jest Maskat?|Oman
+Jakie miasto jest stolicą państwa: Jemen?|Sana
+Stolicą którego państwa jest Sana?|Jemen
+Jakie miasto jest stolicą państwa: Bahrajn?|Manama
+Stolicą którego państwa jest Manama?|Bahrajn
+Jakie miasto jest stolicą państwa: Tajlandia?|Bangkok
+Stolicą którego państwa jest Bangkok?|Tajlandia
+Jakie miasto jest stolicą państwa: Wietnam?|Hanoi
+Stolicą którego państwa jest Hanoi?|Wietnam
+Jakie miasto jest stolicą państwa: Kambodża?|Phnom Penh
+Stolicą którego państwa jest Phnom Penh?|Kambodża
+Jakie miasto jest stolicą państwa: Laos?|Wientian
+Stolicą którego państwa jest Wientian?|Laos
+Jakie miasto jest stolicą państwa: Malezja?|Kuala Lumpur
+Stolicą którego państwa jest Kuala Lumpur?|Malezja
+Jakie miasto jest stolicą państwa: Indonezja?|Dżakarta
+Stolicą którego państwa jest Dżakarta?|Indonezja
+Jakie miasto jest stolicą państwa: Filipiny?|Manila
+Stolicą którego państwa jest Manila?|Filipiny
+Jakie miasto jest stolicą państwa: Australia?|Canberra
+Stolicą którego państwa jest Canberra?|Australia
+Jakie miasto jest stolicą państwa: Nowa Zelandia?|Wellington
+Stolicą którego państwa jest Wellington?|Nowa Zelandia
+Jakie miasto jest stolicą państwa: Fidżi?|Suva
+Stolicą którego państwa jest Suva?|Fidżi
+Jakie miasto jest stolicą państwa: Egipt?|Kair
+Stolicą którego państwa jest Kair?|Egipt
+Jakie miasto jest stolicą państwa: Libia?|Trypolis
+Stolicą którego państwa jest Trypolis?|Libia
+Jakie miasto jest stolicą państwa: Algieria?|Algier
+Stolicą którego państwa jest Algier?|Algieria
+Jakie miasto jest stolicą państwa: Maroko?|Rabat
+Stolicą którego państwa jest Rabat?|Maroko
+Jakie miasto jest stolicą państwa: Etiopia?|Addis Abeba
+Stolicą którego państwa jest Addis Abeba?|Etiopia
+Jakie miasto jest stolicą państwa: Kenia?|Nairobi
+Stolicą którego państwa jest Nairobi?|Kenia
+Jakie miasto jest stolicą państwa: Nigeria?|Abudża
+Stolicą którego państwa jest Abudża?|Nigeria
+Jakie miasto jest stolicą państwa: Ghana?|Akra
+Stolicą którego państwa jest Akra?|Ghana
+Jakie miasto jest stolicą państwa: Senegal?|Dakar
+Stolicą którego państwa jest Dakar?|Senegal
+Jakie miasto jest stolicą państwa: Angola?|Luanda
+Stolicą którego państwa jest Luanda?|Angola
+Jakie miasto jest stolicą państwa: Zimbabwe?|Harare
+Stolicą którego państwa jest Harare?|Zimbabwe
+Jakie miasto jest stolicą państwa: Madagaskar?|Antananarywa
+Stolicą którego państwa jest Antananarywa?|Madagaskar
+Jakie miasto jest stolicą państwa: Somalia?|Mogadiszu
+Stolicą którego państwa jest Mogadiszu?|Somalia
+Jakie miasto jest stolicą państwa: Sudan?|Chartum
+Stolicą którego państwa jest Chartum?|Sudan
+Jakie miasto jest stolicą państwa: Uganda?|Kampala
+Stolicą którego państwa jest Kampala?|Uganda
+Jakie miasto jest stolicą państwa: Demokratyczna Republika Konga?|Kinszasa
+Stolicą którego państwa jest Kinszasa?|Demokratyczna Republika Konga|DRK|Kongo
+Jakie miasto jest stolicą państwa: Tanzania?|Dodoma
+Stolicą którego państwa jest Dodoma?|Tanzania
+Jakie miasto jest stolicą państwa: Zambia?|Lusaka
+Stolicą którego państwa jest Lusaka?|Zambia
+Jakie miasto jest stolicą państwa: Mozambik?|Maputo
+Stolicą którego państwa jest Maputo?|Mozambik
+Jakie miasto jest stolicą państwa: Namibia?|Windhuk
+Stolicą którego państwa jest Windhuk?|Namibia
+Jakie miasto jest stolicą państwa: Botswana?|Gaborone
+Stolicą którego państwa jest Gaborone?|Botswana
+Jakie miasto jest stolicą państwa: Rwanda?|Kigali
+Stolicą którego państwa jest Kigali?|Rwanda
+Jakie miasto jest stolicą państwa: Mali?|Bamako
+Stolicą którego państwa jest Bamako?|Mali
+Jakie miasto jest stolicą państwa: Kanada?|Ottawa
+Stolicą którego państwa jest Ottawa?|Kanada
+Jakie miasto jest stolicą państwa: Stany Zjednoczone?|Waszyngton|Washington
+Stolicą którego państwa jest Waszyngton?|Stany Zjednoczone|USA
+Jakie miasto jest stolicą państwa: Kuba?|Hawana
+Stolicą którego państwa jest Hawana?|Kuba
+Jakie miasto jest stolicą państwa: Jamajka?|Kingston
+Stolicą którego państwa jest Kingston?|Jamajka
+Jakie miasto jest stolicą państwa: Haiti?|Port-au-Prince
+Stolicą którego państwa jest Port-au-Prince?|Haiti
+Jakie miasto jest stolicą państwa: Dominikana?|Santo Domingo
+Stolicą którego państwa jest Santo Domingo?|Dominikana
+Jakie miasto jest stolicą państwa: Nikaragua?|Managua
+Stolicą którego państwa jest Managua?|Nikaragua
+Jakie miasto jest stolicą państwa: Honduras?|Tegucigalpa
+Stolicą którego państwa jest Tegucigalpa?|Honduras
+Jakie miasto jest stolicą państwa: Kostaryka?|San José
+Stolicą którego państwa jest San José?|Kostaryka
+Jakie miasto jest stolicą państwa: Kolumbia?|Bogota
+Stolicą którego państwa jest Bogota?|Kolumbia
+Jakie miasto jest stolicą państwa: Wenezuela?|Caracas
+Stolicą którego państwa jest Caracas?|Wenezuela
+Jakie miasto jest stolicą państwa: Peru?|Lima
+Stolicą którego państwa jest Lima?|Peru
+Jakie miasto jest stolicą państwa: Chile?|Santiago
+Stolicą którego państwa jest Santiago?|Chile
+Jakie miasto jest stolicą państwa: Argentyna?|Buenos Aires
+Stolicą którego państwa jest Buenos Aires?|Argentyna
+Jakie miasto jest stolicą państwa: Urugwaj?|Montevideo
+Stolicą którego państwa jest Montevideo?|Urugwaj
+Jakie miasto jest stolicą państwa: Paragwaj?|Asunción
+Stolicą którego państwa jest Asunción?|Paragwaj
+Jakie miasto jest stolicą państwa: Brazylia?|Brasília
+Stolicą którego państwa jest Brasília?|Brazylia
+Jakie miasto jest stolicą państwa: Ekwador?|Quito
+Stolicą którego państwa jest Quito?|Ekwador
+Jakie miasto jest stolicą państwa: Liechtenstein?|Vaduz
+Stolicą którego państwa jest Vaduz?|Liechtenstein

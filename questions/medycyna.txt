@@ -1,0 +1,158 @@
+# Ciało człowieka i medycyna
+Ile kości ma dorosły człowiek?|206
+Ile zębów stałych ma dorosły człowiek?|32
+Ile zębów mlecznych ma dziecko?|20
+Ile komór ma serce człowieka?|4
+Ile płuc ma człowiek?|2
+Ile nerek ma zdrowy człowiek?|2
+Ile par żeber ma człowiek?|12
+Ile kręgów szyjnych ma człowiek?|7
+Ile zmysłów tradycyjnie wyróżnia się u człowieka?|5
+Ile litrów krwi, w przybliżeniu, ma dorosły człowiek?|5
+Ile wynosi prawidłowa temperatura ciała człowieka w stopniach Celsjusza?|36,6|37
+Ile tygodni trwa prawidłowa ciąża?|40
+Ile chromosomów ma człowiek?|46
+Jaka jest najdłuższa kość człowieka?|kość udowa|udowa
+Jaka jest najmniejsza kość człowieka?|strzemiączko
+Jaki jest największy narząd wewnętrzny człowieka?|wątroba
+Jaki jest największy organ człowieka?|skóra
+Jaki jest najsilniejszy mięsień żuchwy?|żwacz
+Jaki jest największy mięsień człowieka?|pośladkowy wielki|mięsień pośladkowy
+Jaka jest największa tętnica człowieka?|aorta
+Jaka jest najtwardsza substancja w ludzkim ciele?|szkliwo
+Jaki narząd pompuje krew?|serce
+Jaki narząd filtruje krew i wytwarza mocz?|nerki|nerka
+Jaki narząd wytwarza żółć?|wątroba
+Jaki narząd wytwarza insulinę?|trzustka
+Jaki narząd odpowiada za wymianę gazową?|płuca
+Jaki narząd jest centrum układu nerwowego?|mózg
+Jaki gruczoł na szyi reguluje metabolizm?|tarczyca
+Jaki gruczoł u podstawy mózgu nazywany jest „dyrygentem” układu hormonalnego?|przysadka|przysadka mózgowa
+Jakie gruczoły wytwarzają adrenalinę?|nadnercza
+Jaki mięsień oddziela klatkę piersiową od jamy brzusznej?|przepona
+Jak nazywa się kość chroniąca mózg?|czaszka
+Jak nazywa się kość ramienia?|kość ramienna|ramienna
+Jak nazywa się kość w kolanie, potocznie „rzepka”?|rzepka
+Jak nazywa się kość łącząca mostek z łopatką?|obojczyk
+Jak nazywa się ruchoma kość czaszki?|żuchwa
+Jak nazywają się dwie kości podudzia — podaj grubszą z nich.|piszczel|kość piszczelowa
+Jak nazywa się cieńsza kość podudzia?|strzałka|kość strzałkowa
+Jak nazywa się najsilniejsze ścięgno, łączące łydkę z piętą?|ścięgno Achillesa|Achillesa
+Jak nazywa się połączenie kości umożliwiające ruch?|staw
+Jak nazywa się kolumna kości biegnąca wzdłuż pleców?|kręgosłup
+Jak nazywa się barwnik nadający kolor skórze?|melanina
+Jak nazywa się białko we krwi przenoszące tlen?|hemoglobina
+Jak nazywają się czerwone krwinki?|erytrocyty
+Jak nazywają się białe krwinki?|leukocyty
+Jak nazywają się płytki krwi?|trombocyty
+Jak nazywa się płynna część krwi?|osocze
+Jaka grupa krwi jest uniwersalnym dawcą?|0|zero|0 Rh-
+Jaka grupa krwi jest uniwersalnym biorcą?|AB
+Jakie naczynia krwionośne prowadzą krew z serca?|tętnice
+Jakie naczynia krwionośne prowadzą krew do serca?|żyły
+Jak nazywają się najcieńsze naczynia krwionośne?|naczynia włosowate|włosowate|kapilary
+Jak nazywa się rurka, którą powietrze płynie z krtani do oskrzeli?|tchawica
+Jak nazywają się pęcherzyki, w których zachodzi wymiana gazowa?|pęcherzyki płucne
+Jak nazywa się przewód łączący gardło z żołądkiem?|przełyk
+Jak nazywa się odcinek jelita, w którym wchłaniane są składniki odżywcze?|jelito cienkie
+Jak nazywa się pierwszy odcinek jelita cienkiego?|dwunastnica
+Jak nazywa się narząd, w którym gromadzi się żółć?|pęcherzyk żółciowy|woreczek żółciowy
+Jak nazywa się mały wyrostek jelita ślepego, często usuwany operacyjnie?|wyrostek robaczkowy|wyrostek
+Jak nazywa się część oka odpowiadająca za jego kolor?|tęczówka
+Jak nazywa się otwór w tęczówce wpuszczający światło?|źrenica
+Jak nazywa się warstwa oka z komórkami światłoczułymi?|siatkówka
+Jak nazywa się przezroczysta przednia część oka?|rogówka
+Jak nazywa się nerw łączący oko z mózgiem?|nerw wzrokowy|wzrokowy
+Jak nazywa się błona w uchu drgająca pod wpływem dźwięku?|błona bębenkowa|bębenek
+Jak nazywa się spiralny narząd słuchu w uchu wewnętrznym?|ślimak
+Jak nazywa się narząd równowagi w uchu wewnętrznym?|błędnik
+Jak nazywa się komórka nerwowa?|neuron
+Jak nazywa się połączenie między neuronami?|synapsa
+Jak nazywa się część mózgu odpowiedzialna za równowagę i koordynację?|móżdżek
+Jak nazywa się zewnętrzna, pofałdowana warstwa mózgu?|kora mózgowa|kora
+Jak nazywa się wiązka nerwów biegnąca w kanale kręgowym?|rdzeń kręgowy
+Jak nazywa się hormon obniżający poziom cukru we krwi?|insulina
+Jak nazywa się hormon stresu wydzielany w sytuacji zagrożenia?|adrenalina
+Jak nazywa się hormon snu?|melatonina
+Jak nazywa się główny męski hormon płciowy?|testosteron
+Jak nazywają się główne żeńskie hormony płciowe?|estrogeny|estrogen
+Jak nazywa się hormon „szczęścia”, neuroprzekaźnik regulujący nastrój?|serotonina
+Jaką witaminę wytwarza skóra pod wpływem słońca?|D|witamina D
+Brak jakiej witaminy powoduje szkorbut?|C|witamina C
+Brak jakiej witaminy powoduje kurzą ślepotę?|A|witamina A
+Brak jakiej witaminy powoduje krzywicę u dzieci?|D|witamina D
+Jaka witamina odpowiada za krzepnięcie krwi?|K|witamina K
+Brak jakiego pierwiastka powoduje anemię?|żelazo|żelaza
+Jaki pierwiastek buduje kości i zęby?|wapń
+Jak nazywa się choroba polegająca na zbyt wysokim poziomie cukru we krwi?|cukrzyca
+Jak nazywa się choroba polegająca na utracie masy kostnej?|osteoporoza
+Jak nazywa się choroba polegająca na zbyt wysokim ciśnieniu krwi?|nadciśnienie
+Jak nazywa się martwica części mięśnia sercowego z powodu niedokrwienia?|zawał|zawał serca
+Jak nazywa się nagłe niedokrwienie lub wylew krwi w mózgu?|udar|udar mózgu
+Jak nazywa się choroba otępienna z utratą pamięci, częsta u osób starszych?|choroba Alzheimera|Alzheimer
+Jak nazywa się choroba objawiająca się drżeniem rąk i sztywnością mięśni?|choroba Parkinsona|Parkinson
+Jak nazywa się przewlekła choroba z napadami duszności, leczona inhalatorem?|astma
+Jak nazywa się zapalenie wątroby potocznie zwane żółtaczką?|WZW|wirusowe zapalenie wątroby|żółtaczka
+Jak nazywa się choroba wywoływana przez prątki Kocha?|gruźlica
+Jak nazywa się choroba przenoszona przez komary, wywoływana przez zarodźca?|malaria
+Jak nazywa się choroba przenoszona przez kleszcze, objawiająca się rumieniem?|borelioza
+Jak nazywa się choroba zakaźna zwalczona na świecie dzięki szczepieniom w 1980 roku?|ospa prawdziwa|ospa
+Jak nazywa się wirus wywołujący AIDS?|HIV
+Jak nazywa się choroba wywołana przez koronawirusa SARS-CoV-2?|COVID-19|covid
+Jak nazywa się choroba wieku dziecięcego ze swędzącą wysypką pęcherzykową?|ospa wietrzna|ospa
+Jak nazywa się choroba zakaźna z obrzękiem ślinianek, potocznie „świnka”?|świnka
+Jak nazywa się choroba wywoływana przez wirusa przenoszonego przez pogryzienie przez chore zwierzę?|wścieklizna
+Jak nazywa się nadwrażliwość organizmu na pyłki, pokarmy lub sierść?|alergia
+Jak nazywa się nowotwór złośliwy potocznie?|rak
+Jak nazywa się nowotwór krwi?|białaczka
+Jak nazywa się zaćmienie soczewki oka?|zaćma|katarakta
+Jak nazywa się choroba oczu związana z podwyższonym ciśnieniem w gałce ocznej?|jaskra
+Jak nazywa się wada wzroku, w której źle widzi się z daleka?|krótkowzroczność
+Jak nazywa się wada wzroku, w której źle widzi się z bliska?|dalekowzroczność|nadwzroczność
+Jak nazywa się boczne skrzywienie kręgosłupa?|skolioza
+Jak nazywa się próchnicowy ubytek w zębie potocznie?|dziura|próchnica
+Jak nazywa się lekarz leczący zęby?|dentysta|stomatolog
+Jak nazywa się lekarz leczący dzieci?|pediatra
+Jak nazywa się lekarz leczący serce?|kardiolog
+Jak nazywa się lekarz leczący choroby skóry?|dermatolog
+Jak nazywa się lekarz leczący oczy?|okulista
+Jak nazywa się lekarz leczący choroby uszu, nosa i gardła?|laryngolog|otolaryngolog
+Jak nazywa się lekarz zajmujący się układem nerwowym?|neurolog
+Jak nazywa się lekarz leczący choroby psychiczne?|psychiatra
+Jak nazywa się lekarz leczący nowotwory?|onkolog
+Jak nazywa się lekarz zajmujący się osobami starszymi?|geriatra
+Jak nazywa się lekarz leczący kości i stawy?|ortopeda
+Jak nazywa się lekarz przeprowadzający operacje?|chirurg
+Jak nazywa się lekarz usypiający pacjenta do operacji?|anestezjolog
+Jak nazywa się lekarz zajmujący się zdrowiem kobiet?|ginekolog
+Jak nazywa się lekarz leczący zwierzęta?|weterynarz
+Jak nazywa się lekarz zajmujący się chorobami nerek?|nefrolog
+Jak nazywa się lekarz zajmujący się układem hormonalnym?|endokrynolog
+Jak nazywa się przyrząd do osłuchiwania płuc i serca?|stetoskop
+Jak nazywa się badanie rejestrujące pracę serca — podaj skrót.|EKG
+Jak nazywa się badanie obrazowe wykorzystujące ultradźwięki — podaj skrót.|USG
+Jak nazywa się badanie obrazowe wykorzystujące silne pole magnetyczne?|rezonans magnetyczny|rezonans
+Jak nazywa się lek zwalczający bakterie?|antybiotyk
+Jak nazywa się pierwszy antybiotyk, odkryty przez Fleminga?|penicylina
+Jak nazywa się preparat uodparniający na chorobę zakaźną?|szczepionka
+Jak nazywa się substancja bez działania leczniczego podawana w badaniach jako „lek”?|placebo
+Jak nazywa się znieczulenie całego ciała z utratą świadomości?|narkoza|znieczulenie ogólne
+Jak nazywa się przeszczepienie narządu?|transplantacja|przeszczep
+Kto dokonał pierwszego przeszczepu serca na świecie w 1967 roku?|Christiaan Barnard|Barnard
+Kto dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku?|Zbigniew Religa|Religa
+Kogo nazywa się ojcem medycyny?|Hipokrates
+Kto odkrył krążenie krwi?|William Harvey|Harvey
+Kto opracował pierwszą szczepionkę przeciw ospie?|Edward Jenner|Jenner
+Kto odkrył prątki gruźlicy?|Robert Koch|Koch
+Kto odkrył grupy krwi?|Karl Landsteiner|Landsteiner
+Jaki polski uczony współodkrył zasady dziedziczenia grup krwi?|Ludwik Hirszfeld|Hirszfeld
+Kto wprowadził mycie rąk przez lekarzy, zwany „zbawcą matek”?|Ignaz Semmelweis|Semmelweis
+Jaka pielęgniarka z czasów wojny krymskiej uchodzi za twórczynię nowoczesnego pielęgniarstwa?|Florence Nightingale|Nightingale
+Jak nazywa się przysięga składana przez lekarzy?|przysięga Hipokratesa|Hipokratesa
+Jaki numer alarmowy obowiązuje w całej Unii Europejskiej?|112
+Jaki numer w Polsce ma pogotowie ratunkowe?|999
+Jak nazywa się urządzenie przywracające rytm serca impulsem elektrycznym?|defibrylator
+Jak nazywa się wszczepiane urządzenie pobudzające serce do pracy?|rozrusznik|rozrusznik serca
+Jak nazywa się wskaźnik masy ciała — podaj skrót.|BMI
+Jak nazywa się zabieg oczyszczania krwi u osób z niewydolnością nerek?|dializa
+Jak nazywa się nauka o lekach?|farmakologia

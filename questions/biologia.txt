@@ -1,0 +1,152 @@
+# Biologia
+Jak nazywa się podstawowa jednostka budulcowa organizmów?|komórka
+Jak nazywa się proces, w którym rośliny wytwarzają cukry przy udziale światła?|fotosynteza
+Jak nazywa się zielony barwnik roślin?|chlorofil
+Jak nazywają się organelle, w których zachodzi fotosynteza?|chloroplasty
+Jak nazywają się organelle będące „elektrowniami” komórki?|mitochondria
+Jak nazywa się centrum sterowania komórki zawierające DNA?|jądro komórkowe|jądro
+Jak nazywa się kwas będący nośnikiem informacji genetycznej?|DNA|kwas deoksyrybonukleinowy
+Jaki kształt ma cząsteczka DNA?|podwójna helisa|helisa
+Jak nazywa się odcinek DNA kodujący jedną cechę?|gen
+Jak nazywa się nauka o dziedziczeniu?|genetyka
+Kto jest uważany za ojca genetyki dzięki badaniom nad grochem?|Gregor Mendel|Mendel
+Kto stworzył teorię ewolucji drogą doboru naturalnego?|Karol Darwin|Darwin
+Jak nazywa się dzieło Darwina z 1859 roku?|O powstawaniu gatunków
+Na jakich wyspach Darwin obserwował zięby?|Galapagos
+Ile chromosomów ma komórka somatyczna człowieka?|46
+Jak nazywa się podział komórki prowadzący do powstania gamet?|mejoza
+Jak nazywa się podział komórki, w którym powstają dwie identyczne komórki potomne?|mitoza
+Jak nazywa się nagła zmiana w materiale genetycznym?|mutacja
+Jak nazywa się organizm powstały z jednej komórki dawcy, identyczny genetycznie?|klon
+Jak miała na imię pierwsza sklonowana owca?|Dolly
+Jak nazywa się nauka o zwierzętach?|zoologia
+Jak nazywa się nauka o roślinach?|botanika
+Jak nazywa się nauka o grzybach?|mykologia
+Jak nazywa się nauka o ptakach?|ornitologia
+Jak nazywa się nauka o owadach?|entomologia
+Jak nazywa się nauka o rybach?|ichtiologia
+Jak nazywa się nauka o zależnościach między organizmami a środowiskiem?|ekologia
+Jak nazywa się nauka o budowie organizmów?|anatomia
+Jak nazywa się nauka o mikroorganizmach?|mikrobiologia
+Jak nazywa się nauka o wymarłych organizmach i skamieniałościach?|paleontologia
+Kto stworzył system nazewnictwa gatunków używany do dziś?|Karol Linneusz|Linneusz
+Jak brzmi łacińska nazwa gatunkowa człowieka rozumnego?|Homo sapiens
+Jak nazywa się organizm, który sam wytwarza pokarm?|autotrof|samożywny
+Jak nazywa się organizm odżywiający się innymi organizmami?|heterotrof|cudzożywny
+Jak nazywa się zwierzę jedzące wyłącznie rośliny?|roślinożerca
+Jak nazywa się zwierzę jedzące mięso?|mięsożerca|drapieżnik
+Jak nazywa się zwierzę jedzące i rośliny, i mięso?|wszystkożerca
+Jak nazywa się organizm żyjący kosztem innego?|pasożyt
+Jak nazywa się współżycie dwóch gatunków korzystne dla obu?|symbioza
+Jak nazywa się szereg organizmów, w którym jeden zjada drugi?|łańcuch pokarmowy
+Jak nazywają się organizmy rozkładające martwą materię?|destruenci|reducenci
+Jak nazywa się sen zimowy zwierząt?|hibernacja
+Jak nazywa się przeobrażenie larwy w dorosłego owada?|metamorfoza|przeobrażenie
+Jak nazywa się larwa motyla?|gąsienica
+Jak nazywa się larwa żaby?|kijanka
+Jak nazywa się stadium spoczynkowe między gąsienicą a motylem?|poczwarka
+Jak nazywa się gromada zwierząt karmiących młode mlekiem?|ssaki
+Jak nazywa się gromada zwierząt mających pióra?|ptaki
+Jak nazywa się gromada kręgowców żyjących w wodzie i na lądzie, jak żaby?|płazy
+Do jakiej gromady należą węże i jaszczurki?|gady
+Do jakiej gromady należy pająk?|pajęczaki
+Ile nóg ma owad?|6
+Ile nóg ma pająk?|8
+Jakie zwierzęta mają szkielet zewnętrzny z chityny i trzy pary odnóży?|owady
+Jak nazywają się zwierzęta posiadające kręgosłup?|kręgowce
+Jak nazywają się zwierzęta zmiennocieplne potocznie?|zimnokrwiste
+Jak nazywa się narząd oddechowy ryb?|skrzela
+Jak nazywa się narząd, dzięki któremu ryba utrzymuje się na danej głębokości?|pęcherz pławny
+Jak nazywa się wylęganie jaj przez ptaki?|wysiadywanie|inkubacja
+Jak nazywa się sezonowa wędrówka ptaków?|migracja|przelot
+Jak nazywa się część kwiatu wytwarzająca pyłek?|pręcik
+Jak nazywa się żeński organ kwiatu?|słupek
+Jak nazywa się przeniesienie pyłku na znamię słupka?|zapylenie
+Jak nazywa się podziemna część rośliny pobierająca wodę?|korzeń
+Jak nazywa się otwór w liściu służący do wymiany gazowej?|aparat szparkowy|szparka
+Jak nazywa się parowanie wody z liści?|transpiracja
+Jak nazywa się tkanka przewodząca wodę w roślinie?|drewno|ksylem
+Jak nazywa się tkanka przewodząca asymilaty w roślinie?|łyko|floem
+Jak nazywa się ruch rośliny w kierunku światła?|fototropizm
+Jak nazywają się rośliny, które zrzucają liście na zimę?|liściaste
+Jak nazywają się rośliny żyjące jeden sezon?|jednoroczne
+Jak nazywają się rośliny wytwarzające szyszki?|iglaste|nagonasienne
+Jak nazywają się rośliny wytwarzające kwiaty i owoce?|okrytonasienne
+Czym rozmnażają się paprocie i mchy?|zarodniki|zarodnikami
+Do jakiego królestwa należą drożdże i pleśnie?|grzyby
+Jak nazywa się organizm złożony z grzyba i glonu?|porost
+Jak nazywa się podziemna część grzyba?|grzybnia
+Jak nazywają się jednokomórkowe organizmy bez jądra komórkowego?|bakterie|prokarionty
+Jak nazywa się cząstka zakaźna, która namnaża się tylko w żywej komórce?|wirus
+Kto odkrył penicylinę?|Alexander Fleming|Fleming
+Kto opracował szczepionkę przeciw wściekliźnie?|Ludwik Pasteur|Pasteur
+Jak nazywa się proces ogrzewania żywności w celu zabicia drobnoustrojów?|pasteryzacja
+Jak nazywa się proces beztlenowego rozkładu cukrów przez drożdże?|fermentacja
+Jak nazywa się białko przyspieszające reakcje w organizmie?|enzym
+Jak nazywa się związek chemiczny regulujący pracę organizmu, wydzielany przez gruczoły?|hormon
+Jakie związki są podstawowym budulcem mięśni?|białka
+Z czego zbudowane są białka?|aminokwasy|z aminokwasów
+Jaki cukier magazynują rośliny jako materiał zapasowy?|skrobia
+Jaki związek buduje ściany komórkowe roślin?|celuloza
+Jaki gaz pobierają rośliny do fotosyntezy?|dwutlenek węgla
+Jaki gaz wydzielają rośliny w fotosyntezie?|tlen
+Jak nazywa się proces uwalniania energii z glukozy w komórkach?|oddychanie komórkowe|oddychanie
+Jak nazywa się cząsteczka będąca uniwersalnym nośnikiem energii w komórce?|ATP
+Jak nazywa się zdolność organizmu do utrzymania stałych warunków wewnętrznych?|homeostaza
+Jak nazywa się zdolność zwierząt do upodabniania się do otoczenia?|mimikra|kamuflaż
+Jak nazywa się obszar, na którym żyje dany gatunek?|areał|zasięg
+Jak nazywa się gatunek występujący tylko na jednym, ograniczonym obszarze?|endemit
+Jak nazywa się gatunek, który przetrwał z dawnych epok geologicznych?|relikt
+Jak nazywa się zbiór osobników jednego gatunku żyjących na danym terenie?|populacja
+Jak nazywa się zespół organizmów wraz z ich środowiskiem nieożywionym?|ekosystem
+Jak nazywa się warstwa Ziemi zamieszkana przez organizmy?|biosfera
+Jak nazywa się różnorodność form życia na Ziemi?|bioróżnorodność|różnorodność biologiczna
+Jak nazywa się wymarły gad, którego nazwa oznacza „straszny jaszczur”?|dinozaur
+Jak nazywa się najsłynniejszy drapieżny dinozaur, „król jaszczurów tyranów”?|tyranozaur|Tyrannosaurus rex|T-rex
+Jak nazywa się wymarły krewny słonia pokryty futrem?|mamut
+Jak nazywa się wymarły nielot z Mauritiusa?|dodo
+Jak nazywa się kopalna żywica, w której zachowały się owady?|bursztyn
+Jak nazywa się praptak uważany za ogniwo między gadami a ptakami?|archeopteryks
+Jak nazywa się okres, w którym wymarły dinozaury?|kreda
+Jak nazywa się era dinozaurów?|mezozoik|era mezozoiczna
+W jakim środowisku powstało życie na Ziemi?|woda|w wodzie|w oceanie
+Jak nazywa się najbliższy żyjący krewny człowieka?|szympans
+Jak nazywa się wymarły gatunek człowieka żyjący w Europie w epoce lodowej?|neandertalczyk
+Na jakim kontynencie pojawił się człowiek rozumny?|Afryka|w Afryce
+Jak nazywa się słynny szkielet australopiteka odkryty w Etiopii w 1974 roku?|Lucy
+Jak nazywa się największe żyjące zwierzę?|płetwal błękitny
+Jak nazywa się największy organ człowieka?|skóra
+Jak nazywa się największa komórka w organizmie kobiety?|komórka jajowa|jajo
+Jak nazywa się połączenie plemnika z komórką jajową?|zapłodnienie
+Jak nazywa się pierwsza komórka nowego organizmu po zapłodnieniu?|zygota
+Jak nazywają się bliźnięta powstałe z jednej zygoty?|jednojajowe
+Jak nazywa się naukowo rozmnażanie bez udziału gamet?|bezpłciowe|rozmnażanie bezpłciowe
+Jak nazywa się zwierzę mające narządy rozrodcze obu płci?|obojnak|hermafrodyta
+Jak nazywa się zdolność odtwarzania utraconych części ciała, np. ogona u jaszczurki?|regeneracja
+Jak nazywa się cecha, która ujawnia się zawsze, gdy obecny jest jej allel?|dominująca
+Jak nazywa się cecha, która ujawnia się tylko przy dwóch takich samych allelach?|recesywna
+Jakie chromosomy płci ma mężczyzna?|XY
+Jakie chromosomy płci ma kobieta?|XX
+Jak nazywa się choroba genetyczna spowodowana dodatkowym chromosomem 21?|zespół Downa
+Jak nazywa się zaburzenie rozpoznawania barw, częstsze u mężczyzn?|daltonizm
+Jak nazywa się dziedziczna choroba upośledzająca krzepnięcie krwi?|hemofilia
+Jakimi literami oznacza się cztery zasady azotowe DNA?|A T G C|ATGC|ATCG
+Jaka zasada azotowa zastępuje tyminę w RNA?|uracyl
+Jak nazywa się proces przepisywania informacji z DNA na RNA?|transkrypcja
+Jak nazywa się proces syntezy białka na rybosomach?|translacja
+Jak nazywają się organelle, na których powstają białka?|rybosomy
+Jak nazywa się galaretowata substancja wypełniająca komórkę?|cytoplazma
+Co otacza każdą komórkę?|błona komórkowa
+Jaką strukturę mają komórki roślinne, a nie mają zwierzęcych — sztywną i zbudowaną z celulozy?|ściana komórkowa
+Jak nazywa się przenikanie wody przez błonę półprzepuszczalną?|osmoza
+Jak nazywa się samorzutne rozprzestrzenianie się cząsteczek?|dyfuzja
+Jak nazywa się przyrząd do oglądania komórek?|mikroskop
+Kto jako pierwszy zaobserwował komórki w korku i nadał im nazwę?|Robert Hooke|Hooke
+Jak nazywa się technika powielania DNA w laboratorium?|PCR
+Jak nazywa się organizm ze zmienionym sztucznie materiałem genetycznym?|GMO|organizm modyfikowany genetycznie
+Jak nazywa się zakwit wód powodowany przez nadmiar nawozów?|eutrofizacja
+Jak nazywa się zjawisko ocieplania klimatu przez gazy zatrzymujące ciepło?|efekt cieplarniany
+Jak nazywa się warstwa atmosfery chroniąca przed promieniowaniem UV?|warstwa ozonowa|ozonosfera
+Jak nazywa się księga zagrożonych gatunków?|Czerwona Księga
+Jak nazywa się obszar chroniony o najwyższej randze w Polsce?|park narodowy
+Ile jest parków narodowych w Polsce?|23

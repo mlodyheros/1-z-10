@@ -1,0 +1,152 @@
+# Technika i informatyka
+Kto założył firmę Microsoft razem z Paulem Allenem?|Bill Gates|Gates
+Kto założył firmę Apple razem ze Steve'em Wozniakiem?|Steve Jobs|Jobs
+Kto założył Facebooka?|Mark Zuckerberg|Zuckerberg
+Kto założył Amazon?|Jeff Bezos|Bezos
+Kto stworzył jądro systemu Linux?|Linus Torvalds|Torvalds
+Kto wynalazł World Wide Web?|Tim Berners-Lee|Berners-Lee
+Kto jest uważany za ojca informatyki i twórcę testu sztucznej inteligencji?|Alan Turing|Turing
+Kogo uważa się za pierwszą programistkę w historii?|Ada Lovelace|Lovelace
+Kto zaprojektował maszynę analityczną w XIX wieku?|Charles Babbage|Babbage
+Kto wynalazł telefon?|Alexander Graham Bell|Bell
+Kto wynalazł żarówkę nadającą się do powszechnego użytku?|Thomas Edison|Edison
+Kto wynalazł radio, za co dostał Nobla w 1909 roku?|Guglielmo Marconi|Marconi
+Kto wynalazł dynamit?|Alfred Nobel|Nobel
+Kto wynalazł alfabet kropek i kresek dla telegrafu?|Samuel Morse|Morse
+Jacy bracia zbudowali pierwszy samolot silnikowy — podaj nazwisko.|Wright
+Kto jest prezesem firm Tesla i SpaceX?|Elon Musk|Musk
+Jacy dwaj studenci założyli Google — podaj nazwisko jednego z nich.|Larry Page|Sergey Brin|Page|Brin
+Jaka firma produkuje iPhone'a?|Apple
+Jaka firma stworzyła system Windows?|Microsoft
+Jaka firma stworzyła system Android?|Google
+Jaka firma stworzyła przeglądarkę Chrome?|Google
+Jaka firma stworzyła konsolę PlayStation?|Sony
+Jaka firma stworzyła konsolę Xbox?|Microsoft
+Jaka firma stworzyła konsolę Switch?|Nintendo
+Jaka firma produkuje procesory Ryzen?|AMD
+Jaka firma produkuje procesory Core?|Intel
+Jaka firma produkuje karty graficzne GeForce?|Nvidia
+Jaka firma stworzyła ChatGPT?|OpenAI
+Jaka firma stworzyła asystenta Claude?|Anthropic
+Jaka firma jest właścicielem YouTube'a?|Google|Alphabet
+Jaka firma jest właścicielem Instagrama i WhatsAppa?|Meta|Facebook
+Jaka firma stworzyła telefony z serii Galaxy?|Samsung
+Jaka fińska firma dominowała na rynku telefonów komórkowych przed erą smartfonów?|Nokia
+Jaka polska firma stworzyła grę „Wiedźmin 3”?|CD Projekt Red|CD Projekt
+Jaka firma stworzyła program Photoshop?|Adobe
+Jaka firma stworzyła arkusz kalkulacyjny Excel?|Microsoft
+W którym roku zaprezentowano pierwszego iPhone'a?|2007
+W którym roku powstał Facebook?|2004
+W którym roku powstało Google?|1998
+Ile bitów ma jeden bajt?|8
+Ile bajtów ma kilobajt w ujęciu binarnym?|1024
+Jakimi dwiema cyframi posługuje się system binarny?|0 i 1|0 1
+Ile to jest 10 w systemie binarnym zapisane dziesiętnie?|2
+Jaką liczbę oznacza F w systemie szesnastkowym?|15
+Co oznacza skrót CPU?|procesor|centralna jednostka obliczeniowa
+Co oznacza skrót RAM po polsku?|pamięć operacyjna|pamięć o dostępie swobodnym
+Jak nazywa się „mózg” komputera?|procesor
+Jak nazywa się główna płyta komputera, do której podłącza się podzespoły?|płyta główna
+Jak nazywa się dysk bez ruchomych części — podaj skrót.|SSD
+Jak nazywa się podzespół odpowiadający za obraz w grach?|karta graficzna
+Jak nazywa się program zarządzający komputerem, np. Windows czy Linux?|system operacyjny
+Jak nazywa się program do przeglądania stron internetowych?|przeglądarka
+Jak nazywa się złośliwy program powielający się samodzielnie?|wirus
+Jak nazywa się program szyfrujący dane i żądający okupu?|ransomware
+Jak nazywa się wyłudzanie danych przez podszywanie się pod zaufaną instytucję?|phishing
+Jak nazywa się zapora chroniąca sieć przed nieautoryzowanym dostępem?|firewall|zapora sieciowa
+Jak nazywa się niechciana poczta elektroniczna?|spam
+Jak nazywa się sieć łącząca komputery na całym świecie?|internet
+Jak nazywa się bezprzewodowa sieć lokalna?|Wi-Fi|WiFi
+Jak nazywa się technologia bezprzewodowa krótkiego zasięgu nazwana od duńskiego króla?|Bluetooth
+Jak nazywa się urządzenie rozdzielające internet w domu?|router
+Jak nazywa się unikalny numer urządzenia w sieci?|adres IP|IP
+Jak nazywa się protokół bezpiecznego przesyłania stron WWW?|HTTPS
+Jak nazywa się język znaczników do tworzenia stron WWW?|HTML
+Jak nazywa się język arkuszy stylów stron WWW?|CSS
+Jak nazywa się język programowania działający w przeglądarkach, stworzony w 1995 roku?|JavaScript
+Jak nazywa się język programowania nazwany od brytyjskiej grupy komików?|Python
+Jak nazywa się język programowania z filiżanką kawy w logo?|Java
+Jak nazywa się język zapytań do baz danych?|SQL
+Jak nazywa się błąd w programie?|bug|błąd
+Jak nazywa się zbiór instrukcji rozwiązujących problem krok po kroku?|algorytm
+Jak nazywa się otwarte oprogramowanie, którego kod jest publicznie dostępny?|open source|otwarte oprogramowanie
+Jak nazywa się pingwin, maskotka Linuksa?|Tux
+Jak nazywa się internetowa encyklopedia tworzona przez wolontariuszy?|Wikipedia
+Jak nazywa się pierwsza kryptowaluta?|bitcoin
+Kto jest tajemniczym twórcą bitcoina?|Satoshi Nakamoto|Nakamoto
+Jak nazywa się technologia rozproszonego rejestru stojąca za kryptowalutami?|blockchain|łańcuch bloków
+Jak nazywa się przechowywanie danych na zdalnych serwerach?|chmura|chmura obliczeniowa
+Jak nazywa się nauka maszyn na podstawie danych?|uczenie maszynowe|machine learning
+Jak brzmi angielski skrót sztucznej inteligencji?|AI
+Jak nazywa się komputer IBM, który pokonał Kasparowa w szachy w 1997 roku?|Deep Blue
+Jak nazywa się program, który pokonał mistrza go w 2016 roku?|AlphaGo
+Jak nazywa się dolina w Kalifornii, centrum firm technologicznych?|Dolina Krzemowa|Silicon Valley
+Jak nazywa się pierwszy elektroniczny komputer ogólnego przeznaczenia z 1945 roku?|ENIAC
+Jak nazywała się sieć, z której wyrósł internet?|ARPANET
+Jak nazywa się znak „@” w języku potocznym?|małpa
+Jak nazywa się symbol „#” w mediach społecznościowych?|hashtag|hasztag
+Jak nazywa się mała grafika wyrażająca emocje w wiadomościach?|emoji|emotikon
+Jak nazywa się układ klawiatury od pierwszych sześciu liter?|QWERTY
+Jakim skrótem klawiszowym kopiuje się tekst w Windows?|Ctrl+C|Ctrl C
+Jakim skrótem klawiszowym wkleja się tekst w Windows?|Ctrl+V|Ctrl V
+Jakim skrótem klawiszowym cofa się ostatnią czynność w Windows?|Ctrl+Z|Ctrl Z
+Jak nazywa się kod kreskowy w kształcie kwadratu skanowany telefonem?|kod QR|QR
+Jak nazywa się system nawigacji satelitarnej USA?|GPS
+Jak nazywa się europejski system nawigacji satelitarnej?|Galileo
+Jak nazywa się technologia płatności zbliżeniowych — podaj skrót.|NFC
+Jak nazywa się piąta generacja sieci komórkowej?|5G
+Jak nazywa się wiadomość tekstowa w telefonii komórkowej?|SMS
+Jak nazywa się ekran reagujący na dotyk?|ekran dotykowy|dotykowy
+Jak nazywa się drukowanie przestrzennych obiektów warstwa po warstwie?|druk 3D
+Jak nazywa się bezzałogowy statek powietrzny sterowany zdalnie?|dron
+Jak nazywają się okulary przenoszące w wirtualny świat — gogle...?|VR|wirtualnej rzeczywistości
+Jak nazywa się maszyna wykonująca pracę człowieka, słowo wymyślone przez Karela Čapka?|robot
+Jak nazywa się najmniejszy punkt obrazu cyfrowego?|piksel
+Jak nazywa się rozdzielczość 1920 na 1080 pikseli?|Full HD
+Jak nazywa się rozdzielczość około 3840 na 2160 pikseli?|4K
+Jak nazywa się format skompresowanej muzyki popularny od lat 90.?|MP3
+Jak nazywa się format obrazów ze stratną kompresją, popularny w fotografii?|JPEG|JPG
+Jak nazywa się format krótkich animowanych obrazków?|GIF
+Jak nazywa się serwis z krótkimi filmami należący do chińskiej firmy ByteDance?|TikTok
+Jak nazywał się serwis X przed zmianą nazwy w 2023 roku?|Twitter
+Jak nazywa się serwis społecznościowy dla profesjonalistów?|LinkedIn
+Jak nazywa się polski serwis aukcyjny założony w 1999 roku?|Allegro
+Jak nazywa się polski system płatności mobilnych sześciocyfrowym kodem?|BLIK
+Jak nazywała się polska „społecznościówka” szkolna popularna po 2006 roku?|Nasza Klasa|nasza-klasa
+Jak nazywał się polski komunikator internetowy ze słoneczkiem w logo?|Gadu-Gadu|GG
+Jak nazywa się platforma do wideorozmów, która zyskała popularność w pandemii?|Zoom
+Jak nazywa się serwis streamingowy z serialem „Stranger Things”?|Netflix
+Jak nazywa się szwedzki serwis streamingu muzyki?|Spotify
+Jak nazywa się platforma do transmisji gier na żywo należąca do Amazona?|Twitch
+Jak nazywa się sklep z grami komputerowymi firmy Valve?|Steam
+Jak nazywa się asystentka głosowa Apple?|Siri
+Jak nazywa się asystentka głosowa Amazona?|Alexa
+Jak nazywa się system operacyjny iPhone'a?|iOS
+Jak nazywa się system operacyjny komputerów Mac?|macOS
+Jak nazywa się nadgryziony owoc w logo firmy z Cupertino?|jabłko
+Jak nazywa się urządzenie wskazujące z przyciskami i kółkiem?|mysz|myszka
+Jak nazywa się urządzenie do wprowadzania tekstu?|klawiatura
+Jak nazywa się urządzenie przenoszące obraz z papieru do komputera?|skaner
+Jak nazywa się urządzenie podtrzymujące zasilanie komputera — podaj skrót.|UPS
+Jak nazywa się kopia zapasowa danych po angielsku?|backup
+Jak nazywa się nośnik danych wkładany do portu USB, potocznie?|pendrive
+Jak nazywa się płyta następczyni DVD, czytana niebieskim laserem?|Blu-ray
+Jaką pojemność miała standardowa płyta CD w megabajtach?|700
+Jak nazywa się prawo mówiące o podwajaniu liczby tranzystorów co około dwa lata?|prawo Moore'a|Moore'a
+Jak nazywa się element półprzewodnikowy będący podstawą procesorów?|tranzystor
+Z jakiego pierwiastka wytwarza się większość układów scalonych?|krzem|z krzemu
+Jak nazywa się komputer wykorzystujący kubity?|komputer kwantowy|kwantowy
+Jak nazywa się test sprawdzający, czy użytkownik jest człowiekiem?|CAPTCHA
+Jak nazywa się ukryta część internetu dostępna przez sieć Tor?|darknet|dark web
+Jak nazywa się publikowanie krótkich nagrań audio w odcinkach?|podcast
+Jak nazywa się osoba tworząca filmy na YouTubie?|youtuber
+Jak nazywa się maszyna szyfrująca złamana przez polskich matematyków?|Enigma
+Jak nazywa się polski inżynier, twórca walkie-talkie dla Motoroli?|Henryk Magnuski|Magnuski
+Jak nazywa się polski konstruktor komputera K-202?|Jacek Karpiński|Karpiński
+Jak nazywała się seria polskich komputerów produkowanych przez Elwro?|Odra
+Jak nazywa się twórca języka C?|Dennis Ritchie|Ritchie
+Jak nazywa się twórca Pythona?|Guido van Rossum|van Rossum
+Jak nazywa się sieć społecznościowa ze zdjęciami znikającymi po obejrzeniu, z duszkiem w logo?|Snapchat
+Jak nazywa się elektroniczny czytnik książek Amazona?|Kindle
+Jak nazywa się tablet firmy Apple?|iPad

@@ -1,0 +1,158 @@
+# Geografia świata
+Jaka jest najdłuższa rzeka Afryki?|Nil
+Jaka rzeka niesie najwięcej wody na świecie?|Amazonka
+Jaka jest najdłuższa rzeka Europy?|Wołga
+Jaka jest najdłuższa rzeka Azji?|Jangcy
+Jaka rzeka przepływa przez Londyn?|Tamiza
+Jaka rzeka przepływa przez Paryż?|Sekwana
+Jaka rzeka przepływa przez Rzym?|Tyber
+Jaka rzeka przepływa przez Wiedeń, Budapeszt i Belgrad?|Dunaj
+Jaka rzeka przepływa przez Kair?|Nil
+Jaka rzeka przepływa przez Nowy Orlean?|Missisipi
+Jaka rzeka jest święta dla hinduistów?|Ganges
+Jaka rzeka wyrzeźbiła Wielki Kanion?|Kolorado
+Jaka rzeka tworzy słynne wodospady Wiktorii?|Zambezi
+Jaki jest najwyższy szczyt świata?|Mount Everest|Everest
+Jaki jest drugi co do wysokości szczyt świata?|K2
+Jaki jest najwyższy szczyt Afryki?|Kilimandżaro
+Jaki jest najwyższy szczyt Ameryki Południowej?|Aconcagua
+Jaki jest najwyższy szczyt Ameryki Północnej?|Denali|McKinley
+Jaki jest najwyższy szczyt Alp?|Mont Blanc
+Jaki jest najwyższy szczyt Kaukazu?|Elbrus
+Jaki jest najwyższy szczyt Australii kontynentalnej?|Góra Kościuszki
+Jakie góry oddzielają Europę od Azji?|Ural
+Jakie góry oddzielają Francję od Hiszpanii?|Pireneje
+Jakie góry ciągną się wzdłuż zachodniego wybrzeża Ameryki Południowej?|Andy
+Jak nazywa się najwyższe pasmo górskie świata?|Himalaje
+Jakie góry leżą w Maroku i Algierii?|Atlas
+Jaki jest największy ocean świata?|Spokojny|Ocean Spokojny|Pacyfik
+Jaki jest najmniejszy ocean świata?|Arktyczny|Ocean Arktyczny
+Jaki ocean leży między Europą a Ameryką?|Atlantycki|Ocean Atlantycki|Atlantyk
+Jaki ocean oblewa wschodnie wybrzeża Afryki?|Indyjski|Ocean Indyjski
+Jaki jest największy kontynent?|Azja
+Jaki jest najmniejszy kontynent?|Australia
+Jaki kontynent jest najzimniejszy?|Antarktyda
+Na jakim kontynencie leży Sahara?|Afryka|w Afryce
+Jaka jest największa gorąca pustynia świata?|Sahara
+Jaka pustynia leży w Mongolii i Chinach?|Gobi
+Jaka pustynia w Chile uchodzi za najsuchszą na świecie?|Atakama
+Jaka pustynia leży w południowej Afryce, w Botswanie i Namibii?|Kalahari
+Jaka jest największa wyspa świata?|Grenlandia
+Jaka jest największa wyspa Morza Śródziemnego?|Sycylia
+Na jakiej wyspie leży Palermo?|Sycylia|na Sycylii
+Na jakiej wyspie urodził się Napoleon?|Korsyka|na Korsyce
+Do jakiego państwa należy Grenlandia?|Dania|do Danii
+Do jakiego państwa należy Kreta?|Grecja|do Grecji
+Do jakiego państwa należą Wyspy Kanaryjskie?|Hiszpania|do Hiszpanii
+Do jakiego państwa należy Madera?|Portugalia|do Portugalii
+Do jakiego państwa należą Hawaje?|Stany Zjednoczone|USA
+Do jakiego państwa należy Sardynia?|Włochy|do Włoch
+Do jakiego państwa należy Wyspa Wielkanocna?|Chile|do Chile
+Do jakiego państwa należą wyspy Galapagos?|Ekwador|do Ekwadoru
+Jakie jest największe państwo świata pod względem powierzchni?|Rosja
+Jakie jest najmniejsze państwo świata?|Watykan
+Jakie państwo ma najwięcej ludności na świecie obok Chin?|Indie
+Jakie jest największe państwo Ameryki Południowej?|Brazylia
+Jakie jest największe państwo Afryki pod względem powierzchni?|Algieria
+Jakie państwo ma kształt buta?|Włochy
+Jakie państwo nazywane jest Krajem Kwitnącej Wiśni?|Japonia
+Jakie państwo nazywane jest Zieloną Wyspą?|Irlandia
+Jakie państwo nazywane jest Krajem Tysiąca Jezior w Skandynawii?|Finlandia
+Jakie państwo słynie z fiordów?|Norwegia
+Jakie państwo słynie z tulipanów i wiatraków?|Holandia|Niderlandy
+Jakie jest największe jezioro świata?|Morze Kaspijskie|Kaspijskie
+Jakie jest najgłębsze jezioro świata?|Bajkał
+Jakie jest największe jezioro Afryki?|Jezioro Wiktorii|Wiktorii
+Jakie jezioro leży na granicy Peru i Boliwii?|Titicaca
+Jakie jezioro jest największe w Europie?|Ładoga
+Jakie słone jezioro leży na granicy Izraela i Jordanii, w najniższej depresji świata?|Morze Martwe
+Jak nazywa się największy wodospad Ameryki Północnej na granicy USA i Kanady?|Niagara
+Jak nazywa się najwyższy wodospad świata, leżący w Wenezueli?|Salto Angel|Angel
+Jaka cieśnina oddziela Europę od Afryki?|Gibraltarska|Cieśnina Gibraltarska
+Jaka cieśnina oddziela Azję od Ameryki Północnej?|Beringa|Cieśnina Beringa
+Jaka cieśnina dzieli Stambuł na część europejską i azjatycką?|Bosfor
+Jaki kanał łączy Morze Śródziemne z Morzem Czerwonym?|Sueski|Kanał Sueski
+Jaki kanał łączy Atlantyk z Pacyfikiem?|Panamski|Kanał Panamski
+Jaki kanał oddziela Wielką Brytanię od Francji?|La Manche|Kanał La Manche
+Jakie morze leży między Europą a Afryką?|Śródziemne|Morze Śródziemne
+Jakie morze oblewa Włochy od wschodu?|Adriatyckie|Morze Adriatyckie|Adriatyk
+Jakie morze leży między Grecją a Turcją?|Egejskie|Morze Egejskie
+Nad jakim morzem leży Odessa?|Czarne|Morze Czarne
+Jak nazywa się największa rafa koralowa świata?|Wielka Rafa Koralowa
+U wybrzeży jakiego państwa leży Wielka Rafa Koralowa?|Australia|Australii
+Jak nazywa się najgłębszy rów oceaniczny świata?|Rów Mariański|Mariański
+Jak nazywa się równoleżnik zerowy?|równik
+Jak nazywa się południk zerowy, od miasta w Anglii?|Greenwich|południk Greenwich
+Jak nazywa się największy las deszczowy świata?|Amazonia|Puszcza Amazońska
+W jakim państwie leży większość Amazonii?|Brazylia|w Brazylii
+W jakim państwie znajduje się Machu Picchu?|Peru|w Peru
+W jakim państwie znajduje się Tadż Mahal?|Indie|w Indiach
+W jakim państwie znajdują się piramidy w Gizie?|Egipt|w Egipcie
+W jakim państwie znajduje się Petra?|Jordania|w Jordanii
+W jakim państwie znajduje się Angkor Wat?|Kambodża|w Kambodży
+W jakim państwie znajduje się Wielki Kanion?|Stany Zjednoczone|USA
+W jakim państwie znajduje się góra Fudżi?|Japonia|w Japonii
+W jakim państwie znajduje się wulkan Etna?|Włochy|we Włoszech
+W jakim państwie leży Transylwania?|Rumunia|w Rumunii
+W jakim państwie leży Bawaria?|Niemcy|w Niemczech
+W jakim państwie leży Toskania?|Włochy|we Włoszech
+W jakim państwie leży Andaluzja?|Hiszpania|w Hiszpanii
+W jakim państwie leży Prowansja?|Francja|we Francji
+W jakim państwie leży Laponia Świętego Mikołaja z miastem Rovaniemi?|Finlandia|w Finlandii
+W jakim państwie leży Patagonia obok Chile?|Argentyna|w Argentynie
+W jakim państwie leży Syberia?|Rosja|w Rosji
+W jakim państwie leży Teksas?|Stany Zjednoczone|USA
+W jakim państwie leży Quebec?|Kanada|w Kanadzie
+W jakim mieście znajduje się wieża Eiffla?|Paryż|w Paryżu
+W jakim mieście znajduje się Koloseum?|Rzym|w Rzymie
+W jakim mieście znajduje się Big Ben?|Londyn|w Londynie
+W jakim mieście znajduje się Statua Wolności?|Nowy Jork|w Nowym Jorku
+W jakim mieście znajduje się Akropol z Partenonem?|Ateny|w Atenach
+W jakim mieście znajduje się Sagrada Familia?|Barcelona|w Barcelonie
+W jakim mieście znajduje się Brama Brandenburska?|Berlin|w Berlinie
+W jakim mieście znajduje się plac Czerwony?|Moskwa|w Moskwie
+W jakim mieście znajduje się most Golden Gate?|San Francisco|w San Francisco
+W jakim mieście znajduje się posąg Chrystusa Zbawiciela na górze Corcovado?|Rio de Janeiro|w Rio de Janeiro
+W jakim mieście znajduje się gmach opery o dachu w kształcie żagli?|Sydney|w Sydney
+W jakim mieście znajduje się Hagia Sophia?|Stambuł|w Stambule
+W jakim mieście znajduje się most Karola?|Praga|w Pradze
+W jakim mieście znajduje się Krzywa Wieża?|Piza|w Pizie
+W jakim mieście znajduje się wieżowiec Burdż Chalifa?|Dubaj|w Dubaju
+W jakim mieście zamiast ulic są kanały, a pływa się gondolami?|Wenecja|w Wenecji
+Jakie miasto leży na dwóch kontynentach?|Stambuł
+Jakie miasto jest największe w Australii?|Sydney
+Jakie miasto jest największe w Brazylii?|São Paulo|Sao Paulo
+Jakie miasto jest największe w Turcji?|Stambuł
+Jakie miasto jest największe w Szwajcarii?|Zurych
+Jakie miasto jest największe w Kanadzie?|Toronto
+Jakie miasto nazywane jest Wielkim Jabłkiem?|Nowy Jork
+Jakie miasto nazywane jest Wiecznym Miastem?|Rzym
+Jakie miasto nazywane jest Miastem Aniołów w Kalifornii?|Los Angeles
+Jaki wulkan zniszczył Pompeje?|Wezuwiusz
+Jaki jest najwyższy czynny wulkan Europy?|Etna
+Jak nazywa się półwysep, na którym leżą Hiszpania i Portugalia?|Iberyjski|Półwysep Iberyjski
+Jak nazywa się półwysep, na którym leżą Norwegia i Szwecja?|Skandynawski|Półwysep Skandynawski
+Jak nazywa się półwysep, na którym leży Grecja?|Bałkański|Półwysep Bałkański
+Jak nazywa się półwysep, na którym leżą Włochy?|Apeniński|Półwysep Apeniński
+Jak nazywa się przylądek na południowym krańcu Afryki opływany przez żeglarzy do Indii?|Przylądek Dobrej Nadziei|Dobrej Nadziei
+Jak nazywa się przylądek na południowym krańcu Ameryki Południowej?|Horn|Przylądek Horn
+Jak nazywa się zatoka między Francją a Hiszpanią?|Biskajska|Zatoka Biskajska
+Jak nazywa się prąd morski ocieplający klimat Europy?|Golfsztrom|Prąd Zatokowy
+Jak nazywa się wiatr sezonowy przynoszący deszcze w Indiach?|monsun
+Jak nazywa się step w Ameryce Południowej, głównie w Argentynie?|pampa
+Jak nazywa się step Ameryki Północnej?|preria
+Jak nazywa się trawiasta formacja roślinna Afryki z akacjami i baobabami?|sawanna
+Jak nazywa się bezdrzewna formacja roślinna strefy podbiegunowej?|tundra
+Jak nazywa się las iglasty strefy umiarkowanej chłodnej, m.in. na Syberii?|tajga
+Jak nazywa się wieloletnia zmarzlina po angielsku — albo po polsku wieczna...?|zmarzlina|permafrost
+Jak nazywa się państwo-miasto w Azji Południowo-Wschodniej z lwem w herbie?|Singapur
+Jakie państwo europejskie jest w całości otoczone przez Włochy, oprócz Watykanu?|San Marino
+Jakie księstwo leży między Francją a Hiszpanią w Pirenejach?|Andora
+Jaka waluta obowiązuje w Japonii?|jen
+Jaka waluta obowiązuje w Wielkiej Brytanii?|funt|funt szterling
+Jaka waluta obowiązuje w Szwajcarii?|frank|frank szwajcarski
+Jaka waluta obowiązuje w Czechach?|korona|korona czeska
+Jaka waluta obowiązuje na Węgrzech?|forint
+Jaka waluta obowiązuje w Rosji?|rubel
+Jaka waluta obowiązuje w Indiach?|rupia
+Jaka waluta obowiązuje w Chinach?|juan|yuan
