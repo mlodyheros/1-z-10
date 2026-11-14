@@ -1,0 +1,156 @@
+# Sztuka i architektura
+Kto namalował „Mona Lisę”?|Leonardo da Vinci|Leonardo|da Vinci
+Kto namalował „Ostatnią Wieczerzę” w Mediolanie?|Leonardo da Vinci|Leonardo|da Vinci
+Kto namalował „Damę z gronostajem”?|Leonardo da Vinci|Leonardo|da Vinci
+Kto namalował freski w Kaplicy Sykstyńskiej?|Michał Anioł|Michelangelo
+Kto wyrzeźbił „Dawida” i „Pietę”?|Michał Anioł|Michelangelo
+Kto namalował „Szkołę ateńską”?|Rafael|Rafael Santi
+Kto namalował „Narodziny Wenus”?|Sandro Botticelli|Botticelli
+Kto namalował „Słoneczniki”?|Vincent van Gogh|van Gogh
+Kto namalował „Gwiaździstą noc”?|Vincent van Gogh|van Gogh
+Kto namalował „Guernikę”?|Pablo Picasso|Picasso
+Kto namalował „Panny z Awinionu”?|Pablo Picasso|Picasso
+Kto namalował „Trwałość pamięci” z miękkimi zegarami?|Salvador Dalí|Dali
+Kto namalował „Krzyk”?|Edvard Munch|Munch
+Kto namalował „Dziewczynę z perłą”?|Jan Vermeer|Vermeer
+Kto namalował „Straż nocną”?|Rembrandt
+Kto namalował „Pocałunek” ze złotymi ornamentami?|Gustav Klimt|Klimt
+Kto namalował „Impresję, wschód słońca”?|Claude Monet|Monet
+Kto namalował cykl „Nenufary”?|Claude Monet|Monet
+Kto namalował „Śniadanie na trawie”?|Édouard Manet|Manet
+Kto malował baletnice?|Edgar Degas|Degas
+Kto namalował „Wolność wiodącą lud na barykady”?|Eugène Delacroix|Delacroix
+Kto namalował „Ogród rozkoszy ziemskich”?|Hieronim Bosch|Bosch
+Kto namalował „Wieżę Babel” i „Myśliwych na śniegu”?|Pieter Bruegel|Bruegel
+Kto namalował „Panny dworskie” (Las Meninas)?|Diego Velázquez|Velazquez
+Kto namalował „Rozstrzelanie powstańców madryckich”?|Francisco Goya|Goya
+Kto namalował „Pogrzeb hrabiego Orgaza”?|El Greco
+Kto malował puszki zupy Campbell i portrety Marilyn Monroe?|Andy Warhol|Warhol
+Kto malował, rozchlapując farbę na płótnie leżącym na podłodze?|Jackson Pollock|Pollock
+Kto namalował „Czarny kwadrat na białym tle”?|Kazimierz Malewicz|Malewicz
+Kto malował autoportrety z małpami i w meksykańskich strojach?|Frida Kahlo|Kahlo
+Kto malował tahitańskie kobiety?|Paul Gauguin|Gauguin
+Kto namalował plakaty z Moulin Rouge?|Henri de Toulouse-Lautrec|Toulouse-Lautrec
+Kto wyrzeźbił „Myśliciela”?|Auguste Rodin|Rodin
+Kto namalował „Bitwę pod Grunwaldem”?|Jan Matejko|Matejko
+Kto namalował „Hołd pruski”?|Jan Matejko|Matejko
+Kto namalował „Stańczyka”?|Jan Matejko|Matejko
+Kto namalował „Szał uniesień”?|Władysław Podkowiński|Podkowiński
+Kto namalował „Babie lato”?|Józef Chełmoński|Chełmoński
+Kto namalował „Bociany”?|Józef Chełmoński|Chełmoński
+Kto namalował „Żydówkę z pomarańczami”?|Aleksander Gierymski|Gierymski
+Kto namalował „Dziwny ogród”?|Józef Mehoffer|Mehoffer
+Kto zaprojektował witraż „Bóg Ojciec” w kościele Franciszkanów w Krakowie?|Stanisław Wyspiański|Wyspiański
+Kto namalował cykl „Polonia” o powstaniu styczniowym?|Artur Grottger|Grottger
+Kto namalował „Błędne koło” i „Melancholię”?|Jacek Malczewski|Malczewski
+Kto malował konie i sceny batalistyczne, współtwórca „Panoramy Racławickiej” obok Styki?|Wojciech Kossak|Kossak
+Kto był głównym twórcą „Panoramy Racławickiej” obok Kossaka?|Jan Styka|Styka
+Kto malował portrety w stylu art déco, m.in. „Autoportret w zielonym bugatti”?|Tamara Łempicka|Łempicka
+Kto malował fantastyczne, mroczne wizje, artysta z Sanoka zamordowany w 2005 roku?|Zdzisław Beksiński|Beksiński
+Kto wyrzeźbił ołtarz w kościele Mariackim w Krakowie?|Wit Stwosz|Stwosz
+Kto jest autorką wielkich tkanin-rzeźb zwanych abakanami?|Magdalena Abakanowicz|Abakanowicz
+Kto malował naiwne obrazy na Łemkowszczyźnie, zwany Nikiforem?|Nikifor|Nikifor Krynicki
+W jakim mieście znajduje się „Panorama Racławicka”?|Wrocław|we Wrocławiu
+W jakim mieście znajduje się „Dama z gronostajem”?|Kraków|w Krakowie
+W jakim muzeum wisi „Mona Lisa”?|Luwr|w Luwrze
+W jakim mieście znajduje się muzeum Prado?|Madryt|w Madrycie
+W jakim mieście znajduje się galeria Uffizi?|Florencja|we Florencji
+W jakim mieście znajduje się Ermitaż?|Petersburg|Sankt Petersburg
+W jakim mieście znajduje się Rijksmuseum?|Amsterdam|w Amsterdamie
+W jakim mieście znajduje się Tate Modern?|Londyn|w Londynie
+W jakim mieście znajduje się MoMA — Muzeum Sztuki Nowoczesnej?|Nowy Jork|w Nowym Jorku
+W jakim mieście znajdują się Muzea Watykańskie?|Watykan|Rzym
+W jakim mieście znajduje się Muzeum Guggenheima zaprojektowane przez Franka Gehry'ego w Hiszpanii?|Bilbao|w Bilbao
+Jak nazywa się styl architektoniczny z ostrymi łukami i strzelistymi wieżami?|gotyk
+Jak nazywa się styl architektoniczny z grubymi murami i półkolistymi łukami, poprzedzający gotyk?|romański|styl romański
+Jak nazywa się styl pełen przepychu, złoceń i dynamicznych form z XVII wieku?|barok
+Jak nazywa się lekki, dekoracyjny styl XVIII wieku, następca baroku?|rokoko
+Jak nazywa się styl nawiązujący do antyku, popularny za Stanisława Augusta?|klasycyzm
+Jak nazywa się styl przełomu XIX i XX wieku z falistymi liniami i motywami roślinnymi?|secesja
+Jak nazywa się kierunek w malarstwie zapoczątkowany przez Moneta?|impresjonizm
+Jak nazywa się kierunek rozbijający przedmioty na bryły geometryczne?|kubizm
+Jak nazywa się kierunek ukazujący świat snów i podświadomości?|surrealizm
+Jak nazywa się kierunek sztuki lat 60. wykorzystujący motywy reklamy i komiksu?|pop-art
+Jak nazywa się sztuka nieprzedstawiająca rozpoznawalnych przedmiotów?|abstrakcjonizm|abstrakcja
+Jak nazywa się niemiecka szkoła projektowania założona w 1919 roku w Weimarze?|Bauhaus
+Jak nazywa się obraz przedstawiający martwe przedmioty, owoce, kwiaty?|martwa natura
+Jak nazywa się obraz przedstawiający widok natury?|pejzaż|krajobraz
+Jak nazywa się obraz przedstawiający konkretną osobę?|portret
+Jak nazywa się portret artysty wykonany przez niego samego?|autoportret
+Jak nazywa się malowidło wykonane na mokrym tynku?|fresk
+Jak nazywa się obraz z małych kolorowych kamyków lub szkiełek?|mozaika
+Jak nazywa się kompozycja z kolorowych szkieł w oknie?|witraż
+Jak nazywa się technika malowania farbami rozpuszczalnymi w wodzie na papierze?|akwarela
+Jak nazywa się deska, na której malarz miesza farby?|paleta
+Jak nazywa się stojak pod obraz podczas malowania?|sztaluga
+Jak nazywa się rzeźba przedstawiająca głowę i ramiona?|popiersie
+Jak nazywa się płaska rzeźba wystająca z tła?|relief|płaskorzeźba
+Jak nazywa się obraz religijny w Kościele prawosławnym?|ikona
+Jak nazywa się ozdobne pismo, sztuka pięknego pisania?|kaligrafia
+Jak nazywa się japońska sztuka składania papieru?|origami
+Jak nazywa się japońska sztuka układania kwiatów?|ikebana
+Jak nazywa się sztuka malowania na murach sprayem?|graffiti
+Jak nazywa się brytyjski anonimowy artysta uliczny?|Banksy
+Jaki kolor powstaje ze zmieszania żółtego i niebieskiego?|zielony
+Jaki kolor powstaje ze zmieszania czerwonego i niebieskiego?|fioletowy
+Jaki kolor powstaje ze zmieszania czerwonego i żółtego?|pomarańczowy
+Kto zaprojektował Sagradę Familię?|Antoni Gaudí|Gaudi
+Kto zaprojektował wieżę w Paryżu, nazwaną jego nazwiskiem?|Gustave Eiffel|Eiffel
+Kto zaprojektował kopułę katedry we Florencji?|Filippo Brunelleschi|Brunelleschi
+Kto zaprojektował kolumnadę na placu św. Piotra w Rzymie?|Gian Lorenzo Bernini|Bernini
+Kto był twórcą modernistycznej architektury i autorem „Jednostki marsylskiej”?|Le Corbusier
+Kto zaprojektował „Dom nad wodospadem”?|Frank Lloyd Wright|Wright
+Kto zaprojektował szklaną piramidę przed Luwrem?|Ieoh Ming Pei|Pei
+Kto zaprojektował gmach opery w Sydney?|Jørn Utzon|Utzon
+Kto zaprojektował Muzeum Żydowskie w Berlinie i wieżowiec Złota 44 w Warszawie?|Daniel Libeskind|Libeskind
+Jaki budynek w Atenach był świątynią Ateny na Akropolu?|Partenon
+Jaka rzymska świątynia „wszystkich bogów” ma kopułę z otworem?|Panteon
+Jaka budowla w Indiach jest mauzoleum żony cesarza Szahdżahana?|Tadż Mahal
+Jaka budowla w Stambule była kościołem, meczetem i muzeum?|Hagia Sophia
+Jaka katedra w Paryżu spłonęła częściowo w 2019 roku?|Notre-Dame
+Jaka bazylika jest największym kościołem Watykanu?|Bazylika św. Piotra|św. Piotra
+Jaka budowla w Barcelonie jest w budowie od 1882 roku?|Sagrada Familia
+Jaka budowla w Pekinie była siedzibą cesarzy?|Zakazane Miasto
+Jaka prehistoryczna budowla z kamiennych bloków stoi w Anglii?|Stonehenge
+Jaki pałac w Warszawie był letnią rezydencją Jana III Sobieskiego?|Wilanów|pałac w Wilanowie
+Jaki pałac w Warszawie stoi na wyspie w Łazienkach?|Pałac na Wyspie|Pałac na Wodzie
+Jaki zamek w Polsce zaliczany jest do pereł renesansu, z arkadowym dziedzińcem w Krakowie?|Wawel
+Jaki drewniany kościół w Karpaczu przeniesiono z Norwegii?|Wang|świątynia Wang
+Jakie drewniane świątynie w Jaworze i Świdnicy są na liście UNESCO?|Kościoły Pokoju|Kościół Pokoju
+Jak nazywa się najwyższa część kolumny?|głowica|kapitel
+Jak nazywa się porządek architektoniczny z kolumnami zdobionymi liśćmi akantu?|koryncki
+Jak nazywa się porządek architektoniczny z głowicą w kształcie ślimacznic?|joński
+Jak nazywa się najprostszy grecki porządek architektoniczny?|dorycki
+Jak nazywa się półkoliste sklepienie nad budowlą?|kopuła
+Jak nazywa się wieża przy meczecie?|minaret
+Jak nazywa się ozdobne okrągłe okno w gotyckiej katedrze?|rozeta
+Jak nazywa się maszkaron odprowadzający wodę z dachu katedry?|rzygacz|gargulec
+Jak nazywa się podziemna część kościoła z grobowcami?|krypta
+Jak nazywa się rzymska budowla doprowadzająca wodę do miast?|akwedukt
+Jak nazywa się brama wznoszona na cześć zwycięskiego wodza?|łuk triumfalny
+Jak nazywa się egipski słup zwężający się ku górze, zakończony piramidką?|obelisk
+Jak nazywa się posąg lwa z ludzką głową w Gizie?|Sfinks
+Który z siedmiu cudów świata starożytnego przetrwał do dziś?|piramida Cheopsa|piramidy w Gizie|Wielka Piramida
+Na jakiej wyspie stał Kolos, jeden z cudów świata?|Rodos
+W jakim mieście stała słynna latarnia morska, jeden z cudów świata?|Aleksandria|w Aleksandrii
+Jak nazywa się grecka rzeźba bez rąk znaleziona na wyspie Milos?|Wenus z Milo
+Jak nazywa się grecka rzeźba skrzydlatej bogini zwycięstwa w Luwrze?|Nike z Samotraki|Nike
+Jak nazywa się antyczna rzeźba kapłana trojańskiego oplecionego przez węże?|Grupa Laokoona|Laokoon
+Jak nazywa się paleolityczna figurka kobiety znaleziona w Austrii?|Wenus z Willendorfu
+W jakiej francuskiej jaskini odkryto słynne malowidła prehistoryczne?|Lascaux
+Jak nazywa się armia glinianych wojowników z Chin?|Terakotowa Armia
+Jak nazywa się nagroda zwana „architektonicznym Noblem”?|Nagroda Pritzkera|Pritzker
+Jak nazywa się międzynarodowa wystawa sztuki odbywająca się co dwa lata w Wenecji?|Biennale|Biennale w Wenecji
+Jak nazywa się warszawska galeria sztuki współczesnej przy placu Małachowskiego?|Zachęta
+Jak nazywa się zamek w Warszawie odbudowany w latach 70. XX wieku?|Zamek Królewski
+Jaki krakowski zabytek handlowy stoi na środku Rynku Głównego?|Sukiennice
+Jak nazywa się brama i fortyfikacja broniąca wjazdu do Krakowa od północy?|Barbakan
+Jak nazywa się twórca polskiej szkoły plakatu, autor plakatu „Cyrk”?|Henryk Tomaszewski|Tomaszewski
+Kto namalował „Kopernika” i „Kazanie Skargi”?|Jan Matejko|Matejko
+Kto namalował obraz „Rejtan”?|Jan Matejko|Matejko
+Kto namalował „Trumnę chłopską” i „W altanie”?|Aleksander Gierymski|Gierymski
+Kto namalował „Autoportret z paletą” i portrety pastelowe swoich dzieci w Krakowie na przełomie XIX i XX wieku?|Stanisław Wyspiański|Wyspiański
+Kto namalował „Kobietę z parasolką”?|Claude Monet|Monet
+Kto namalował „Jedzących kartofle”?|Vincent van Gogh|van Gogh
+Kto namalował „Lekcję anatomii doktora Tulpa”?|Rembrandt
+Jaki jest kolor dopełniający do czerwonego?|zielony
