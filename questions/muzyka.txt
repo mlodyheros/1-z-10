@@ -1,0 +1,156 @@
+# Muzyka
+Kto skomponował „Cztery pory roku”?|Antonio Vivaldi|Vivaldi
+Kto skomponował „Odę do radości”?|Ludwig van Beethoven|Beethoven
+Kto skomponował „Sonatę księżycową”?|Ludwig van Beethoven|Beethoven
+Kto skomponował „Dla Elizy”?|Ludwig van Beethoven|Beethoven
+Kto skomponował „Czarodziejski flet”?|Wolfgang Amadeusz Mozart|Mozart
+Kto skomponował „Wesele Figara”?|Wolfgang Amadeusz Mozart|Mozart
+Kto skomponował „Requiem”, którego nie zdążył ukończyć przed śmiercią w 1791 roku?|Wolfgang Amadeusz Mozart|Mozart
+Kto skomponował „Koncerty brandenburskie”?|Jan Sebastian Bach|Bach
+Kto skomponował „Mesjasza” z chórem „Alleluja”?|Georg Friedrich Händel|Händel|Haendel
+Kto skomponował „Jezioro łabędzie”?|Piotr Czajkowski|Czajkowski
+Kto skomponował „Dziadka do orzechów”?|Piotr Czajkowski|Czajkowski
+Kto skomponował „Bolero”?|Maurice Ravel|Ravel
+Kto skomponował „Światło księżyca” (Clair de lune)?|Claude Debussy|Debussy
+Kto skomponował „Lot trzmiela”?|Nikołaj Rimski-Korsakow|Rimski-Korsakow
+Kto skomponował „Nad pięknym modrym Dunajem”?|Johann Strauss|Strauss
+Kto skomponował operę „Carmen”?|Georges Bizet|Bizet
+Kto skomponował opery „Aida” i „Traviata”?|Giuseppe Verdi|Verdi
+Kto skomponował opery „Tosca” i „Madame Butterfly”?|Giacomo Puccini|Puccini
+Kto skomponował „Cyrulika sewilskiego”?|Gioacchino Rossini|Rossini
+Kto skomponował cykl oper „Pierścień Nibelunga”?|Ryszard Wagner|Wagner
+Kto skomponował „Święto wiosny”?|Igor Strawiński|Strawiński
+Kto skomponował „Marsz weselny” do „Snu nocy letniej”?|Felix Mendelssohn|Mendelssohn
+Kto skomponował „Tańce węgierskie”?|Johannes Brahms|Brahms
+Kto skomponował „Peer Gynta” z utworem „W grocie Króla Gór”?|Edvard Grieg|Grieg
+Kto skomponował „Etiudę rewolucyjną”?|Fryderyk Chopin|Chopin
+Kto skomponował operę „Halka”?|Stanisław Moniuszko|Moniuszko
+Kto skomponował operę „Straszny dwór”?|Stanisław Moniuszko|Moniuszko
+Kto skomponował balet „Harnasie”?|Karol Szymanowski|Szymanowski
+Kto skomponował „Tren – Ofiarom Hiroszimy”?|Krzysztof Penderecki|Penderecki
+Kto skomponował „Symfonię pieśni żałosnych”?|Henryk Mikołaj Górecki|Górecki
+Kto skomponował muzykę do filmu „Dracula” Coppoli i „Pana Tadeusza” Wajdy?|Wojciech Kilar|Kilar
+Kto skomponował muzykę do „Gwiezdnych wojen”?|John Williams|Williams
+Kto skomponował muzykę do „Króla Lwa” i „Incepcji”?|Hans Zimmer|Zimmer
+Kto skomponował muzykę do westernów Sergia Leone?|Ennio Morricone|Morricone
+W jakiej miejscowości urodził się Fryderyk Chopin?|Żelazowa Wola|w Żelazowej Woli
+Na jakim instrumencie grał Fryderyk Chopin?|fortepian|na fortepianie
+Co ile lat odbywa się Konkurs Chopinowski?|5
+Który Polak wygrał Konkurs Chopinowski w 2005 roku?|Rafał Blechacz|Blechacz
+Który Polak wygrał Konkurs Chopinowski w 1975 roku?|Krystian Zimerman|Zimerman
+Na jakim instrumencie grał Niccolò Paganini?|skrzypce|na skrzypcach
+Na jakim instrumencie grał Louis Armstrong?|trąbka|na trąbce
+Na jakim instrumencie grał Jimi Hendrix?|gitara|na gitarze
+Na jakim instrumencie grał Miles Davis?|trąbka|na trąbce
+Na jakim instrumencie gra Leszek Możdżer?|fortepian|na fortepianie
+Ile strun ma klasyczna gitara?|6
+Ile strun mają skrzypce?|4
+Ile klawiszy ma standardowy fortepian?|88
+Ile linii ma pięciolinia?|5
+Ile jest dźwięków w gamie durowej, bez powtórzonej oktawy?|7
+Jaki instrument smyczkowy jest największy?|kontrabas
+Jaki instrument dęty blaszany ma suwak?|puzon
+Jaki instrument klawiszowy z piszczałkami stoi w kościołach?|organy
+Jaki instrument perkusyjny składa się z drewnianych płytek uderzanych pałeczkami?|ksylofon
+Jaki instrument szarpany kojarzy się z aniołami?|harfa
+Jaki instrument dęty jest symbolem Szkocji?|dudy
+Jaki instrument dęty drewniany wynalazł Adolphe Sax?|saksofon
+Jaki instrument strunowy z Hawajów ma cztery struny?|ukulele
+Jaki góralski instrument dęty jest bardzo długi i drewniany?|trombita
+Jak nazywa się osoba kierująca orkiestrą?|dyrygent
+Jak nazywa się pałeczka dyrygenta?|batuta
+Jak nazywa się najwyższy głos żeński?|sopran
+Jak nazywa się najniższy głos męski?|bas
+Jak nazywa się wysoki głos męski?|tenor
+Jak nazywa się niski głos żeński?|alt
+Jak nazywa się śpiew bez akompaniamentu instrumentów?|a cappella
+Jak nazywa się zespół czterech muzyków?|kwartet
+Jak nazywa się zespół trzech muzyków?|trio
+Jak nazywa się utwór wokalno-instrumentalny wystawiany na scenie ze śpiewanymi rolami?|opera
+Jak nazywa się tekst opery?|libretto
+Jak nazywa się instrumentalny wstęp do opery?|uwertura
+Jak nazywa się solowa pieśń w operze?|aria
+Jak nazywa się znak rozpoczynający zapis na pięciolinii dla skrzypiec?|klucz wiolinowy|wiolinowy
+Jak nazywa się znak podwyższający dźwięk o pół tonu?|krzyżyk
+Jak nazywa się znak obniżający dźwięk o pół tonu?|bemol
+Jak nazywa się włoskie oznaczenie „głośno”?|forte
+Jak nazywa się włoskie oznaczenie „cicho”?|piano
+Jak nazywa się urządzenie odmierzające tempo?|metronom
+Jak nazywa się polski taniec narodowy w metrum 3/4 otwierający studniówki?|polonez
+Jak nazywa się skoczny polski taniec narodowy z Mazowsza?|mazur|mazurek
+Jak nazywa się żywy polski taniec narodowy w metrum 2/4 z Małopolski?|krakowiak
+Jak nazywa się szybki polski taniec wirowy?|oberek
+Jak nazywa się taniec towarzyski w metrum 3/4 kojarzony z Wiedniem?|walc
+Jak nazywa się namiętny taniec z Argentyny?|tango
+Jak nazywa się taniec z Brazylii kojarzony z karnawałem w Rio?|samba
+Jak nazywa się hiszpański taniec z kastanietami i gitarą?|flamenco
+Z jakiego miasta pochodzi zespół The Beatles?|Liverpool|z Liverpoolu
+Ilu członków liczył zespół The Beatles?|4
+Kto był wokalistą zespołu Queen?|Freddie Mercury|Mercury
+Kto był wokalistą zespołu Nirvana?|Kurt Cobain|Cobain
+Kto jest wokalistą zespołu The Rolling Stones?|Mick Jagger|Jagger
+Kto jest wokalistą zespołu U2?|Bono
+Kto był wokalistą zespołu The Doors?|Jim Morrison|Morrison
+Kto był wokalistą zespołu Led Zeppelin?|Robert Plant|Plant
+Kto jest wokalistą zespołu Metallica?|James Hetfield|Hetfield
+Kto był liderem zespołu Dżem do 1994 roku?|Ryszard Riedel|Riedel
+Kto był wokalistą zespołu Republika?|Grzegorz Ciechowski|Ciechowski
+Kto jest liderem zespołu Kult?|Kazik Staszewski|Kazik
+Kto jest wokalistą zespołu Perfect znanym z „Autobiografii”?|Grzegorz Markowski|Markowski
+Kto był wokalistą zespołu Budka Suflera w latach świetności?|Krzysztof Cugowski|Cugowski
+Kto jest liderem zespołu Lady Pank?|Jan Borysewicz|Borysewicz
+Kto był wokalistą Czerwonych Gitar, autorem „Anny Marii”?|Seweryn Krajewski|Krajewski
+Kogo nazywano „królem rock and rolla”?|Elvis Presley|Presley|Elvis
+Kogo nazywano „królem popu”?|Michael Jackson|Jackson
+Kogo nazywa się „królową popu”?|Madonna
+Kto nagrał album „Thriller”?|Michael Jackson|Jackson
+Kto zaśpiewał „Imagine”?|John Lennon|Lennon
+Kto zaśpiewał „Like a Rolling Stone” i dostał literackiego Nobla?|Bob Dylan|Dylan
+Kto zaśpiewał „I Will Always Love You” w filmie „Bodyguard”?|Whitney Houston|Houston
+Kto zaśpiewał „My Heart Will Go On” z „Titanica”?|Céline Dion|Celine Dion|Dion
+Kto zaśpiewał „Rolling in the Deep” i „Hello”?|Adele
+Kto zaśpiewał „Shape of You”?|Ed Sheeran|Sheeran
+Kto zaśpiewał „Rocket Man” i „Candle in the Wind”?|Elton John
+Kto zaśpiewał „Space Oddity” i „Heroes”?|David Bowie|Bowie
+Kto zaśpiewał „Purple Rain”?|Prince
+Kto zaśpiewał „No Woman, No Cry”?|Bob Marley|Marley
+Kto zaśpiewał „Dziwny jest ten świat”?|Czesław Niemen|Niemen
+Kto zaśpiewał „Małgośkę”?|Maryla Rodowicz|Rodowicz
+Kto zaśpiewał „Jesteś szalona” w wersji disco polo?|Boys
+Kto zaśpiewał „Tyle słońca w całym mieście”?|Anna Jantar|Jantar
+Kto zaśpiewał „Jolka, Jolka pamiętasz”?|Budka Suflera
+Kto zaśpiewał „Kocham cię, kochanie moje”?|Maanam
+Kto była wokalistką zespołu Maanam?|Kora|Olga Jackowska
+Kto zaśpiewał „Whisky” — zespół z Katowic?|Dżem
+Kto zaśpiewał „Przeżyj to sam”?|Lombard
+Kto zaśpiewał „Nie płacz Ewka”?|Perfect
+Kto zaśpiewał „Mniej niż zero”?|Lady Pank
+Kto zaśpiewał „Baśkę” i „Ostatni”?|Wilki
+Kto zaśpiewał „Długość dźwięku samotności”?|Myslovitz
+Kto wygrał dla Polski drugie miejsce na Eurowizji w 1994 roku?|Edyta Górniak|Górniak
+Z jakiego kraju pochodzi zespół ABBA?|Szwecja|ze Szwecji
+Z jakiego kraju pochodzi zespół AC/DC?|Australia|z Australii
+Z jakiego kraju pochodzi zespół Rammstein?|Niemcy|z Niemiec
+Z jakiego kraju pochodzi Shakira?|Kolumbia|z Kolumbii
+Z jakiego kraju pochodzi Rihanna?|Barbados|z Barbadosu
+Z jakiej wyspy pochodzi muzyka reggae?|Jamajka|z Jamajki
+W jakim mieście narodził się jazz?|Nowy Orlean|w Nowym Orleanie
+W jakim mieście odbywa się festiwal piosenki od 1963 roku w amfiteatrze?|Opole|w Opolu
+W jakim mieście odbywał się festiwal w Operze Leśnej?|Sopot|w Sopocie
+W jakim mieście odbywał się festiwal rockowy w latach 80., symbol wolności młodzieży?|Jarocin|w Jarocinie
+W jakim mieście odbywa się Open'er Festival?|Gdynia|w Gdyni
+Jak nazywał się legendarny festiwal z 1969 roku pod Nowym Jorkiem?|Woodstock
+Kto organizuje Pol'and'Rock Festival, dawniej Przystanek Woodstock?|Jerzy Owsiak|Owsiak
+Jak nazywa się najważniejsza amerykańska nagroda muzyczna?|Grammy
+Jak nazywają się najważniejsze polskie nagrody muzyczne?|Fryderyki|Fryderyk
+Jak nazywa się mediolański teatr operowy?|La Scala
+Jak nazywa się gatunek muzyczny, który narodził się na Bronksie w latach 70.?|hip-hop|rap
+Jak nazywa się polski gatunek muzyki tanecznej popularny na weselach?|disco polo
+Jak nazywa się hymn Unii Europejskiej?|Oda do radości
+Kto napisał słowa polskiego hymnu?|Józef Wybicki|Wybicki
+Jak nazywa się polski hymn narodowy?|Mazurek Dąbrowskiego
+Jak nazywa się hejnał grany z wieży kościoła Mariackiego?|hejnał mariacki
+Jak nazywał się pianista, premier Polski w 1919 roku?|Ignacy Jan Paderewski|Paderewski
+Jak nazywał się polski skrzypek i kompozytor, patron konkursu skrzypcowego w Poznaniu?|Henryk Wieniawski|Wieniawski
+Jak nazywał się polski pianista jazzowy, kompozytor „Kołysanki Rosemary”?|Krzysztof Komeda|Komeda
+Jak nazywa się polski jazzowy trębacz, zmarły w 2018 roku?|Tomasz Stańko|Stańko

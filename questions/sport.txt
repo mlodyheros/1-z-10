@@ -1,0 +1,154 @@
+# Sport
+Co ile lat odbywają się letnie igrzyska olimpijskie?|4
+Ile kół ma flaga olimpijska?|5
+W jakim mieście odbyły się pierwsze nowożytne igrzyska olimpijskie w 1896 roku?|Ateny|w Atenach
+Kto wskrzesił ideę igrzysk olimpijskich?|Pierre de Coubertin|Coubertin
+W jakim mieście odbyły się letnie igrzyska w 2012 roku?|Londyn|w Londynie
+W jakim mieście odbyły się letnie igrzyska w 2016 roku?|Rio de Janeiro|w Rio de Janeiro
+W jakim mieście odbyły się letnie igrzyska rozegrane w 2021 roku?|Tokio|w Tokio
+W jakim mieście odbyły się letnie igrzyska w 2024 roku?|Paryż|w Paryżu
+W jakim mieście odbyły się letnie igrzyska w 2008 roku?|Pekin|w Pekinie
+W jakim mieście odbyły się letnie igrzyska w 1980 roku?|Moskwa|w Moskwie
+W jakim mieście odbędą się letnie igrzyska w 2028 roku?|Los Angeles|w Los Angeles
+W jakiej starożytnej miejscowości odbywały się igrzyska w Grecji?|Olimpia|w Olimpii
+Ile metrów ma dystans biegu maratońskiego ponad 42 kilometry?|195
+Ile kilometrów w zaokrągleniu liczy maraton?|42
+Ile konkurencji obejmuje dziesięciobój?|10
+Ile konkurencji obejmuje siedmiobój?|7
+Ile zawodników liczy drużyna siatkarska na boisku?|6
+Ile zawodników liczy drużyna koszykarska na boisku?|5
+Ile zawodników liczy drużyna piłki ręcznej na boisku?|7
+Ile zawodników liczy drużyna hokeja na lodzie na tafli?|6
+Ile zawodników liczy drużyna rugby union?|15
+Ile zawodników liczy drużyna baseballowa w polu?|9
+Ile punktów daje rzut za linii 6,75 m w koszykówce?|3
+Ile setów trzeba wygrać, by zwyciężyć w meczu siatkówki?|3
+Ile punktów trzeba zdobyć, by wygrać zwykłego seta w siatkówce?|25
+Ile pól ma szachownica?|64
+Ile figur i pionów ma jeden gracz na początku partii szachów?|16
+Ile dołków ma standardowe pole golfowe?|18
+Ile kręgli ustawia się w bowlingu?|10
+Ile minut trwa mecz piłki ręcznej?|60
+Ile rund trwa zawodowa walka bokserska o mistrzostwo świata?|12
+Ile metrów ma basen olimpijski?|50
+Ile metrów ma okrążenie bieżni lekkoatletycznej?|400
+Ile wynosi maksymalny wynik jednym rzutem trzema lotkami w darcie?|180
+Jaki kolor koszulki nosi lider Tour de France?|żółty|żółta
+Jaki kolor koszulki nosi lider Giro d'Italia?|różowy|różowa
+Jaki kolor ma pas mistrzowski w judo?|czarny
+Jakiego koloru jest środkowe koło flagi olimpijskiej w górnym rzędzie?|czarne|czarny
+Kto jest rekordzistą świata w biegu na 100 metrów?|Usain Bolt|Bolt
+Z jakiego kraju pochodzi Usain Bolt?|Jamajka|z Jamajki
+Kto zdobył najwięcej medali olimpijskich w historii?|Michael Phelps|Phelps
+Jaką dyscyplinę uprawiał Michael Phelps?|pływanie
+Jaką dyscyplinę uprawiał Michael Jordan?|koszykówka|koszykówkę
+Jaką dyscyplinę uprawia LeBron James?|koszykówka|koszykówkę
+Jaką dyscyplinę uprawiał Muhammad Ali?|boks
+Jaką dyscyplinę uprawiał Tiger Woods?|golf
+Jaką dyscyplinę uprawia Novak Djoković?|tenis
+Jaką dyscyplinę uprawiał Michael Schumacher?|Formuła 1|wyścigi samochodowe
+Jaką dyscyplinę uprawiał Wayne Gretzky?|hokej|hokej na lodzie
+Jaką dyscyplinę uprawiał Lance Armstrong?|kolarstwo
+Jaką dyscyplinę uprawiała Serena Williams?|tenis
+Jaką dyscyplinę uprawia Simone Biles?|gimnastyka|gimnastyka sportowa
+Jaką dyscyplinę uprawiał Garri Kasparow?|szachy
+Jaką dyscyplinę uprawia Magnus Carlsen?|szachy
+Jaką dyscyplinę uprawiał Adam Małysz?|skoki narciarskie|skoki
+Jaką dyscyplinę uprawiała Justyna Kowalczyk?|biegi narciarskie
+Jaką dyscyplinę uprawia Iga Świątek?|tenis
+Jaką dyscyplinę uprawiała Agnieszka Radwańska?|tenis
+Jaką dyscyplinę uprawiała Irena Szewińska?|lekkoatletyka|lekkoatletykę
+Jaką dyscyplinę uprawiał Robert Korzeniowski?|chód sportowy|chód
+Jaką dyscyplinę uprawiała Otylia Jędrzejczak?|pływanie
+Jaką dyscyplinę uprawia Anita Włodarczyk?|rzut młotem
+Jaką dyscyplinę uprawiał Tomasz Majewski?|pchnięcie kulą
+Jaką dyscyplinę uprawiał Kamil Stoch?|skoki narciarskie|skoki
+Jaką dyscyplinę uprawiał Tomasz Gollob?|żużel
+Jaką dyscyplinę uprawia Bartosz Zmarzlik?|żużel
+Jaką dyscyplinę uprawiał Robert Kubica?|Formuła 1|wyścigi samochodowe
+Jaką dyscyplinę uprawiał Andrzej Gołota?|boks
+Jaką dyscyplinę uprawiał Mariusz Pudzianowski, zanim trafił do MMA?|strongman|zawody siłaczy
+Jaką dyscyplinę uprawiała Joanna Jędrzejczyk?|MMA
+Jaką dyscyplinę uprawiał Jerzy Kukuczka?|himalaizm|wspinaczka|alpinizm
+Jaką dyscyplinę uprawiał Władysław Kozakiewicz?|skok o tyczce
+Jaką dyscyplinę uprawiał Zbigniew Bródka, mistrz olimpijski z Soczi?|łyżwiarstwo szybkie
+Jaką dyscyplinę uprawia Aleksandra Mirosław, mistrzyni olimpijska z Paryża?|wspinaczka sportowa|wspinaczka
+Jaką dyscyplinę uprawia Wilfredo León?|siatkówka|siatkówkę
+Jaką dyscyplinę uprawiał Marcin Gortat?|koszykówka|koszykówkę
+Która polska tenisistka wygrała Wimbledon w 2025 roku?|Iga Świątek|Świątek
+Który polski skoczek zdobył cztery Kryształowe Kule?|Adam Małysz|Małysz
+Który polski skoczek ma trzy złote medale olimpijskie?|Kamil Stoch|Stoch
+Który polski skoczek zdobył złoto w Sapporo w 1972 roku?|Wojciech Fortuna|Fortuna
+Który polski chodziarz zdobył cztery złote medale olimpijskie?|Robert Korzeniowski|Korzeniowski
+Która polska lekkoatletka zdobyła siedem medali olimpijskich?|Irena Szewińska|Szewińska
+Która polska młociarka zdobyła trzy złote medale olimpijskie?|Anita Włodarczyk|Włodarczyk
+Który polski tyczkarz pokazał słynny gest w Moskwie w 1980 roku?|Władysław Kozakiewicz|Kozakiewicz
+Który Polak jako pierwszy w historii jeździł w Formule 1?|Robert Kubica|Kubica
+Który Polak jako drugi człowiek zdobył Koronę Himalajów?|Jerzy Kukuczka|Kukuczka
+Która Polka jako pierwsza Europejka stanęła na Mount Evereście?|Wanda Rutkiewicz|Rutkiewicz
+Który polski kolarz wygrał mistrzostwo świata w 2014 roku?|Michał Kwiatkowski|Kwiatkowski
+Który polski kolarz zdobył koszulkę najlepszego górala Tour de France w 2014 roku?|Rafał Majka|Majka
+Który polski bokser zdobył dwa złota olimpijskie, w 1964 i 1968 roku?|Jerzy Kulej|Kulej
+Który polski trener doprowadził siatkarzy do złota olimpijskiego w 1976 roku?|Hubert Wagner|Wagner
+W którym roku polscy siatkarze zdobyli złoto olimpijskie?|1976
+Ile razy polscy siatkarze byli mistrzami świata?|3
+W jakim mieście rozgrywany jest turniej tenisowy Wimbledon?|Londyn|w Londynie
+Na jakiej nawierzchni rozgrywany jest Wimbledon?|trawa|trawiasta
+Na jakiej nawierzchni rozgrywany jest Roland Garros?|mączka|ceglana|korty ziemne
+W jakim mieście rozgrywany jest turniej Roland Garros?|Paryż|w Paryżu
+W jakim mieście rozgrywany jest US Open w tenisie?|Nowy Jork|w Nowym Jorku
+W jakim mieście rozgrywany jest Australian Open?|Melbourne|w Melbourne
+Ile turniejów zalicza się do tenisowego Wielkiego Szlema?|4
+Jak nazywa się wynik 40:40 w tenisie?|równowaga
+Jak nazywa się serwis nie do odebrania w tenisie?|as
+Jak nazywa się zero punktów w tenisie po angielsku?|love
+Jak nazywa się najsłynniejszy wyścig kolarski świata?|Tour de France
+Jak nazywa się najważniejszy polski wyścig kolarski?|Tour de Pologne|Wyścig Dookoła Polski
+Jak nazywa się najsłynniejszy wyścig samochodowy trwający dobę?|24 godziny Le Mans|Le Mans
+Jak nazywa się rajd terenowy rozgrywany dawniej z Paryża do Senegalu?|Rajd Dakar|Dakar
+Jak nazywa się amerykańska liga koszykówki?|NBA
+Jak nazywa się amerykańska liga hokeja?|NHL
+Jak nazywa się finał ligi futbolu amerykańskiego?|Super Bowl
+Jak nazywa się nagroda dla zwycięzcy ligi NHL?|Puchar Stanleya
+Jak nazywa się turniej skoków narciarskich rozgrywany na przełomie roku w Niemczech i Austrii?|Turniej Czterech Skoczni
+Jak nazywa się skocznia narciarska w Zakopanem?|Wielka Krokiew
+Jak nazywa się punkt konstrukcyjny skoczni narciarskiej oznaczany literą K?|punkt K|punkt konstrukcyjny
+Jak nazywa się styl skakania z nartami w kształcie litery V?|styl V
+Jak nazywa się sport łączący bieg narciarski ze strzelaniem?|biathlon
+Jak nazywa się sport, w którym szczotkuje się lód przed kamieniem?|curling
+Jak nazywa się zjazd na sankach głową do przodu?|skeleton
+Jak nazywa się sport walki z Japonii, którego nazwa znaczy „łagodna droga”?|judo
+Jak nazywa się japoński sport walki zapaśników o ogromnej masie?|sumo
+Jak nazywa się brazylijska sztuka walki połączona z tańcem?|capoeira
+Jak nazywa się koreańska sztuka walki słynąca z kopnięć?|taekwondo
+Jak nazywa się białą broń o najlżejszej klindze używaną w szermierce, obok szpady i szabli?|floret
+Jak nazywa się zwycięstwo w boksie przez nokaut — podaj skrót.|KO
+Jak nazywa się wyrzucenie piłki poza boisko w rugby lub piłce nożnej przez linię boczną?|aut
+Jak nazywa się wbicie piłki do dołka jednym uderzeniem w golfie?|hole in one
+Jak nazywa się w kręglach strącenie wszystkich kręgli pierwszym rzutem?|strike
+Jak nazywa się w szachach sytuacja, w której król jest atakowany i nie ma ucieczki?|mat|szach-mat
+Jak nazywa się w szachach nierozstrzygnięta sytuacja bez możliwości ruchu?|pat
+Jak nazywa się w szachach jednoczesny ruch króla i wieży?|roszada
+Jaka figura szachowa porusza się tylko po skosie?|goniec
+Jaka figura szachowa porusza się „w literę L”?|skoczek|koń
+Jaka figura szachowa jest najsilniejsza?|hetman|królowa
+Jak nazywa się konkurencja lekkoatletyczna z pokonywaniem płotków i rowu z wodą na 3000 m?|bieg z przeszkodami
+Jak nazywa się pałeczka przekazywana w biegu rozstawnym?|pałeczka sztafetowa|pałeczka
+Jak nazywa się styl pływacki nazywany potocznie „żabką”?|klasyczny|styl klasyczny
+Jak nazywa się najszybszy styl pływacki?|kraul
+Jak nazywa się styl pływacki z jednoczesnym ruchem obu ramion nad wodą?|motylkowy|delfin
+Jak nazywa się zawody łączące pływanie, kolarstwo i bieg?|triathlon
+Jak nazywa się najtrudniejsza odmiana triathlonu na Hawajach?|Ironman
+Jak nazywają się igrzyska dla sportowców z niepełnosprawnościami?|paraolimpijskie|paraolimpiada
+Jak brzmi skrót Międzynarodowego Komitetu Olimpijskiego po polsku?|MKOl
+Jak nazywa się niedozwolone wspomaganie farmakologiczne w sporcie?|doping
+Jak nazywa się sędzia główny w tenisie siedzący na wysokim krześle?|sędzia stołkowy|stołkowy
+Jak nazywa się najważniejszy zawodnik obrony w siatkówce, w innej koszulce?|libero
+Jak nazywa się zawodnik rozgrywający akcje w koszykówce?|rozgrywający
+Jak nazywa się zdobycie kosza przez wsad z góry?|wsad|dunk
+Jak nazywa się amerykański koszykarski zespół olimpijski z 1992 roku?|Dream Team
+W jakim mieście znajduje się tor Formuły 1 z wyścigiem po ulicach księstwa?|Monako|Monte Carlo
+Który kierowca ma, obok Hamiltona, siedem tytułów mistrza świata Formuły 1?|Michael Schumacher|Schumacher
+Jak nazywa się włoski zespół Formuły 1 w czerwonych barwach?|Ferrari
+Jak nazywa się zmiana opon i tankowanie w czasie wyścigu?|pit stop
+Jak nazywa się pierwsze pole startowe w wyścigu?|pole position

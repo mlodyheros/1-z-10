@@ -1,0 +1,155 @@
+# Motoryzacja i transport
+Z jakiego kraju pochodzi marka Volkswagen?|Niemcy|z Niemiec
+Z jakiego kraju pochodzi marka Toyota?|Japonia|z Japonii
+Z jakiego kraju pochodzi marka Ferrari?|Włochy|z Włoch
+Z jakiego kraju pochodzi marka Volvo?|Szwecja|ze Szwecji
+Z jakiego kraju pochodzi marka Škoda?|Czechy|z Czech
+Z jakiego kraju pochodzi marka Renault?|Francja|z Francji
+Z jakiego kraju pochodzi marka Ford?|Stany Zjednoczone|USA
+Z jakiego kraju pochodzi marka Hyundai?|Korea Południowa|Korea
+Z jakiego kraju pochodzi marka Seat?|Hiszpania|z Hiszpanii
+Z jakiego kraju pochodzi marka Dacia?|Rumunia|z Rumunii
+Z jakiego kraju pochodzi marka Rolls-Royce?|Wielka Brytania|Anglia
+Z jakiego kraju pochodzi marka Lamborghini?|Włochy|z Włoch
+Z jakiego kraju pochodzi marka Porsche?|Niemcy|z Niemiec
+Z jakiego kraju pochodzi marka Peugeot?|Francja|z Francji
+Z jakiego kraju pochodzi marka Honda?|Japonia|z Japonii
+Z jakiego kraju pochodzi marka Kia?|Korea Południowa|Korea
+Z jakiego kraju pochodzi marka BYD?|Chiny|z Chin
+Z jakiego kraju pochodzi marka Tesla?|Stany Zjednoczone|USA
+Z jakiego kraju pochodzi marka Saab?|Szwecja|ze Szwecji
+Z jakiego kraju pochodzi marka Tatra?|Czechy|z Czech
+Z jakiego kraju pochodzi marka Łada?|Rosja|z Rosji
+Z jakiego kraju pochodziła marka Trabant?|NRD|Niemcy
+Z jakiego kraju pochodzi motocyklowa marka Harley-Davidson?|Stany Zjednoczone|USA
+Z jakiego kraju pochodzi motocyklowa marka Ducati?|Włochy|z Włoch
+Z jakiego kraju pochodzi marka skuterów Vespa?|Włochy|z Włoch
+Jaka marka ma w logo trójramienną gwiazdę?|Mercedes|Mercedes-Benz
+Jaka marka ma w logo cztery połączone pierścienie?|Audi
+Jaka marka ma w logo czarnego konia na żółtym tle?|Ferrari
+Jaka marka ma w logo byka?|Lamborghini
+Jaka marka ma w logo lwa?|Peugeot
+Jaka marka ma w logo biało-niebieską szachownicę w kole?|BMW
+Jaka marka ma w logo skrzydlatą strzałę?|Škoda|Skoda
+Jaka marka ma w logo trójząb?|Maserati
+Jaka marka ma w logo gwiazdozbiór Plejad?|Subaru
+Jaka marka ma w logo trzy romby?|Mitsubishi
+Jaka marka ma w logo romb?|Renault
+Jaka marka ma w logo dwa szewrony, czyli „daszki”?|Citroën|Citroen
+Jaka marka ma w logo skaczącego kota?|Jaguar
+Jaka marka ma w logo węża pożerającego człowieka i czerwony krzyż?|Alfa Romeo
+Jaka marka ma w logo błyskawicę w kole?|Opel
+Jaka marka ma w logo figurkę „Spirit of Ecstasy”?|Rolls-Royce
+Jaka marka produkuje modele Golf i Passat?|Volkswagen
+Jaka marka produkuje modele Corolla i Yaris?|Toyota
+Jaka marka produkuje modele Octavia i Fabia?|Škoda|Skoda
+Jaka marka produkuje modele Astra i Corsa?|Opel
+Jaka marka produkuje modele Focus i Mustang?|Ford
+Jaka marka produkuje modele Clio i Megane?|Renault
+Jaka marka produkuje modele Civic i Accord?|Honda
+Jaka marka produkuje modele Panda i Punto?|Fiat
+Jaka marka produkuje model 911?|Porsche
+Jaka marka produkuje modele Duster i Sandero?|Dacia
+Jaka marka produkuje modele Model 3 i Cybertruck?|Tesla
+Jaka marka produkuje modele Leon i Ibiza?|Seat
+Jaka marka produkuje terenowy model Wrangler?|Jeep
+Jaka marka produkuje model Defender?|Land Rover
+Jaka marka produkowała Garbusa?|Volkswagen
+Jaka marka produkowała model T, pierwszy masowy samochód?|Ford
+Do jakiego koncernu należą Audi, Škoda i Seat?|Volkswagen|Grupa Volkswagen
+Do jakiego koncernu należy marka Lexus?|Toyota
+Do jakiego koncernu należy marka Dacia?|Renault
+Jak nazywał się polski samochód produkowany na licencji Fiata, zwany „maluchem”?|Fiat 126p|126p|maluch
+Jak nazywał się polski samochód produkowany przez FSO w latach 1978–2002?|Polonez
+Jak nazywał się mały polski samochód z silnikiem dwusuwowym produkowany od 1957 roku?|Syrena
+Jak nazywał się polski samochód osobowy produkowany od 1951 roku na licencji Pobiedy?|Warszawa
+Jak nazywał się polski samochód dostawczy z Lublina produkowany od 1958 roku?|Żuk
+Jak nazywał się polski samochód dostawczy z Nysy?|Nysa
+Jak nazywał się polski ciągnik rolniczy z Warszawy?|Ursus
+Jak nazywała się polska ciężarówka produkowana w Starachowicach?|Star
+Jak nazywa się polski producent autobusów z Bolechowa pod Poznaniem?|Solaris
+Jak nazywał się polski autobus produkowany w Sanoku?|Autosan
+Jak nazywały się polskie motocykle produkowane w Świdniku?|WSK
+Jak nazywał się polski motorower produkowany w Bydgoszczy?|Romet|Komar
+Jak nazywa się polski producent pociągów z Bydgoszczy?|Pesa
+Jak nazywa się szybki pociąg kursujący w Polsce od 2014 roku?|Pendolino
+Kto zbudował pierwszy samochód z silnikiem spalinowym w 1886 roku?|Karl Benz|Benz
+Kto wprowadził taśmę produkcyjną w fabryce samochodów?|Henry Ford|Ford
+Kto wynalazł silnik wysokoprężny?|Rudolf Diesel|Diesel
+Kto wynalazł silnik czterosuwowy?|Nikolaus Otto|Otto
+Kto wynalazł silnik z wirującym tłokiem?|Felix Wankel|Wankel
+Kto wynalazł oponę pneumatyczną i dał nazwisko marce opon?|John Dunlop|Dunlop
+Kto zbudował pierwszą praktyczną lokomotywę parową „Rakieta”?|George Stephenson|Stephenson
+Jacy bracia wykonali pierwszy lot samolotem silnikowym w 1903 roku?|bracia Wright|Wright
+Kto jako pierwszy samotnie przeleciał Atlantyk w 1927 roku?|Charles Lindbergh|Lindbergh
+Kto jako pierwszy przeleciał samolotem nad kanałem La Manche?|Louis Blériot|Bleriot
+Jacy bracia zbudowali pierwszy balon na ogrzane powietrze?|Montgolfier|bracia Montgolfier
+Jak nazywał się niemiecki sterowiec, który spłonął w 1937 roku?|Hindenburg
+Jak nazywał się naddźwiękowy samolot pasażerski latający do 2003 roku?|Concorde
+Jak nazywa się największy samolot pasażerski świata, dwupokładowy?|Airbus A380|A380
+Jak nazywa się samolot Boeinga nazywany „Jumbo Jetem”?|Boeing 747|747
+Jak nazywa się polski narodowy przewoźnik lotniczy?|LOT|PLL LOT
+Jak nazywa się irlandzka tania linia lotnicza?|Ryanair
+Jak nazywa się węgierska tania linia lotnicza?|Wizz Air|Wizzair
+Jak nazywa się niemiecki narodowy przewoźnik lotniczy?|Lufthansa
+Jak nazywa się urządzenie rejestrujące parametry lotu, potocznie?|czarna skrzynka
+Jakiego koloru jest w rzeczywistości „czarna skrzynka”?|pomarańczowa|pomarańczowy
+Jak nazywa się wieża na lotnisku kierująca ruchem samolotów?|wieża kontroli lotów|wieża kontroli
+Jak nazywa się japoński szybki pociąg?|Shinkansen
+Jak nazywa się francuski szybki pociąg — podaj skrót.|TGV
+Jak nazywa się tunel kolejowy pod kanałem La Manche?|Eurotunel
+Jak nazywa się najdłuższa linia kolejowa świata, z Moskwy do Władywostoku?|Kolej Transsyberyjska|Transsyberyjska
+Jak nazywał się luksusowy pociąg z Paryża do Stambułu?|Orient Express
+W jakim mieście powstało pierwsze metro na świecie?|Londyn|w Londynie
+Ile linii metra ma Warszawa?|2
+Jak nazywa się transatlantyk, który zatonął w 1912 roku?|Titanic
+Jak nazywał się polski transatlantyk pasażerski pływający w latach 1936–1969?|Batory|MS Batory
+Jak nazywa się polski żaglowiec szkolny, „Biała Fregata”?|Dar Pomorza
+Jak nazywa się lewa burta statku?|bakburta
+Jak nazywa się prawa burta statku?|sterburta
+Jak nazywa się przód statku?|dziób
+Jak nazywa się tył statku?|rufa
+Jak nazywa się jednostka prędkości statków?|węzeł
+Jak nazywa się jednostka odległości na morzu równa 1852 metrom?|mila morska
+Jak nazywa się statek do łamania lodu?|lodołamacz
+Jak nazywa się statek przewożący ropę naftową?|tankowiec
+Jak nazywa się statek przewożący kontenery?|kontenerowiec
+Jak nazywa się pedał w samochodzie rozłączający silnik od skrzyni biegów?|sprzęgło
+Jak nazywa się urządzenie wskazujące prędkość pojazdu?|prędkościomierz
+Jak nazywa się urządzenie wskazujące obroty silnika?|obrotomierz
+Jak nazywa się urządzenie oczyszczające spaliny w układzie wydechowym?|katalizator
+Jak nazywa się urządzenie wtłaczające powietrze do silnika, napędzane spalinami?|turbosprężarka|turbo
+Jak nazywa się część zapalająca mieszankę w silniku benzynowym?|świeca zapłonowa|świeca
+Jak nazywa się źródło prądu do rozruchu samochodu?|akumulator
+Jak nazywa się prądnica ładująca akumulator w samochodzie?|alternator
+Jak nazywa się płyn zapobiegający przegrzaniu silnika?|płyn chłodniczy|chłodziwo
+Jak nazywa się system zapobiegający blokowaniu kół przy hamowaniu — podaj skrót.|ABS
+Jak nazywa się system stabilizacji toru jazdy — podaj skrót.|ESP
+Jak nazywa się poduszka powietrzna po angielsku?|airbag
+Jak nazywa się napęd na wszystkie koła w oznaczeniu cyfrowym?|4x4
+Jak nazywa się samochód łączący silnik spalinowy z elektrycznym?|hybryda|hybrydowy
+Jak nazywa się nadwozie z otwieranym dachem?|kabriolet
+Jak nazywa się nadwozie z wydłużonym tyłem i dużym bagażnikiem?|kombi
+Jak nazywa się paliwo do silników Diesla?|olej napędowy|ropa
+Jak brzmi skrót gazu płynnego używanego jako paliwo?|LPG
+Jak nazywa się miara odporności benzyny na spalanie stukowe?|liczba oktanowa
+Ile kół ma standardowy samochód osobowy, nie licząc zapasowego?|4
+Ile suwów ma cykl pracy typowego silnika samochodowego?|4
+Jaki kształt ma znak „stop”?|ośmiokąt|ośmiokątny
+Jaki kształt ma znak „ustąp pierwszeństwa”?|trójkąt|odwrócony trójkąt
+Jaki kolor światła na sygnalizatorze oznacza „stój”?|czerwony|czerwone
+Jaka jest dopuszczalna prędkość na autostradzie w Polsce w km/h?|140
+Jaka jest dopuszczalna prędkość w obszarze zabudowanym w Polsce w km/h?|50
+Po której stronie drogi jeździ się w Wielkiej Brytanii?|lewa|po lewej
+Jak nazywają się niemieckie autostrady?|Autobahn|autobahny
+Jak nazywa się polska autostrada łącząca Świecko z Warszawą?|A2
+Jak nazywa się polska autostrada łącząca Gdańsk z Łodzią i południem?|A1
+Jak nazywa się polska autostrada biegnąca przez Wrocław, Katowice i Kraków?|A4
+Jaką kategorię prawa jazdy trzeba mieć na samochód osobowy?|B
+Jaką kategorię prawa jazdy trzeba mieć na motocykl?|A
+Od ilu lat można w Polsce uzyskać prawo jazdy kategorii B?|18
+Jak nazywa się słynna amerykańska droga z Chicago do Kalifornii?|Route 66
+Jakiego koloru są tradycyjne piętrowe autobusy w Londynie?|czerwony|czerwonego
+Jakiego koloru są tradycyjne taksówki w Nowym Jorku?|żółte|żółty
+Jak nazywa się wyścig Formuły 1 po francusku — „wielka nagroda”?|Grand Prix
+Jak nazywa się dwukołowy pojazd elektryczny z platformą, na którym się stoi?|hulajnoga elektryczna|hulajnoga

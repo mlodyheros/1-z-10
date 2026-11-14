@@ -1,0 +1,157 @@
+# Film
+Kto wyreżyserował „Titanica”?|James Cameron|Cameron
+Kto wyreżyserował „Avatara”?|James Cameron|Cameron
+Kto wyreżyserował „Szczęki”?|Steven Spielberg|Spielberg
+Kto wyreżyserował „Listę Schindlera”?|Steven Spielberg|Spielberg
+Kto wyreżyserował „Park Jurajski”?|Steven Spielberg|Spielberg
+Kto wyreżyserował „E.T.”?|Steven Spielberg|Spielberg
+Kto wyreżyserował „Pulp Fiction”?|Quentin Tarantino|Tarantino
+Kto wyreżyserował „Kill Billa”?|Quentin Tarantino|Tarantino
+Kto wyreżyserował „Ojca chrzestnego”?|Francis Ford Coppola|Coppola
+Kto wyreżyserował „Czas apokalipsy”?|Francis Ford Coppola|Coppola
+Kto wyreżyserował „Psychozę”?|Alfred Hitchcock|Hitchcock
+Kto wyreżyserował „Ptaki”?|Alfred Hitchcock|Hitchcock
+Kto wyreżyserował „Lśnienie”?|Stanley Kubrick|Kubrick
+Kto wyreżyserował „2001: Odyseję kosmiczną”?|Stanley Kubrick|Kubrick
+Kto wyreżyserował „Incepcję”?|Christopher Nolan|Nolan
+Kto wyreżyserował „Oppenheimera”?|Christopher Nolan|Nolan
+Kto wyreżyserował „Interstellar”?|Christopher Nolan|Nolan
+Kto wyreżyserował „Władcę Pierścieni”?|Peter Jackson|Jackson
+Kto stworzył „Gwiezdne wojny”?|George Lucas|Lucas
+Kto wyreżyserował „Łowcę androidów”?|Ridley Scott|Scott
+Kto wyreżyserował „Gladiatora”?|Ridley Scott|Scott
+Kto wyreżyserował „Taksówkarza”?|Martin Scorsese|Scorsese
+Kto wyreżyserował „Chłopców z ferajny”?|Martin Scorsese|Scorsese
+Kto wyreżyserował „Forresta Gumpa”?|Robert Zemeckis|Zemeckis
+Kto wyreżyserował „Powrót do przyszłości”?|Robert Zemeckis|Zemeckis
+Kto wyreżyserował „Edwarda Nożycorękiego”?|Tim Burton|Burton
+Kto wyreżyserował „Siedem”?|David Fincher|Fincher
+Kto wyreżyserował „Podziemny krąg”?|David Fincher|Fincher
+Kto wyreżyserował „Dziecko Rosemary”?|Roman Polański|Polański
+Kto wyreżyserował „Pianistę”?|Roman Polański|Polański
+Kto wyreżyserował „Chinatown”?|Roman Polański|Polański
+Kto wyreżyserował „Człowieka z marmuru”?|Andrzej Wajda|Wajda
+Kto wyreżyserował „Popiół i diament”?|Andrzej Wajda|Wajda
+Kto wyreżyserował „Ziemię obiecaną”?|Andrzej Wajda|Wajda
+Kto wyreżyserował „Katyń”?|Andrzej Wajda|Wajda
+Kto wyreżyserował „Dekalog”?|Krzysztof Kieślowski|Kieślowski
+Kto wyreżyserował trylogię „Trzy kolory”?|Krzysztof Kieślowski|Kieślowski
+Kto wyreżyserował „Rejs”?|Marek Piwowski|Piwowski
+Kto wyreżyserował „Misia”?|Stanisław Bareja|Bareja
+Kto wyreżyserował „Seksmisję”?|Juliusz Machulski|Machulski
+Kto wyreżyserował „Vabank”?|Juliusz Machulski|Machulski
+Kto wyreżyserował „Kilera”?|Juliusz Machulski|Machulski
+Kto wyreżyserował „Psy”?|Władysław Pasikowski|Pasikowski
+Kto wyreżyserował „Dzień świra”?|Marek Koterski|Koterski
+Kto wyreżyserował „Idę”?|Paweł Pawlikowski|Pawlikowski
+Kto wyreżyserował „Zimną wojnę”?|Paweł Pawlikowski|Pawlikowski
+Kto wyreżyserował „Boże Ciało”?|Jan Komasa|Komasa
+Kto wyreżyserował „Potop” z 1974 roku?|Jerzy Hoffman|Hoffman
+Kto wyreżyserował „Krzyżaków” z 1960 roku?|Aleksander Ford|Ford
+Kto wyreżyserował „Nóż w wodzie”?|Roman Polański|Polański
+Kto wyreżyserował „Sami swoi”?|Sylwester Chęciński|Chęciński
+Kto wyreżyserował „Znachora” z 1981 roku?|Jerzy Hoffman|Hoffman
+Kto wyreżyserował „Bogowie”?|Łukasz Palkowski|Palkowski
+Kto wyreżyserował „Parasite”?|Bong Joon-ho|Bong
+Kto wyreżyserował „Siedmiu samurajów”?|Akira Kurosawa|Kurosawa
+Kto wyreżyserował „Spirited Away: W krainie bogów”?|Hayao Miyazaki|Miyazaki
+Kto wyreżyserował „La dolce vita”?|Federico Fellini|Fellini
+Kto wyreżyserował „Amelię”?|Jean-Pierre Jeunet|Jeunet
+Kto zagrał Jacka w „Titanicu”?|Leonardo DiCaprio|DiCaprio
+Kto zagrał Rose w „Titanicu”?|Kate Winslet|Winslet
+Kto zagrał Forresta Gumpa?|Tom Hanks|Hanks
+Kto zagrał Neo w „Matriksie”?|Keanu Reeves|Reeves
+Kto zagrał Jacka Sparrowa?|Johnny Depp|Depp
+Kto zagrał Indianę Jonesa?|Harrison Ford|Ford
+Kto zagrał Hana Solo w „Gwiezdnych wojnach”?|Harrison Ford|Ford
+Kto zagrał Terminatora?|Arnold Schwarzenegger|Schwarzenegger
+Kto zagrał Rocky'ego Balboę?|Sylvester Stallone|Stallone
+Kto zagrał Hannibala Lectera w „Milczeniu owiec”?|Anthony Hopkins|Hopkins
+Kto zagrał Vita Corleone w pierwszym „Ojcu chrzestnym”?|Marlon Brando|Brando
+Kto zagrał Michaela Corleone?|Al Pacino|Pacino
+Kto zagrał Jokera w „Mrocznym Rycerzu”?|Heath Ledger|Ledger
+Kto zagrał Jokera w filmie „Joker” z 2019 roku?|Joaquin Phoenix|Phoenix
+Kto zagrał Iron Mana w filmach Marvela?|Robert Downey Jr.|Downey
+Kto zagrał Harry'ego Pottera?|Daniel Radcliffe|Radcliffe
+Kto zagrał Hermionę Granger?|Emma Watson|Watson
+Kto zagrał Gandalfa we „Władcy Pierścieni”?|Ian McKellen|McKellen
+Kto zagrał Froda we „Władcy Pierścieni”?|Elijah Wood|Wood
+Kto zagrał Maximusa w „Gladiatorze”?|Russell Crowe|Crowe
+Kto zagrał Ethana Hunta w „Mission: Impossible”?|Tom Cruise|Cruise
+Kto zagrał główną rolę w „Pretty Woman” u boku Richarda Gere'a?|Julia Roberts|Roberts
+Kto zagrał Holly Golightly w „Śniadaniu u Tiffany'ego”?|Audrey Hepburn|Hepburn
+Kto zagrał Jamesa Bonda jako pierwszy w kinowej serii?|Sean Connery|Connery
+Kto grał Jamesa Bonda w latach 2006–2021?|Daniel Craig|Craig
+Kto zagrał Kargula w „Samych swoich”?|Władysław Hańcza|Hańcza
+Kto zagrał Pawlaka w „Samych swoich”?|Wacław Kowalski|Kowalski
+Kto zagrał Kmicica w „Potopie”?|Daniel Olbrychski|Olbrychski
+Kto zagrał Wołodyjowskiego w filmie Hoffmana?|Tadeusz Łomnicki|Łomnicki
+Kto zagrał Franza Maurera w „Psach”?|Bogusław Linda|Linda
+Kto zagrał Jurka Kilera?|Cezary Pazura|Pazura
+Kto zagrał Adasia Miauczyńskiego w „Dniu świra”?|Marek Kondrat|Kondrat
+Kto zagrał Zbigniewa Religę w „Bogach”?|Tomasz Kot|Kot
+Kto zagrał Kwinto w „Vabanku”?|Jan Machulski|Machulski
+Kto zagrał Maksa w „Seksmisji”?|Jerzy Stuhr|Stuhr
+Kto zagrał Hansa Klossa w „Stawce większej niż życie”?|Stanisław Mikulski|Mikulski
+Kto zagrał Janka Kosa w „Czterech pancernych”?|Janusz Gajos|Gajos
+Kto zagrał Franka Dolasa w „Jak rozpętałem drugą wojnę światową”?|Marian Kociniak|Kociniak
+Kto zagrał Władysława Szpilmana w „Pianiście”?|Adrien Brody|Brody
+Kto zagrał wiedźmina Geralta w polskim filmie z 2001 roku?|Michał Żebrowski|Żebrowski
+Jak nazywa się najważniejsza nagroda filmowa przyznawana w Hollywood?|Oscar
+Jak nazywa się główna nagroda festiwalu w Cannes?|Złota Palma
+Jak nazywa się główna nagroda festiwalu w Wenecji?|Złoty Lew
+Jak nazywa się główna nagroda festiwalu w Berlinie?|Złoty Niedźwiedź
+Jak nazywają się polskie nagrody filmowe przyznawane przez Polską Akademię Filmową?|Orły
+Jak nazywa się główna nagroda festiwalu filmowego w Gdyni?|Złote Lwy
+Jak nazywają się „antynagrody” dla najgorszych filmów?|Złote Maliny
+W jakim mieście odbywa się najważniejszy festiwal polskich filmów fabularnych?|Gdynia|w Gdyni
+Który polski film zdobył Oscara dla filmu nieanglojęzycznego w 2015 roku?|Ida
+Który polski reżyser otrzymał honorowego Oscara za całokształt w 2000 roku?|Andrzej Wajda|Wajda
+Który polski kompozytor dostał Oscara za muzykę do „Marzyciela”?|Jan A.P. Kaczmarek|Kaczmarek
+Który polski operator dostał Oscary za „Listę Schindlera” i „Szeregowca Ryana”?|Janusz Kamiński|Kamiński
+Jak nazywa się dzielnica Los Angeles, stolica amerykańskiego kina?|Hollywood
+Jak nazywa się indyjski przemysł filmowy z siedzibą w Mumbaju?|Bollywood
+Jak nazywa się studio, które stworzyło „Toy Story”?|Pixar
+Jak nazywa się japońskie studio animacji Hayao Miyazakiego?|Ghibli|Studio Ghibli
+Jak nazywa się mysz, symbol wytwórni Disneya?|Myszka Miki|Miki
+Jak nazywa się pierwszy pełnometrażowy film animowany Disneya?|Królewna Śnieżka i siedmiu krasnoludków|Królewna Śnieżka
+Jak nazywa się zielony ogr z filmów animowanych?|Shrek
+Jak nazywa się lew, bohater „Króla Lwa”?|Simba
+Jak nazywa się kowboj z „Toy Story”?|Chudy|Woody
+Jak nazywa się bałwan z „Krainy lodu”?|Olaf
+Jak nazywa się królowa lodu z „Krainy lodu”?|Elsa
+Jak nazywa się rybka szukana w filmie Pixara?|Nemo
+Jak nazywa się statek kosmiczny Hana Solo?|Sokół Millennium|Millennium Falcon
+Jak nazywa się mistrz Jedi, mały i zielony?|Yoda
+Kim jest Darth Vader dla Luke'a Skywalkera?|ojcem|ojciec
+Jak nazywa się fikcyjny afrykański kraj z filmu „Czarna Pantera”?|Wakanda
+Jak nazywa się miasto, którego broni Batman?|Gotham
+Jak nazywa się samochód-wehikuł czasu z „Powrotu do przyszłości” — podaj markę.|DeLorean
+Jak nazywa się statek-widmo kapitana Jacka Sparrowa?|Czarna Perła
+Jak nazywa się fikcyjny park z dinozaurami z filmu Spielberga?|Park Jurajski
+Jak nazywa się hotel z filmu „Lśnienie”?|Overlook
+Jak nazywa się komputer pokładowy z „2001: Odysei kosmicznej”?|HAL 9000|HAL
+Jakim numerem posługuje się agent James Bond?|007
+Jak nazywa się pierwszy film dźwiękowy z 1927 roku?|Śpiewak jazzbandu
+Jak nazywają się bracia uznawani za wynalazców kina?|Lumière|Lumiere
+W którym roku odbył się pierwszy publiczny pokaz filmowy braci Lumière?|1895
+Który komik niemego kina stworzył postać Trampa w meloniku?|Charlie Chaplin|Chaplin
+Który film zdobył 11 Oscarów w 1998 roku?|Titanic
+Który film z 1939 roku opowiada o Scarlett O'Harze?|Przeminęło z wiatrem
+Który film z Humphreyem Bogartem rozgrywa się w marokańskim mieście w czasie wojny?|Casablanca
+Który film Roberta Benigniego opowiada o ojcu i synu w obozie koncentracyjnym?|Życie jest piękne
+Który film Barei ukazuje absurdy PRL-u oczami prezesa klubu „Tęcza”?|Miś
+Który polski serial opowiada o załodze czołgu „Rudy”?|Czterej pancerni i pies
+Który polski film opowiada o dwóch mężczyznach obudzonych w świecie samych kobiet?|Seksmisja
+Który polski film z 1999 roku opowiada o przygodach Kmicica, Skrzetuskiego i Heleny?|Ogniem i mieczem
+Który polski film animowany zdobył Oscara w 1983 roku?|Tango
+Kto jest autorem oscarowego „Tanga”?|Zbigniew Rybczyński|Rybczyński
+Który film animowany o życiu van Gogha został namalowany farbami olejnymi?|Twój Vincent
+Który polski film z 2023 roku w reżyserii DK i Hugh Welchmanów namalowano na podstawie powieści Reymonta?|Chłopi
+Jak nazywa się szkoła filmowa, którą ukończyli Wajda, Polański i Kieślowski — w jakim mieście się mieści?|Łódź|w Łodzi
+Jak nazywa się zawód osoby zastępującej aktora w niebezpiecznych scenach?|kaskader
+Jak nazywa się osoba odpowiedzialna za zdjęcia w filmie?|operator
+Jak nazywa się tekst, na podstawie którego kręci się film?|scenariusz
+Jak nazywa się krótka zapowiedź filmu?|zwiastun|trailer
+Jak nazywa się kontynuacja filmu?|sequel
+Jak nazywa się film opowiadający wydarzenia sprzed pierwszej części?|prequel

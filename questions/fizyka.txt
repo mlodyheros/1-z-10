@@ -1,0 +1,152 @@
+# Fizyka
+Jaka jest jednostka siły w układzie SI?|niuton
+Jaka jest jednostka energii w układzie SI?|dżul
+Jaka jest jednostka mocy w układzie SI?|wat
+Jaka jest jednostka ciśnienia w układzie SI?|paskal
+Jaka jest jednostka napięcia elektrycznego?|wolt
+Jaka jest jednostka natężenia prądu elektrycznego?|amper
+Jaka jest jednostka oporu elektrycznego?|om
+Jaka jest jednostka częstotliwości?|herc
+Jaka jest jednostka ładunku elektrycznego?|kulomb
+Jaka jest jednostka temperatury w układzie SI?|kelwin
+Jaka jest jednostka masy w układzie SI?|kilogram
+Jaka jest jednostka długości w układzie SI?|metr
+Jaka jest jednostka czasu w układzie SI?|sekunda
+Jaka jest jednostka pojemności elektrycznej?|farad
+Jaka jest jednostka indukcji magnetycznej?|tesla
+Jaka jest jednostka natężenia dźwięku używana na co dzień?|decybel
+Jaka jest jednostka światłości w układzie SI?|kandela
+Jaka jest jednostka liczności materii w układzie SI?|mol
+Jaka jest jednostka energii używana na rachunkach za prąd?|kilowatogodzina
+Ile wynosi w przybliżeniu prędkość światła w próżni, w tysiącach kilometrów na sekundę?|300
+Ile wynosi w przybliżeniu przyspieszenie ziemskie w metrach na sekundę kwadrat?|9,81|9,8|10
+W ilu stopniach Celsjusza wrze woda pod normalnym ciśnieniem?|100
+W ilu stopniach Celsjusza zamarza woda?|0
+Ile stopni Celsjusza wynosi zero bezwzględne, w zaokrągleniu do całości?|-273|minus 273
+Ile wynosi w przybliżeniu prędkość dźwięku w powietrzu w metrach na sekundę?|340|343
+Kto sformułował trzy zasady dynamiki?|Isaac Newton|Newton
+Kto sformułował prawo powszechnego ciążenia?|Isaac Newton|Newton
+Kto stworzył teorię względności?|Albert Einstein|Einstein
+Jak brzmi najsłynniejszy wzór Einsteina?|E=mc2|E = mc²|E równa się mc kwadrat
+Kto odkrył promieniowanie rentgenowskie?|Wilhelm Röntgen|Roentgen|Rentgen
+Kto odkrył zjawisko promieniotwórczości uranu?|Henri Becquerel|Becquerel
+Kto odkrył elektron?|Joseph John Thomson|Thomson
+Kto odkrył jądro atomowe w doświadczeniu ze złotą folią?|Ernest Rutherford|Rutherford
+Kto stworzył model atomu z elektronami na określonych orbitach?|Niels Bohr|Bohr
+Kto sformułował zasadę nieoznaczoności?|Werner Heisenberg|Heisenberg
+Kto wymyślił eksperyment myślowy z kotem w pudełku?|Erwin Schrödinger|Schrödinger|Schrodinger
+Kto wprowadził pojęcie kwantu energii w 1900 roku?|Max Planck|Planck
+Kto sformułował prawo wyporu, krzycząc „Eureka!”?|Archimedes
+Kto pierwszy skierował lunetę w niebo i odkrył księżyce Jowisza?|Galileusz|Galileo Galilei
+Kto sformułował prawa ruchu planet?|Johannes Kepler|Kepler
+Kto wynalazł ogniwo elektryczne?|Alessandro Volta|Volta
+Kto odkrył indukcję elektromagnetyczną?|Michael Faraday|Faraday
+Kto ujął elektromagnetyzm w cztery równania?|James Clerk Maxwell|Maxwell
+Kto przewidział promieniowanie czarnych dziur?|Stephen Hawking|Hawking
+Kto zbudował pierwszy reaktor jądrowy w Chicago?|Enrico Fermi|Fermi
+Kto kierował naukowo projektem Manhattan?|Robert Oppenheimer|Oppenheimer
+Jaki wynalazca i fizyk był pionierem prądu przemiennego?|Nikola Tesla|Tesla
+Jak nazywa się pierwsza zasada dynamiki Newtona?|zasada bezwładności|bezwładność
+Jak nazywa się siła przyciągająca ciała ku Ziemi?|grawitacja|siła ciężkości
+Jak nazywa się siła przeciwdziałająca ruchowi stykających się powierzchni?|tarcie
+Jak nazywa się siła działająca na ciało zanurzone w cieczy, skierowana ku górze?|siła wyporu|wypór
+Jak nazywa się siła „wyrzucająca” ciało na zewnątrz w ruchu po okręgu?|odśrodkowa|siła odśrodkowa
+Jak nazywa się iloczyn masy i prędkości ciała?|pęd
+Jak nazywa się energia związana z ruchem ciała?|kinetyczna|energia kinetyczna
+Jak nazywa się energia związana z położeniem ciała?|potencjalna|energia potencjalna
+Jak nazywa się stosunek masy do objętości?|gęstość
+Jak nazywa się droga podzielona przez czas?|prędkość
+Jak nazywa się zmiana prędkości w czasie?|przyspieszenie
+Jak nazywa się praca wykonana w jednostce czasu?|moc
+Jak nazywa się nacisk na jednostkę powierzchni?|ciśnienie
+Jak nazywa się przyrząd do pomiaru ciśnienia atmosferycznego?|barometr
+Jak nazywa się przyrząd do pomiaru temperatury?|termometr
+Jak nazywa się przyrząd do pomiaru napięcia?|woltomierz
+Jak nazywa się przyrząd do pomiaru natężenia prądu?|amperomierz
+Jak nazywa się przyrząd do pomiaru siły?|siłomierz|dynamometr
+Jak nazywa się przyrząd do pomiaru wilgotności powietrza?|higrometr
+Jak nazywa się przyrząd do pomiaru prędkości wiatru?|anemometr|wiatromierz
+Jak nazywa się przyrząd wskazujący północ?|kompas|busola
+Jak nazywa się przyrząd rejestrujący trzęsienia ziemi?|sejsmograf
+Jak nazywa się licznik wykrywający promieniowanie jonizujące?|licznik Geigera|Geigera
+Jak nazywa się zjawisko uginania się fali na przeszkodzie?|dyfrakcja|ugięcie
+Jak nazywa się zjawisko nakładania się fal?|interferencja
+Jak nazywa się zmiana kierunku światła na granicy dwóch ośrodków?|załamanie|refrakcja
+Jak nazywa się zjawisko powrotu fali od powierzchni?|odbicie
+Jak nazywa się rozszczepienie światła białego na barwy?|dyspersja|rozszczepienie
+Jak nazywa się zmiana częstotliwości fali przy ruchu źródła, np. syreny karetki?|efekt Dopplera|zjawisko Dopplera
+Jak nazywa się odbicie dźwięku wracające do słuchacza?|echo
+Jak nazywa się dźwięk o częstotliwości zbyt wysokiej dla ludzkiego ucha?|ultradźwięk|ultradźwięki
+Jak nazywa się dźwięk o częstotliwości zbyt niskiej dla ludzkiego ucha?|infradźwięk|infradźwięki
+Jak nazywa się zjawisko gwałtownego wzrostu drgań przy zgodnej częstotliwości?|rezonans
+Jak nazywa się samorzutny rozpad jąder atomowych?|promieniotwórczość|radioaktywność
+Jak nazywa się rozbicie ciężkiego jądra atomowego na lżejsze?|rozszczepienie
+Jak nazywa się łączenie lekkich jąder, źródło energii gwiazd?|fuzja|synteza jądrowa|fuzja jądrowa
+Jak nazywa się czas, po którym rozpada się połowa jąder izotopu?|okres połowicznego rozpadu|czas połowicznego rozpadu
+Jak nazywa się cząstka światła?|foton
+Jak nazywa się antycząstka elektronu?|pozyton
+Jak nazywają się cząstki, z których zbudowane są protony i neutrony?|kwarki
+Jak nazywa się cząstka odkryta w CERN w 2012 roku, nazywana „boską”?|bozon Higgsa|Higgsa
+Jak nazywa się największy akcelerator cząstek na świecie?|Wielki Zderzacz Hadronów|LHC
+Jak nazywa się czwarty stan skupienia materii?|plazma
+Jak nazywa się zjawisko zaniku oporu elektrycznego w bardzo niskich temperaturach?|nadprzewodnictwo
+Jak nazywa się materiał, który nie przewodzi prądu?|izolator|dielektryk
+Jak nazywa się materiał taki jak krzem, o własnościach pośrednich między przewodnikiem a izolatorem?|półprzewodnik
+Jak nazywa się prąd, który cyklicznie zmienia kierunek?|przemienny|prąd przemienny
+Jak nazywa się prąd płynący stale w jednym kierunku?|stały|prąd stały
+Jak nazywa się urządzenie zmieniające napięcie prądu przemiennego?|transformator
+Jak nazywa się element obwodu zabezpieczający przed zbyt dużym prądem?|bezpiecznik
+Jak nazywa się element gromadzący ładunek elektryczny?|kondensator
+Jak nazywa się element elektroniczny przepuszczający prąd w jedną stronę?|dioda
+Jak nazywa się prawo wiążące napięcie, natężenie i opór?|prawo Ohma|Ohma
+Jakie ładunki elektryczne się przyciągają?|różnoimienne|przeciwne
+Jakie bieguny magnesu się odpychają?|jednoimienne|takie same
+Jak nazywają się dwa bieguny magnesu?|północny i południowy|N i S
+Jak nazywa się metal najsilniej przyciągany przez magnes w życiu codziennym?|żelazo
+Jak nazywa się soczewka skupiająca?|wypukła
+Jak nazywa się soczewka rozpraszająca?|wklęsła
+Jaką barwę ma światło o najdłuższej fali w zakresie widzialnym?|czerwona|czerwień
+Jaką barwę ma światło o najkrótszej fali w zakresie widzialnym?|fioletowa|fiolet
+Jak nazywa się promieniowanie o fali nieco dłuższej niż światło czerwone?|podczerwień|podczerwone
+Jak nazywa się promieniowanie o fali nieco krótszej niż światło fioletowe?|nadfiolet|ultrafiolet|UV
+Jakie promieniowanie wykorzystuje kuchenka mikrofalowa?|mikrofale
+Jakie promieniowanie wykorzystuje się do prześwietleń kości?|rentgenowskie|promienie X
+Jak nazywa się zjawisko wybijania elektronów z metalu przez światło?|efekt fotoelektryczny|zjawisko fotoelektryczne
+Za wyjaśnienie jakiego zjawiska Einstein dostał Nagrodę Nobla?|efekt fotoelektryczny|zjawisko fotoelektryczne
+Jak nazywa się miara nieuporządkowania układu?|entropia
+Jak nazywa się przekazywanie ciepła przez ruch cieczy lub gazu?|konwekcja
+Jak nazywa się przekazywanie ciepła przez bezpośredni kontakt?|przewodnictwo|przewodzenie
+Jak nazywa się przemiana gazowa zachodząca w stałej temperaturze?|izotermiczna
+Jak nazywa się maszyna niemożliwa, która pracowałaby wiecznie bez energii?|perpetuum mobile
+Jak nazywa się najprostsza maszyna w postaci sztywnej belki z punktem podparcia?|dźwignia
+Jak nazywa się ruch drobin w cieczy obserwowany pod mikroskopem?|ruchy Browna|Browna
+Jak nazywa się zjawisko wznoszenia się cieczy w wąskich rurkach?|włoskowatość|kapilarność
+Jak nazywa się „błona” na powierzchni wody utrzymująca nartnika?|napięcie powierzchniowe
+Jak nazywa się opór stawiany przez ciecz przy przepływie?|lepkość
+Jak nazywa się ciecz o zerowej lepkości?|nadciecz|ciecz nadciekła
+Jak nazywa się zakrzywienie czasoprzestrzeni tak silne, że nie ucieka z niego światło?|czarna dziura
+Jak nazywa się teoria początku Wszechświata?|Wielki Wybuch|teoria Wielkiego Wybuchu
+Jak nazywają się fale przewidziane przez Einsteina i wykryte w 2015 roku?|fale grawitacyjne|grawitacyjne
+Jak nazywa się hipotetyczna materia, która nie świeci, a oddziałuje grawitacyjnie?|ciemna materia
+Jak nazywa się skala temperatur używana w USA?|Fahrenheita|Fahrenheit
+Jak nazywa się skala twardości minerałów?|skala Mohsa|Mohsa
+Jak nazywa się skala siły wiatru?|skala Beauforta|Beauforta
+Jak nazywa się skala magnitudy trzęsień ziemi?|skala Richtera|Richtera
+Jak nazywa się jednostka prędkości równa prędkości dźwięku?|mach
+Jak nazywa się jednostka odległości równa drodze światła w ciągu roku?|rok świetlny
+Jak nazywa się jednostka ciśnienia używana w prognozach pogody?|hektopaskal
+Jak nazywa się dawna jednostka mocy silników odwołująca się do zwierzęcia?|koń mechaniczny
+Jaka Polka otrzymała Nagrodę Nobla z fizyki w 1903 roku?|Maria Skłodowska-Curie|Skłodowska
+Jak nazywa się urządzenie wytwarzające spójną wiązkę światła?|laser
+Jak nazywa się urządzenie zamieniające światło słoneczne w prąd?|ogniwo fotowoltaiczne|panel fotowoltaiczny|fotoogniwo
+Jak nazywa się maszyna zamieniająca energię mechaniczną w elektryczną?|prądnica|generator
+Jak nazywa się naczynie o podwójnych ściankach z próżnią, utrzymujące temperaturę?|termos
+Jak nazywa się zjawisko optyczne po deszczu w postaci barwnego łuku?|tęcza
+Jak nazywa się złudzenie optyczne na pustyni wywołane załamaniem światła?|fatamorgana|miraż
+Jak nazywa się wyładowanie elektryczne w atmosferze?|piorun|błyskawica
+Kto wynalazł piorunochron?|Benjamin Franklin|Franklin
+Jak nazywa się klatka chroniąca przed polem elektrycznym?|klatka Faradaya|Faradaya
+Jak nazywa się świecenie nieba w okolicach biegunów?|zorza polarna|zorza
+Jak nazywa się zdolność ciała do zachowania stanu ruchu?|bezwładność|inercja
+Ile wynosi ciśnienie atmosferyczne na poziomie morza w hektopaskalach?|1013
+Ile barw podstawowych wyróżnia się tradycyjnie w tęczy?|7

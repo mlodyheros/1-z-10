@@ -1,0 +1,175 @@
+# Matematyka
+Ile wynosi 11 do kwadratu?|121
+Ile wynosi 12 do kwadratu?|144
+Ile wynosi 13 do kwadratu?|169
+Ile wynosi 14 do kwadratu?|196
+Ile wynosi 15 do kwadratu?|225
+Ile wynosi 16 do kwadratu?|256
+Ile wynosi 17 do kwadratu?|289
+Ile wynosi 18 do kwadratu?|324
+Ile wynosi 19 do kwadratu?|361
+Ile wynosi 20 do kwadratu?|400
+Ile wynosi 21 do kwadratu?|441
+Ile wynosi 22 do kwadratu?|484
+Ile wynosi 23 do kwadratu?|529
+Ile wynosi 24 do kwadratu?|576
+Ile wynosi 25 do kwadratu?|625
+Ile to 6 × 7?|42
+Ile to 7 × 8?|56
+Ile to 8 × 9?|72
+Ile to 9 × 6?|54
+Ile to 12 × 7?|84
+Ile to 13 × 6?|78
+Ile to 14 × 5?|70
+Ile to 15 × 8?|120
+Ile to 16 × 4?|64
+Ile to 17 × 3?|51
+Ile to 18 × 6?|108
+Ile to 19 × 5?|95
+Ile to 21 × 4?|84
+Ile to 23 × 3?|69
+Ile to 24 × 5?|120
+Ile to 25 × 8?|200
+Ile to 12 × 12?|144
+Ile to 15 × 15?|225
+Ile to 11 × 13?|143
+Ile to 9 × 14?|126
+Ile to 7 × 16?|112
+Ile to 8 × 17?|136
+Ile to 6 × 19?|114
+Ile to 4 × 27?|108
+Ile to 3 × 37?|111
+Ile to 5 × 44?|220
+Ile to 9 × 25?|225
+Ile to 8 × 35?|280
+Ile to 7 × 45?|315
+Ile to 6 × 55?|330
+Ile to 47 + 38?|85
+Ile to 125 + 76?|201
+Ile to 89 + 64?|153
+Ile to 256 + 144?|400
+Ile to 73 + 49?|122
+Ile to 199 + 202?|401
+Ile to 58 + 67?|125
+Ile to 345 + 155?|500
+Ile to 100 − 37?|63
+Ile to 250 − 86?|164
+Ile to 91 − 47?|44
+Ile to 1000 − 365?|635
+Ile to 144 − 89?|55
+Ile to 500 − 123?|377
+Ile to 72 − 38?|34
+Ile to 10% z liczby 250?|25
+Ile to 20% z liczby 150?|30
+Ile to 25% z liczby 80?|20
+Ile to 50% z liczby 46?|23
+Ile to 5% z liczby 200?|10
+Ile to 15% z liczby 60?|9
+Ile to 30% z liczby 90?|27
+Ile to 75% z liczby 40?|30
+Ile to 1% z liczby 500?|5
+Ile to 40% z liczby 250?|100
+Ile to 12% z liczby 50?|6
+Ile to 60% z liczby 150?|90
+Ile to 35% z liczby 200?|70
+Ile to 8% z liczby 25?|2
+Ile to 90% z liczby 30?|27
+Ile wynosi 2 do potęgi 3?|8
+Ile wynosi 2 do potęgi 4?|16
+Ile wynosi 2 do potęgi 5?|32
+Ile wynosi 2 do potęgi 6?|64
+Ile wynosi 2 do potęgi 7?|128
+Ile wynosi 2 do potęgi 8?|256
+Ile wynosi 2 do potęgi 9?|512
+Ile wynosi 2 do potęgi 10?|1024
+Ile wynosi 2 do potęgi 11?|2048
+Ile wynosi 2 do potęgi 12?|4096
+Ile wynosi pierwiastek kwadratowy z 36?|6
+Ile wynosi pierwiastek kwadratowy z 49?|7
+Ile wynosi pierwiastek kwadratowy z 64?|8
+Ile wynosi pierwiastek kwadratowy z 81?|9
+Ile wynosi pierwiastek kwadratowy z 121?|11
+Ile wynosi pierwiastek kwadratowy z 144?|12
+Ile wynosi pierwiastek kwadratowy z 169?|13
+Ile wynosi pierwiastek kwadratowy z 196?|14
+Ile wynosi pierwiastek kwadratowy z 225?|15
+Ile wynosi pierwiastek kwadratowy z 400?|20
+Ile to 144 : 12?|12
+Ile to 96 : 8?|12
+Ile to 225 : 15?|15
+Ile to 132 : 11?|12
+Ile to 91 : 7?|13
+Ile to 108 : 9?|12
+Ile to 256 : 16?|16
+Ile to 75 : 5?|15
+Ile stopni ma kąt prosty?|90
+Ile stopni ma kąt pełny?|360
+Ile stopni ma kąt półpełny?|180
+Ile wynosi suma kątów w trójkącie?|180
+Ile wynosi suma kątów w czworokącie?|360
+Ile boków ma sześciokąt?|6
+Ile boków ma ośmiokąt?|8
+Ile ścian ma sześcian?|6
+Ile wierzchołków ma sześcian?|8
+Ile krawędzi ma sześcian?|12
+Ile ścian ma czworościan?|4
+Jak nazywa się najdłuższy bok trójkąta prostokątnego?|przeciwprostokątna
+Jak nazywają się boki trójkąta prostokątnego tworzące kąt prosty?|przyprostokątne
+Czyje twierdzenie mówi, że a² + b² = c² w trójkącie prostokątnym?|Pitagorasa|Pitagoras
+Jak nazywa się trójkąt o trzech równych bokach?|równoboczny
+Jak nazywa się trójkąt o dwóch równych bokach?|równoramienny
+Jak nazywa się odcinek łączący środek okręgu z punktem na okręgu?|promień
+Jak nazywa się najdłuższa cięciwa okręgu?|średnica
+Jaką grecką literą oznacza się stosunek obwodu koła do średnicy?|pi
+Ile wynosi liczba pi z dokładnością do dwóch miejsc po przecinku?|3,14|3.14
+Jaka jest najmniejsza liczba pierwsza?|2
+Jaka jest jedyna parzysta liczba pierwsza?|2
+Jaka jest największa liczba pierwsza mniejsza od 20?|19
+Ile wynosi silnia z 5?|120
+Ile wynosi silnia z 4?|24
+Ile wynosi silnia z zera?|1
+Ile to jest tuzin?|12
+Ile to jest kopa?|60
+Ile to jest mendel?|15
+Ile zer ma milion?|6
+Ile zer ma miliard?|9
+Jak zapisuje się liczbę 50 w systemie rzymskim?|L
+Jak zapisuje się liczbę 100 w systemie rzymskim?|C
+Jak zapisuje się liczbę 500 w systemie rzymskim?|D
+Jak zapisuje się liczbę 1000 w systemie rzymskim?|M
+Jaką liczbę oznacza rzymskie XIV?|14
+Jaką liczbę oznacza rzymskie XL?|40
+Jaką liczbę oznacza rzymskie XC?|90
+Jaką liczbę oznacza rzymskie MM?|2000
+Jak nazywa się wynik dodawania?|suma
+Jak nazywa się wynik odejmowania?|różnica
+Jak nazywa się wynik mnożenia?|iloczyn
+Jak nazywa się wynik dzielenia?|iloraz
+Jak nazywa się górna liczba w ułamku zwykłym?|licznik
+Jak nazywa się dolna liczba w ułamku zwykłym?|mianownik
+Jak nazywa się czworokąt o czterech równych bokach i kątach prostych?|kwadrat
+Jak nazywa się czworokąt o czterech równych bokach, niekoniecznie z kątami prostymi?|romb
+Jak nazywa się czworokąt mający co najmniej jedną parę boków równoległych?|trapez
+Jak nazywa się wielokąt o pięciu bokach?|pięciokąt
+Jak nazywa się bryła, której wszystkie punkty powierzchni są równo oddalone od środka?|kula
+Jak nazywa się kąt mniejszy od 90 stopni?|ostry
+Jak nazywa się kąt większy od 90, a mniejszy od 180 stopni?|rozwarty
+Ile centymetrów ma metr?|100
+Ile metrów ma kilometr?|1000
+Ile gramów ma kilogram?|1000
+Ile kilogramów ma tona?|1000
+Ile mililitrów ma litr?|1000
+Ile sekund ma godzina?|3600
+Ile minut ma doba?|1440
+Ile metrów kwadratowych ma hektar?|10000
+Jak nazywa się średnia otrzymana przez podzielenie sumy liczb przez ich ilość?|arytmetyczna|średnia arytmetyczna
+Jak nazywa się środkowa wartość w uporządkowanym zbiorze liczb?|mediana
+Który starożytny Grek napisał „Elementy”, podstawowe dzieło geometrii?|Euklides
+Jak nazywa się ciąg, w którym każda liczba jest sumą dwóch poprzednich?|Fibonacciego|ciąg Fibonacciego
+Ile wynosi 1/4 zapisana jako procent?|25
+Ile wynosi 0,5 zapisane jako ułamek zwykły o mianowniku 2 — podaj licznik.|1
+Jaki jest najmniejszy wspólny mianownik ułamków 1/2 i 1/3?|6
+Ile wynosi największy wspólny dzielnik liczb 12 i 18?|6
+Ile wynosi najmniejsza wspólna wielokrotność liczb 4 i 6?|12
+Ile przekątnych ma kwadrat?|2
+Ile osi symetrii ma kwadrat?|4

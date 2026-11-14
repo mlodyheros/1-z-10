@@ -1,0 +1,154 @@
+# Język polski
+Ile liter ma polski alfabet?|32
+Jaka jest pierwsza litera polskiego alfabetu?|A
+Jaka jest ostatnia litera polskiego alfabetu?|Ż
+Ile przypadków ma język polski?|7
+Jak nazywa się pierwszy przypadek w języku polskim?|mianownik
+Jak nazywa się przypadek odpowiadający na pytania „kogo? czego?” przy przeczeniu?|dopełniacz
+Jak nazywa się przypadek odpowiadający na pytania „komu? czemu?”?|celownik
+Jak nazywa się przypadek odpowiadający na pytania „kogo? co?”?|biernik
+Jak nazywa się przypadek odpowiadający na pytania „z kim? z czym?”?|narzędnik
+Jak nazywa się przypadek odpowiadający na pytania „o kim? o czym?”?|miejscownik
+Jak nazywa się przypadek używany do zwracania się do kogoś?|wołacz
+Jak nazywa się część mowy nazywająca osoby, rzeczy i zjawiska?|rzeczownik
+Jak nazywa się część mowy nazywająca czynności i stany?|czasownik
+Jak nazywa się część mowy odpowiadająca na pytania „jaki? jaka? jakie?”?|przymiotnik
+Jak nazywa się część mowy odpowiadająca na pytania „jak? gdzie? kiedy?”?|przysłówek
+Jak nazywa się część mowy określająca liczbę lub kolejność?|liczebnik
+Jak nazywa się część mowy zastępująca rzeczownik, np. „on”, „ten”?|zaimek
+Jak nazywa się część mowy łącząca wyrazy lub zdania, np. „i”, „ale”?|spójnik
+Jak nazywa się część mowy taka jak „w”, „na”, „pod”?|przyimek
+Jak nazywa się część mowy wyrażająca emocje, np. „ach!”, „ojej!”?|wykrzyknik
+Jak nazywa się odmiana rzeczownika przez przypadki?|deklinacja
+Jak nazywa się odmiana czasownika przez osoby?|koniugacja
+Jak nazywa się podstawowa forma czasownika, np. „pisać”?|bezokolicznik
+Jak nazywa się główna część zdania nazywająca wykonawcę czynności?|podmiot
+Jak nazywa się główna część zdania nazywająca czynność?|orzeczenie
+Jak nazywa się określenie rzeczownika w zdaniu?|przydawka
+Jak nazywa się wyraz o znaczeniu przeciwnym do innego?|antonim
+Jak nazywa się wyraz o znaczeniu podobnym do innego?|synonim
+Jak nazywają się wyrazy brzmiące tak samo, a znaczące co innego?|homonimy
+Jak nazywa się wyraz lub zdanie brzmiące tak samo czytane od tyłu?|palindrom
+Jak nazywa się wyraz naśladujący dźwięki, np. „kukuryku”?|onomatopeja|wyraz dźwiękonaśladowczy
+Jak nazywa się zdrobniała forma wyrazu, np. „kotek”?|zdrobnienie
+Jak nazywa się forma taka jak „kocisko” czy „domisko”?|zgrubienie
+Jak nazywa się nowy wyraz w języku?|neologizm
+Jak nazywa się wyraz przestarzały, który wyszedł z użycia?|archaizm
+Jak nazywa się wyraz zapożyczony z języka angielskiego?|anglicyzm
+Jak nazywa się wyraz zapożyczony z języka niemieckiego?|germanizm
+Jak nazywa się wyraz zapożyczony z języka rosyjskiego?|rusycyzm
+Jak nazywa się wyraz zapożyczony z łaciny?|latynizm
+Jak nazywa się łagodniejsze określenie czegoś przykrego, np. „odszedł” zamiast „umarł”?|eufemizm
+Jak nazywa się zbędne powtórzenie znaczenia, np. „cofać się do tyłu”?|pleonazm|masło maślane
+Jak nazywa się zestawienie sprzecznych pojęć, np. „gorący lód”?|oksymoron
+Jak nazywa się przesadnia, np. „mówiłem ci tysiąc razy”?|hiperbola
+Jak nazywa się nadanie przedmiotom cech ludzkich?|personifikacja|uosobienie
+Jak nazywa się środek stylistyczny ze słowami „jak”, „niczym”, „niby”?|porównanie
+Jak nazywa się określenie rzeczownika w poezji, np. „srebrny” księżyc?|epitet
+Jak nazywa się przenośnia inaczej?|metafora
+Jak nazywa się powtórzenie tych samych słów na początku kolejnych wersów?|anafora
+Jak nazywa się zgodność brzmienia zakończeń wersów?|rym
+Jak nazywa się krótkie powiedzenie zawierające mądrość ludową?|przysłowie
+Jak nazywa się utrwalone połączenie wyrazów o przenośnym znaczeniu, np. „rzucać grochem o ścianę”?|frazeologizm|związek frazeologiczny
+Jak nazywa się słownik wyjaśniający pochodzenie wyrazów?|etymologiczny|słownik etymologiczny
+Jak nazywa się nauka o poprawnej pisowni?|ortografia
+Jak nazywa się nauka o znakach przestankowych?|interpunkcja
+Jak nazywa się nauka o dźwiękach mowy?|fonetyka
+Jak nazywa się regionalna odmiana języka?|gwara|dialekt
+Jak nazywa się znak „?”?|pytajnik|znak zapytania
+Jak nazywa się znak „!”?|wykrzyknik
+Jak nazywa się znak „;”?|średnik
+Jak nazywa się znak „:”?|dwukropek
+Jak nazywa się znak „…”?|wielokropek
+Jak nazywają się znaki „( )”?|nawias|nawiasy
+Jak nazywa się znak „-” łączący człony wyrazów złożonych?|łącznik|dywiz
+Jak nazywa się haczyk pod literami „ą” i „ę”?|ogonek
+Jak poprawnie napisać: „rzeka” czy „żeka”?|rzeka
+Jak poprawnie napisać: „gżegżółka” czy „grzegrzułka”?|gżegżółka
+Jak poprawnie napisać: „chrzan” czy „hrzan”?|chrzan
+Jak poprawnie napisać: „herbata” czy „cherbata”?|herbata
+Jak poprawnie napisać: „pszczoła” czy „pszczuła”?|pszczoła
+Jak poprawnie napisać: „skuwka” czy „skówka”?|skuwka
+Jak poprawnie napisać: „hultaj” czy „chultaj”?|hultaj
+Jak poprawnie napisać: „żółw” czy „żułw”?|żółw
+Jak poprawnie napisać: „wziąć” czy „wziąść”?|wziąć
+Jak poprawnie napisać: „w ogóle” czy „wogóle”?|w ogóle
+Jak poprawnie napisać: „na pewno” czy „napewno”?|na pewno
+Jak poprawnie napisać: „naprawdę” czy „na prawdę”?|naprawdę
+Jak poprawnie napisać: „ponieważ” czy „poniewarz”?|ponieważ
+Jak poprawnie napisać: „bohater” czy „bochater”?|bohater
+Jak poprawnie napisać: „rzeżucha” czy „żerzucha”?|rzeżucha
+Jak poprawnie napisać: „hałas” czy „chałas”?|hałas
+Jak poprawnie napisać: „jeżyna” czy „jerzyna”?|jeżyna
+Jak poprawnie napisać: „porzeczka” czy „pożeczka”?|porzeczka
+Jak poprawnie napisać: „drużyna” czy „drurzyna”?|drużyna
+Jak poprawnie napisać: „ołówek” czy „ołuwek”?|ołówek
+Jak poprawnie powiedzieć: „włączać” czy „włanczać”?|włączać
+Jak poprawnie powiedzieć: „poszedłem” czy „poszłem”?|poszedłem
+Jak poprawnie powiedzieć: „wziąłem” czy „wzięłem”?|wziąłem
+Jak poprawnie powiedzieć: „w każdym razie” czy „w każdym bądź razie”?|w każdym razie
+Jak poprawnie powiedzieć: „tę książkę” czy „tą książkę”?|tę książkę
+Jak brzmi liczba mnoga słowa „człowiek”?|ludzie
+Jak brzmi liczba mnoga słowa „rok”?|lata
+Jak brzmi liczba mnoga słowa „dziecko”?|dzieci
+Jak brzmi liczba mnoga słowa „oko” (narząd wzroku)?|oczy
+Jak brzmi liczba mnoga słowa „ucho” (narząd słuchu)?|uszy
+Jak brzmi liczba mnoga słowa „ręka”?|ręce
+Jak brzmi liczba mnoga słowa „przyjaciel”?|przyjaciele
+Jak brzmi liczba mnoga słowa „brat”?|bracia
+Jak brzmi liczba mnoga słowa „ksiądz”?|księża
+Jak brzmi liczba mnoga słowa „tydzień”?|tygodnie
+Jak brzmi liczba pojedyncza słowa „ludzie”?|człowiek
+Jak brzmi dopełniacz liczby mnogiej słowa „pomarańcza”?|pomarańczy|pomarańcz
+Jak brzmi wołacz od imienia „Marek”?|Marku
+Jak brzmi wołacz od słowa „pan”?|panie
+Jak brzmi stopień wyższy przymiotnika „dobry”?|lepszy
+Jak brzmi stopień wyższy przymiotnika „zły”?|gorszy
+Jak brzmi stopień najwyższy przymiotnika „mały”?|najmniejszy
+Jak brzmi stopień wyższy przymiotnika „duży”?|większy
+Jak brzmi stopień wyższy przysłówka „dobrze”?|lepiej
+Jak brzmi forma żeńska rzeczownika „nauczyciel”?|nauczycielka
+Jak brzmi forma męska rzeczownika „kaczka”?|kaczor
+Jak brzmi forma męska rzeczownika „gęś”?|gąsior
+Jak brzmi forma żeńska rzeczownika „lew”?|lwica
+Jak nazywa się młode krowy?|cielę|cielak
+Jak nazywa się młode konia?|źrebię|źrebak
+Jak nazywa się młode owcy?|jagnię
+Jak nazywa się młode kozy?|koźlę
+Jak nazywa się młode świni?|prosię|prosiak
+Jak nazywa się młode psa?|szczenię|szczeniak
+Dokończ przysłowie: „Gdzie kucharek sześć, tam nie ma co...”|jeść
+Dokończ przysłowie: „Nie chwal dnia przed zachodem...”|słońca
+Dokończ przysłowie: „Lepszy wróbel w garści niż gołąb na...”|dachu
+Dokończ przysłowie: „Kto pod kim dołki kopie, ten sam w nie...”|wpada
+Dokończ przysłowie: „Bez pracy nie ma...”|kołaczy
+Dokończ przysłowie: „Co ma wisieć, nie...”|utonie
+Dokończ przysłowie: „Jak sobie pościelesz, tak się...”|wyśpisz
+Dokończ przysłowie: „Darowanemu koniowi w zęby się nie...”|zagląda
+Dokończ przysłowie: „Nie wszystko złoto, co się...”|świeci
+Dokończ przysłowie: „Kto rano wstaje, temu Pan Bóg...”|daje
+Dokończ przysłowie: „Niedaleko pada jabłko od...”|jabłoni
+Dokończ przysłowie: „Apetyt rośnie w miarę...”|jedzenia
+Dokończ przysłowie: „Co dwie głowy, to nie...”|jedna
+Dokończ przysłowie: „Gdy kota nie ma, myszy...”|harcują
+Dokończ przysłowie: „Mądry Polak po...”|szkodzie
+Dokończ przysłowie: „Wszędzie dobrze, ale w domu...”|najlepiej
+Dokończ przysłowie: „Czym skorupka za młodu nasiąknie, tym na starość...”|trąci
+Dokończ przysłowie: „Kuj żelazo, póki...”|gorące
+Dokończ przysłowie: „Gdzie dwóch się bije, tam trzeci...”|korzysta
+Dokończ przysłowie: „Nie taki diabeł straszny, jak go...”|malują
+Dokończ przysłowie: „Ziarnko do ziarnka, a zbierze się...”|miarka
+Dokończ przysłowie: „Fortuna kołem się...”|toczy
+Dokończ przysłowie: „Jedna jaskółka wiosny nie...”|czyni
+Dokończ przysłowie: „Co kraj, to...”|obyczaj
+Dokończ przysłowie: „Trafiła kosa na...”|kamień
+Jakie zwierzę „kupuje się w worku”, gdy nabywamy coś bez sprawdzenia?|kot|kota
+Jakie zwierzę symbolizuje w polszczyźnie pracowitość — „pracowity jak...”?|mrówka|pszczoła
+Jakie zwierzę symbolizuje upór — „uparty jak...”?|osioł
+Jakie zwierzę symbolizuje chytrość — „chytry jak...”?|lis
+Jakie zwierzę symbolizuje głód — „głodny jak...”?|wilk
+Jakie zwierzę symbolizuje powolność — „wolny jak...”?|żółw|ślimak
+Jakie zwierzę symbolizuje zdrowie — „zdrów jak...”?|ryba
+Do jakiej grupy języków należy polski?|słowiańskie|języki słowiańskie|zachodniosłowiańskie
+Jak nazywa się język regionalny używany na Pomorzu Gdańskim?|kaszubski
+Którego dnia obchodzony jest Międzynarodowy Dzień Języka Ojczystego?|21 lutego
