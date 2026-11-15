@@ -78,6 +78,7 @@ document.addEventListener('click', e => {
 });
 addEventListener('keydown', e => {
   if (e.key === 'Escape' && wheelOpen()) return closeWheel();
+  if (e.key === 'Escape') closeGallery();
   if ((e.key === 'b' || e.key === 'B') && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) wheelOpen() ? closeWheel() : openWheel();
 });
 function emoteTarget(id) {
@@ -159,7 +160,7 @@ function connect(first) {
 }
 const tx = m => { if (ws && ws.readyState === 1) ws.send(JSON.stringify(m)); };
 function goHome() {
-  sess = null; sstore.set(null); S = null;
+  sess = null; sstore.set(null); S = null; closeGallery();
   if (ws) { ws.onclose = null; ws.close(); }
   history.replaceState(null, '', location.pathname); show('home');
 }
@@ -168,6 +169,7 @@ function render() {
   if (!S) return show('home');
   if (S.phase === 'lobby') { show('lobby'); renderLobby(); panelKey = ''; }
   else { show('game'); renderGame(); }
+  renderGallery();
   repaintEmotes();
 }
 
@@ -193,14 +195,16 @@ function renderLobby() {
               <div class="pl-fig">${avatarSVG(p.avatar)}</div>
               <div class="pl-desk"><span class="pl-seat">${i + 1}</span>
                 <div class="pl-name">${esc(p.name)}</div>
-                <div class="pl-sub">${p.isBot ? t('bot') + ' · ' + t('lv_' + p.level) : p.id === S.hostId ? t('host') : t('seat', { n: i + 1 })}</div></div>
+                ${p.isBot && host ? `<select class="pl-lv" data-botlv="${p.id}" aria-label="${esc(t('botLevelOf', { name: p.name }))}">${levelOpts(p.level)}</select>`
+      : `<div class="pl-sub">${p.isBot ? t('bot') + ' · ' + t('lv_' + p.level) : p.id === S.hostId ? t('host') : t('seat', { n: i + 1 })}</div>`}</div>
               ${host && p.id !== myId ? `<button class="x" data-kick="${p.id}" aria-label="${esc(t('remove', { name: p.name }))}">×</button>` : ''}
             </div>` : `<div class="pl empty"><div class="pl-fig"></div><div class="pl-desk"><span class="pl-seat">${i + 1}</span><div class="pl-sub">${t('free')}</div></div></div>`; }).join('')}
         </div>
         <div class="emo-row"><button class="emo-btn" data-wheel>${emoBtnInner()}</button>
         ${host ? `<span class="botrow">
-          <select id="bot-level" class="inp">${['latwy', 'sredni', 'trudny'].map(l => `<option value="${l}" ${l === 'sredni' ? 'selected' : ''}>${t('botLv', { lv: t('lv_' + l) })}</option>`).join('')}</select>
+          <select id="bot-level" class="inp">${levelOpts(botLevel, true)}</select>
           <button class="btn" id="add-bot" ${S.players.length >= 10 ? 'disabled' : ''}>${t('addBot')}</button>
+          <button class="btn primary" id="open-gallery">${t('gallery')}</button>
         </span>` : ''}</div>
       </section>
       <section class="card setcard">
@@ -239,7 +243,10 @@ function renderLobby() {
   $('#lb-leave').onclick = () => { tx({ t: 'leave' }); goHome(); };
   $('#copy-link').onclick = () => { navigator.clipboard?.writeText(link).then(() => toast(t('linkCopied')), () => toast(link)); };
   if (!host) return;
-  $('#add-bot').onclick = () => tx({ t: 'addBot', level: $('#bot-level').value });
+  $('#add-bot').onclick = () => tx({ t: 'addBot', level: botLevel });
+  $('#bot-level').onchange = e => { botLevel = e.target.value; };
+  $('#open-gallery').onclick = openGallery;
+  el.querySelectorAll('[data-botlv]').forEach(x => x.onchange = () => tx({ t: 'botLevel', id: x.dataset.botlv, level: x.value }));
   el.querySelectorAll('[data-kick]').forEach(b => b.onclick = () => tx({ t: 'kick', id: b.dataset.kick }));
   const setS = s => tx({ t: 'settings', settings: s });
   $('#set-time').onchange = e => setS({ answerTime: +e.target.value });
@@ -249,6 +256,35 @@ function renderLobby() {
   cats.onchange = () => setS({ categories: [...cats.querySelectorAll('input:checked')].map(i => i.dataset.cat) });
   $('#start').onclick = () => tx({ t: 'start' });
 }
+
+// ---------- galeria botów ----------
+const BOT_LEVELS = ['slaby', 'latwy', 'sredni', 'trudny', 'mistrz'];
+let botLevel = 'sredni';
+function levelOpts(cur, long) {
+  return BOT_LEVELS.map(l => `<option value="${l}" ${l === cur ? 'selected' : ''}>${long ? t('botLv', { lv: t('lv_' + l) }) : t('lv_' + l)}</option>`).join('');
+}
+function openGallery() { $('#gallery').classList.remove('hidden'); renderGallery(); }
+function closeGallery() { $('#gallery').classList.add('hidden'); }
+function renderGallery() {
+  const el = $('#gallery');
+  if (el.classList.contains('hidden')) return;
+  if (!S || S.phase !== 'lobby' || S.hostId !== myId) return closeGallery();
+  const used = new Set(S.players.map(p => p.gid).filter(Boolean)), full = S.players.length >= 10;
+  const sc = (el.querySelector('.gal-body') || {}).scrollTop || 0;
+  el.innerHTML = `<div class="gal card" role="dialog" aria-label="${t('gallery')}">
+    <div class="gal-head"><h2>${t('gallery')} <small>${S.players.length}/10</small></h2>
+      <label class="gal-lv">${t('level')} <select id="gal-level" class="inp">${levelOpts(botLevel)}</select></label>
+      <button class="btn ghost" id="gal-close">${t('close')}</button></div>
+    <p class="hint">${t('galHint')}</p>
+    <div class="gal-body">${['friends', 'stars'].map(gr => `<h3>${t('g_' + gr)}</h3><div class="gal-grid">
+      ${BOT_GALLERY.filter(b => b.group === gr).map(b => `<button class="gal-item ${used.has(b.id) ? 'used' : ''}" data-gid="${b.id}" ${used.has(b.id) || full ? 'disabled' : ''}>
+        ${avatarSVG(b.avatar)}<b>${esc(b.name)}</b>${used.has(b.id) ? `<em>${t('inRoom')}</em>` : ''}</button>`).join('')}</div>`).join('')}</div></div>`;
+  el.querySelector('.gal-body').scrollTop = sc;
+  $('#gal-close').onclick = closeGallery;
+  $('#gal-level').onchange = e => { botLevel = e.target.value; };
+  el.querySelectorAll('[data-gid]').forEach(b => b.onclick = () => tx({ t: 'addBot', gid: b.dataset.gid, level: botLevel }));
+}
+$('#gallery').addEventListener('click', e => { if (e.target.id === 'gallery') closeGallery(); });
 
 // ---------- scena ----------
 const GAP = 225, WORLD_H = 760, FLOOR_Y = 640;

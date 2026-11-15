@@ -52,7 +52,9 @@ const server = http.createServer((req, res) => {
 
 // ---------- pokoje ----------
 const rooms = new Map();
-const LEVELS = { latwy: 0.35, sredni: 0.6, trudny: 0.85 };
+const LEVELS = { slaby: 0.12, latwy: 0.35, sredni: 0.6, trudny: 0.82, mistrz: 0.97 };
+const BUZZ_MS = { slaby: 5000, latwy: 3800, sredni: 2600, trudny: 1500, mistrz: 800 };
+const GALLERY = require('./public/bots');
 const BOT_NAMES = ['Bogdan', 'Grażyna', 'Zenek', 'Halina', 'Mietek', 'Krysia', 'Wiesiek', 'Jadzia', 'Stefan', 'Bożenka', 'Rysiek', 'Danusia'];
 const rand = a => a[Math.floor(Math.random() * a.length)];
 const rint = n => Math.floor(Math.random() * n);
@@ -72,7 +74,7 @@ function cleanAvatar(a) {
 }
 function randomAvatar() {
   const opt = (n, pNone) => (Math.random() < pNone ? 0 : rint(n));
-  return { skin: rint(10), hair: rint(12), hairColor: rint(10), eyes: rint(8), mouth: rint(8), shirt: rint(12), outfit: rint(6), hat: opt(9, 0.5), glasses: opt(5, 0.6), beard: opt(5, 0.65) };
+  return { skin: rint(10), hair: rint(12), hairColor: rint(10), eyes: rint(8), mouth: rint(8), shirt: rint(12), outfit: rint(9), hat: opt(10, 0.5), glasses: opt(5, 0.6), beard: opt(6, 0.65) };
 }
 const byId = (r, id) => r.players.find(p => p.id === id);
 const alive = r => r.players.filter(p => !p.out);
@@ -85,7 +87,7 @@ function pub(r) {
   const g = r.game;
   const s = {
     code: r.code, hostId: r.hostId, phase: r.phase, settings: r.settings,
-    players: r.players.map(p => ({ id: p.id, name: p.name, avatar: p.avatar, isBot: p.isBot, level: p.level, connected: p.connected, lives: p.lives, points: p.points, out: p.out, seat: p.seat })),
+    players: r.players.map(p => ({ id: p.id, name: p.name, avatar: p.avatar, isBot: p.isBot, level: p.level, gid: p.gid, connected: p.connected, lives: p.lives, points: p.points, out: p.out, seat: p.seat })),
   };
   if (r.phase === 'lobby') s.cats = CATS.map(c => ({ id: c.id, name: c.name, n: c.qs.length }));
   if (g) {
@@ -259,7 +261,7 @@ function nominateMode(r) {
     const others = alive(r).filter(x => x.id !== p.id);
     if (g.stage === 3 && Math.random() < LEVELS[p.level]) return ask(r, p.id, 'self');
     let target = rand(others);
-    if (p.level === 'trudny') target = others.slice().sort((a, b) => a.lives - b.lives)[0];
+    if (p.level === 'trudny' || p.level === 'mistrz') target = others.slice().sort((a, b) => a.lives - b.lives)[0];
     ask(r, target.id, g.stage === 3 ? 'nominated' : 'normal');
   });
 }
@@ -281,7 +283,7 @@ function buzzMode(r) {
   for (const b of alive(r).filter(p => p.isBot)) {
     b._knows = Math.random() < LEVELS[b.level];
     if (!b._knows && Math.random() > 0.08) continue;
-    const base = b.level === 'trudny' ? 1500 : b.level === 'sredni' ? 2600 : 3800;
+    const base = BUZZ_MS[b.level] || 2600;
     botLater(r, base + Math.random() * 3000, () => { if (r.game === g && g.cur === cur) buzz(r, b.id); });
   }
 }
@@ -375,10 +377,19 @@ wss.on('connection', ws => {
         if (!isHost || r.phase !== 'lobby') return;
         if (r.players.length >= MAX_PLAYERS) return err(ws, 'full');
         const level = LEVELS[m.level] ? m.level : 'sredni';
+        const gal = m.gid && GALLERY.find(x => x.id === m.gid);
+        if (gal && r.players.some(p => p.gid === gal.id)) return;
         const free = BOT_NAMES.filter(n => !r.players.some(p => p.name === 'Bot ' + n));
-        const b = makePlayer('Bot ' + rand(free.length ? free : BOT_NAMES), randomAvatar(), null);
+        const b = makePlayer(gal ? gal.name : 'Bot ' + rand(free.length ? free : BOT_NAMES), randomAvatar(), null);
         b.isBot = true; b.level = level;
+        if (gal) { b.gid = gal.id; b.name = gal.name; b.avatar = Object.assign({}, gal.avatar); }
         r.players.push(b); return send(r);
+      }
+      case 'botLevel': {
+        if (!isHost || r.phase !== 'lobby') return;
+        const p = byId(r, m.id);
+        if (!p || !p.isBot || !LEVELS[m.level]) return;
+        p.level = m.level; return send(r);
       }
       case 'kick': {
         if (!isHost || r.phase !== 'lobby') return;
