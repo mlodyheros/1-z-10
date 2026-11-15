@@ -5,7 +5,7 @@ const AV = {
   skin: ['#ffe0c2', '#ffd0a6', '#f1b98a', '#d99a6c', '#b87a4b', '#8d5a34', '#5e3a20', '#9be37a', '#8fd3ff', '#d6a5ff'],
   hairColor: ['#1f1410', '#4a2c17', '#7a4a22', '#c98a2b', '#f1d24a', '#e2572b', '#8e8e99', '#f4f4f4', '#ff5fa2', '#3ec7c2'],
   shirt: ['#e63946', '#f4a236', '#f2d43d', '#3fb56b', '#1f9e8f', '#2ba6c9', '#3b5bdb', '#8a4fd6', '#e2579d', '#2b2d42', '#f5f5f5', '#8a5a3c'],
-  hair: 15, eyes: 9, mouth: 9, outfit: 10, hat: 10, glasses: 5, beard: 6,
+  hair: 20, eyes: 9, mouth: 9, outfit: 11, hat: 11, glasses: 5, beard: 6,
 };
 const AV_PARTS = ['skin', 'hair', 'hairColor', 'eyes', 'mouth', 'beard', 'glasses', 'hat', 'shirt', 'outfit'];
 const AV_OPTIONAL = { hat: 0.5, glasses: 0.6, beard: 0.65 };
@@ -26,7 +26,7 @@ function avatarSVG(a, cls) {
   a = a || {};
   const g = k => ((parseInt(a[k], 10) || 0) % avCount(k) + avCount(k)) % avCount(k);
   const hex = (k, d) => (/^#[0-9a-f]{6}$/i.test(a[k]) ? a[k] : d);
-  const skin = AV.skin[g('skin')], hc = hex('hairHex', AV.hairColor[g('hairColor')]), shirt = hex('shirtHex', AV.shirt[g('shirt')]);
+  const skin = hex('skinHex', AV.skin[g('skin')]), hc = hex('hairHex', AV.hairColor[g('hairColor')]), shirt = hex('shirtHex', AV.shirt[g('shirt')]);
   const dark = avShade(shirt, 0.72), trim = hex('trimHex', dark), num = Math.max(0, Math.min(99, parseInt(a.num, 10) || 0)),
     eyeC = hex('eyeHex', '#5b7fa6'), txt = String(a.txt || '').replace(/[^A-Za-z0-9 ]/g, '').slice(0, 6),
     capC = hex('hatHex', '#e63946'), capD = hex('hatHex2', '#b82733'), beanC = hex('hatHex', '#7d837c'), beanP = hex('hatHex2', '#e8ece6'), ink = '#1d1730', uid = 'av' + (++avUid);
@@ -39,6 +39,9 @@ function avatarSVG(a, cls) {
     8: `<path d="M22 60 Q20 18 60 18 Q100 18 98 60 L98 90 Q90 98 84 90 L84 60 L36 60 L36 90 Q30 98 22 90Z" fill="${hc}"/>`,
     9: `<path d="M88 38 Q120 42 112 86 Q108 98 99 92 Q106 66 88 58Z" fill="${hc}"/>`,
     11: `<circle cx="17" cy="74" r="13" fill="${hc}"/><circle cx="103" cy="74" r="13" fill="${hc}"/>`,
+    17: `<g fill="${hc}"><rect x="12" y="46" width="9" height="74" rx="4.500"/><rect x="21" y="50" width="9" height="76" rx="4.500"/><rect x="30" y="56" width="8" height="66" rx="4"/><rect x="99" y="46" width="9" height="74" rx="4.500"/><rect x="90" y="50" width="9" height="76" rx="4.500"/><rect x="82" y="56" width="8" height="66" rx="4"/></g><g stroke="${avShade(hc, 1.9)}" stroke-width="1.5" opacity=".5"><path d="M13 70 H20 M13 90 H20 M13 108 H20 M22 76 H29 M22 96 H29 M22 114 H29 M100 70 H107 M100 90 H107 M100 108 H107 M91 76 H98 M91 96 H98 M91 114 H98"/></g>`,
+    18: `<g fill="${hc}"><circle cx="20" cy="42" r="14"/><circle cx="15" cy="62" r="12"/><circle cx="27" cy="24" r="14"/><circle cx="44" cy="12" r="14"/><circle cx="60" cy="8" r="14"/><circle cx="76" cy="12" r="14"/><circle cx="93" cy="24" r="14"/><circle cx="100" cy="42" r="14"/><circle cx="105" cy="62" r="12"/></g>`,
+    19: `<path d="M22 64 Q18 18 60 18 Q102 18 98 64 L102 112 Q92 118 84 110 L86 62 L34 62 L36 110 Q28 118 18 112Z" fill="${hc}"/>`,
   }[hair] || '';
   const hairFront = {
     0: '',
@@ -56,9 +59,14 @@ function avatarSVG(a, cls) {
     12: `<path d="M25 60 Q19 30 40 20 Q38 9 51 15 Q54 3 66 12 Q77 3 81 17 Q100 24 95 60 Q92 46 82 41 Q76 49 68 41 Q60 49 52 41 Q44 48 37 42 Q29 46 25 60Z" fill="${hc}"/><path d="M44 24 Q50 30 48 38 M60 18 Q66 26 62 36 M76 24 Q80 30 76 38" stroke="${avShade(hc, 0.8)}" stroke-width="2.5" fill="none" stroke-linecap="round"/>`,
     13: `<g fill="${hc}"><circle cx="28" cy="50" r="10"/><circle cx="92" cy="50" r="10"/><circle cx="33" cy="35" r="12"/><circle cx="87" cy="35" r="12"/><circle cx="45" cy="23" r="13"/><circle cx="75" cy="23" r="13"/><circle cx="60" cy="17" r="14"/><circle cx="41" cy="40" r="11"/><circle cx="54" cy="34" r="12"/><circle cx="67" cy="34" r="12"/><circle cx="80" cy="40" r="11"/></g><g fill="none" stroke="${avShade(hc, 0.78)}" stroke-width="2.2" stroke-linecap="round"><path d="M40 22 Q46 18 50 24 M56 12 Q63 9 66 16 M72 22 Q78 19 82 26 M50 36 Q55 31 59 37 M64 36 Q69 31 73 37 M30 36 Q34 31 38 36"/></g>`,
     14: `<path d="M23 64 Q13 36 33 23 Q38 7 57 12 Q75 2 87 20 Q107 33 97 64 Q94 52 87 48 Q85 57 76 51 Q68 59 60 51 Q51 59 43 51 Q36 57 32 48 Q26 52 23 64Z" fill="${hc}"/><path d="M38 26 Q46 20 52 28 M58 18 Q68 14 74 24 M44 40 Q50 34 56 42 M66 38 Q74 33 80 42 M82 28 Q90 30 90 40" stroke="${avShade(hc, 1.5)}" stroke-width="2.2" fill="none" stroke-linecap="round" opacity=".7"/>`,
+    15: `<path d="M27 55 Q25 27 60 27 Q95 27 93 55 Q89 40 78 37 Q60 33 42 37 Q31 40 27 55Z" fill="${hc}"/>`,
+    16: `<path d="M26 58 Q21 26 44 19 Q50 0 78 6 Q101 12 94 58 Q91 42 78 37 Q58 28 40 40 Q30 46 26 58Z" fill="${hc}"/><path d="M46 20 Q60 8 82 16 M42 30 Q60 18 86 28" stroke="${avShade(hc, 1.9)}" stroke-width="2" fill="none" stroke-linecap="round" opacity=".45"/>`,
+    17: `<path d="M25 60 Q20 22 60 22 Q100 22 95 60 Q90 42 60 40 Q30 42 25 60Z" fill="${hc}"/><path d="M36 30 L32 50 M46 25 L44 42 M60 23 V40 M74 25 L76 42 M84 30 L88 50" stroke="${avShade(hc, 1.9)}" stroke-width="1.8" opacity=".5"/>`,
+    18: `<path d="M27 52 Q32 32 46 33 Q60 26 74 33 Q88 32 93 52 Q84 42 60 40 Q36 42 27 52Z" fill="${hc}"/>`,
+    19: `<path d="M24 64 Q18 20 60 20 Q102 20 96 64 L93 53 Q77 57 60 55 Q43 57 27 53Z" fill="${hc}"/><path d="M40 30 L38 54 M52 26 L51 55 M68 26 L69 55 M80 30 L82 54" stroke="${avShade(hc, 0.8)}" stroke-width="1.6" opacity=".6"/>`,
   }[hair];
   // od jakiej wysokości włosy mogą być widoczne pod nakryciem głowy
-  const clipY = [null, 39, 26, 39, 30, 31, 12, 24, null, 41][hat];
+  const clipY = [null, 39, 26, 39, 30, 31, 12, 24, null, 41, 31][hat];
   const clip = clipY == null ? '' : ` clip-path="url(#${uid}h)"`;
 
   const eyes = [
@@ -110,6 +118,7 @@ function avatarSVG(a, cls) {
     `<path d="M41 28 L60 -22 L79 28Z" fill="#8a4fd6"/><path d="M47 12 L73 12 M44 21 L76 21 M52 0 L68 0" stroke="#f2d43d" stroke-width="3.5"/><circle cx="60" cy="-22" r="6" fill="#f2d43d"/>`,
     `<path d="M84 22 L66 10 V34Z M84 22 L102 10 V34Z" fill="#ff5fa2"/><circle cx="84" cy="22" r="5.5" fill="#d93b82"/>`,
     `<path d="M24 46 Q20 4 60 4 Q100 4 96 46Z" fill="${beanC}"/><path d="M36 22 L50 12 L58 22 L46 30Z M66 14 L84 16 L88 28 L72 28Z M52 6 L64 5 L62 12Z" fill="${beanP}" opacity=".85"/><rect x="21" y="34" width="78" height="15" rx="7.5" fill="${avShade(beanC, 0.82)}"/><path d="M30 36 V47 M40 35 V48 M50 35 V48 M60 35 V48 M70 35 V48 M80 35 V48 M90 36 V47" stroke="rgba(0,0,0,.18)" stroke-width="2"/>`,
+    `<path d="M35 30 Q34 0 50 4 Q60 9 70 4 Q86 0 85 30Z" fill="${hex('hatHex', '#1c1c22')}"/><path d="M35 22 H85 V31 H35Z" fill="${hex('hatHex2', '#f5f5f5')}"/><path d="M8 30 Q34 24 60 31 Q88 24 112 36 Q88 44 60 39 Q32 43 8 30Z" fill="${avShade(hex('hatHex', '#1c1c22'), 1.25)}"/>`,
   ][hat];
   const bodyPath = 'M18 160 Q18 106 60 106 Q102 106 102 160Z';
   const outfit = [
@@ -123,15 +132,22 @@ function avatarSVG(a, cls) {
     `<path d="M42 107 Q60 128 78 107" stroke="${trim}" stroke-width="7" fill="none" stroke-linecap="round"/><g clip-path="url(#${uid}b)" stroke="${trim}" stroke-width="6"><path d="M22 106 V162 M98 106 V162"/></g>`,
     `<g clip-path="url(#${uid}b)" stroke="#efe9dc" stroke-width="1.8" opacity=".85"><path d="M0 116 H120 M0 120 H120 M0 136 H120 M0 140 H120 M0 156 H120 M30 100 V165 M34 100 V165 M52 100 V165 M56 100 V165 M74 100 V165 M78 100 V165 M94 100 V165"/></g><path d="M44 108 L60 124 L76 108" stroke="${avShade(shirt, 1.6)}" stroke-width="5" fill="none" stroke-linejoin="round"/>`,
     `<g clip-path="url(#${uid}b)"><path d="M43 104 H77 L74 164 H46Z" fill="#f1efe8"/><path d="M40 118 H80 M40 128 H80 M40 138 H80 M40 148 H80 M40 158 H80" stroke="#1d1d26" stroke-width="5"/><path d="M43 104 L47 164 H14 V104Z M77 104 L73 164 H106 V104Z" fill="${shirt}"/><path d="M43 106 L47 164 M77 106 L73 164" stroke="${avShade(shirt, 1.9)}" stroke-width="2.5"/></g>`,
+    `<path d="M46 106 L60 136 L74 106Z" fill="${skin}"/><path d="M36 112 L44 88 L60 136 Z M84 112 L76 88 L60 136Z" fill="${shirt}" stroke="#d9a900" stroke-width="2.5" stroke-linejoin="round"/><g fill="#d9a900"><circle cx="40" cy="146" r="2.5"/><circle cx="50" cy="150" r="2.5"/><circle cx="60" cy="152" r="2.5"/><circle cx="70" cy="150" r="2.5"/><circle cx="80" cy="146" r="2.5"/></g>`,
   ][g('outfit')] + (txt ? `<text x="60" y="143" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="900" font-size="${txt.length > 4 ? 13 : 16}" letter-spacing="1" fill="${trim}" stroke="${avShade(trim, 0.7)}" stroke-width=".6">${txt}</text>` : '') + (num ? `<text x="60" y="151" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="26" fill="${trim}" stroke="rgba(0,0,0,.35)" stroke-width="1">${num}</text>` : '')
     + (g('outfit') === 1 && a.trimHex ? `<g clip-path="url(#${uid}b)" stroke="${trim}" stroke-width="7"><path d="M0 122 H120 M0 138 H120 M0 154 H120"/></g>` : '');
   const hood = a.hoodUp ? `<path d="M12 74 Q6 2 60 2 Q114 2 108 74 L104 122 Q60 104 16 122Z" fill="${shirt}" stroke="rgba(0,0,0,.25)" stroke-width="2"/><path d="M22 70 Q20 14 60 14 Q100 14 98 70 L96 100 Q60 90 24 100Z" fill="${avShade(shirt, 0.6)}"/>` : '';
+  const chain = a.chain ? `<path d="M43 109 Q60 140 77 109" stroke="#f2c230" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-dasharray="1 4.500"/><circle cx="60" cy="128" r="5.500" fill="#f2c230" stroke="#b98a00" stroke-width="1.5"/>` : '';
+  const band = /^#[0-9a-f]{6}$/i.test(a.headband) ? `<path d="M26 44 Q60 28 94 44 L94 53 Q60 37 26 53Z" fill="${a.headband}" stroke="rgba(0,0,0,.2)" stroke-width="1.5"/>` : '';
+  const roots = /^#[0-9a-f]{6}$/i.test(a.rootHex) ? `<path d="M29 46 Q30 22 60 22 Q90 22 91 46 Q78 33 60 33 Q42 33 29 46Z" fill="${a.rootHex}"/>` : '';
+  const lips = /^#[0-9a-f]{6}$/i.test(a.lipHex) ? `<path d="M47 84 Q54 79 60 82 Q66 79 73 84 Q60 97 47 84Z" fill="${a.lipHex}"/><path d="M49 85 Q60 88 71 85" stroke="rgba(0,0,0,.35)" stroke-width="1.6" fill="none" stroke-linecap="round"/>` : '';
+  const burns = a.burns ? `<rect x="26" y="56" width="7" height="26" rx="3" fill="${hc}"/><rect x="87" y="56" width="7" height="26" rx="3" fill="${hc}"/>` : '';
+  const stud = a.stud ? `<circle cx="22" cy="72" r="2.6" fill="#f2c230"/>` : '';
   const buds = a.buds ? `<rect x="20" y="67" width="6" height="13" rx="3" fill="#fff"/><rect x="94" y="67" width="6" height="13" rx="3" fill="#fff"/>` : '';
 
   return `<svg class="av ${cls || ''}" viewBox="0 -30 120 198" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <defs><clipPath id="${uid}b"><path d="${bodyPath}"/></clipPath>${clipY == null ? '' : `<clipPath id="${uid}h"><rect x="-20" y="${clipY}" width="160" height="220"/></clipPath>`}</defs>
     ${hood}<g${clip}>${hairBack}</g>
-    <path d="${bodyPath}" fill="${shirt}"/>${outfit}
+    <path d="${bodyPath}" fill="${shirt}"/>${outfit}${chain}
     <path d="${bodyPath}" fill="none" stroke="rgba(0,0,0,.2)" stroke-width="2"/>
     <g class="arm arm-l"><rect x="6" y="112" width="19" height="46" rx="9.500" fill="${shirt}" stroke="rgba(0,0,0,.2)" stroke-width="2"/><circle cx="15.500" cy="158" r="9.500" fill="${skin}"/></g>
     <g class="arm arm-r"><rect x="95" y="112" width="19" height="46" rx="9.500" fill="${shirt}" stroke="rgba(0,0,0,.2)" stroke-width="2"/><circle cx="104.500" cy="158" r="9.500" fill="${skin}"/></g>
@@ -139,12 +155,13 @@ function avatarSVG(a, cls) {
       <rect x="50" y="92" width="20" height="20" rx="6" fill="${skin}"/>
       <circle cx="25" cy="64" r="7" fill="${skin}"/><circle cx="95" cy="64" r="7" fill="${skin}"/>
       <ellipse cx="60" cy="62" rx="35" ry="37" fill="${skin}"/>
-      ${beard}<g class="face">${eyes}${mouth}</g>
+      ${burns}${beard}<g class="face">${eyes}${lips || mouth}</g>
       <g class="fx fx-laugh"><path d="M39 56 L54 63 L39 70 M81 56 L66 63 L81 70" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 78 Q60 108 78 78Z" fill="${ink}"/><path d="M50 92 Q60 100 70 92 Q60 87 50 92Z" fill="#ff6b81"/><path d="M45 79 H75 L73 84 H47Z" fill="#fff"/></g>
       <g class="fx fx-cry"><path d="M39 61 Q47 68 55 61 M65 61 Q73 68 81 61 M38 55 L54 50 M82 55 L66 50" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M47 94 Q60 76 73 94 Q60 89 47 94Z" fill="${ink}"/><path class="tear" d="M44 68 Q41 84 44 102 M76 68 Q79 84 76 102" stroke="#5cc8ff" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="9 9"/></g>
       <g class="fx fx-fear"><path d="M27 46 Q60 22 93 46 Q60 38 27 46Z" fill="#5c7cff" opacity=".4"/><circle cx="46" cy="62" r="11" fill="#fff" stroke="${ink}" stroke-width="2"/><circle cx="74" cy="62" r="11" fill="#fff" stroke="${ink}" stroke-width="2"/><circle cx="46" cy="63" r="2.8" fill="${ink}"/><circle cx="74" cy="63" r="2.8" fill="${ink}"/><path d="M36 46 L52 44 M84 46 L68 44" stroke="${ink}" stroke-width="3" stroke-linecap="round"/><path d="M45 88 Q49 82 53 88 Q57 94 61 88 Q65 82 69 88 Q73 94 76 88" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/><path class="sweat" d="M96 40 Q102 50 96 53 Q90 50 96 40Z" fill="#5cc8ff"/></g>
       <g class="fx fx-dab"><path d="M39 63 H55 M65 63 H81" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M50 86 Q60 92 70 86" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/></g>
-      <g${clip}>${hairFront}</g>
+      <g${clip}>${hairFront}${roots}</g>
+      ${band}${stud}
       ${buds}${glasses}${hats}
     </g>
     <g class="fx fx-dabarm"><path d="M17 122 L46 96 L90 60" stroke="${shirt}" stroke-width="19" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 122 L46 96 L90 60" stroke="rgba(0,0,0,.12)" stroke-width="19" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="93" cy="57" r="9.5" fill="${skin}"/></g>
