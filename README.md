@@ -26,7 +26,9 @@ W poczekalni i przy stanowisku można puszczać emotki: przycisk „Emotki” (a
 
 - **Etap 1 — Rozgrzewka:** każdy dostaje dwa pytania. Każdy błąd to utrata jednej szansy — w rozgrzewce nikt nie odpada.
 - **Etap 2 — Wyznaczanie:** kto odpowie dobrze, wskazuje następną osobę. Trwa, aż zostanie trójka.
-- **Finał:** pytania do wszystkich, odpowiada ten, kto pierwszy się zgłosi (10 pkt). Po trzech trafieniach gracz wyznacza odpowiadającego albo bierze pytanie na siebie za 20 pkt. Jeśli zostanie jedna osoba, gra dalej sama, aż skończą się pytania albo jej szanse. Na koniec każda zachowana szansa daje 10 pkt.
+- **Finał:** pytania do wszystkich, odpowiada ten, kto pierwszy się zgłosi (10 pkt). Po trzech trafieniach gracz wyznacza odpowiadającego albo bierze pytanie na siebie za 20 pkt. Na wejściu do finału każdy dostaje komplet szans, a szanse zachowane z wcześniejszych etapów zamieniają się na punkty (10 pkt za każdą). Jeśli zostanie jedna osoba, gra dalej sama i musi odpowiadać na każde pytanie, aż skończą się pytania albo jej szanse. Na koniec każda zachowana szansa daje 10 pkt.
+
+Przycisk „Zgłoś pytanie” zapisuje podejrzane pytanie do pliku `zgloszenia.txt` w katalogu gry. W poczekalni widać historię pokoju: zwycięzców kolejnych gier i ich punkty.
 
 Odpowiedzi wpisuje się z klawiatury. Drobne literówki, brak polskich znaków, samo nazwisko zamiast imienia i nazwiska są akceptowane (`match.js`). Zaliczane są też inne formy tego samego słowa (np. *ghostowanie* dla *ghosting*, *Francji* dla *Francja*) oraz odpowiedzi po angielsku (*Germany*, *oxygen*) — słownik w `en.js`.
 

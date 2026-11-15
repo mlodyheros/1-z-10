@@ -167,20 +167,21 @@ function goHome() {
 
 function render() {
   if (!S) return show('home');
-  if (S.phase === 'lobby') { show('lobby'); renderLobby(); panelKey = ''; }
+  if (S.phase === 'lobby') { show('lobby'); renderLobby(); panelKey = ''; introDone = false; }
   else { show('game'); renderGame(); }
   renderGallery();
   repaintEmotes();
 }
 
 // ---------- pełny ekran ----------
-let quitArmed = false, quitTimer = 0;
+let quitArmed = false, quitTimer = 0, reportedQ = -1;
 const fsEl = document.documentElement;
 const fsOK = !!(fsEl.requestFullscreen || fsEl.webkitRequestFullscreen);
+const FS_ICON = { on: '<svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M6 1v5H1M10 1v5h5M6 15v-5H1M10 15v-5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>', off: '<svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M1 6V1h5M15 6V1h-5M1 10v5h5M15 10v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>' };
 const fsOn = () => !!(document.fullscreenElement || document.webkitFullscreenElement);
 function fsBtn(cls) {
   if (!fsOK) return '';
-  return `<button class="${cls} fsbtn" data-fs aria-label="${fsOn() ? t('fsExit') : t('fs')}" title="${fsOn() ? t('fsExit') : t('fs')}">${fsOn() ? '🗗' : '⛶'}</button>`;
+  return `<button class="${cls} fsbtn" data-fs aria-label="${fsOn() ? t('fsExit') : t('fs')}" title="${fsOn() ? t('fsExit') : t('fs')}">${fsOn() ? FS_ICON.on : FS_ICON.off}</button>`;
 }
 function toggleFs() {
   try {
@@ -189,7 +190,7 @@ function toggleFs() {
   } catch {}
 }
 document.addEventListener('click', e => { if (e.target.closest('[data-fs]')) toggleFs(); });
-const fsSync = () => { document.querySelectorAll('[data-fs]').forEach(b => { b.textContent = fsOn() ? '🗗' : '⛶'; b.title = b.ariaLabel = fsOn() ? t('fsExit') : t('fs'); }); setTimeout(camera, 120); };
+const fsSync = () => { document.querySelectorAll('[data-fs]').forEach(b => { b.innerHTML = fsOn() ? FS_ICON.on : FS_ICON.off; b.title = b.ariaLabel = fsOn() ? t('fsExit') : t('fs'); }); setTimeout(camera, 120); };
 document.addEventListener('fullscreenchange', fsSync);
 document.addEventListener('webkitfullscreenchange', fsSync);
 
@@ -226,6 +227,11 @@ function renderLobby() {
           <button class="btn" id="add-bot" ${S.players.length >= 10 ? 'disabled' : ''}>${t('addBot')}</button>
           <button class="btn primary" id="open-gallery">${t('gallery')}</button>
         </span>` : ''}</div>
+      </section>
+      <section class="card histcard">
+        <h2>${t('history')} ${S.history.length ? `<small>${S.history.length}</small>` : ''}</h2>
+        ${S.history.length ? `<ol class="hist">${S.history.slice().sort((a, b) => b.score - a.score || a.game - b.game).map((h, i) => `<li class="${i === 0 ? 'top' : ''}"><span class="rk">${i + 1}</span>${avatarSVG(h.avatar)}<span class="rn">${esc(h.name)}</span><span class="hg">${t('hGame')} ${h.game}</span><span class="rs">${h.score} ${t('pts')}</span></li>`).join('')}</ol>`
+      : `<p class="hint">${t('histEmpty')}</p>`}
       </section>
       <section class="card setcard">
         <div class="set-l">
@@ -306,8 +312,54 @@ function renderGallery() {
 }
 $('#gallery').addEventListener('click', e => { if (e.target.id === 'gallery') closeGallery(); });
 
+// ---------- wejście do studia: najazd kamery, odliczanie i muzyka ----------
+let entering = false, introDone = false;
+function fanfare() {
+  if (muted) return;
+  try {
+    actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+    const t0 = actx.currentTime + 0.05;
+    const note = (f, at, dur, type, vol) => {
+      const o = actx.createOscillator(), g = actx.createGain();
+      o.type = type; o.frequency.value = f;
+      g.gain.setValueAtTime(0.0001, t0 + at); g.gain.exponentialRampToValueAtTime(vol, t0 + at + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, t0 + at + dur);
+      o.connect(g).connect(actx.destination); o.start(t0 + at); o.stop(t0 + at + dur + 0.05);
+    };
+    // bas i werbel pod odliczanie, potem fanfara na „START!”
+    for (let i = 0; i < 12; i++) note(i % 4 === 0 ? 98 : 65, i * 0.25, 0.2, 'sawtooth', 0.07);
+    [392, 440, 494].forEach((f, i) => { note(f, i, 0.35, 'square', 0.06); note(f * 2, i + 0.5, 0.15, 'triangle', 0.05); });
+    [523, 659, 784, 1047, 784, 1047, 1319].forEach((f, i) => { note(f, 3 + i * 0.13, 0.3, 'triangle', 0.1); note(f / 2, 3 + i * 0.13, 0.3, 'square', 0.04); });
+    note(1047, 4, 0.9, 'triangle', 0.1); note(1319, 4, 0.9, 'triangle', 0.08); note(1568, 4, 0.9, 'triangle', 0.07);
+  } catch {}
+}
+function startIntro() {
+  const world = $('#world'), st = $('#stage'), cd = $('#countdown'), num = cd.firstElementChild;
+  const W = parseFloat(world.style.width) || 1800, vw = st.clientWidth, vh = st.clientHeight;
+  // start z daleka, spod sufitu — potem kamera wjeżdża do sali
+  entering = true;
+  world.style.transition = 'none';
+  world.style.transform = `translate(${vw / 2 - (W / 2) * 0.12}px, ${vh * 0.42 - 300 * 0.12}px) scale(0.12)`;
+  cd.classList.remove('hidden', 'open');
+  fanfare();
+  const steps = ['3', '2', '1', t('go')];
+  steps.forEach((txt, i) => setTimeout(() => {
+    num.textContent = txt; num.className = i === 3 ? 'go' : '';
+    void num.offsetWidth; num.classList.add('pop');
+  }, i * 1000));
+  // po „3” wielkie drzwi studia się rozsuwają i kamera wjeżdża do środka
+  setTimeout(() => {
+    cd.classList.add('open');
+    world.style.transition = 'transform 2.9s cubic-bezier(.3,.1,.2,1)';
+    entering = false; camera();
+  }, 900);
+  setTimeout(() => { world.style.transition = ''; }, 4000);
+  setTimeout(() => cd.classList.add('hidden'), 4200);
+}
+
 // ---------- scena ----------
 const GAP = 225, WORLD_H = 760, FLOOR_Y = 640;
+// prowadzący: siwy starszy pan w garniturze, stoi z boku przy własnym pulpicie i czyta pytania
+const HOST_AV = { skinHex: '#f1c9a5', hair: 10, hairHex: '#d9dce3', eyes: 8, eyeHex: '#5f7f9a', mouth: 0, beard: 1, glasses: 2, outfit: 3, shirtHex: '#1f2a4d' };
 let pos = {};
 function renderWorld() {
   const ps = S.players, n = ps.length, g = S.game;
@@ -347,6 +399,14 @@ function renderWorld() {
       <div class="glow"></div>
     </div>`;
   }).join('');
+  const hostX = W / 2 - (n * GAP) / 2 - 150, asking = g.q && (g.mode === 'question' || g.mode === 'buzz');
+  const hostHTML = `<div class="pod host ${asking ? 'asking' : ''}" style="left:${hostX}px;top:${FLOOR_Y + 14}px;--s:1.08;z-index:21">
+      ${asking ? '<div class="bubble q">?</div>' : ''}
+      <div class="fig">${avatarSVG(HOST_AV)}</div>
+      <div class="desk"><div class="mic"></div><div class="top"></div>
+        <div class="front"><div class="seat">?</div><div class="plate"><div class="nm">${t('presenter')}</div><div class="cards"></div></div></div>
+        <div class="foot"></div></div>
+      <div class="glow"></div></div>`;
   const lamps = Array.from({ length: 11 }, (_, i) => `<div class="lamp" style="left:${(i + 0.5) / 11 * 100}%;--r:${(i - 5) * 4.5}deg"><i></i></div>`).join('');
   world.innerHTML = `
     <div class="bk">
@@ -358,7 +418,7 @@ function renderWorld() {
       <div class="rig" style="width:${W}px;margin-left:${-W / 2}px">${lamps}</div>
       <div class="floor"><div class="grid"></div></div>
     </div>
-    <div class="dais" style="left:${W / 2}px;top:${FLOOR_Y - 30}px;width:${n * GAP + 420}px"></div>${pods}`;
+    <div class="dais" style="left:${W / 2}px;top:${FLOOR_Y - 30}px;width:${n * GAP + 760}px;margin-left:-130px"></div>${hostHTML}${pods}`;
   camera();
 }
 function focusId() {
@@ -369,7 +429,7 @@ function focusId() {
   return null;
 }
 function camera() {
-  if (!S || !S.game) return;
+  if (!S || !S.game || entering) return;
   const st = $('#stage'), vw = st.clientWidth, vh = st.clientHeight;
   const panelH = $('#panel').offsetHeight || 220, freeH = Math.max(200, vh - panelH - 60);
   const n = S.players.length, W = parseFloat($('#world').style.width);
@@ -379,8 +439,8 @@ function camera() {
     s = Math.max(0.5, Math.min(vw / (GAP * 2.5), freeH / 430, 2.1));
     cx = pos[f].x; cy = pos[f].y + 70;
   } else {
-    s = Math.max(0.22, Math.min(vw / (n * GAP + 220), freeH / 560, 1.4));
-    cx = W / 2; cy = FLOOR_Y - 270;
+    s = Math.max(0.2, Math.min(vw / (n * GAP + 560), freeH / 560, 1.4));
+    cx = W / 2 - 130; cy = FLOOR_Y - 270;
   }
   $('#world').style.transform = `translate(${vw / 2 - cx * s}px, ${60 + freeH / 2 - cy * s}px) scale(${s})`;
 }
@@ -447,7 +507,9 @@ function renderGame() {
         ${g.ranking.map((r, i) => { const p = byId(r.id); return `<li class="${r.id === myId ? 'me' : ''}"><span class="rk">${i + 1}</span>${avatarSVG(p.avatar)}<span class="rn">${esc(p.name)}</span><span class="rs">${r.score != null ? r.score + ' ' + t('pts') : r.out ? t('eliminated') : ''}</span></li>`; }).join('')}
         </ol><div class="end-btns">${host ? `<button class="btn primary" id="again">${t('backLobby')}</button>` : `<span class="hint">${t('hostAgain')}</span>`}<button class="btn ghost" id="quit">${t('leave')}</button></div></div>`;
     }
+    if (g.q && g.mode !== 'intro') h += `<button class="report" id="report" ${reportedQ === g.qnum ? 'disabled' : ''}>${reportedQ === g.qnum ? t('reported') : t('report')}</button>`;
     panel.innerHTML = h;
+    if ($('#report')) $('#report').onclick = e => { reportedQ = g.qnum; tx({ t: 'report' }); e.target.disabled = true; e.target.textContent = t('reported'); };
     const f = $('#ans-form');
     if (f) { f.onsubmit = e => { e.preventDefault(); tx({ t: 'answer', text: $('#ans').value }); }; setTimeout(() => $('#ans') && $('#ans').focus(), 50); }
     if ($('#buzz')) $('#buzz').onclick = () => tx({ t: 'buzz' });
@@ -465,6 +527,7 @@ function renderGame() {
     }
   }
   renderWorld();
+  if (!introDone && g.stage === 1 && g.mode === 'intro') { introDone = true; if (g.timeLeft > 5000) startIntro(); }
 }
 addEventListener('keydown', e => {
   if (e.code === 'Space' && S && S.game && S.game.mode === 'buzz' && $('#buzz')) { e.preventDefault(); tx({ t: 'buzz' }); }

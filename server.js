@@ -89,6 +89,7 @@ function pub(r) {
     code: r.code, hostId: r.hostId, phase: r.phase, settings: r.settings,
     players: r.players.map(p => ({ id: p.id, name: p.name, avatar: p.avatar, isBot: p.isBot, level: p.level, gid: p.gid, connected: p.connected, lives: p.lives, points: p.points, out: p.out, seat: p.seat })),
   };
+  s.history = r.history || [];
   if (r.phase === 'lobby') s.cats = CATS.map(c => ({ id: c.id, name: c.name, n: c.qs.length }));
   if (g) {
     s.game = {
@@ -127,7 +128,7 @@ function botLater(r, ms, fn) { r.botTimers = r.botTimers || []; r.botTimers.push
 // ---------- przebieg gry ----------
 function startGame(r) {
   r.phase = 'game';
-  r.players.forEach((p, i) => { p.lives = 3; p.points = 0; p.out = false; p.seat = i + 1; p.corrects = 0; p.s1wrong = 0; });
+  r.players.forEach((p, i) => { p.lives = 3; p.points = 0; p.out = false; p.seat = i + 1; p.corrects = 0; p.s1wrong = 0; p.inFinal = false; });
   let pool = CATS.filter(c => r.settings.categories.includes(c.id));
   if (!pool.length) pool = CATS;
   r.game = { stage: 0, mode: 'intro', used: new Set(), outOrder: [], qnum: 0, pool, chooser: null, turn: null };
@@ -140,8 +141,12 @@ function stageIntro(r, stage) {
   g.stage = stage; g.mode = 'intro'; g.turn = null; g.cur = null; g.reveal = null; g.chooser = null; g.kind = null;
   if (stage === 1) { g.queue = []; alive(r).forEach(p => g.queue.push(p.id, p.id)); }
   if (stage === 2) g.seatIdx = 0;
-  if (stage === 3) { g.finalLeft = r.settings.finalQuestions; alive(r).forEach(p => { p.corrects = 0; }); }
-  setDeadline(r, 5000, () => next(r));
+  if (stage === 3) {
+    g.finalLeft = r.settings.finalQuestions;
+    // finał: szanse zachowane z wcześniejszych etapów zamieniają się na punkty, a każdy zaczyna z kompletem szans
+    alive(r).forEach(p => { p.corrects = 0; p.inFinal = true; p.points = p.lives * 10; p.lives = 3; });
+  }
+  setDeadline(r, stage === 1 ? 9000 : 5500, () => next(r));
   send(r);
 }
 
@@ -165,7 +170,9 @@ function next(r) {
     return ask(r, al[g.seatIdx++ % al.length].id, 'normal');
   }
   if (g.finalLeft <= 0) return endGame(r);
-  if (g.chooser && !byId(r, g.chooser).out) return al.length === 1 ? ask(r, g.chooser, 'self') : nominateMode(r);
+  // ostatni gracz nie może przeczekać pytania — odpowiada na każde
+  if (al.length === 1) return ask(r, al[0].id, g.chooser === al[0].id ? 'self' : 'buzz');
+  if (g.chooser && !byId(r, g.chooser).out) return nominateMode(r);
   g.chooser = null;
   return buzzMode(r);
 }
@@ -192,6 +199,36 @@ function ask(r, pid, kind, keepQ) {
   if (p.isBot) botAnswer(r, p, keepQ ? p._knows : undefined);
 }
 
+// Błędna odpowiedź bota ma pasować do pytania: liczba za liczbę, miasto za miasto, nazwisko za nazwisko.
+function botGuess(cur) {
+  const right = cur.item.a[0], q = cur.item.q;
+  if (/^\d+$/.test(right.trim())) {
+    const n = parseInt(right, 10);
+    const d = n >= 1000 && n <= 2100 ? 1 + rint(20) : Math.max(1, Math.ceil(n * (0.1 + Math.random() * 0.4)));
+    const up = n - d < 0 || (Math.random() < 0.5 && !(n >= 1000 && n + d > 2026));
+    return String(up ? n + d : n - d);
+  }
+  if (/\d/.test(right)) return '';
+  const head = t => t.toLowerCase().replace(/[^a-ząćęłńóśźż0-9 ]/g, ' ').split(/\s+/).filter(Boolean).slice(0, 4);
+  const h = head(q), cap = right[0] !== right[0].toLowerCase(), wc = right.split(' ').length;
+  // „Jak nazywa się…” pasuje do wszystkiego, więc tam musi się zgadzać też kolejne słowo (nauka, ćwiczenie, stadion…)
+  const need = h[0] === 'jak' && /^nazyw/.test(h[1] || '') ? 4 : 2;
+  let best = [], bestScore = 0;
+  for (const o of cur.cat.qs) {
+    const a = o.a[0];
+    if (o === cur.item || /\d/.test(a) || norm(a) === norm(right)) continue;
+    const oh = head(o.q);
+    let same = 0;
+    while (same < 4 && h[same] && oh[same] === h[same]) same++;
+    if (same < need) continue;
+    const sc = same * 2 + ((a[0] !== a[0].toLowerCase()) === cap ? 1 : 0) + (a.split(' ').length === wc ? 1 : 0);
+    if (sc > bestScore) { bestScore = sc; best = [a]; } else if (sc === bestScore) best.push(a);
+  }
+  // bez pytania o podobnej konstrukcji bot woli powiedzieć „nie wiem” niż strzelać od czapy
+  if (!best.length) return '';
+  return Math.random() < 0.8 ? rand(best) : '';
+}
+
 function botAnswer(r, p, knows) {
   const g = r.game, cur = g.cur;
   if (knows === undefined) knows = Math.random() < LEVELS[p.level];
@@ -199,7 +236,7 @@ function botAnswer(r, p, knows) {
     if (r.game !== g || g.cur !== cur || g.mode !== 'question' || g.turn !== p.id) return;
     let text = '';
     if (knows) text = cur.item.a[0];
-    else if (Math.random() < 0.65) { text = rand(cur.cat.qs).a[0]; if (isCorrect(text, cur.item.a, ALL_ANS)) text = ''; }
+    else { text = botGuess(cur); if (isCorrect(text, cur.item.a, ALL_ANS)) text = ''; }
     resolve(r, text);
   });
 }
@@ -307,10 +344,14 @@ function endGame(r) {
   const g = r.game;
   clearTimers(r);
   const final = g.stage === 3;
-  const al = alive(r).map(p => ({ id: p.id, score: final ? p.points + p.lives * 10 : null, points: p.points, lives: p.lives }));
-  al.sort((a, b) => (b.score || 0) - (a.score || 0) || b.lives - a.lives);
-  const outs = g.outOrder.slice().reverse().map(id => { const p = byId(r, id); return { id, score: final && p.points ? p.points : null, points: p.points, lives: 0, out: true }; });
-  g.ranking = al.concat(outs);
+  // finaliści według punktów (każda zachowana szansa to 10 pkt), reszta w kolejności odpadania
+  const fin = r.players.filter(p => final && p.inFinal).map(p => ({ id: p.id, score: p.points + p.lives * 10, points: p.points, lives: p.lives, out: p.out }));
+  fin.sort((a, b) => b.score - a.score || b.lives - a.lives);
+  const al = alive(r).filter(p => !(final && p.inFinal)).map(p => ({ id: p.id, score: null, points: p.points, lives: p.lives }));
+  const outs = g.outOrder.slice().reverse().filter(id => !(final && byId(r, id).inFinal)).map(id => ({ id, score: null, points: 0, lives: 0, out: true }));
+  g.ranking = fin.concat(al, outs);
+  const w = g.ranking[0] && byId(r, g.ranking[0].id);
+  if (w) { r.games = (r.games || 0) + 1; r.history = r.history || []; r.history.push({ game: r.games, name: w.name, avatar: w.avatar, score: g.ranking[0].score || 0, isBot: w.isBot }); if (r.history.length > 50) r.history.shift(); }
   g.mode = 'end'; g.turn = null; g.reveal = null;
   r.phase = 'end';
   send(r);
@@ -384,6 +425,15 @@ wss.on('connection', ws => {
         b.isBot = true; b.level = level;
         if (gal) { b.gid = gal.id; b.name = gal.name; b.avatar = Object.assign({}, gal.avatar); }
         r.players.push(b); return send(r);
+      }
+      case 'report': {
+        // zgłoszenie dziwnego pytania — trafia do pliku zgloszenia.txt do późniejszego sprawdzenia
+        if (!g || !g.cur || me._rep === g.qnum) return;
+        me._rep = g.qnum;
+        const line = [new Date().toISOString().slice(0, 16).replace('T', ' '), g.cur.cat.name, g.cur.item.q, 'odp: ' + g.cur.item.a.join(' / '),
+          'zgłosił: ' + me.name, g.reveal && g.reveal.given ? 'padła odpowiedź: ' + g.reveal.given : ''].filter(Boolean).join(' | ').replace(/[\r\n]+/g, ' ');
+        fs.appendFile(path.join(__dirname, 'zgloszenia.txt'), line + '\n', () => {});
+        return;
       }
       case 'botLevel': {
         if (!isHost || r.phase !== 'lobby') return;
