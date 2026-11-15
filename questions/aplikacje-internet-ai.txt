@@ -153,3 +153,25 @@ Jak nazywa się konsola Microsoftu?|Xbox
 Jak nazywa się przenośna konsola Nintendo wydana w 2017 roku?|Nintendo Switch|Switch
 Jak nazywa się sklep z grami na PC firmy Valve?|Steam
 Jak nazywa się przenośny komputer do gier od Valve?|Steam Deck
+Jak nazywa się asystent AI w wyszukiwarce Google pokazujący podsumowania?|AI Overviews|Przegląd od AI
+Jak nazywa się sieć społecznościowa założona przez Marka Zuckerberga w 2004 roku?|Facebook
+Jak nazywała się firma Meta przed 2021 rokiem?|Facebook
+W którym roku Facebook kupił Instagram?|2012
+W którym roku Facebook kupił WhatsAppa?|2014
+Jak nazywa się twórca Telegrama?|Paweł Durow|Durow|Pavel Durov
+Jak nazywa się serwis z krótkimi wiadomościami kupiony przez Muska?|Twitter|X
+Jak nazywa się zdecentralizowana alternatywa dla Twittera z motylem w logo?|Bluesky
+Jak nazywa się zdecentralizowana sieć z mamutem w logo?|Mastodon
+Jak nazywa się serwis z filmikami, który wyprzedził telewizję w oglądalności u młodych — czerwone logo z trójkątem?|YouTube
+Jak nazywa się serwis do streamowania muzyki należący do Jay-Z i innych artystów?|Tidal
+Jak nazywa się polski serwis z newsami i memami o wykopywaniu treści?|Wykop|wykop.pl
+Jak nazywa się polski serwis memowy z kwejkami?|Kwejk
+Jak nazywa się polski portal aukcyjny założony w 1999 roku?|Allegro
+Jak nazywa się funkcja telefonu do płacenia zbliżeniowo — skrót?|NFC
+Jak nazywa się funkcja odblokowania iPhone'a twarzą?|Face ID
+Jak nazywa się asystentka głosowa Samsunga?|Bixby
+Jak nazywa się nakładka systemowa telefonów Samsung?|One UI
+Jak nazywa się aplikacja do nawigacji z ostrzeżeniami kierowców, należąca do Google?|Waze
+Jak nazywa się polska aplikacja ostrzegająca kierowców przed kontrolami?|Yanosik
+Jak nazywa się aplikacja do rozkładów komunikacji miejskiej popularna w Polsce?|Jakdojade|Jak dojadę
+Jak nazywa się aplikacja do rozpoznawania piosenek?|Shazam

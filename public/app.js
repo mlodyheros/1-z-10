@@ -326,10 +326,10 @@ function fanfare() {
       o.connect(g).connect(actx.destination); o.start(t0 + at); o.stop(t0 + at + dur + 0.05);
     };
     // bas i werbel pod odliczanie, potem fanfara na „START!”
-    for (let i = 0; i < 12; i++) note(i % 4 === 0 ? 98 : 65, i * 0.25, 0.2, 'sawtooth', 0.07);
-    [392, 440, 494].forEach((f, i) => { note(f, i, 0.35, 'square', 0.06); note(f * 2, i + 0.5, 0.15, 'triangle', 0.05); });
-    [523, 659, 784, 1047, 784, 1047, 1319].forEach((f, i) => { note(f, 3 + i * 0.13, 0.3, 'triangle', 0.1); note(f / 2, 3 + i * 0.13, 0.3, 'square', 0.04); });
-    note(1047, 4, 0.9, 'triangle', 0.1); note(1319, 4, 0.9, 'triangle', 0.08); note(1568, 4, 0.9, 'triangle', 0.07);
+    for (let i = 0; i < 12; i++) note(i % 4 === 0 ? 98 : 65, i * 0.175, 0.15, 'sawtooth', 0.07);
+    [392, 440, 494].forEach((f, i) => { note(f, i * 0.7, 0.3, 'square', 0.06); note(f * 2, i * 0.7 + 0.35, 0.12, 'triangle', 0.05); });
+    [523, 659, 784, 1047, 784, 1047, 1319].forEach((f, i) => { note(f, 2.1 + i * 0.11, 0.28, 'triangle', 0.1); note(f / 2, 2.1 + i * 0.11, 0.28, 'square', 0.04); });
+    note(1047, 2.9, 0.8, 'triangle', 0.1); note(1319, 2.9, 0.8, 'triangle', 0.08); note(1568, 2.9, 0.8, 'triangle', 0.07);
   } catch {}
 }
 function startIntro() {
@@ -345,15 +345,15 @@ function startIntro() {
   steps.forEach((txt, i) => setTimeout(() => {
     num.textContent = txt; num.className = i === 3 ? 'go' : '';
     void num.offsetWidth; num.classList.add('pop');
-  }, i * 1000));
+  }, i * 700));
   // po „3” wielkie drzwi studia się rozsuwają i kamera wjeżdża do środka
   setTimeout(() => {
     cd.classList.add('open');
-    world.style.transition = 'transform 2.9s cubic-bezier(.3,.1,.2,1)';
+    world.style.transition = 'transform 2s cubic-bezier(.3,.1,.2,1)';
     entering = false; camera();
-  }, 900);
-  setTimeout(() => { world.style.transition = ''; }, 4000);
-  setTimeout(() => cd.classList.add('hidden'), 4200);
+  }, 450);
+  setTimeout(() => { world.style.transition = ''; }, 2600);
+  setTimeout(() => cd.classList.add('hidden'), 3000);
 }
 
 // ---------- scena ----------
@@ -399,8 +399,10 @@ function renderWorld() {
       <div class="glow"></div>
     </div>`;
   }).join('');
-  const hostX = W / 2 - (n * GAP) / 2 - 150, asking = g.q && (g.mode === 'question' || g.mode === 'buzz');
-  const hostHTML = `<div class="pod host ${asking ? 'asking' : ''}" style="left:${hostX}px;top:${FLOOR_Y + 14}px;--s:1.08;z-index:21">
+  // prowadzący wita graczy tylko podczas wejścia do studia; w samej rozgrywce go nie ma
+  const showHost = g.stage === 1 && g.mode === 'intro';
+  const hostX = W / 2 - (n * GAP) / 2 - 150, asking = false;
+  const hostHTML = !showHost ? '' : `<div class="pod host ${asking ? 'asking' : ''}" style="left:${hostX}px;top:${FLOOR_Y + 14}px;--s:1.08;z-index:21">
       ${asking ? '<div class="bubble q">?</div>' : ''}
       <div class="fig">${avatarSVG(HOST_AV)}</div>
       <div class="desk"><div class="mic"></div><div class="top"></div>
@@ -418,7 +420,7 @@ function renderWorld() {
       <div class="rig" style="width:${W}px;margin-left:${-W / 2}px">${lamps}</div>
       <div class="floor"><div class="grid"></div></div>
     </div>
-    <div class="dais" style="left:${W / 2}px;top:${FLOOR_Y - 30}px;width:${n * GAP + 760}px;margin-left:-130px"></div>${hostHTML}${pods}`;
+    <div class="dais" style="left:${W / 2}px;top:${FLOOR_Y - 30}px;width:${n * GAP + (showHost ? 760 : 420)}px;margin-left:${showHost ? -130 : 0}px"></div>${hostHTML}${pods}`;
   camera();
 }
 function focusId() {
@@ -439,8 +441,9 @@ function camera() {
     s = Math.max(0.5, Math.min(vw / (GAP * 2.5), freeH / 430, 2.1));
     cx = pos[f].x; cy = pos[f].y + 70;
   } else {
-    s = Math.max(0.2, Math.min(vw / (n * GAP + 560), freeH / 560, 1.4));
-    cx = W / 2 - 130; cy = FLOOR_Y - 270;
+    const host = S.game.stage === 1 && S.game.mode === 'intro';
+    s = Math.max(0.2, Math.min(vw / (n * GAP + (host ? 560 : 220)), freeH / 560, 1.4));
+    cx = W / 2 - (host ? 130 : 0); cy = FLOOR_Y - 270;
   }
   $('#world').style.transform = `translate(${vw / 2 - cx * s}px, ${60 + freeH / 2 - cy * s}px) scale(${s})`;
 }
@@ -527,7 +530,7 @@ function renderGame() {
     }
   }
   renderWorld();
-  if (!introDone && g.stage === 1 && g.mode === 'intro') { introDone = true; if (g.timeLeft > 5000) startIntro(); }
+  if (!introDone && g.stage === 1 && g.mode === 'intro') { introDone = true; if (g.timeLeft > 4000) startIntro(); }
 }
 addEventListener('keydown', e => {
   if (e.code === 'Space' && S && S.game && S.game.mode === 'buzz' && $('#buzz')) { e.preventDefault(); tx({ t: 'buzz' }); }

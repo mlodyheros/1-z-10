@@ -154,3 +154,23 @@ Kto namalował „Kobietę z parasolką”?|Claude Monet|Monet
 Kto namalował „Jedzących kartofle”?|Vincent van Gogh|van Gogh
 Kto namalował „Lekcję anatomii doktora Tulpa”?|Rembrandt
 Jaki jest kolor dopełniający do czerwonego?|zielony
+Kto namalował „Guernicę”?|Pablo Picasso|Picasso
+Kto namalował sufit Kaplicy Sykstyńskiej?|Michał Anioł
+Kto namalował „Pocałunek” w złocie?|Gustav Klimt|Klimt
+Kto namalował „Lilie wodne”?|Claude Monet|Monet
+Kto wyrzeźbił „Dawida” we Florencji?|Michał Anioł
+W jakim mieście jest Muzeum Prado?|Madryt
+W jakim mieście jest Galeria Uffizi?|Florencja
+W jakim mieście „Dama z gronostajem” jest wystawiana w Polsce?|Kraków
+Jak nazywa się anonimowy brytyjski artysta street artu?|Banksy
+Jak nazywa się styl z ostrymi łukami i witrażami w średniowiecznych katedrach?|gotyk
+Jak nazywa się nurt Moneta i Renoira?|impresjonizm
+Jak nazywa się nurt Picassa z geometrycznymi kształtami?|kubizm
+Jak nazywa się amerykański artysta pop-artu od puszek zupy Campbell?|Andy Warhol|Warhol
+Kto namalował „Panoramę Racławicką” razem z Wojciechem Kossakiem?|Jan Styka|Styka
+W jakim mieście stoi Sagrada Familia?|Barcelona
+W jakim mieście stoi opera z dachem w kształcie żagli?|Sydney
+W jakim mieście stoi Kaplica Sykstyńska?|Watykan|Rzym
+Jak nazywa się technika malowania na mokrym tynku?|fresk
+Jak nazywa się obraz przedstawiający samego malarza?|autoportret
+

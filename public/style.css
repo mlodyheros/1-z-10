@@ -238,7 +238,7 @@ select.inp, .pl-lv { appearance: none; -webkit-appearance: none; font-weight: 80
 /* ---------- wejście do studia ---------- */
 #countdown { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; pointer-events: none; overflow: hidden; }
 #countdown b { position: relative; z-index: 2; }
-.door { position: absolute; top: 0; bottom: 0; width: 50.5%; z-index: 1; transition: transform 1.9s cubic-bezier(.6,0,.2,1);
+.door { position: absolute; top: 0; bottom: 0; width: 50.5%; z-index: 1; transition: transform 1.25s cubic-bezier(.6,0,.2,1);
   background: repeating-linear-gradient(90deg, rgba(0,0,0,.28) 0 3px, transparent 3px 22%), linear-gradient(180deg, #33267f, #1b1250 55%, #0e0830);
   box-shadow: inset 0 0 0 10px #0a0620, inset 0 0 0 16px var(--gold), inset 0 0 120px rgba(0,0,0,.6); }
 .door.l { left: 0; } .door.r { right: 0; }
@@ -249,7 +249,7 @@ select.inp, .pl-lv { appearance: none; -webkit-appearance: none; font-weight: 80
 #countdown.open .door.l { transform: translateX(-102%); } #countdown.open .door.r { transform: translateX(102%); }
 #countdown b { font-size: min(46vw, 62vh); font-weight: 900; line-height: 1; color: var(--gold); -webkit-text-stroke: 10px var(--out); paint-order: stroke fill; text-shadow: 0 10px 0 var(--out), 0 20px 0 #6a3be0, 0 30px 0 var(--out), 0 0 90px rgba(255,194,51,.7); }
 #countdown b.go { font-size: min(20vw, 34vh); color: #fff; -webkit-text-stroke-width: 7px; transform: rotate(-4deg); }
-#countdown b.pop { animation: cdpop 1s cubic-bezier(.2,1.4,.4,1) both; }
+#countdown b.pop { animation: cdpop .7s cubic-bezier(.2,1.4,.4,1) both; }
 @keyframes cdpop { 0% { transform: scale(2.6) rotate(-8deg); } 30% { transform: scale(1) rotate(0); } 75% { transform: scale(1) rotate(0); } 100% { transform: scale(.82); } }
 
 /* ---------- prowadzący ---------- */

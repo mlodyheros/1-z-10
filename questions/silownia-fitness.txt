@@ -154,3 +154,26 @@ Ile kilogramów waży czerwony talerz olimpijski?|25
 Ile kilogramów waży niebieski talerz olimpijski?|20
 Jak nazywa się amerykański aktor i były wrestler znany z treningów o 4 rano, pseudonim The Rock?|Dwayne Johnson|The Rock|Johnson
 Jak nazywa się były komandos Navy SEALs i ultramaratończyk, autor książki „Nie mogą mnie zranić” i hasła „Stay hard”?|David Goggins|Goggins
+Jak nazywa się ćwiczenie „deska bokiem”?|side plank|deska boczna|plank bokiem
+Jak nazywa się ćwiczenie brzucha z unoszeniem nóg w zwisie na drążku?|unoszenie nóg|unoszenie nóg w zwisie|leg raises
+Jak nazywa się ćwiczenie na triceps z hantlem za głową lub sztangą leżąc — „francuskie…”?|wyciskanie francuskie|francuskie wyciskanie
+Jak nazywa się ćwiczenie barków z unoszeniem hantli bokiem?|wznosy bokiem|unoszenie bokiem|lateral raises
+Jak nazywa się maszyna z linką i regulowanym bloczkiem?|wyciąg|brama|wyciąg linowy
+Jak nazywa się przysiad z jedną nogą opartą z tyłu na ławce?|przysiad bułgarski|bułgarski
+Jak nazywa się martwy ciąg na prostych nogach — rumuński…?|martwy ciąg|rumuński martwy ciąg|RDL
+Jak nazywa się skakanie na skrzynię?|box jump|skok na skrzynię|box jumps
+Jak nazywa się zawody łączące bieg na 8 km z ośmioma stacjami fitness, bardzo modne od 2023 roku?|Hyrox|HYROX
+Jak nazywa się bieg z przeszkodami w błocie, popularny w Polsce — Runmageddon to bieg…?|przeszkodowy|z przeszkodami|OCR
+Ile kalorii ma w przybliżeniu kilogram tkanki tłuszczowej?|7000|7700
+Jak nazywa się minerał z bananów ważny dla mięśni?|potas
+Jak nazywa się minerał zapobiegający skurczom, często brany na noc?|magnez
+Jak nazywają się kwasy tłuszczowe z ryb — omega…?|3|omega-3|omega 3
+Jak nazywa się napój z elektrolitami dla sportowców — rodzaj?|izotonik|napój izotoniczny
+Jak nazywa się trening w wodzie w grupie?|aqua aerobik|aquaaerobik|aqua fitness
+Jak nazywa się sztuka walki łącząca boks i kopnięcia?|kickboxing
+Jak nazywają się mieszane sztuki walki — skrót?|MMA
+Jak nazywa się największa organizacja MMA na świecie?|UFC
+Jak nazywa się największa polska organizacja MMA?|KSW
+Jaka Polka była mistrzynią UFC w wadze słomkowej?|Joanna Jędrzejczyk|Jędrzejczyk
+Jaki Polak był mistrzem UFC w wadze półciężkiej?|Jan Błachowicz|Błachowicz
+Jak nazywa się brazylijska sztuka walki w parterze — skrót BJJ?|brazylijskie jiu-jitsu|jiu-jitsu|BJJ

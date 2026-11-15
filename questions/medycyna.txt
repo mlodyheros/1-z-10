@@ -156,3 +156,25 @@ Jak nazywa się wszczepiane urządzenie pobudzające serce do pracy?|rozrusznik|
 Jak nazywa się wskaźnik masy ciała — podaj skrót.|BMI
 Jak nazywa się zabieg oczyszczania krwi u osób z niewydolnością nerek?|dializa
 Jak nazywa się nauka o lekach?|farmakologia
+Ile litrów krwi ma dorosły człowiek (w przybliżeniu)?|5
+Jaka jest prawidłowa temperatura ciała człowieka w stopniach Celsjusza (w zaokrągleniu)?|36,6|37|36.6
+Jak nazywa się najdłuższa kość człowieka?|kość udowa|udowa
+Jak nazywa się najmniejsza kość człowieka?|strzemiączko
+Jaki narząd oczyszcza organizm z toksyn i wytwarza żółć?|wątroba
+Jaką witaminę skóra wytwarza pod wpływem słońca?|D|witamina D
+Jakiej witaminy jest dużo w cytrusach?|C|witamina C
+Jak nazywa się lekarz od zębów?|dentysta|stomatolog
+Jak nazywa się lekarz od oczu?|okulista
+Jak nazywa się lekarz od serca?|kardiolog
+Jak nazywa się lekarz od dzieci?|pediatra
+Jak nazywa się lekarz od skóry?|dermatolog
+Jak nazywa się choroba, w której organizm źle reguluje cukier we krwi?|cukrzyca
+Jaki numer alarmowy ma pogotowie ratunkowe w Polsce?|999|112
+Jak nazywa się uciskanie klatki piersiowej i oddechy ratownicze — skrót?|RKO|resuscytacja|CPR
+Jak nazywa się urządzenie AED używane przy zatrzymaniu krążenia?|defibrylator
+Jak nazywa się pierwszy antybiotyk?|penicylina
+Jak nazywa się pandemia, która zaczęła się w 2019 roku w Wuhan?|COVID-19|covid|koronawirus
+Jak nazywa się brak snu jako dolegliwość?|bezsenność
+Jak nazywa się lekarz od kości i stawów?|ortopeda
+Jak nazywa się badanie obrazujące kości promieniami X?|rentgen|RTG|prześwietlenie
+Jak nazywa się zabieg podania szczepionki?|szczepienie

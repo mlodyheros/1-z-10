@@ -159,3 +159,26 @@ Jaki cukier prosty jest podstawowym źródłem energii dla komórek?|glukoza
 Jak nazywa się cukier występujący w mleku?|laktoza
 Jak chemicy nazywają cukier stołowy?|sacharoza
 Jaki metal szlachetny ma najwyższą przewodność elektryczną?|srebro
+Jaki wzór chemiczny ma woda?|H2O
+Jaki symbol ma złoto?|Au
+Jaki symbol ma srebro?|Ag
+Jaki symbol ma żelazo?|Fe
+Jaki symbol ma sód?|Na
+Jaki symbol ma potas?|K
+Jaki wzór ma sól kuchenna?|NaCl
+Jaki wzór ma dwutlenek węgla?|CO2
+Jaki pierwiastek ma liczbę atomową 1?|wodór
+Jaki gaz stanowi około 21% powietrza?|tlen
+Ile wynosi pH wody obojętnej?|7
+Jaki odczyn ma roztwór o pH mniejszym niż 7?|kwasowy|kwaśny
+Jaki odczyn ma roztwór o pH większym niż 7?|zasadowy
+Jak nazywa się odmiana węgla używana w ołówkach?|grafit
+Jaki gaz szlachetny wypełnia balony, które unoszą się w powietrzu?|hel
+Jak nazywa się cząstka o ładunku ujemnym krążąca wokół jądra?|elektron
+Jak nazywa się zamiana cieczy w gaz?|parowanie|wrzenie
+Jakie dwa polskie pierwiastki odkryła Maria Skłodowska-Curie?|polon i rad|rad i polon
+
+Jaki symbol ma tlen?|O
+Jaki symbol ma węgiel?|C
+Jaki gaz powstaje w wyniku fotosyntezy?|tlen
+Jak nazywa się stop miedzi z cyną?|brąz

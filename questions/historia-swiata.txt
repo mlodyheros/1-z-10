@@ -154,3 +154,26 @@ W którym roku wprowadzono do obiegu banknoty i monety euro?|2002
 W którym wieku był rok 1444?|XV|15|piętnasty|w XV
 Do którego wieku należy rok 2000?|XX|20|dwudziesty|w XX
 W którym wieku był rok 1500?|XV|15|piętnasty|w XV
+W którym roku Kolumb dotarł do Ameryki?|1492
+Kto był pierwszym prezydentem USA?|George Washington|Washington|Jerzy Waszyngton
+Kto był przywódcą nazistowskich Niemiec?|Adolf Hitler|Hitler
+Kto był premierem Wielkiej Brytanii podczas II wojny światowej?|Winston Churchill|Churchill
+Kto przegrał bitwę pod Waterloo?|Napoleon Bonaparte|Napoleon
+Kto zbudował imperium mongolskie w XIII wieku?|Czyngis-chan|Czyngis chan
+Kto opłynął jako pierwszy Ziemię — dowódca wyprawy z 1519 roku?|Ferdynand Magellan|Magellan
+Kto walczył bez przemocy o niepodległość Indii?|Mahatma Gandhi|Gandhi
+Kto wygłosił przemówienie „I have a dream”?|Martin Luther King|King
+Jakie starożytne miasto zniszczył wybuch Wezuwiusza w 79 roku?|Pompeje
+Jaka cywilizacja zbudowała Machu Picchu?|Inkowie
+Na jakie dwa miasta zrzucono bomby atomowe w 1945 roku?|Hiroszima i Nagasaki|Nagasaki i Hiroszima
+Jak nazywała się epidemia, która w XIV wieku zabiła jedną trzecią Europy?|czarna śmierć|dżuma
+Jak nazywał się statek, którym Darwin opłynął świat?|Beagle|HMS Beagle
+
+Jak nazywał się pierwszy cesarz Rzymu?|Oktawian August|August
+Jak nazywał się wódz Kartaginy, który przeszedł Alpy ze słoniami?|Hannibal
+Jak nazywała się wojna USA i ZSRR bez bezpośredniej walki?|zimna wojna
+Kto wynalazł druk w Europie około 1450 roku?|Jan Gutenberg|Gutenberg|Johannes Gutenberg
+Jak nazywał się prezydent USA zastrzelony w Dallas w 1963 roku?|John F. Kennedy|Kennedy|JFK
+Jak nazywał się prezydent USA, który zniósł niewolnictwo?|Abraham Lincoln|Lincoln
+Jak nazywała się francuska bohaterka spalona na stosie w 1431 roku?|Joanna d'Arc
+Jaki mur dzielił Berlin w latach 1961–1989?|mur berliński

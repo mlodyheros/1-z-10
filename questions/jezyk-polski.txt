@@ -152,3 +152,23 @@ Jakie zwierzę symbolizuje zdrowie — „zdrów jak...”?|ryba
 Do jakiej grupy języków należy polski?|słowiańskie|języki słowiańskie|zachodniosłowiańskie
 Jak nazywa się język regionalny używany na Pomorzu Gdańskim?|kaszubski
 Którego dnia obchodzony jest Międzynarodowy Dzień Języka Ojczystego?|21 lutego
+Jak nazywa się pierwszy przypadek?|mianownik
+Jak nazywa się część mowy nazywająca czynności?|czasownik
+Jak nazywa się część mowy opisująca cechy rzeczownika?|przymiotnik
+Jak nazywa się wyraz o przeciwnym znaczeniu?|antonim
+Jak nazywa się wyraz bliskoznaczny?|synonim
+Jak nazywa się zdrobnienie od słowa „kot”?|kotek
+Jak poprawnie: „wziąć” czy „wziąść”?|wziąć
+Jak poprawnie: „włączać” czy „włanczać”?|włączać
+Jak poprawnie: „poszedłem” czy „poszłem”?|poszedłem
+Jak poprawnie: „w każdym razie” czy „w każdym bądź razie”?|w każdym razie
+Jak nazywa się znak „ó” — „o z…”?|kreską|o z kreską|kreska
+Jakim „u” piszemy „góra” — otwartym czy zamkniętym?|zamkniętym|ó|zamknięte
+Jak nazywa się błąd polegający na powtórzeniu znaczenia, np. „cofać się do tyłu”?|pleonazm|masło maślane
+Jak nazywa się słowo zapożyczone z angielskiego?|anglicyzm
+Jak nazywa się zdanie brzmiące tak samo czytane wspak, np. „kobyła ma mały bok”?|palindrom
+Jak nazywa się środek stylistyczny „szybki jak błyskawica”?|porównanie
+Jak nazywa się słowo naśladujące dźwięk, np. „kukuryku”?|onomatopeja|wyraz dźwiękonaśladowczy
+Jak nazywa się przesadnia w literaturze?|hiperbola
+Jak nazywa się utarte połączenie wyrazów, np. „mieć muchy w nosie”?|frazeologizm|związek frazeologiczny
+Kto ustala zasady polskiej pisowni — Rada Języka…?|Polskiego|Rada Języka Polskiego

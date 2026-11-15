@@ -164,3 +164,25 @@ Kto jest patronem kierowców i podróżnych?|święty Krzysztof|Krzysztof
 Kto jest patronem zakochanych?|święty Walenty|Walenty
 Kto jest patronką górników?|święta Barbara|Barbara
 Kto jest patronem Irlandii?|święty Patryk|Patryk
+Kto był najważniejszym bogiem greckim?|Zeus
+Kto był greckim bogiem podziemi?|Hades
+Kto była grecką boginią miłości?|Afrodyta
+Kto był greckim bogiem wina?|Dionizos
+Kto był rzymskim odpowiednikiem Zeusa?|Jowisz
+Kto był rzymskim bogiem wojny?|Mars
+Kto wykradł bogom ogień dla ludzi?|Prometeusz
+Jaka góra była siedzibą greckich bogów?|Olimp
+Jak nazywał się heros, którego słabym punktem była pięta?|Achilles
+Jak nazywał się nordycki bóg piorunów z młotem?|Thor
+Jak nazywał się najważniejszy bóg nordycki, ojciec Thora?|Odyn
+Jak nazywał się nordycki bóg psot i kłamstwa?|Loki
+Jak nazywał się egipski bóg słońca?|Ra
+Jak nazywał się egipski bóg z głową szakala?|Anubis
+Jak nazywa się święta księga islamu?|Koran
+Jak nazywała się żona Zeusa?|Hera
+Jak nazywał się grecki bóg słońca i sztuki?|Apollo|Apollon
+Jak nazywała się grecka bogini łowów?|Artemida
+Jak nazywał się labirynt, w którym mieszkał Minotaur — na jakiej wyspie?|Kreta
+Jak nazywał się chłopiec, który spadł, bo podleciał za blisko słońca?|Ikar
+Jak nazywał się król, który zamieniał wszystko w złoto?|Midas
+Jak nazywała się puszka, z której wyleciały nieszczęścia — czyja?|Pandory|Pandora

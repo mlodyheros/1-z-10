@@ -150,3 +150,24 @@ Jak nazywa się świecenie nieba w okolicach biegunów?|zorza polarna|zorza
 Jak nazywa się zdolność ciała do zachowania stanu ruchu?|bezwładność|inercja
 Ile wynosi ciśnienie atmosferyczne na poziomie morza w hektopaskalach?|1013
 Ile barw podstawowych wyróżnia się tradycyjnie w tęczy?|7
+Jaka jest jednostka siły?|niuton|N
+Jaka jest jednostka mocy?|wat|W
+Jaka jest jednostka natężenia prądu?|amper|A
+Jaka jest jednostka energii?|dżul|J
+Ile wynosi w przybliżeniu prędkość światła w km/s?|300000|300 000|299792
+Ile stopni Celsjusza ma zero absolutne (w zaokrągleniu)?|-273|minus 273
+W ilu stopniach Celsjusza wrze woda na poziomie morza?|100
+Jaka siła przyciąga przedmioty do Ziemi?|grawitacja|siła ciężkości
+Ile w przybliżeniu wynosi przyspieszenie ziemskie w m/s²?|9,81|9.81|10|9,8
+Jak nazywa się energia ruchu?|kinetyczna|energia kinetyczna
+Jak nazywa się zjawisko rozszczepienia światła białego na kolory?|rozszczepienie|dyspersja
+Ile kolorów ma tęcza według tradycyjnego podziału?|7
+Jak nazywa się zjawisko przyciągania metalu przez magnes?|magnetyzm
+
+Jak nazywa się zmiana stanu ze stałego w ciekły?|topnienie
+Jak nazywa się zmiana gazu w ciecz?|skraplanie|kondensacja
+Jak nazywa się opór, jaki stawia powietrze poruszającemu się ciału?|opór powietrza|opór aerodynamiczny
+Jak nazywa się zjawisko odbijania się dźwięku od przeszkody?|echo
+Jaka cząstka ma ładunek dodatni i siedzi w jądrze atomu?|proton
+Jaka cząstka jądra atomowego nie ma ładunku?|neutron
+Jak nazywa się urządzenie zamieniające energię wiatru w prąd?|turbina wiatrowa|wiatrak

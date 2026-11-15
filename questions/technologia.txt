@@ -160,3 +160,24 @@ Jaki komunikator z zielonym logo należy do Mety?|WhatsApp
 Jak nazywa się aplikacja Mety konkurująca z Twitterem, uruchomiona w 2023 roku?|Threads
 Jak nazywa się marka samochodów elektrycznych Elona Muska?|Tesla
 W jakim mieście w RPA urodził się Elon Musk?|Pretoria
+Kto założył Microsoft razem z Paulem Allenem?|Bill Gates|Gates
+Kto stworzył system Linux?|Linus Torvalds|Torvalds
+Jak nazywa się system operacyjny Microsoftu?|Windows
+Jak nazywa się procesor graficzny — skrót?|GPU
+Jak nazywa się procesor komputera — skrót?|CPU
+Jak nazywa się pamięć operacyjna — skrót?|RAM
+Jak nazywa się szybki dysk bez ruchomych części — skrót?|SSD
+Ile bitów ma bajt?|8
+Jak nazywa się najpopularniejszy język stron internetowych do struktury — skrót?|HTML
+Jak nazywa się język programowania z wężem w nazwie?|Python
+Jak nazywa się serwis do przechowywania kodu z kotem-ośmiornicą w logo?|GitHub
+Jak nazywa się uniwersalne złącze ładowania wymagane w UE od 2024 roku?|USB-C|USB C
+Jak nazywa się firma produkująca procesory Ryzen?|AMD
+Jak nazywa się firma produkująca procesory Core?|Intel
+Jak nazywa się tajwański producent chipów dla Apple i Nvidii — skrót?|TSMC
+Jak nazywa się samochód bez kierowcy?|autonomiczny|samochód autonomiczny
+Jak nazywają się taksówki bez kierowcy firmy Google w USA?|Waymo
+Jak nazywa się robot humanoidalny Tesli?|Optimus
+Jak nazywa się technologia drukowania przedmiotów warstwa po warstwie?|druk 3D
+Jak nazywa się okulary z wirtualną rzeczywistością — skrót?|VR
+Jak nazywa się nauka o budowie i programowaniu robotów?|robotyka
