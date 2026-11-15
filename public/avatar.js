@@ -70,7 +70,7 @@ function avatarSVG(a, cls) {
     `<circle cx="46" cy="61" r="10" fill="#fff"/><circle cx="74" cy="63" r="7" fill="#fff"/><circle cx="43" cy="63" r="4.5" fill="${ink}"/><circle cx="76" cy="62" r="3" fill="${ink}"/>`,
     `<path d="M39 65 Q47 56 55 65 M65 65 Q73 56 81 65" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`,
     `<ellipse cx="47" cy="63" rx="7" ry="8.5" fill="#fff"/><ellipse cx="73" cy="63" rx="7" ry="8.5" fill="#fff"/><circle cx="48" cy="64" r="4" fill="${ink}"/><circle cx="74" cy="64" r="4" fill="${ink}"/><circle cx="49.5" cy="62" r="1.4" fill="#fff"/><circle cx="75.5" cy="62" r="1.4" fill="#fff"/><path d="M39 56 L36 52 M43 54 L41 49 M81 56 L84 52 M77 54 L79 49" stroke="${ink}" stroke-width="2" stroke-linecap="round"/>`,
-    `<ellipse cx="47" cy="63" rx="8" ry="6.5" fill="#fff"/><ellipse cx="73" cy="63" rx="8" ry="6.5" fill="#fff"/><circle cx="48" cy="63.500" r="4.6" fill="${eyeC}"/><circle cx="74" cy="63.500" r="4.6" fill="${eyeC}"/><circle cx="48" cy="63.500" r="2.2" fill="${ink}"/><circle cx="74" cy="63.500" r="2.2" fill="${ink}"/><circle cx="49.500" cy="62" r="1.2" fill="#fff"/><circle cx="75.500" cy="62" r="1.2" fill="#fff"/><path d="M38 60 Q47 54 56 60 M64 60 Q73 54 82 60" stroke="${ink}" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M37 52 Q46 47 56 51 M64 51 Q74 47 83 52" stroke="${avShade(hc, 0.7)}" stroke-width="3.2" fill="none" stroke-linecap="round"/><path d="M58 70 Q59 77 64 75" stroke="${avShade(skin, 0.72)}" stroke-width="2.2" fill="none" stroke-linecap="round"/>`,
+    `<ellipse cx="47" cy="63" rx="8" ry="6.5" fill="#fff"/><ellipse cx="73" cy="63" rx="8" ry="6.5" fill="#fff"/><circle cx="48" cy="63.500" r="4.6" fill="${eyeC}"/><circle cx="74" cy="63.500" r="4.6" fill="${eyeC}"/><circle cx="48" cy="63.500" r="2.2" fill="${ink}"/><circle cx="74" cy="63.500" r="2.2" fill="${ink}"/><circle cx="49.500" cy="62" r="1.2" fill="#fff"/><circle cx="75.500" cy="62" r="1.2" fill="#fff"/><path d="M38 60 Q47 54 56 60 M64 60 Q73 54 82 60" stroke="${ink}" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M37 52 Q46 47 56 51 M64 51 Q74 47 83 52" stroke="${avShade(hc, 0.7)}" stroke-width="3.2" fill="none" stroke-linecap="round"/><path d="M55.500 71 Q60 75.500 64.500 71" stroke="${avShade(skin, 0.72)}" stroke-width="2.4" fill="none" stroke-linecap="round"/>`,
   ][g('eyes')];
   const mouth = [
     `<path d="M46 82 Q60 94 74 82" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`,
@@ -81,7 +81,7 @@ function avatarSVG(a, cls) {
     `<rect x="45" y="80" width="30" height="12" rx="5" fill="#fff" stroke="${ink}" stroke-width="3"/><path d="M53 80 V92 M60 80 V92 M67 80 V92" stroke="${ink}" stroke-width="2"/>`,
     `<path d="M46 90 Q60 80 74 90" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`,
     `<path d="M48 86 Q62 92 74 80" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`,
-    `<path d="M43 81 Q60 103 77 81Z" fill="${ink}"/><path d="M46 82 H74 Q72 88 60 88 Q48 88 46 82Z" fill="#fff"/><path d="M52 94 Q60 99 68 94 Q60 91 52 94Z" fill="#ff6b81"/>`,
+    `<path d="M43 81 Q60 103 77 81Z" fill="${ink}"/><path d="M46 82 H74 Q72 88 60 88 Q48 88 46 82Z" fill="#fff"/>`,
   ][g('mouth')];
   const beardShape = 'M26 68 Q26 104 60 104 Q94 104 94 68 Q90 82 76 80 Q60 74 44 80 Q30 82 26 68Z';
   const beard = [
@@ -90,7 +90,7 @@ function avatarSVG(a, cls) {
     `<path d="M49 94 Q60 112 71 94 Q60 99 49 94Z" fill="${hc}"/>`,
     `<path d="${beardShape}" fill="${hc}"/>`,
     `<path d="${beardShape}" fill="${hc}" opacity=".28"/>`,
-    `<path d="M46 77 Q60 71 74 77" stroke="${hc}" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/><path d="M36 90 Q60 112 84 90 Q60 103 36 90Z" fill="${hc}"/>`,
+    `<path d="M46 80 Q60 75 74 80" stroke="${hc}" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/><path d="M36 90 Q60 112 84 90 Q60 103 36 90Z" fill="${hc}"/>`,
   ][g('beard')];
   const glasses = [
     '',
