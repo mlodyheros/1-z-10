@@ -9,7 +9,7 @@ ws.on('message', d => {
   if (m.t === 'error') return console.log('ERR', m.msg);
   if (m.t !== 'state') return;
   const s = m.s, g = s.game;
-  if (!started) { started = true; for (let i = 0; i < n; i++) ws.send(JSON.stringify({ t: 'addBot', level: ['latwy', 'sredni', 'trudny'][i % 3] })); setTimeout(() => ws.send(JSON.stringify({ t: 'start' })), 300); return; }
+  if (!started) { started = true; for (let i = 0; i < n; i++) ws.send(JSON.stringify({ t: 'addBot', level: ['slaby', 'latwy', 'sredni', 'trudny', 'mistrz'][i % 5] })); setTimeout(() => ws.send(JSON.stringify({ t: 'start' })), 300); return; }
   if (!g) return;
   const name = id => (s.players.find(p => p.id === id) || {}).name;
   const key = [g.stage, g.mode, g.turn, g.qnum].join('|');

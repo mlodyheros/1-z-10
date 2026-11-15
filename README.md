@@ -15,6 +15,7 @@ Gra działa pod adresem http://localhost:3110 (port można zmienić zmienną `PO
 
 1. Ustaw imię i ludka, kliknij **Stwórz pokój**.
 2. Wyślij znajomym kod pokoju albo link (`/?pokoj=KOD`). Możesz też dodać boty (łatwy / średni / trudny).
+   Boty mają 5 poziomów (mega słaby → mega dobry), a w „Galerii botów” są gotowe postacie (znajomi i gwiazdy, lista w `public/bots.js`); poziom każdego bota można zmienić na jego stanowisku.
 3. Gospodarz wybiera kategorie, czas na odpowiedź i długość finału, po czym startuje grę.
 
 Żeby znajomi spoza Twojej sieci mogli wejść, serwer musi być dostępny z internetu (hosting obsługujący Node.js i WebSocket albo tunel do `localhost:3110`).

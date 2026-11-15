@@ -215,6 +215,29 @@ kbd { font: 600 12px var(--font); background: rgba(0,0,0,.25); border-radius: 6p
 .cat em { color: var(--dim); font-style: normal; font-size: 12px; font-variant-numeric: tabular-nums; }
 .cat input { accent-color: var(--gold); }
 
+/* ---------- galeria botów ---------- */
+#gallery { position: fixed; inset: 0; z-index: 70; display: grid; place-items: center; padding: 16px; background: rgba(5,3,15,.8); }
+.gal { width: min(920px, 100%); max-height: calc(100vh - 32px); display: flex; flex-direction: column; }
+.gal-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.gal-head h2 { margin: 0 auto 0 0; }
+.gal-lv { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 13px; color: var(--dim); text-transform: uppercase; }
+.gal-lv .inp { width: auto; }
+.gal-body { overflow: auto; margin: 10px -8px 0; padding: 0 8px 10px; }
+.gal-body h3 { margin: 12px 0 8px; font-size: 14px; text-transform: uppercase; letter-spacing: .06em; color: var(--gold); }
+.gal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 12px; }
+.gal-item { position: relative; display: block; padding: 4px 6px 10px; border: 3px solid var(--out); border-radius: 16px; cursor: pointer; text-align: center; overflow: hidden;
+  background: radial-gradient(circle at 50% 28%, #6a58e0, #241a55 72%); box-shadow: inset 0 3px 0 rgba(255,255,255,.2), 0 5px 0 var(--out); transition: transform .08s; }
+.gal-item:hover:not(:disabled) { transform: translateY(-3px); filter: brightness(1.12); }
+.gal-item:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 var(--out); }
+.gal-item:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+.gal-item .av { width: 88px; display: block; margin: 0 auto -8px; filter: drop-shadow(0 4px 0 rgba(0,0,0,.35)); }
+.gal-item b { position: relative; display: block; font-size: 13px; font-weight: 900; line-height: 1.15; background: var(--out); border-radius: 8px; padding: 4px 4px; }
+.gal-item em { position: absolute; top: 6px; right: 6px; font-style: normal; font-size: 10px; font-weight: 900; text-transform: uppercase; background: var(--good); color: #05250f; border-radius: 999px; padding: 1px 7px; }
+.gal-item:disabled { cursor: not-allowed; opacity: .55; }
+.pl-lv { width: 100%; font-size: 11px; font-weight: 700; color: #fff; background: rgba(10,6,32,.6); border: 1px solid rgba(255,255,255,.25); border-radius: 6px; padding: 1px 2px; margin-top: 2px; cursor: pointer; }
+.botrow { display: flex !important; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+.botrow .inp { width: auto; flex: 1 1 150px; max-width: 220px; }
+
 /* ---------- studio ---------- */
 #game { overflow: hidden; background: #05030d; }
 #stage { position: absolute; inset: 0; overflow: hidden; }
