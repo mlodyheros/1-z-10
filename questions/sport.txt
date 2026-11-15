@@ -176,3 +176,4 @@ Jak na siłowni nazywa się uczucie napompowanych krwią mięśni po treningu?|p
 Jak nazywa się ćwiczenie, w którym leżąc na ławce, wypycha się sztangę w górę z klatki piersiowej?|wyciskanie na ławce|wyciskanie|bench press|bench
 Jak nazywa się ćwiczenie polegające na podniesieniu sztangi z ziemi do pełnego wyprostu?|martwy ciąg|deadlift
 Jak nazywa się ćwiczenie, w którym ze sztangą na plecach robi się głęboki przysiad?|przysiad|przysiad ze sztangą|squat
+Kto wypowiedział słynne słowa „Polska gurom”?|Mariusz Pudzianowski|Pudzian|Pudzianowski
