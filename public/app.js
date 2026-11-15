@@ -348,18 +348,16 @@ function startIntro() {
   }, i * 700));
   // po „3” wielkie drzwi studia się rozsuwają i kamera wjeżdża do środka
   setTimeout(() => {
-    cd.classList.add('open');
-    world.style.transition = 'transform 2s cubic-bezier(.3,.1,.2,1)';
+    world.style.transition = 'transform 3.1s cubic-bezier(.3,.1,.2,1)';
     entering = false; camera();
-  }, 450);
-  setTimeout(() => { world.style.transition = ''; }, 2600);
+  }, 60);
+  setTimeout(() => cd.classList.add('open'), 400);
+  setTimeout(() => { world.style.transition = ''; }, 3300);
   setTimeout(() => cd.classList.add('hidden'), 3000);
 }
 
 // ---------- scena ----------
 const GAP = 225, WORLD_H = 760, FLOOR_Y = 640;
-// prowadzący: siwy starszy pan w garniturze, stoi z boku przy własnym pulpicie i czyta pytania
-const HOST_AV = { skinHex: '#f1c9a5', hair: 10, hairHex: '#d9dce3', eyes: 8, eyeHex: '#5f7f9a', mouth: 0, beard: 1, glasses: 2, outfit: 3, shirtHex: '#1f2a4d' };
 let pos = {};
 function renderWorld() {
   const ps = S.players, n = ps.length, g = S.game;
@@ -399,16 +397,6 @@ function renderWorld() {
       <div class="glow"></div>
     </div>`;
   }).join('');
-  // prowadzący wita graczy tylko podczas wejścia do studia; w samej rozgrywce go nie ma
-  const showHost = g.stage === 1 && g.mode === 'intro';
-  const hostX = W / 2 - (n * GAP) / 2 - 150, asking = false;
-  const hostHTML = !showHost ? '' : `<div class="pod host ${asking ? 'asking' : ''}" style="left:${hostX}px;top:${FLOOR_Y + 14}px;--s:1.08;z-index:21">
-      ${asking ? '<div class="bubble q">?</div>' : ''}
-      <div class="fig">${avatarSVG(HOST_AV)}</div>
-      <div class="desk"><div class="mic"></div><div class="top"></div>
-        <div class="front"><div class="seat">?</div><div class="plate"><div class="nm">${t('presenter')}</div><div class="cards"></div></div></div>
-        <div class="foot"></div></div>
-      <div class="glow"></div></div>`;
   const lamps = Array.from({ length: 11 }, (_, i) => `<div class="lamp" style="left:${(i + 0.5) / 11 * 100}%;--r:${(i - 5) * 4.5}deg"><i></i></div>`).join('');
   world.innerHTML = `
     <div class="bk">
@@ -420,7 +408,7 @@ function renderWorld() {
       <div class="rig" style="width:${W}px;margin-left:${-W / 2}px">${lamps}</div>
       <div class="floor"><div class="grid"></div></div>
     </div>
-    <div class="dais" style="left:${W / 2}px;top:${FLOOR_Y - 30}px;width:${n * GAP + (showHost ? 760 : 420)}px;margin-left:${showHost ? -130 : 0}px"></div>${hostHTML}${pods}`;
+    <div class="dais" style="left:${W / 2}px;top:${FLOOR_Y - 30}px;width:${n * GAP + 420}px"></div>${pods}`;
   camera();
 }
 function focusId() {
@@ -441,9 +429,8 @@ function camera() {
     s = Math.max(0.5, Math.min(vw / (GAP * 2.5), freeH / 430, 2.1));
     cx = pos[f].x; cy = pos[f].y + 70;
   } else {
-    const host = S.game.stage === 1 && S.game.mode === 'intro';
-    s = Math.max(0.2, Math.min(vw / (n * GAP + (host ? 560 : 220)), freeH / 560, 1.4));
-    cx = W / 2 - (host ? 130 : 0); cy = FLOOR_Y - 270;
+    s = Math.max(0.22, Math.min(vw / (n * GAP + 220), freeH / 560, 1.4));
+    cx = W / 2; cy = FLOOR_Y - 270;
   }
   $('#world').style.transform = `translate(${vw / 2 - cx * s}px, ${60 + freeH / 2 - cy * s}px) scale(${s})`;
 }
@@ -530,7 +517,7 @@ function renderGame() {
     }
   }
   renderWorld();
-  if (!introDone && g.stage === 1 && g.mode === 'intro') { introDone = true; if (g.timeLeft > 4000) startIntro(); }
+  if (!introDone && g.stage === 1 && g.mode === 'intro') { introDone = true; if (g.timeLeft > 2800) startIntro(); }
 }
 addEventListener('keydown', e => {
   if (e.code === 'Space' && S && S.game && S.game.mode === 'buzz' && $('#buzz')) { e.preventDefault(); tx({ t: 'buzz' }); }
