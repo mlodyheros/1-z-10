@@ -74,7 +74,7 @@ function cleanAvatar(a) {
 }
 function randomAvatar() {
   const opt = (n, pNone) => (Math.random() < pNone ? 0 : rint(n));
-  return { skin: rint(10), hair: rint(12), hairColor: rint(10), eyes: rint(8), mouth: rint(8), shirt: rint(12), outfit: rint(9), hat: opt(10, 0.5), glasses: opt(5, 0.6), beard: opt(6, 0.65) };
+  return { skin: rint(10), hair: rint(15), hairColor: rint(10), eyes: rint(9), mouth: rint(9), shirt: rint(12), outfit: rint(10), hat: opt(10, 0.5), glasses: opt(5, 0.6), beard: opt(6, 0.65) };
 }
 const byId = (r, id) => r.players.find(p => p.id === id);
 const alive = r => r.players.filter(p => !p.out);

@@ -217,12 +217,8 @@ function renderLobby() {
           <div class="linktxt">${esc(link)}</div>
           <h2>${t('settings')} ${host ? '' : `<small>${t('hostSets')}</small>`}</h2>
           <div class="setrow">
-            <label>${t('answerTime')}
-              <select id="set-time" class="inp" ${host ? '' : 'disabled'}>${[15, 25, 40, 60].map(v => `<option value="${v}" ${S.settings.answerTime === v ? 'selected' : ''}>${v} s</option>`).join('')}</select>
-            </label>
-            <label>${t('finalQs')}
-              <select id="set-final" class="inp" ${host ? '' : 'disabled'}>${[10, 15, 20, 30, 40, 50].map(v => `<option value="${v}" ${S.settings.finalQuestions === v ? 'selected' : ''}>${v}</option>`).join('')}</select>
-            </label>
+            <div class="setgrp"><span class="lbl">${t('answerTime')}</span>${segCtl('answerTime', [15, 25, 40, 60], ' s', host)}</div>
+            <div class="setgrp"><span class="lbl">${t('finalQs')}</span>${segCtl('finalQuestions', [10, 15, 20, 30, 40, 50], '', host)}</div>
           </div>
           ${host ? `<button class="btn primary big" id="start" ${S.players.length < 2 ? 'disabled' : ''}>${t('start')}</button>
             ${S.players.length < 2 ? `<p class="hint">${t('need2hint')}</p>` : ''}`
@@ -230,7 +226,7 @@ function renderLobby() {
         </div>
         <div class="set-r">
           <div class="cats-head"><span>${t('catsSummary', { a: sel.size, b: S.cats.length, q: totalQ })}</span>
-            ${host ? `<span><button class="lnk" id="cat-all">${t('all')}</button> · <button class="lnk" id="cat-none">${t('none')}</button></span>` : ''}</div>
+            ${host ? `<span class="cat-btns"><button class="pillbtn on" id="cat-all">✓ ${t('all')}</button><button class="pillbtn" id="cat-none">✕ ${t('none')}</button></span>` : ''}</div>
           <div class="cats">
             ${S.cats.map(c => `<label class="cat"><input type="checkbox" data-cat="${c.id}" ${sel.has(c.id) ? 'checked' : ''} ${host ? '' : 'disabled'}><span>${esc(c.name)}</span><em>${c.n}</em></label>`).join('')}
           </div>
@@ -249,12 +245,16 @@ function renderLobby() {
   el.querySelectorAll('[data-botlv]').forEach(x => x.onchange = () => tx({ t: 'botLevel', id: x.dataset.botlv, level: x.value }));
   el.querySelectorAll('[data-kick]').forEach(b => b.onclick = () => tx({ t: 'kick', id: b.dataset.kick }));
   const setS = s => tx({ t: 'settings', settings: s });
-  $('#set-time').onchange = e => setS({ answerTime: +e.target.value });
-  $('#set-final').onchange = e => setS({ finalQuestions: +e.target.value });
+  el.querySelectorAll('.segc button').forEach(b => b.onclick = () => setS({ [b.parentNode.dataset.set]: +b.dataset.v }));
   $('#cat-all').onclick = () => setS({ categories: S.cats.map(c => c.id) });
   $('#cat-none').onclick = () => setS({ categories: [] });
   cats.onchange = () => setS({ categories: [...cats.querySelectorAll('input:checked')].map(i => i.dataset.cat) });
   $('#start').onclick = () => tx({ t: 'start' });
+}
+
+// przełącznik segmentowy zamiast systemowej listy rozwijanej
+function segCtl(key, vals, unit, on) {
+  return `<div class="segc" role="radiogroup" data-set="${key}">${vals.map(v => `<button role="radio" aria-checked="${S.settings[key] === v}" class="${S.settings[key] === v ? 'on' : ''}" data-v="${v}" ${on ? '' : 'disabled'}>${v}${unit}</button>`).join('')}</div>`;
 }
 
 // ---------- galeria botów ----------
@@ -276,7 +276,7 @@ function renderGallery() {
       <label class="gal-lv">${t('level')} <select id="gal-level" class="inp">${levelOpts(botLevel)}</select></label>
       <button class="btn ghost" id="gal-close">${t('close')}</button></div>
     <p class="hint">${t('galHint')}</p>
-    <div class="gal-body">${['friends', 'stars'].map(gr => `<h3>${t('g_' + gr)}</h3><div class="gal-grid">
+    <div class="gal-body">${['friends', 'sport', 'music', 'world'].map(gr => `<h3>${t('g_' + gr)}</h3><div class="gal-grid">
       ${BOT_GALLERY.filter(b => b.group === gr).map(b => `<button class="gal-item ${used.has(b.id) ? 'used' : ''}" data-gid="${b.id}" ${used.has(b.id) || full ? 'disabled' : ''}>
         ${avatarSVG(b.avatar)}<b>${esc(b.name)}</b>${used.has(b.id) ? `<em>${t('inRoom')}</em>` : ''}</button>`).join('')}</div>`).join('')}</div></div>`;
   el.querySelector('.gal-body').scrollTop = sc;
