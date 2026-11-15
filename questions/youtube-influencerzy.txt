@@ -166,3 +166,6 @@ Jaki przycisk YouTube dostaje kanał za 100 tysięcy subskrypcji?|srebrny|srebrn
 Jaki przycisk YouTube dostaje kanał za 10 milionów subskrypcji?|diamentowy|diamentowa
 Jak nazywa się krótki pionowy format filmów na YouTubie, konkurencja TikToka?|Shorts|YouTube Shorts
 Jak nazywają się krótkie filmy na Instagramie?|Reels|rolki|reelsy
+Który polski youtuber jako pierwszy przekroczył milion subskrypcji?|Sylwester Wardęga|Wardęga|SA Wardęga
+Który polski youtuber jako pierwszy przekroczył 4 miliony subskrypcji?|Blowek
+Który polski youtuber jako pierwszy przekroczył 5 milionów subskrypcji?|Friz|Karol Friz Wiśniewski|Karol Wiśniewski
