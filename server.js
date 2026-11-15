@@ -146,7 +146,7 @@ function stageIntro(r, stage) {
     // finał: szanse zachowane z wcześniejszych etapów zamieniają się na punkty, a każdy zaczyna z kompletem szans
     alive(r).forEach(p => { p.corrects = 0; p.inFinal = true; p.points = p.lives * 10; p.lives = 3; });
   }
-  setDeadline(r, stage === 1 ? 9000 : 5500, () => next(r));
+  setDeadline(r, stage === 1 ? 7000 : 5500, () => next(r));
   send(r);
 }
 

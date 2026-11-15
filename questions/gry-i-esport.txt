@@ -167,3 +167,24 @@ W którym roku ukazało się GTA V?|2013
 Jak nazywa się tryb sieciowy GTA V?|GTA Online
 Jak nazywa się fikcyjne miasto z GTA IV wzorowane na Nowym Jorku?|Liberty City
 Z czego wyskakują gracze na początku każdego meczu w Fortnite?|Battle Bus|autobus bojowy|autobus
+Jaka firma stworzyła Minecrafta?|Mojang
+Jak ma na imię brat Mario?|Luigi
+Jak nazywa się bohater serii „The Legend of Zelda”?|Link
+Jak nazywa się żółty stworek, maskotka Pokémonów?|Pikachu
+Jak nazywa się polskie studio, twórca „Wiedźmina”?|CD Projekt Red|CD Projekt|CDPR
+Jak nazywa się główny bohater „Wiedźmina”?|Geralt|Geralt z Rivii
+Jak nazywa się gra CD Projektu z 2020 roku osadzona w Night City?|Cyberpunk 2077|Cyberpunk
+Jak nazywa się taktyczna strzelanka Valve z bombą i terrorystami?|Counter-Strike|CS|CS2
+Jak nazywa się gra MOBA firmy Riot z Przywoływaczami?|League of Legends|LoL
+Jak nazywa się strzelanka firmy Riot z agentami?|Valorant
+Jak nazywa się gra roku 2022 studia FromSoftware?|Elden Ring
+Jak nazywa się gra roku 2023 studia Larian?|Baldur's Gate 3|Baldurs Gate 3
+Jak nazywa się gra o Kratosie, bogu wojny?|God of War
+Jak nazywa się gra o Joelu i Ellie?|The Last of Us
+Jak nazywa się gra z 2020 roku, w której urządza się wyspę ze zwierzakami?|Animal Crossing|Animal Crossing: New Horizons
+Jak nazywa się piłkarska gra samochodami z rakietowym napędem?|Rocket League
+Jak nazywa się battle royale od Respawn z Legendami?|Apex Legends|Apex
+Jak nazywa się seria wojennych strzelanek Activision?|Call of Duty|CoD
+Jak nazywa się symulator życia od EA?|The Sims|Sims
+Jak nazywa się klasyczna gra z układaniem spadających klocków?|Tetris
+

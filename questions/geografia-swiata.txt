@@ -171,3 +171,25 @@ Co oznacza skrót GTA, którym określa się Toronto i okolice?|Greater Toronto 
 W jakiej prowincji Kanady leży Toronto?|Ontario
 Nad jakim jeziorem leży Toronto?|Ontario|jezioro Ontario
 Jak nazywa się wodospad na granicy Kanady i USA, niedaleko Toronto?|Niagara|wodospad Niagara
+Jaka jest największa pustynia gorąca świata?|Sahara
+Jakie państwo ma najwięcej ludności?|Indie
+Jak nazywa się najwyższy wodospad świata?|Salto Angel|Angel Falls
+Jak nazywa się kanał łączący Morze Śródziemne z Czerwonym?|Kanał Sueski|Sueski
+Jak nazywa się kanał łączący Atlantyk z Pacyfikiem?|Kanał Panamski|Panamski
+Jak nazywa się cieśnina między Europą a Afryką?|Cieśnina Gibraltarska|Gibraltar
+W jakim kraju leży Machu Picchu?|Peru
+W jakim kraju leżą piramidy w Gizie?|Egipt
+W jakim kraju leży Wielki Kanion?|Stany Zjednoczone|USA
+W jakim mieście stoi Statua Wolności?|Nowy Jork
+W jakim mieście stoi wieża Eiffla?|Paryż
+W jakim mieście stoi Koloseum?|Rzym
+W jakim mieście stoi Big Ben?|Londyn
+W jakim mieście stoi najwyższy budynek świata, Burdż Chalifa?|Dubaj
+
+Jaka rzeka przepływa przez Budapeszt i Wiedeń?|Dunaj
+W jakim kraju leży Transylwania?|Rumunia
+W jakim kraju leży Bali?|Indonezja
+W jakim kraju leży Santorini?|Grecja
+Jakie państwo jest największe w Ameryce Południowej?|Brazylia
+Jakie państwo jest największe w Afryce?|Algieria
+Jak nazywa się morze między Europą a Afryką?|Morze Śródziemne|Śródziemne

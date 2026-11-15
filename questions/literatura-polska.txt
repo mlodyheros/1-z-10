@@ -149,3 +149,27 @@ Do jakiego miasta wędrował Koziołek Matołek?|Pacanów|do Pacanowa
 Kto stworzył komiksowe postacie Kajka i Kokosza?|Janusz Christa|Christa
 Kto stworzył komiks „Tytus, Romek i A'Tomek”?|Henryk Jerzy Chmielewski|Papcio Chmiel|Chmielewski
 Jak ma na imię wiedźmin z sagi Sapkowskiego?|Geralt
+Kto napisał „Lokomotywę”?|Julian Tuwim|Tuwim
+Która polska poetka dostała Nobla w 1996 roku?|Wisława Szymborska|Szymborska
+Który polski poeta dostał Nobla w 1980 roku?|Czesław Miłosz|Miłosz
+Jak ma na imię ukochana Tadeusza w „Panu Tadeuszu”?|Zosia
+Jak nazywa się zamek, o który toczy się spór w „Panu Tadeuszu”?|zamek Horeszków|Horeszków
+Jak ma na imię tytułowy bohater „Krzyżaków”, zakochany w Danusi?|Zbyszko|Zbyszko z Bogdańca
+Jak nazywa się opasły szlachcic-gawędziarz z Trylogii?|Zagłoba|Onufry Zagłoba
+Jak nazywa się pierwsza część Trylogii Sienkiewicza?|Ogniem i mieczem
+Jak nazywa się bohater „Potopu”, chorąży orszański?|Andrzej Kmicic|Kmicic
+Jak nazywa się bohater „Przedwiośnia”?|Cezary Baryka|Baryka
+Jak nazywają się wymarzone budowle z opowieści ojca Baryki?|szklane domy
+Jak nazywa się bohater „Ferdydurke”, trzydziestolatek cofnięty do szkoły?|Józio|Józio Kowalski
+Jak nazywa się wieś z „Chłopów” Reymonta?|Lipce
+Jak nazywa się bohater „Granicy” Zofii Nałkowskiej?|Zenon Ziembiewicz|Ziembiewicz
+Jak nazywają się dwaj przyjaciele z „Kamieni na szaniec” obok Rudego?|Alek i Zośka|Zośka i Alek
+Jak nazywa się chłopiec, bohater „W pustyni i w puszczy”?|Staś|Staś Tarkowski
+Jak nazywa się lekarz, bohater „Ludzi bezdomnych”?|Tomasz Judym|Judym
+Jak nazywa się poeta, autor „Trenów” po śmierci córki Urszulki?|Jan Kochanowski|Kochanowski
+Jak nazywa się autor „Bajek i przypowieści”, „książę poetów polskich”?|Ignacy Krasicki|Krasicki
+Jak nazywa się autorka „Nad Niemnem”?|Eliza Orzeszkowa|Orzeszkowa
+Jak nazywa się autorka „Medalionów”?|Zofia Nałkowska|Nałkowska
+Jak nazywa się autor wiersza „Campo di Fiori”?|Czesław Miłosz|Miłosz
+Jak nazywa się autor „Pana Cogito”?|Zbigniew Herbert|Herbert
+Jak nazywa się poeta pokolenia Kolumbów, który zginął w powstaniu warszawskim?|Krzysztof Kamil Baczyński|Baczyński

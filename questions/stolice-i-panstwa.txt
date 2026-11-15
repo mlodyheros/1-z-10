@@ -241,3 +241,33 @@ Jakie miasto jest stolicą państwa: Ekwador?|Quito
 Stolicą którego państwa jest Quito?|Ekwador
 Jakie miasto jest stolicą państwa: Liechtenstein?|Vaduz
 Stolicą którego państwa jest Vaduz?|Liechtenstein
+Jakie państwo ma flagę z czerwonym kołem na białym tle?|Japonia
+Jakie państwo ma flagę z liściem klonu?|Kanada
+Jakie dwa kolory ma flaga Polski?|biały i czerwony|biało-czerwona|czerwony i biały
+Jakie państwo ma walutę jen?|Japonia
+Jakie państwo ma walutę funt szterling?|Wielka Brytania
+Jaką walutę ma Szwajcaria?|frank szwajcarski|frank
+Jaką walutę mają Czechy?|korona czeska|korona
+Jaką walutę mają Węgry?|forint
+Jaką walutę ma Wielka Brytania?|funt szterling|funt
+Jaką walutę mają Stany Zjednoczone?|dolar|dolar amerykański
+Jaką walutę ma Japonia?|jen
+Jaką walutę mają Chiny?|juan|yuan|renminbi
+Jaką walutę ma Rosja?|rubel
+Jaką walutę ma Szwecja?|korona szwedzka|korona
+Jaką walutę ma Turcja?|lira turecka|lira
+Jaką walutę ma Ukraina?|hrywna
+Jaką walutę ma większość krajów Unii Europejskiej?|euro
+Jaką walutę mają Indie?|rupia|rupia indyjska
+Jakie państwo ma flagę z gwiazdą Dawida?|Izrael
+Jakie państwo ma flagę z półksiężycem i gwiazdą na czerwonym tle?|Turcja
+Jakie państwo ma flagę z 50 gwiazdami?|Stany Zjednoczone|USA
+Jakie państwo ma flagę z białym krzyżem na czerwonym tle, kwadratową?|Szwajcaria
+Jakie państwo ma flagę niebiesko-żółtą w dwa poziome pasy?|Ukraina
+Jakie państwo ma flagę z cedrem?|Liban
+Jakie państwo ma na fladze smoka — część Wielkiej Brytanii?|Walia
+Jakie państwo ma flagę identyczną z polską, ale odwróconą?|Indonezja|Monako
+Jaki język jest urzędowy w Brazylii?|portugalski
+Jaki język jest urzędowy w Argentynie?|hiszpański
+Jaki język jest urzędowy w Austrii?|niemiecki
+Jaki język jest urzędowy w Egipcie?|arabski

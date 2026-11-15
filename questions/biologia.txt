@@ -150,3 +150,26 @@ Jak nazywa się warstwa atmosfery chroniąca przed promieniowaniem UV?|warstwa o
 Jak nazywa się księga zagrożonych gatunków?|Czerwona Księga
 Jak nazywa się obszar chroniony o najwyższej randze w Polsce?|park narodowy
 Ile jest parków narodowych w Polsce?|23
+Jak nazywa się cząsteczka przechowująca informację genetyczną?|DNA
+Jak nazywa się proces, w którym rośliny wytwarzają tlen ze światła?|fotosynteza
+Jak nazywa się „elektrownia komórki”?|mitochondrium|mitochondria
+Kto stworzył teorię ewolucji przez dobór naturalny?|Karol Darwin|Darwin|Charles Darwin
+Jak nazywa się nauka o dziedziczeniu cech?|genetyka
+Jak nazywa się najmniejsza jednostka budująca organizm?|komórka
+Jaki gaz wydychamy w większej ilości, niż wdychamy?|dwutlenek węgla|CO2
+Jak nazywają się zwierzęta zjadające tylko rośliny?|roślinożercy|roślinożerne
+Jak nazywają się zwierzęta zjadające i rośliny, i mięso?|wszystkożercy|wszystkożerne
+Jak nazywa się przemiana gąsienicy w motyla?|metamorfoza|przeobrażenie
+Jak nazywa się królestwo, do którego należą pieczarki i drożdże?|grzyby
+Jakie organizmy jednokomórkowe bez jądra wywołują anginę?|bakterie
+Co wywołuje grypę — bakteria czy wirus?|wirus
+Jak nazywa się białko przenoszące tlen we krwi?|hemoglobina
+Jak nazywa się grupa krwi będąca uniwersalnym dawcą?|0 Rh-|0 minus|0
+Jak nazywa się największy narząd człowieka?|skóra
+
+Jak nazywa się część komórki roślinnej, w której zachodzi fotosynteza?|chloroplast|chloroplasty
+Jak nazywa się podział komórki, w którym powstają dwie identyczne komórki?|mitoza
+Ile nóg mają owady?|6
+Ile nóg mają pająki?|8
+Jak nazywa się zmiennocieplny kręgowiec z łuskami, np. wąż?|gad|gady
+Jak nazywa się zimowy sen zwierząt?|hibernacja|sen zimowy

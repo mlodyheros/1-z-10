@@ -152,3 +152,25 @@ Jak nazywa się najwyższy szczyt Słowacji?|Gerlach
 Jak nazywa się najwyższy szczyt Kaukazu?|Elbrus
 Jak nazywa się kolejka linowa z Zakopanego na szczyt z widokiem na Tatry, startująca przy Krupówkach?|Gubałówka|kolej na Gubałówkę
 Jak nazywa się główny deptak Zakopanego?|Krupówki
+Jak nazywa się najwyższy szczyt Ziemi?|Mount Everest|Everest
+W jakim kraju leży południowa strona Everestu z bazą pod lodospadem Khumbu?|Nepal
+W jakim kraju leży północna strona Everestu?|Chiny|Tybet
+Jak nazywa się najwyższy szczyt Pakistanu?|K2
+Jak nazywa się lodowiec prowadzący pod K2?|Baltoro
+Jak nazywa się miejsce pod K2, skąd widać cztery ośmiotysięczniki — „plac zgody”?|Concordia
+Jak nazywa się najwyższy szczyt Indii?|Kanczendzonga|Kangchenjunga
+Jak nazywa się szczyt w Nepalu o kształcie rybiego ogona, na który nie wolno wchodzić?|Machapuchare|Machhapuchhre
+Jak nazywa się popularny trekking w Nepalu wokół masywu Annapurny?|Annapurna Circuit|Dookoła Annapurny|obejście Annapurny
+Jak nazywa się szczyt w Tatrach z obserwatorium meteorologicznym, na który wjeżdża kolejka na Słowacji?|Łomnica|Łomnicki Szczyt
+Jak nazywa się szczyt w Tatrach, narodowa góra Słowaków?|Krywań
+Jak nazywa się schronisko nad Morskim Okiem — imię patrona?|Stanisław Staszic|Staszica|schronisko im. Staszica
+Jak nazywa się przełęcz na Orlej Perci, od której zaczyna się szlak?|Zawrat
+Jak nazywa się dolina w Tatrach Zachodnich z krokusami wiosną?|Dolina Chochołowska|Chochołowska
+Jak nazywa się dolina w Tatrach Zachodnich z wąwozem Kraków i Jaskinią Mroźną?|Dolina Kościeliska|Kościeliska
+Jak nazywa się najwyższy szczyt Pienin?|Wysoka|Wysokie Skałki
+Jak nazywa się słynny szczyt w Pieninach z platformą widokową nad Dunajcem?|Trzy Korony
+Jak nazywa się rzeka, którą spływają tratwy flisackie w Pieninach?|Dunajec
+Jak nazywa się najwyższy szczyt Gór Świętokrzyskich?|Łysica
+Jak nazywa się najwyższy szczyt Beskidu Śląskiego?|Skrzyczne
+Jak nazywa się najwyższy szczyt Skandynawii?|Galdhøpiggen|Galdhopiggen
+

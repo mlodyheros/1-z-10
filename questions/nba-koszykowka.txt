@@ -151,3 +151,27 @@ Jak nazywa się seria gier wideo o NBA wydawana co roku przez 2K?|NBA 2K|2K
 Jak nazywa się uliczna odmiana koszykówki grana na jeden kosz, dyscyplina olimpijska od 2021 roku?|koszykówka 3x3|3x3|3 na 3
 Jak nazywa się słynna pokazowa drużyna koszykarska z Harlemu?|Harlem Globetrotters|Globetrotters
 Jak nazywa się konkurs podczas Weekendu Gwiazd, w którym liczy się efektowność?|konkurs wsadów|Slam Dunk Contest|Dunk Contest
+Jaki numer nosi LeBron James w Lakers (ten sam co Jordan)?|23
+Jaki numer nosi Stephen Curry?|30
+Jaki numer nosił Shaquille O'Neal w Lakers?|34
+Jaki numer nosił Dirk Nowitzki?|41
+Jaki numer nosi Luka Dončić?|77
+Jaki numer nosi Nikola Jokić?|15
+Z jakiego kraju pochodzi Joel Embiid?|Kamerun
+Z jakiego kraju pochodził Manu Ginóbili?|Argentyna
+Z jakiego kraju pochodził Tony Parker?|Francja
+Z jakiego kraju pochodzi Kristaps Porziņģis?|Łotwa
+Z jakiego kraju pochodzi Domantas Sabonis?|Litwa
+Jaki zawodnik Thunder został MVP sezonu 2024/25?|Shai Gilgeous-Alexander|SGA|Gilgeous-Alexander
+Kto został MVP sezonu NBA 2023/24?|Nikola Jokić|Jokić|Jokic
+Jaki zawodnik został wybrany z numerem 1 draftu 2025?|Cooper Flagg|Flagg
+Jaka drużyna wybrała Coopera Flagga w drafcie 2025?|Dallas Mavericks|Mavericks|Mavs
+Do jakiej drużyny przeszedł Kevin Durant w 2025 roku?|Houston Rockets|Rockets
+W jakiej drużynie NBA Kevin Durant zdobył dwa mistrzostwa?|Golden State Warriors|Warriors
+W jakiej drużynie Giannis Antetokounmpo zdobył mistrzostwo w 2021 roku?|Milwaukee Bucks|Bucks
+W jakiej drużynie Tim Duncan grał całą karierę?|San Antonio Spurs|Spurs
+W jakiej drużynie grał Hakeem Olajuwon, mistrz z lat 1994–1995?|Houston Rockets|Rockets
+Jak nazywa się turniej NBA rozgrywany w trakcie sezonu od 2023 roku?|NBA Cup|In-Season Tournament|Puchar NBA
+Jak nazywa się mecz barażowy o wejście do play-offów NBA?|play-in|Play-In Tournament
+Ile drużyn z każdej konferencji awansuje do play-offów NBA?|8
+Jak nazywa się nagroda dla najlepszego rezerwowego NBA?|Sixth Man of the Year|Szósty Zawodnik Roku|szósty zawodnik
