@@ -155,3 +155,10 @@ Jak nazywa się tekst, na podstawie którego kręci się film?|scenariusz
 Jak nazywa się krótka zapowiedź filmu?|zwiastun|trailer
 Jak nazywa się kontynuacja filmu?|sequel
 Jak nazywa się film opowiadający wydarzenia sprzed pierwszej części?|prequel
+Jak nazywał się gigantyczny goryl, tytułowy bohater filmu z 1933 roku?|King Kong
+Z jakim trójgłowym potworem walczy Godzilla?|King Ghidorah|Ghidorah|Gidora|King Gidora
+Na jakiej wyspie żyje King Kong?|Wyspa Czaszki|Skull Island
+Z jakiego kraju pochodzi Godzilla?|Japonia
+Na jaki budynek wspina się King Kong w finale filmu z 1933 roku?|Empire State Building|Empire State
+Jak nazywa się film z 2021 roku, w którym walczą dwaj najsłynniejsi tytani kina?|Godzilla vs. Kong|Godzilla vs Kong
+Jak nazywa się gatunek japońskich filmów o gigantycznych potworach?|kaiju
