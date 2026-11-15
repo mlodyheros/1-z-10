@@ -153,3 +153,4 @@ Jakiego koloru są tradycyjne piętrowe autobusy w Londynie?|czerwony|czerwonego
 Jakiego koloru są tradycyjne taksówki w Nowym Jorku?|żółte|żółty
 Jak nazywa się wyścig Formuły 1 po francusku — „wielka nagroda”?|Grand Prix
 Jak nazywa się dwukołowy pojazd elektryczny z platformą, na którym się stoi?|hulajnoga elektryczna|hulajnoga
+Jak nazywa się nadwozie samochodu — słowo zapożyczone z francuskiego?|karoseria

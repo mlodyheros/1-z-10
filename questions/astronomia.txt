@@ -151,3 +151,6 @@ Jak nazywa się polski pierwszy satelita naukowy z 2013 roku?|Lem
 Jak nazywa się twórca podstaw astronautyki, rosyjski nauczyciel?|Konstanty Ciołkowski|Ciołkowski
 Jak nazywał się główny konstruktor rakiety Saturn V?|Wernher von Braun|von Braun
 Jak nazywał się główny konstruktor radzieckich rakiet?|Siergiej Korolow|Korolow
+Która planeta Układu Słonecznego świeci własnym światłem?|żadna|zadna|nie ma takiej|0
+Czy pulsar jest większy, czy mniejszy od gwiazdy, z której powstał?|mniejszy|mniejsza
+Co powstaje, gdy bardzo masywna gwiazda zapada się pod własnym ciężarem?|czarna dziura|czarną dziurę|czarne dziury

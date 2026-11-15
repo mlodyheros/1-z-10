@@ -155,3 +155,16 @@ Z jakiego miasta pochodzi klub Zagłębie, mistrz Polski z 1991 i 2007 roku?|Lub
 Jakiego koloru kartkę sędzia pokazuje jako ostrzeżenie?|żółtą|żółta
 Ile punktów dostaje drużyna za zwycięstwo w lidze?|3
 Ile punktów dostaje drużyna za remis w lidze?|1
+Który piłkarz zdobył najwięcej Złotych Piłek w historii?|Leo Messi|Messi|Lionel Messi
+Ile Złotych Piłek zdobył Leo Messi?|8
+Kto strzelił najwięcej goli w historii mistrzostw świata?|Miroslav Klose|Klose
+Kto strzelił najwięcej goli w historii Ligi Mistrzów?|Cristiano Ronaldo|Ronaldo|CR7
+Kto ma najwięcej asyst w historii Premier League?|Ryan Giggs|Giggs
+Ile asyst w jednym sezonie Premier League zanotowali rekordziści Thierry Henry i Kevin De Bruyne?|20
+Kto ustanowił rekord goli w jednym sezonie Premier League?|Erling Haaland|Haaland
+Ile goli strzelił Erling Haaland w rekordowym sezonie 2022/23 Premier League?|36
+Kto jest najlepszym strzelcem w historii Premier League?|Alan Shearer|Shearer
+Który napastnik stał się najdroższym transferem w historii Premier League, przechodząc w 2025 roku z Newcastle do Liverpoolu?|Alexander Isak|Isak
+Z jakiego miasta w Argentynie pochodzi Leo Messi?|Rosario
+Kto zdobył Złotą Piłkę w 2024 roku?|Rodri|Rodrigo Hernández
+Kto zdobył Złotą Piłkę w 2025 roku?|Ousmane Dembélé|Dembélé|Dembele

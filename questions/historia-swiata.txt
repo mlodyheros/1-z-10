@@ -151,3 +151,6 @@ Jak nazywa się brytyjski admirał, zwycięzca spod Trafalgaru?|Horatio Nelson|N
 Jak nazywa się cesarz Japonii panujący podczas II wojny światowej?|Hirohito
 W którym roku Wielka Brytania przekazała Hongkong Chinom?|1997
 W którym roku wprowadzono do obiegu banknoty i monety euro?|2002
+W którym wieku był rok 1444?|XV|15|piętnasty|w XV
+Do którego wieku należy rok 2000?|XX|20|dwudziesty|w XX
+W którym wieku był rok 1500?|XV|15|piętnasty|w XV

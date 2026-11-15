@@ -152,3 +152,27 @@ Który kierowca ma, obok Hamiltona, siedem tytułów mistrza świata Formuły 1?
 Jak nazywa się włoski zespół Formuły 1 w czerwonych barwach?|Ferrari
 Jak nazywa się zmiana opon i tankowanie w czasie wyścigu?|pit stop
 Jak nazywa się pierwsze pole startowe w wyścigu?|pole position
+Kto jako pierwszy człowiek zdobył wszystkie 14 ośmiotysięczników?|Reinhold Messner|Messner
+Który Polak jako pierwszy zjechał na nartach z K2, w 2018 roku?|Andrzej Bargiel|Bargiel
+Który Polak wraz z Leszkiem Cichym jako pierwszy zdobył Mount Everest zimą, w 1980 roku?|Krzysztof Wielicki|Wielicki
+Ile drużyn przed Cleveland Cavaliers w 2016 roku odrobiło w finale NBA stratę 1–3?|0|żadna|zadna
+Z jaką drużyną Cleveland Cavaliers wygrali finał NBA 2016 po odrobieniu straty 1–3?|Golden State Warriors|Warriors
+Kto jako jedyny w historii zdobył tytuł MVP NBA jednogłośnie?|Stephen Curry|Curry|Steph Curry
+Który koszykarz ma najwięcej mistrzostw NBA w historii?|Bill Russell|Russell
+Kto zdobył najwięcej punktów w historii NBA?|LeBron James|LeBron
+Czyj rekord punktowy NBA pobił LeBron James w 2023 roku?|Kareem Abdul-Jabbar|Abdul-Jabbar|Kareem
+Jak nazywa się osiągnięcie, gdy koszykarz w jednym meczu ma co najmniej 10 w trzech kategoriach, np. punktach, zbiórkach i asystach?|triple-double|triple double
+Kto ma najwięcej triple-double w historii NBA?|Russell Westbrook|Westbrook
+Ile mistrzostw NBA zdobył Michael Jordan?|6
+W jakiej drużynie Michael Jordan zdobył wszystkie swoje mistrzostwa?|Chicago Bulls|Bulls
+Jaki numer, oprócz 8, nosił Kobe Bryant w Los Angeles Lakers?|24
+Na jakiej wysokości zawieszona jest obręcz kosza do koszykówki (w metrach)?|3,05|305 cm
+Jak nazywa się polski koszykarz wybrany w drafcie NBA 2022 przez San Antonio Spurs?|Jeremy Sochan|Sochan
+Jak nazywa się Francuz mierzący ponad 2,2 m, debiutant roku NBA 2024 w San Antonio Spurs?|Victor Wembanyama|Wembanyama|Wemby
+Ile waży standardowy gryf olimpijski na siłowni (w kg)?|20|20 kg
+Jak w slangu siłowni nazywa się dzień treningu nóg, często pomijany?|leg day|dzień nóg
+Jak nazywa się popularny suplement na siłownię, najczęściej w formie monohydratu?|kreatyna
+Jak na siłowni nazywa się uczucie napompowanych krwią mięśni po treningu?|pompa
+Jak nazywa się ćwiczenie, w którym leżąc na ławce, wypycha się sztangę w górę z klatki piersiowej?|wyciskanie na ławce|wyciskanie|bench press|bench
+Jak nazywa się ćwiczenie polegające na podniesieniu sztangi z ziemi do pełnego wyprostu?|martwy ciąg|deadlift
+Jak nazywa się ćwiczenie, w którym ze sztangą na plecach robi się głęboki przysiad?|przysiad|przysiad ze sztangą|squat
