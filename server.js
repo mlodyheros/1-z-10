@@ -146,7 +146,7 @@ function stageIntro(r, stage) {
     // finał: szanse zachowane z wcześniejszych etapów zamieniają się na punkty, a każdy zaczyna z kompletem szans
     alive(r).forEach(p => { p.corrects = 0; p.inFinal = true; p.points = p.lives * 10; p.lives = 3; });
   }
-  setDeadline(r, stage === 1 ? 7000 : 5500, () => next(r));
+  setDeadline(r, stage === 1 ? 4200 : 5000, () => next(r));
   send(r);
 }
 
@@ -232,7 +232,7 @@ function botGuess(cur) {
 function botAnswer(r, p, knows) {
   const g = r.game, cur = g.cur;
   if (knows === undefined) knows = Math.random() < LEVELS[p.level];
-  botLater(r, 2200 + Math.random() * 3500, () => {
+  botLater(r, (g.stage === 1 ? 1500 : 2200) + Math.random() * (g.stage === 1 ? 2200 : 3500), () => {
     if (r.game !== g || g.cur !== cur || g.mode !== 'question' || g.turn !== p.id) return;
     let text = '';
     if (knows) text = cur.item.a[0];
@@ -278,7 +278,7 @@ function resolve(r, text) {
   g.mode = 'reveal';
   g.reveal = { pid: p.id, given: text, ok, answer: g.cur.item.a[0], eliminated: p.out, gained };
   if (p.isBot && Math.random() < 0.45) setTimeout(() => { if (r.game === g) emote(r, p, ok ? rand([1, 3, 6, 7]) : rand([4, 5])); }, 500);
-  setDeadline(r, 4200, () => next(r));
+  setDeadline(r, g.stage === 1 ? 3200 : 4200, () => next(r));
   send(r);
 }
 
