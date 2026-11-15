@@ -12,14 +12,15 @@ const I18N = {
     e_need2: 'Potrzeba co najmniej 2 uczestników — zaproś znajomego albo dodaj bota.', e_need_cat: 'Wybierz przynajmniej jedną kategorię.',
     leave: 'Wyjdź', players: 'Uczestnicy', bot: 'bot', host: 'gospodarz', seat: 'stanowisko {n}', remove: 'Usuń {name}',
     lv_latwy: 'łatwy', lv_sredni: 'średni', lv_trudny: 'trudny', botLv: 'Bot {lv}', addBot: '+ Dodaj bota',
-    emotes: 'Emotki', invite: 'Zaproś znajomych', roomCode: 'Kod pokoju', copyLink: 'Kopiuj link', linkCopied: 'Link skopiowany — wyślij go znajomym.',
+    emotes: 'Emotki', em0: 'Machanie', em1: 'Dab', em2: 'Śmiech', em3: 'Podskok', em4: 'Płacz', em5: 'Strach', em6: 'Taniec', em7: 'Brawa', wheelHint: 'wybierz emotkę', free: 'wolne', yourChar: 'Twój ludek', onAir: 'NA ŻYWO',
+    invite: 'Zaproś znajomych', roomCode: 'Kod pokoju', copyLink: 'Kopiuj link', linkCopied: 'Link skopiowany — wyślij go znajomym.',
     settings: 'Ustawienia', hostSets: 'ustawia gospodarz', answerTime: 'Czas na odpowiedź', finalQs: 'Pytań w finale',
     catsSummary: 'Kategorie: {a}/{b} · {q} pytań', all: 'wszystkie', none: 'żadna', start: 'Rozpocznij grę',
     need2hint: 'Zaproś znajomego albo dodaj bota — potrzeba co najmniej 2 uczestników.', waitHost: 'Czekamy, aż gospodarz rozpocznie grę…',
     qLang: '',
-    s1: 'Etap 1 — Rozgrzewka', s1d: 'Każdy dostaje dwa pytania. Błąd kosztuje szansę, a dwie pomyłki oznaczają koniec gry.',
+    s1: 'Etap 1 — Rozgrzewka', s1d: 'Każdy dostaje dwa pytania. Każdy błąd kosztuje jedną szansę — nikt jeszcze nie odpada.',
     s2: 'Etap 2 — Wyznaczanie', s2d: 'Dobra odpowiedź daje prawo wskazania, kto odpowiada następny. Gramy, aż zostanie trójka.',
-    s3: 'Finał', s3d: 'Pytania dla wszystkich — kto pierwszy się zgłosi, ten odpowiada. 10 pkt za odpowiedź, po trzech trafieniach wyznaczasz lub bierzesz pytanie na siebie za 20 pkt.',
+    s3: 'Finał', s3d: 'Pytania dla wszystkich — kto pierwszy się zgłosi, ten odpowiada. 10 pkt za odpowiedź, po trzech trafieniach wyznaczasz lub bierzesz pytanie na siebie za 20 pkt. Ostatni gracz gra dalej sam, aż skończą się pytania albo szanse.',
     left: 'pozostało pytań: {n}', room: 'pokój {c}', sound: 'Dźwięk', yourTurn: 'Twoja kolej!', answering: 'Odpowiada:', for20: ' · pytanie za 20 pkt',
     ansPh: 'Wpisz odpowiedź…', submit: 'Odpowiadam', typoHint: 'Drobne literówki są wybaczane. Pusta odpowiedź = „nie wiem”.',
     buzz: 'Zgłaszam się!', space: 'spacja', whoFirst: 'Kto zgłosi się pierwszy?', good: '✓ Dobrze!', bad: '✗ Źle', noAnswer: '(brak odpowiedzi)',
@@ -39,14 +40,15 @@ const I18N = {
     e_need2: 'You need at least 2 participants — invite a friend or add a bot.', e_need_cat: 'Pick at least one category.',
     leave: 'Leave', players: 'Players', bot: 'bot', host: 'host', seat: 'podium {n}', remove: 'Remove {name}',
     lv_latwy: 'easy', lv_sredni: 'medium', lv_trudny: 'hard', botLv: 'Bot: {lv}', addBot: '+ Add bot',
-    emotes: 'Emotes', invite: 'Invite friends', roomCode: 'Room code', copyLink: 'Copy link', linkCopied: 'Link copied — send it to your friends.',
+    emotes: 'Emotes', em0: 'Wave', em1: 'Dab', em2: 'Laugh', em3: 'Jump', em4: 'Cry', em5: 'Fear', em6: 'Dance', em7: 'Clap', wheelHint: 'pick an emote', free: 'free', yourChar: 'Your character', onAir: 'ON AIR',
+    invite: 'Invite friends', roomCode: 'Room code', copyLink: 'Copy link', linkCopied: 'Link copied — send it to your friends.',
     settings: 'Settings', hostSets: 'set by the host', answerTime: 'Time to answer', finalQs: 'Final questions',
     catsSummary: 'Categories: {a}/{b} · {q} questions', all: 'all', none: 'none', start: 'Start game',
     need2hint: 'Invite a friend or add a bot — you need at least 2 participants.', waitHost: 'Waiting for the host to start the game…',
     qLang: 'Questions and answers are in Polish.',
-    s1: 'Stage 1 — Warm-up', s1d: 'Everyone gets two questions. A mistake costs a chance, and two mistakes mean you are out.',
+    s1: 'Stage 1 — Warm-up', s1d: 'Everyone gets two questions. Each mistake costs one chance — nobody is out yet.',
     s2: 'Stage 2 — Nominations', s2d: 'A correct answer lets you pick who answers next. We play until three are left.',
-    s3: 'Final', s3d: 'Questions for everyone — first to buzz in answers. 10 pts per answer; after three hits you nominate or take the question yourself for 20 pts.',
+    s3: 'Final', s3d: 'Questions for everyone — first to buzz in answers. 10 pts per answer; after three hits you nominate or take the question yourself for 20 pts. The last player keeps playing alone until the questions or chances run out.',
     left: 'questions left: {n}', room: 'room {c}', sound: 'Sound', yourTurn: 'Your turn!', answering: 'Answering:', for20: ' · 20-point question',
     ansPh: 'Type your answer…', submit: 'Answer', typoHint: 'Small typos are forgiven. An empty answer means “I don’t know”.',
     buzz: 'Buzz in!', space: 'space', whoFirst: 'Who will buzz in first?', good: '✓ Correct!', bad: '✗ Wrong', noAnswer: '(no answer)',
@@ -55,7 +57,7 @@ const I18N = {
     wins: '🏆 {name} wins!', eliminated: 'out', backLobby: 'Back to lobby', hostAgain: 'The host can start another game.', offline: 'offline',
   },
 };
-const EMOTES = ['👋', '🎉', '😂', '🕺', '👏', '❤️', '🤔', '😭'];
+const EMOTE_N = 8; // 0 machanie, 1 dab, 2 śmiech, 3 podskok, 4 płacz, 5 strach, 6 taniec, 7 brawa
 let LANG = 'pl';
 try { LANG = localStorage.getItem('ts-lang') === 'en' ? 'en' : 'pl'; } catch {}
 function t(key, vars) {

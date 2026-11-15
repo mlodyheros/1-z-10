@@ -149,7 +149,8 @@ function next(r) {
   clearTimers(r);
   const al = alive(r);
   g.reveal = null;
-  if (al.length <= 1) return endGame(r);
+  // w finale ostatni gracz gra dalej sam — do końca pytań albo utraty wszystkich szans
+  if (g.stage === 3 ? !al.length : al.length <= 1) return endGame(r);
   if (g.stage === 1) {
     while (g.queue.length && byId(r, g.queue[0]).out) g.queue.shift();
     if (!g.queue.length) return stageIntro(r, al.length > 3 ? 2 : 3);
@@ -162,7 +163,7 @@ function next(r) {
     return ask(r, al[g.seatIdx++ % al.length].id, 'normal');
   }
   if (g.finalLeft <= 0) return endGame(r);
-  if (g.chooser && !byId(r, g.chooser).out) return nominateMode(r);
+  if (g.chooser && !byId(r, g.chooser).out) return al.length === 1 ? ask(r, g.chooser, 'self') : nominateMode(r);
   g.chooser = null;
   return buzzMode(r);
 }
@@ -217,7 +218,8 @@ function resolve(r, text) {
   const ok = isCorrect(text, g.cur.item.a, ALL_ANS);
   let gained = 0;
   if (g.stage === 1) {
-    if (!ok) { p.lives--; p.s1wrong++; if (p.s1wrong >= 2 || p.lives <= 0) eliminate(r, p); }
+    // rozgrzewka nikogo nie eliminuje — każdy błąd kosztuje jedną szansę
+    if (!ok) { p.lives--; p.s1wrong++; if (p.lives <= 0) eliminate(r, p); }
   } else if (g.stage === 2) {
     if (ok) g.chooser = p.id;
     else { p.lives--; if (g.chooser === p.id) g.chooser = null; if (p.lives <= 0) eliminate(r, p); }
@@ -236,7 +238,7 @@ function resolve(r, text) {
   }
   g.mode = 'reveal';
   g.reveal = { pid: p.id, given: text, ok, answer: g.cur.item.a[0], eliminated: p.out, gained };
-  if (p.isBot && Math.random() < 0.45) setTimeout(() => { if (r.game === g) emote(r, p, ok ? rand([1, 3, 4]) : rand([6, 7])); }, 500);
+  if (p.isBot && Math.random() < 0.45) setTimeout(() => { if (r.game === g) emote(r, p, ok ? rand([1, 3, 6, 7]) : rand([4, 5])); }, 500);
   setDeadline(r, 4200, () => next(r));
   send(r);
 }

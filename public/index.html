@@ -9,26 +9,40 @@
 <body>
 <button id="lang" class="langbtn" aria-label="Język / Language"></button>
 
+<div class="backdrop" aria-hidden="true">
+  <div class="bd-wall"></div>
+  <div class="bd-beams"><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="bd-truss"></div>
+  <div class="bd-floor"></div>
+</div>
+
 <main id="home" class="screen">
   <div class="home-wrap">
     <h1 class="logo"><span>Trzy</span> <span class="logo-b">Szanse</span></h1>
     <p class="tag" data-i18n="tagline"></p>
-    <div class="card home-card">
-      <div class="editor">
+    <div class="home-grid">
+      <section class="booth">
+        <span class="onair" data-i18n="onAir"></span>
         <div class="preview" id="av-preview"></div>
+        <div class="booth-btns">
+          <button class="emo-btn" data-wheel id="home-emo"></button>
+          <button id="btn-random" class="btn ghost" data-i18n="randomize"></button>
+        </div>
+      </section>
+      <section class="card parts-card">
+        <h2 data-i18n="yourChar"></h2>
         <div class="parts" id="av-parts"></div>
-      </div>
-      <div class="home-form">
+      </section>
+      <section class="card home-form">
         <label class="lbl" for="name" data-i18n="yourName"></label>
         <input id="name" class="inp" maxlength="16" data-i18n-ph="namePh" autocomplete="off">
-        <button id="btn-random" class="btn ghost" data-i18n="randomize"></button>
-        <button id="btn-create" class="btn primary" data-i18n="createRoom"></button>
+        <button id="btn-create" class="btn primary big" data-i18n="createRoom"></button>
         <div class="or" data-i18n="orJoin"></div>
         <div class="join-row">
           <input id="code" class="inp code-inp" maxlength="5" data-i18n-ph="codePh" autocomplete="off">
           <button id="btn-join" class="btn" data-i18n="join"></button>
         </div>
-      </div>
+      </section>
     </div>
   </div>
 </main>
@@ -42,6 +56,7 @@
   <section id="panel"></section>
 </main>
 
+<div id="wheel" class="hidden"></div>
 <div id="toast"></div>
 <script src="avatar.js"></script>
 <script src="i18n.js"></script>
