@@ -1,0 +1,156 @@
+# Siłownia, fitness i zdrowie
+Jak nazywa się przyrząd z dwoma obciążeniami trzymany w jednej ręce?|hantel|hantla|hantle
+Jak nazywa się długi drążek, na który zakłada się talerze?|sztanga|gryf
+Jak nazywa się ciężarek w kształcie kuli z uchwytem?|kettlebell|kettle|odważnik kulowy
+Jak nazywają się okrągłe obciążenia zakładane na sztangę?|talerze|talerz
+Jak nazywa się przyrząd, na którym się biega w miejscu?|bieżnia
+Jak nazywa się maszyna do ćwiczeń imitująca jazdę na nartach biegowych, z ruchem po elipsie?|orbitrek
+Jak nazywa się maszyna imitująca wiosłowanie?|ergometr wioślarski|wioślarz|ergometr
+Jak nazywa się poziomy pręt, na którym się podciąga?|drążek
+Jak nazywa się ćwiczenie polegające na uginaniu i prostowaniu ramion w podporze przodem?|pompki|pompka
+Jak nazywa się ćwiczenie, w którym wisząc na drążku, unosi się ciało do góry?|podciąganie|podciągnięcia
+Jak nazywa się statyczne ćwiczenie w podporze na przedramionach — „deska”?|plank|deska
+Jak nazywa się ćwiczenie łączące przysiad, pompkę i wyskok?|burpee|burpees|padnij-powstań
+Jak nazywa się ćwiczenie na poręczach, w którym opuszcza się i wypycha ciało?|dipy|pompki na poręczach|dips
+Jak nazywa się ćwiczenie polegające na zginaniu przedramion z hantlami?|uginanie ramion|biceps curl|uginanie
+Jak nazywa się ćwiczenie, w którym robi się długi krok w przód i ugina oba kolana?|wykroki|wykrok|zakroki
+Jak nazywa się ćwiczenie na pośladki, w którym wypycha się biodra ze sztangą w górę?|hip thrust|wypychanie bioder
+Jak nazywa się wyciskanie sztangi nad głowę na stojąco?|OHP|wyciskanie żołnierskie|overhead press|military press
+Jak nazywa się ćwiczenie, w którym przyciąga się sztangę do brzucha w opadzie tułowia?|wiosłowanie|wiosłowanie sztangą
+Jak nazywa się wyciskanie nóg na maszynie — „suwnica”?|suwnica|wyciskanie na suwnicy|leg press
+Jak nazywa się ćwiczenie na łydki polegające na stawaniu na palcach?|wspięcia na palce|wspięcia
+Jak nazywają się trzy boje trójboju siłowego?|przysiad, wyciskanie i martwy ciąg|przysiad wyciskanie martwy ciąg
+Jak nazywa się sport, w którym liczy się suma przysiadu, wyciskania i martwego ciągu?|trójbój siłowy|trójbój|powerlifting
+Jak nazywa się sport olimpijski z rwaniem i podrzutem?|podnoszenie ciężarów|dwubój|ciężary
+Jak nazywa się sport, w którym ocenia się wygląd umięśnionej sylwetki na scenie?|kulturystyka
+Jak nazywa się trening z ciężarem własnego ciała na drążkach i poręczach?|kalistenika|street workout
+Jak nazywa się program treningowy łączący ciężary, gimnastykę i cardio, z „WOD-ami”?|CrossFit|crossfit
+Jak nazywa się intensywny trening interwałowy — skrót?|HIIT
+Jak nazywa się spokojny trening wytrzymałościowy podnoszący tętno, np. bieg lub rower?|cardio|kardio|trening cardio
+Jak nazywa się jedno wykonanie ćwiczenia?|powtórzenie
+Jak nazywa się grupa powtórzeń wykonanych bez przerwy?|seria
+Jak nazywa się największy ciężar, jaki można podnieść jeden raz — skrót?|1RM|maks|rekord
+Jak nazywa się stopniowe zwiększanie obciążeń z treningu na trening?|progresja|progresywne przeciążenie
+Jak nazywa się podział treningu na różne partie w różne dni?|split
+Jak nazywa się trening całego ciała na jednej sesji — skrót FBW?|FBW|full body workout|full body
+Jak nazywa się podział treningu „pchaj, ciągnij, nogi” — skrót?|PPL|push pull legs
+Jak nazywa się ból mięśni dzień lub dwa po treningu, mylnie zwany zakwasami — skrót?|DOMS|zakwasy
+Jak nazywa się osoba asekurująca przy ciężkim wyciskaniu?|asekurant|spotter
+Jak nazywa się przerwa od treningów dla regeneracji, tydzień lżejszych obciążeń?|deload|roztrenowanie
+Jak nazywa się okres, w którym je się więcej, żeby zbudować mięśnie?|masa|okres masy|bulk|bulking
+Jak nazywa się okres, w którym je się mniej, żeby zrzucić tłuszcz?|redukcja|cut|cięcie
+Jak nazywa się utrzymywanie stałej wagi — „zero kaloryczne”?|utrzymanie|zero kaloryczne|maintenance
+Jak nazywa się stan, gdy zjada się mniej kalorii, niż się spala?|deficyt kaloryczny|deficyt
+Jak nazywa się stan, gdy zjada się więcej kalorii, niż się spala?|nadwyżka kaloryczna|nadwyżka|surplus
+Jak nazywają się trzy główne makroskładniki?|białko, węglowodany i tłuszcze|białka węglowodany tłuszcze
+Który makroskładnik jest głównym budulcem mięśni?|białko|białka
+Ile kilokalorii ma jeden gram białka?|4
+Ile kilokalorii ma jeden gram tłuszczu?|9
+Ile kilokalorii ma jeden gram węglowodanów?|4
+Jak nazywa się odżywka białkowa z serwatki — po angielsku?|whey|białko serwatkowe|WPC
+Jak nazywa się suplement brany przed treningiem dla energii?|przedtreningówka|pre-workout|preworkout
+Jaka substancja z kawy jest głównym składnikiem przedtreningówek?|kofeina
+Jak nazywa się mrowienie skóry po przedtreningówce, wywołane beta-alaniną?|parestezja|mrowienie
+Jak nazywają się aminokwasy rozgałęzione sprzedawane jako suplement — skrót?|BCAA
+Jak nazywa się nielegalny doping budujący mięśnie — potocznie „koks”?|sterydy|sterydy anaboliczne|anaboliki
+Jak nazywa się osoba trenująca bez dopingu?|natural|naturalny|natty
+Jak nazywa się hormon męski odpowiadający m.in. za masę mięśniową?|testosteron
+Jak nazywa się hormon stresu, który kulturyści chcą trzymać nisko?|kortyzol
+Jak nazywa się wskaźnik masy ciała liczony z wagi i wzrostu — skrót?|BMI
+Jak nazywa się podstawowa przemiana materii — skrót?|PPM|BMR
+Jak nazywa się cukier zapasowy magazynowany w mięśniach i wątrobie?|glikogen
+Jak nazywa się kwas, który gromadzi się w mięśniach przy intensywnym wysiłku?|kwas mlekowy|mleczan
+Jak nazywa się rozrost mięśni?|hipertrofia
+Jak nazywa się zanik mięśni z braku ruchu?|atrofia|zanik mięśni
+Jak nazywa się mięsień na przodzie ramienia?|biceps|mięsień dwugłowy ramienia
+Jak nazywa się mięsień na tyle ramienia?|triceps|mięsień trójgłowy ramienia
+Jak nazywa się mięsień czworogłowy uda — potocznie?|czwórka|czworogłowy|mięsień czworogłowy
+Jak potocznie nazywa się mięsień najszerszy grzbietu?|plecy|najszerszy|latsy|skrzydła
+Jak potocznie nazywają się mięśnie naramienne?|barki|naramienne
+Jak potocznie nazywają się mięśnie czworoboczne przy szyi?|kaptury|czworoboczny
+Jak potocznie nazywa się widoczny mięsień prosty brzucha?|sześciopak|kaloryfer|six pack|sixpack
+Jak nazywają się mięśnie tylnej części uda — „dwójki”?|dwugłowe uda|dwójki|mięsień dwugłowy uda
+Jak nazywa się największy mięsień ludzkiego ciała?|pośladkowy wielki|pośladek|mięsień pośladkowy wielki
+Jak nazywa się mięsień klatki piersiowej — „klata”?|piersiowy większy|mięsień piersiowy|klatka
+Jak nazywają się mięśnie głębokie tułowia stabilizujące kręgosłup — po angielsku?|core|mięśnie core
+Jak nazywa się kulturysta, który 7 razy wygrał Mr. Olympia, a potem został gubernatorem Kalifornii?|Arnold Schwarzenegger|Schwarzenegger|Arnold
+Jak nazywa się najważniejszy konkurs kulturystyczny świata?|Mr. Olympia|Mr Olympia|Olympia
+Kto 8 razy z rzędu wygrał Mr. Olympia w latach 1998–2005 i mówił „Yeah buddy! Light weight baby!”?|Ronnie Coleman|Coleman
+Kto 8 razy wygrał Mr. Olympia w latach 1984–1991?|Lee Haney|Haney
+Jak nazywa się Kanadyjczyk, sześciokrotny mistrz Olympii w kategorii Classic Physique?|Chris Bumstead|CBum|Bumstead
+Jak nazywa się dokument z 1977 roku o Arnoldzie Schwarzeneggerze i kulturystach?|Pumping Iron|Kulturyści
+Z jakiego kraju pochodzi Arnold Schwarzenegger?|Austria
+Jak nazywa się słynna siłownia w Venice w Kalifornii, „mekka kulturystyki”?|Gold's Gym|Golds Gym
+Który Polak pięć razy wygrał zawody World's Strongest Man?|Mariusz Pudzianowski|Pudzian|Pudzianowski
+Jak nazywa się Islandczyk, strongman, który zagrał Górę w „Grze o tron” i podniósł 501 kg w martwym ciągu?|Hafþór Björnsson|Hafthor Bjornsson|Thor Bjornsson|Thor|Bjornsson
+Jak nazywa się Brytyjczyk, który jako pierwszy podniósł 500 kg w martwym ciągu?|Eddie Hall|Hall
+Jak nazywa się konkurencja strongmanów, w której niesie się ciężary w obu rękach?|spacer farmera|farmer's walk|spacer buszmena
+Jak nazywają się kamienne kule wkładane na podesty w zawodach strongmanów?|kule Atlasa|kamienie Atlasa|Atlas stones
+Jak w slangu siłowni nazywa się początkujący, który szybko robi postępy — „zyski nowicjusza”?|newbie gains|noob gains
+Jak w slangu nazywa się osoba, która podnosi za duży ciężar kosztem techniki, dla ego?|ego lifter|ego lifting
+Jak nazywa się ćwiczenie języka przy podniebieniu, które ma rzekomo wyostrzać szczękę?|mewing
+Jak nazywa się trend na TikToku z szybkim rozwojem sylwetki — przemiana po angielsku?|glow up|transformacja|glow-up
+Jak po angielsku mówi się na „zyski” mięśniowe?|gains|gainz
+Jak nazywa się posiłek „oszukany” na diecie?|cheat meal|cheat|cheat day
+Jak nazywa się przygotowywanie posiłków na kilka dni naprzód?|meal prep|meal prepping|prep
+Jak nazywa się dieta z okresami jedzenia i postu, np. 16/8?|post przerywany|intermittent fasting|IF
+Jak nazywa się dieta z bardzo małą ilością węglowodanów i dużą tłuszczu?|dieta ketogeniczna|keto|ketogeniczna
+Jak nazywa się dieta bez żadnych produktów zwierzęcych?|dieta wegańska|weganizm|wegańska
+Jakie danie z kurczaka i białego zboża jest symbolem diety kulturysty?|ryż z kurczakiem|kurczak z ryżem|kurczak i ryż
+Jakiego napoju powinno się pić najwięcej podczas treningu?|woda|wody
+Ile godzin snu na dobę zaleca się dorosłym dla regeneracji (podaj dolną granicę)?|7
+Ile kroków dziennie przyjęło się uważać za zdrowy cel?|10000|10 tysięcy|10 000
+Ile kilometrów ma maraton (z dokładnością do pełnych kilometrów)?|42
+Ile kilometrów ma półmaraton (w zaokrągleniu)?|21
+Jak nazywa się organizowany w soboty darmowy bieg na 5 km w parkach?|parkrun|park run
+Jak nazywa się aplikacja do zapisywania biegów i jazd rowerem, z „kudosami”?|Strava
+Jak nazywa się opaska lub zegarek liczący kroki i tętno?|smartband|smartwatch|opaska sportowa
+Jak nazywa się maksymalny pobór tlenu, miara wydolności — skrót?|VO2 max|VO2max|pułap tlenowy
+Jak nazywa się liczba uderzeń serca na minutę?|tętno|puls
+Jak nazywa się rozgrzewające rozciąganie w ruchu przed treningiem?|rozciąganie dynamiczne|stretching dynamiczny|rozgrzewka
+Jak nazywa się masowanie mięśni piankowym wałkiem?|rolowanie|foam rolling
+Jak nazywa się zimna kąpiel dla regeneracji, popularna wśród sportowców?|morsowanie|kąpiel lodowa|ice bath
+Jak nazywa się gorące pomieszczenie do wypacania się po treningu?|sauna
+Jak nazywa się system ćwiczeń z Indii łączący pozycje ciała i oddech?|joga
+Jak nazywa się system ćwiczeń wzmacniających mięśnie głębokie, stworzony przez Josepha Pilatesa?|pilates
+Jak nazywa się taneczny trening fitness do latynoskiej muzyki?|zumba
+Jak nazywają się zajęcia jazdy na rowerach stacjonarnych w grupie?|spinning|indoor cycling
+Jak nazywa się karta sportowa od pracodawcy dająca wstęp na siłownie w Polsce?|MultiSport|Multisport|karta MultiSport
+Jak nazywa się polska youtuberka i trenerka, autorka programu „Skalpel”?|Ewa Chodakowska|Chodakowska
+Jak nazywa się polska trenerka i mistrzyni fitness, żona Roberta Lewandowskiego?|Anna Lewandowska|Lewandowska
+Jak nazywa się marka odżywek i odzieży założona przez WK Dzików?|WK Dzik|Dzik
+Dokończ wierszyk Brzechwy: „Dzik jest dziki, dzik jest…”|zły
+Jak nazywa się brytyjska marka odzieży na siłownię z rekinem w nazwie?|Gymshark
+Jak nazywa się amerykańska marka z logo zakręconej strzałki — „swoosh”?|Nike
+Jak nazywa się pas zakładany przy ciężkich przysiadach i martwym ciągu?|pas kulturystyczny|pas|pas treningowy
+Jak nazywają się paski pomagające utrzymać sztangę przy słabym chwycie?|paski|paski do martwego ciągu|straps|strapy
+Jak nazywa się biały proszek poprawiający chwyt, używany też przez gimnastyków?|magnezja|kreda
+Jak nazywa się klatka ze stojakami do bezpiecznych przysiadów?|klatka|rack|power rack|klatka do przysiadów
+Jak nazywa się maszyna, w której sztanga porusza się po prowadnicach?|suwnica Smitha|maszyna Smitha|Smith
+Jak nazywa się długa guma używana do rozgrzewki i ćwiczeń z oporem?|guma oporowa|taśma oporowa|power band|guma
+Jak nazywa się faza ruchu, w której mięsień się wydłuża, np. opuszczanie ciężaru?|faza ekscentryczna|ekscentryczna|negatyw
+Jak nazywa się seria wykonywana do momentu, gdy nie da się zrobić kolejnego powtórzenia?|do upadku|upadek mięśniowy|seria do upadku
+Jak nazywa się technika: dwa ćwiczenia wykonywane jedno po drugim bez przerwy?|superseria|super seria
+Jak nazywa się technika zmniejszania ciężaru w trakcie jednej serii?|drop set|dropset|drop seria
+Jak nazywa się połączenie mózgu z mięśniem — skupienie na pracującej partii?|czucie mięśniowe|mind-muscle connection
+Jak nazywa się typ budowy ciała: szczupły, z trudnością w nabieraniu masy?|ektomorfik|ektomorfik
+Jak nazywa się typ budowy ciała: naturalnie umięśniony i atletyczny?|mezomorfik
+Jak nazywa się typ budowy ciała ze skłonnością do tycia?|endomorfik
+Jak nazywa się masło z orzeszków popularne wśród trenujących?|masło orzechowe
+Jakie owoce są popularną przekąską przed treningiem ze względu na potas i szybkie węglowodany?|banany|banan
+Jak nazywa się pojemnik z sitkiem lub kulką do mieszania odżywek?|shaker|szejker
+Jak nazywa się zdjęcie robione w lustrze na siłowni?|gym selfie|selfie|mirror selfie
+Jak nazywa się pozowanie z napiętymi mięśniami?|napinka|flex|fleks|pozowanie
+Jak nazywa się poza z uniesionymi i napiętymi obiema rękami — klasyka Arnolda?|podwójny biceps|double biceps|front double biceps
+Jak nazywa się wciągnięcie brzucha pod żebra, popisowa poza złotej ery kulturystyki?|vacuum|próżnia|stomach vacuum
+Jak nazywa się mem z czarno-białym zdjęciem mężczyzny o idealnej szczęce i sylwetce?|GigaChad|Chad
+Jak w internecie nazywa się maksymalne poprawianie własnego wyglądu?|looksmaxxing|looksmaxing
+Jak nazywa się baton z dużą zawartością białka?|baton proteinowy|baton białkowy|protein bar
+Jak nazywa się ćwiczenie brzucha polegające na unoszeniu tułowia z leżenia?|brzuszki|brzuszek
+Jak nazywa się ćwiczenie, w którym skacze się przez linkę kręconą rękami?|skakanka|skakanie na skakance
+Jak nazywa się ćwiczenie „pajacyki” po angielsku?|jumping jacks|pajacyki
+Jak nazywa się bieg w miejscu z wysokim unoszeniem kolan — skip…?|skip A|A
+Ile kilogramów waży czerwony talerz olimpijski?|25
+Ile kilogramów waży niebieski talerz olimpijski?|20
+Jak nazywa się amerykański aktor i były wrestler znany z treningów o 4 rano, pseudonim The Rock?|Dwayne Johnson|The Rock|Johnson
+Jak nazywa się były komandos Navy SEALs i ultramaratończyk, autor książki „Nie mogą mnie zranić” i hasła „Stay hard”?|David Goggins|Goggins
