@@ -19,13 +19,13 @@ Gra działa pod adresem http://localhost:3110 (port można zmienić zmienną `PO
 
 Żeby znajomi spoza Twojej sieci mogli wejść, serwer musi być dostępny z internetu (hosting obsługujący Node.js i WebSocket albo tunel do `localhost:3110`).
 
-W poczekalni i przy stanowisku można puszczać emotki (ludek macha, skacze, tańczy…). Interfejs ma przełącznik PL/EN; pytania są po polsku.
+W poczekalni i przy stanowisku można puszczać emotki: przycisk „Emotki” (albo klawisz B) otwiera koło z pozami ludka — machanie, dab, śmiech, podskok, płacz, strach, taniec, brawa. Interfejs ma przełącznik PL/EN; pytania są po polsku.
 
 ## Zasady
 
-- **Etap 1 — Rozgrzewka:** każdy dostaje dwa pytania. Błąd to utrata szansy, dwa błędy to koniec gry.
+- **Etap 1 — Rozgrzewka:** każdy dostaje dwa pytania. Każdy błąd to utrata jednej szansy — w rozgrzewce nikt nie odpada.
 - **Etap 2 — Wyznaczanie:** kto odpowie dobrze, wskazuje następną osobę. Trwa, aż zostanie trójka.
-- **Finał:** pytania do wszystkich, odpowiada ten, kto pierwszy się zgłosi (10 pkt). Po trzech trafieniach gracz wyznacza odpowiadającego albo bierze pytanie na siebie za 20 pkt. Na koniec każda zachowana szansa daje 10 pkt.
+- **Finał:** pytania do wszystkich, odpowiada ten, kto pierwszy się zgłosi (10 pkt). Po trzech trafieniach gracz wyznacza odpowiadającego albo bierze pytanie na siebie za 20 pkt. Jeśli zostanie jedna osoba, gra dalej sama, aż skończą się pytania albo jej szanse. Na koniec każda zachowana szansa daje 10 pkt.
 
 Odpowiedzi wpisuje się z klawiatury. Drobne literówki, brak polskich znaków, samo nazwisko zamiast imienia i nazwiska są akceptowane (`match.js`). Zaliczane są też inne formy tego samego słowa (np. *ghostowanie* dla *ghosting*, *Francji* dla *Francja*) oraz odpowiedzi po angielsku (*Germany*, *oxygen*) — słownik w `en.js`.
 

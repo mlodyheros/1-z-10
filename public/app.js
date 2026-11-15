@@ -55,19 +55,30 @@ function toggleLang() {
 $('#lang').onclick = toggleLang;
 
 // ---------- emotki ----------
-function emoteBarHTML() {
-  return EMOTES.map((e, i) => `<button class="emo" data-emote="${i}" aria-label="${t('emotes')} ${e}">${e}</button>`).join('');
+const myAvatar = () => (S && (S.players.find(p => p.id === myId) || {}).avatar) || avatar;
+// przycisk otwierający koło emotek — pokazuje własnego ludka, który macha
+const emoBtnInner = () => `<span class="emo-0">${avatarSVG(myAvatar())}</span><b>${t('emotes')}</b>`;
+function openWheel() {
+  const w = $('#wheel'), av = myAvatar();
+  w.innerHTML = `<div class="wheel" role="menu" aria-label="${t('emotes')}">
+    ${Array.from({ length: EMOTE_N }, (_, i) => `<button class="seg emo-${i}" style="--a:${i * 45}deg" data-emote="${i}" role="menuitem" aria-label="${t('em' + i)}">${avatarSVG(av)}<span>${t('em' + i)}</span></button>`).join('')}
+    <div class="wheel-c"><b id="wheel-name">${t('emotes')}</b><small>${t('wheelHint')}</small></div></div>`;
+  w.classList.remove('hidden');
 }
-function setEmoteMenu(open) {
-  $('#emotes').classList.toggle('open', open);
-  const tg = $('#emo-toggle'); if (tg) tg.setAttribute('aria-expanded', open);
-}
+const closeWheel = () => $('#wheel').classList.add('hidden');
+const wheelOpen = () => !$('#wheel').classList.contains('hidden');
+$('#wheel').addEventListener('pointerover', e => {
+  const s = e.target.closest('.seg'); if (s) $('#wheel-name').textContent = t('em' + s.dataset.emote);
+});
 document.addEventListener('click', e => {
-  // menu emotek w grze: rozwija się przyciskiem, zwija po wyborze albo kliknięciu obok
-  if (e.target.closest('#emo-toggle')) return setEmoteMenu(!$('#emotes').classList.contains('open'));
-  if (!e.target.closest('#emotes .emo-list') || e.target.closest('[data-emote]')) setEmoteMenu(false);
-  const b = e.target.closest('[data-emote]'); if (!b) return;
-  if (S) tx({ t: 'emote', e: +b.dataset.emote }); else playEmote('preview', +b.dataset.emote);
+  if (e.target.closest('[data-wheel]')) return wheelOpen() ? closeWheel() : openWheel();
+  const b = e.target.closest('[data-emote]');
+  if (b) { if (S) tx({ t: 'emote', e: +b.dataset.emote }); else playEmote('preview', +b.dataset.emote); }
+  if (wheelOpen()) closeWheel();
+});
+addEventListener('keydown', e => {
+  if (e.key === 'Escape' && wheelOpen()) return closeWheel();
+  if ((e.key === 'b' || e.key === 'B') && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) wheelOpen() ? closeWheel() : openWheel();
 });
 function emoteTarget(id) {
   if (id === 'preview') return $('#av-preview');
@@ -77,23 +88,23 @@ function paintEmote(id) {
   const a = activeEmotes[id], el = emoteTarget(id);
   if (!a || !el || el.classList.contains('emo-' + a.e)) return;
   el.classList.add('emoting', 'emo-' + a.e);
-  const b = document.createElement('div'); b.className = 'emoji'; b.textContent = EMOTES[a.e]; el.appendChild(b);
 }
 function clearEmote(id) {
   const el = emoteTarget(id);
-  if (el) { el.className = el.className.replace(/\s*\bemo(ting|-\d)\b/g, ''); el.querySelectorAll('.emoji').forEach(x => x.remove()); }
+  if (el) el.className = el.className.replace(/\s*\bemo(ting|-\d)\b/g, '');
   delete activeEmotes[id];
 }
 function playEmote(id, e) {
   if (activeEmotes[id]) { clearTimeout(activeEmotes[id].timer); clearEmote(id); }
-  activeEmotes[id] = { e, timer: setTimeout(() => clearEmote(id), 2400) };
+  activeEmotes[id] = { e, timer: setTimeout(() => clearEmote(id), 2600) };
   paintEmote(id);
 }
 const repaintEmotes = () => Object.keys(activeEmotes).forEach(paintEmote);
 
 // ---------- ekran startowy ----------
 function renderEditor() {
-  $('#av-preview').innerHTML = avatarSVG(avatar) + `<div class="try emotebar">${emoteBarHTML()}</div>`;
+  $('#av-preview').innerHTML = `<div class="spot"></div>${avatarSVG(avatar)}<div class="pedestal"></div>`;
+  $('#home-emo').innerHTML = emoBtnInner();
   $('#av-parts').innerHTML = AV_PARTS.map(k => {
     const label = t('p_' + k);
     return `<div class="part"><button class="arrow" data-k="${k}" data-d="-1" aria-label="${label}: ${t('prev')}">‹</button><span>${label} <em>${(avatar[k] || 0) + 1}/${avCount(k)}</em></span><button class="arrow" data-k="${k}" data-d="1" aria-label="${label}: ${t('next')}">›</button></div>`;
@@ -174,49 +185,53 @@ function renderLobby() {
       <button class="btn ghost" id="lb-leave">${t('leave')}</button>
     </div>
     <div class="lobby-grid">
-      <section class="card">
+      <section class="card stagecard">
         <h2>${t('players')} <small>${S.players.length}/10</small></h2>
         <div class="plist">
-          ${S.players.map((p, i) => `
+          ${Array.from({ length: 10 }, (_, i) => { const p = S.players[i]; return p ? `
             <div class="pl ${p.id === myId ? 'me' : ''}" data-pid="${p.id}">
-              ${avatarSVG(p.avatar)}
-              <div class="pl-name">${esc(p.name)}</div>
-              <div class="pl-sub">${p.isBot ? t('bot') + ' · ' + t('lv_' + p.level) : p.id === S.hostId ? t('host') : t('seat', { n: i + 1 })}</div>
+              <div class="pl-fig">${avatarSVG(p.avatar)}</div>
+              <div class="pl-desk"><span class="pl-seat">${i + 1}</span>
+                <div class="pl-name">${esc(p.name)}</div>
+                <div class="pl-sub">${p.isBot ? t('bot') + ' · ' + t('lv_' + p.level) : p.id === S.hostId ? t('host') : t('seat', { n: i + 1 })}</div></div>
               ${host && p.id !== myId ? `<button class="x" data-kick="${p.id}" aria-label="${esc(t('remove', { name: p.name }))}">×</button>` : ''}
-            </div>`).join('')}
+            </div>` : `<div class="pl empty"><div class="pl-fig"></div><div class="pl-desk"><span class="pl-seat">${i + 1}</span><div class="pl-sub">${t('free')}</div></div></div>`; }).join('')}
         </div>
-        <div class="emo-row"><span class="lbl">${t('emotes')}</span><div class="emotebar">${emoteBarHTML()}</div></div>
-        ${host ? `
-        <div class="botrow">
+        <div class="emo-row"><button class="emo-btn" data-wheel>${emoBtnInner()}</button>
+        ${host ? `<span class="botrow">
           <select id="bot-level" class="inp">${['latwy', 'sredni', 'trudny'].map(l => `<option value="${l}" ${l === 'sredni' ? 'selected' : ''}>${t('botLv', { lv: t('lv_' + l) })}</option>`).join('')}</select>
           <button class="btn" id="add-bot" ${S.players.length >= 10 ? 'disabled' : ''}>${t('addBot')}</button>
-        </div>` : ''}
+        </span>` : ''}</div>
       </section>
-      <section class="card">
-        <h2>${t('invite')}</h2>
-        <div class="invite">
-          <div class="bigcode" aria-label="${t('roomCode')}">${S.code}</div>
-          <button class="btn" id="copy-link">${t('copyLink')}</button>
+      <section class="card setcard">
+        <div class="set-l">
+          <h2>${t('invite')}</h2>
+          <div class="invite">
+            <div class="bigcode" aria-label="${t('roomCode')}"><small>${t('roomCode')}</small>${S.code}</div>
+            <button class="btn" id="copy-link">${t('copyLink')}</button>
+          </div>
+          <div class="linktxt">${esc(link)}</div>
+          <h2>${t('settings')} ${host ? '' : `<small>${t('hostSets')}</small>`}</h2>
+          <div class="setrow">
+            <label>${t('answerTime')}
+              <select id="set-time" class="inp" ${host ? '' : 'disabled'}>${[15, 25, 40, 60].map(v => `<option value="${v}" ${S.settings.answerTime === v ? 'selected' : ''}>${v} s</option>`).join('')}</select>
+            </label>
+            <label>${t('finalQs')}
+              <select id="set-final" class="inp" ${host ? '' : 'disabled'}>${[10, 15, 20, 30, 40, 50].map(v => `<option value="${v}" ${S.settings.finalQuestions === v ? 'selected' : ''}>${v}</option>`).join('')}</select>
+            </label>
+          </div>
+          ${host ? `<button class="btn primary big" id="start" ${S.players.length < 2 ? 'disabled' : ''}>${t('start')}</button>
+            ${S.players.length < 2 ? `<p class="hint">${t('need2hint')}</p>` : ''}`
+        : `<p class="hint">${t('waitHost')}</p>`}
         </div>
-        <div class="linktxt">${esc(link)}</div>
-        <h2>${t('settings')} ${host ? '' : `<small>${t('hostSets')}</small>`}</h2>
-        <div class="setrow">
-          <label>${t('answerTime')}
-            <select id="set-time" class="inp" ${host ? '' : 'disabled'}>${[15, 25, 40, 60].map(v => `<option value="${v}" ${S.settings.answerTime === v ? 'selected' : ''}>${v} s</option>`).join('')}</select>
-          </label>
-          <label>${t('finalQs')}
-            <select id="set-final" class="inp" ${host ? '' : 'disabled'}>${[10, 15, 20, 30, 40, 50].map(v => `<option value="${v}" ${S.settings.finalQuestions === v ? 'selected' : ''}>${v}</option>`).join('')}</select>
-          </label>
+        <div class="set-r">
+          <div class="cats-head"><span>${t('catsSummary', { a: sel.size, b: S.cats.length, q: totalQ })}</span>
+            ${host ? `<span><button class="lnk" id="cat-all">${t('all')}</button> · <button class="lnk" id="cat-none">${t('none')}</button></span>` : ''}</div>
+          <div class="cats">
+            ${S.cats.map(c => `<label class="cat"><input type="checkbox" data-cat="${c.id}" ${sel.has(c.id) ? 'checked' : ''} ${host ? '' : 'disabled'}><span>${esc(c.name)}</span><em>${c.n}</em></label>`).join('')}
+          </div>
+          ${t('qLang') ? `<p class="hint">${t('qLang')}</p>` : ''}
         </div>
-        <div class="cats-head"><span>${t('catsSummary', { a: sel.size, b: S.cats.length, q: totalQ })}</span>
-          ${host ? `<span><button class="lnk" id="cat-all">${t('all')}</button> · <button class="lnk" id="cat-none">${t('none')}</button></span>` : ''}</div>
-        <div class="cats">
-          ${S.cats.map(c => `<label class="cat"><input type="checkbox" data-cat="${c.id}" ${sel.has(c.id) ? 'checked' : ''} ${host ? '' : 'disabled'}><span>${esc(c.name)}</span><em>${c.n}</em></label>`).join('')}
-        </div>
-        ${t('qLang') ? `<p class="hint">${t('qLang')}</p>` : ''}
-        ${host ? `<button class="btn primary big" id="start" ${S.players.length < 2 ? 'disabled' : ''}>${t('start')}</button>
-          ${S.players.length < 2 ? `<p class="hint">${t('need2hint')}</p>` : ''}`
-      : `<p class="hint">${t('waitHost')}</p>`}
       </section>
     </div>
   </div>`;
@@ -331,7 +346,7 @@ function renderGame() {
       <button class="chip btnchip" id="mute" aria-label="${t('sound')}">${muted ? '🔇' : '🔊'}</button></div>`;
   $('#mute').onclick = () => { muted = !muted; store.set('ts-muted', muted); renderGame(); };
   $('#hud-lang').onclick = toggleLang;
-  if (!$('#emotes').firstChild || $('#emotes').dataset.lang !== LANG) { $('#emotes').innerHTML = `<button class="emo emo-toggle" id="emo-toggle" aria-expanded="false" aria-label="${t('emotes')}">😀</button><div class="emo-list">${emoteBarHTML()}</div>`; $('#emotes').dataset.lang = LANG; $('#emotes').classList.remove('open'); }
+  if (!$('#emotes').firstChild || $('#emotes').dataset.lang !== LANG) { $('#emotes').innerHTML = `<button class="emo-btn" data-wheel>${emoBtnInner()}</button>`; $('#emotes').dataset.lang = LANG; }
 
   const key = [g.stage, g.mode, g.turn, g.qnum, g.reveal && g.reveal.pid, S.phase, LANG].join('|');
   if (key !== panelKey) {

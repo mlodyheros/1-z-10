@@ -122,9 +122,14 @@ function avatarSVG(a, cls) {
       <rect x="50" y="92" width="20" height="20" rx="6" fill="${skin}"/>
       <circle cx="25" cy="64" r="7" fill="${skin}"/><circle cx="95" cy="64" r="7" fill="${skin}"/>
       <ellipse cx="60" cy="62" rx="35" ry="37" fill="${skin}"/>
-      ${beard}${eyes}${mouth}
+      ${beard}<g class="face">${eyes}${mouth}</g>
+      <g class="fx fx-laugh"><path d="M39 56 L54 63 L39 70 M81 56 L66 63 L81 70" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 78 Q60 108 78 78Z" fill="${ink}"/><path d="M50 92 Q60 100 70 92 Q60 87 50 92Z" fill="#ff6b81"/><path d="M45 79 H75 L73 84 H47Z" fill="#fff"/></g>
+      <g class="fx fx-cry"><path d="M39 61 Q47 68 55 61 M65 61 Q73 68 81 61 M38 55 L54 50 M82 55 L66 50" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M47 94 Q60 76 73 94 Q60 89 47 94Z" fill="${ink}"/><path class="tear" d="M44 68 Q41 84 44 102 M76 68 Q79 84 76 102" stroke="#5cc8ff" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="9 9"/></g>
+      <g class="fx fx-fear"><path d="M27 46 Q60 22 93 46 Q60 38 27 46Z" fill="#5c7cff" opacity=".4"/><circle cx="46" cy="62" r="11" fill="#fff" stroke="${ink}" stroke-width="2"/><circle cx="74" cy="62" r="11" fill="#fff" stroke="${ink}" stroke-width="2"/><circle cx="46" cy="63" r="2.8" fill="${ink}"/><circle cx="74" cy="63" r="2.8" fill="${ink}"/><path d="M36 46 L52 44 M84 46 L68 44" stroke="${ink}" stroke-width="3" stroke-linecap="round"/><path d="M45 88 Q49 82 53 88 Q57 94 61 88 Q65 82 69 88 Q73 94 76 88" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/><path class="sweat" d="M96 40 Q102 50 96 53 Q90 50 96 40Z" fill="#5cc8ff"/></g>
+      <g class="fx fx-dab"><path d="M39 63 H55 M65 63 H81" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M50 86 Q60 92 70 86" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/></g>
       <g${clip}>${hairFront}</g>
       ${glasses}${hats}
     </g>
+    <g class="fx fx-dabarm"><path d="M17 122 L46 96 L90 60" stroke="${shirt}" stroke-width="19" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 122 L46 96 L90 60" stroke="rgba(0,0,0,.12)" stroke-width="19" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="93" cy="57" r="9.5" fill="${skin}"/></g>
   </svg>`;
 }
