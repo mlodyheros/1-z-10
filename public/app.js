@@ -173,6 +173,26 @@ function render() {
   repaintEmotes();
 }
 
+// ---------- pełny ekran ----------
+let quitArmed = false, quitTimer = 0;
+const fsEl = document.documentElement;
+const fsOK = !!(fsEl.requestFullscreen || fsEl.webkitRequestFullscreen);
+const fsOn = () => !!(document.fullscreenElement || document.webkitFullscreenElement);
+function fsBtn(cls) {
+  if (!fsOK) return '';
+  return `<button class="${cls} fsbtn" data-fs aria-label="${fsOn() ? t('fsExit') : t('fs')}" title="${fsOn() ? t('fsExit') : t('fs')}">${fsOn() ? '🗗' : '⛶'}</button>`;
+}
+function toggleFs() {
+  try {
+    if (fsOn()) (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+    else { const p = (fsEl.requestFullscreen || fsEl.webkitRequestFullscreen).call(fsEl); if (p && p.catch) p.catch(() => {}); }
+  } catch {}
+}
+document.addEventListener('click', e => { if (e.target.closest('[data-fs]')) toggleFs(); });
+const fsSync = () => { document.querySelectorAll('[data-fs]').forEach(b => { b.textContent = fsOn() ? '🗗' : '⛶'; b.title = b.ariaLabel = fsOn() ? t('fsExit') : t('fs'); }); setTimeout(camera, 120); };
+document.addEventListener('fullscreenchange', fsSync);
+document.addEventListener('webkitfullscreenchange', fsSync);
+
 // ---------- poczekalnia ----------
 function renderLobby() {
   const host = S.hostId === myId, el = $('#lobby');
@@ -184,7 +204,7 @@ function renderLobby() {
   <div class="lobby-wrap">
     <div class="lobby-head">
       <h1 class="logo small"><span>Trzy</span> <span class="logo-b">Szanse</span></h1>
-      <button class="btn ghost" id="lb-leave">${t('leave')}</button>
+      <span class="lobby-btns">${fsBtn('btn ghost')}<button class="btn ghost" id="lb-leave">${t('leave')}</button></span>
     </div>
     <div class="lobby-grid">
       <section class="card stagecard">
@@ -379,8 +399,15 @@ function renderGame() {
       ${g.stage === 3 && g.mode !== 'end' ? `<span class="chip dim">${t('left', { n: g.finalLeft })}</span>` : ''}</div>
     <div class="hud-r"><span class="chip dim">${t('room', { c: S.code })}</span>
       <button class="chip btnchip" id="hud-lang" aria-label="Język / Language">${LANG === 'pl' ? 'PL' : 'EN'}</button>
-      <button class="chip btnchip" id="mute" aria-label="${t('sound')}">${muted ? '🔇' : '🔊'}</button></div>`;
+      <button class="chip btnchip" id="mute" aria-label="${t('sound')}">${muted ? '🔇' : '🔊'}</button>
+      ${fsBtn('chip btnchip')}
+      <button class="chip btnchip quit ${quitArmed ? 'armed' : ''}" id="hud-quit" aria-label="${t('leaveGame')}">${quitArmed ? t('sure') : '⏏ ' + t('leaveGame')}</button></div>`;
   $('#mute').onclick = () => { muted = !muted; store.set('ts-muted', muted); renderGame(); };
+  $('#hud-quit').onclick = () => {
+    // wyjście wymaga drugiego kliknięcia, żeby nie wypaść z gry przypadkiem
+    if (!quitArmed) { quitArmed = true; renderGame(); clearTimeout(quitTimer); quitTimer = setTimeout(() => { quitArmed = false; if (S && S.game) renderGame(); }, 3000); return; }
+    quitArmed = false; tx({ t: 'leave' }); goHome();
+  };
   $('#hud-lang').onclick = toggleLang;
   if (!$('#emotes').firstChild || $('#emotes').dataset.lang !== LANG) { $('#emotes').innerHTML = `<button class="emo-btn" data-wheel>${emoBtnInner()}</button>`; $('#emotes').dataset.lang = LANG; }
 

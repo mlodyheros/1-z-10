@@ -428,7 +428,21 @@ wss.on('connection', ws => {
         r.players.forEach(p => { p.lives = 3; p.points = 0; p.out = false; });
         return send(r);
       case 'leave':
-        if (r.phase === 'lobby') { const p = me; room = null; me = null; removePlayer(r, p); }
+        if (r.phase === 'lobby') { const p = me; room = null; me = null; removePlayer(r, p); return; }
+        {
+          // wyjście w trakcie gry: gracz odpada, a gra toczy się dalej bez niego
+          const p = me; room = null; me = null;
+          p.connected = false; p.ws = null; p.secret = null;
+          const humans = r.players.filter(x => !x.isBot && x.connected);
+          if (humans.length && r.hostId === p.id) r.hostId = humans[0].id;
+          if (r.phase === 'game' && r.game && !p.out) {
+            const g2 = r.game;
+            eliminate(r, p);
+            if (g2.turn === p.id && (g2.mode === 'question' || g2.mode === 'nominate')) { clearTimers(r); next(r); }
+            else send(r);
+          } else send(r);
+          scheduleCleanup(r);
+        }
         return;
     }
   });
