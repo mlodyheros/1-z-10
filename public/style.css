@@ -69,8 +69,8 @@ kbd { font: 600 12px var(--font); background: rgba(0,0,0,.25); border-radius: 6p
 .emo-btn { display: inline-flex; align-items: center; gap: 8px; height: 50px; padding: 0 16px 0 4px; border-radius: 999px; border: 3px solid var(--out); background: linear-gradient(180deg, #38e8cb, #14a88f); color: #04221d; font-weight: 900; cursor: pointer; box-shadow: inset 0 2px 0 rgba(255,255,255,.45), 0 5px 0 var(--out); transition: transform .08s, box-shadow .08s; }
 .emo-btn:hover { filter: brightness(1.1); }
 .emo-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--out); }
-.emo-btn > span { width: 38px; height: 38px; border-radius: 50%; overflow: hidden; background: radial-gradient(circle at 50% 30%, #5a48c8, #1a1240); border: 2px solid var(--out); flex: none; }
-.emo-btn .av { width: 54px; margin: 0 0 0 -8px; display: block; }
+.emo-btn > span { position: relative; width: 38px; height: 38px; border-radius: 50%; overflow: hidden; background: radial-gradient(circle at 50% 30%, #5a48c8, #1a1240); border: 2px solid var(--out); flex: none; }
+.emo-btn .av { position: absolute; width: 56px; height: 92px; left: -9px; top: -24px; display: block; }
 .emo-btn .av, .emo-btn .av * { animation-play-state: paused !important; }
 .emo-btn:hover .av, .emo-btn:hover .av * { animation-play-state: running !important; }
 .emo-row { display: flex; align-items: center; gap: 12px; margin-top: 18px; flex-wrap: wrap; position: relative; z-index: 2; }
@@ -234,6 +234,45 @@ select.inp, .pl-lv { appearance: none; -webkit-appearance: none; font-weight: 80
 .cat input:checked { background: var(--gold) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 10'%3E%3Cpath d='M1.500 5.500l3 3 6-7' fill='none' stroke='%232a1a00' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 12px 10px no-repeat; box-shadow: inset 0 2px 0 rgba(255,255,255,.5); }
 .cat input:disabled { cursor: default; opacity: .8; }
 .cat:hover span { color: var(--gold); }
+
+/* ---------- wejście do studia ---------- */
+#countdown { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; pointer-events: none; overflow: hidden; }
+#countdown b { position: relative; z-index: 2; }
+.door { position: absolute; top: 0; bottom: 0; width: 50.5%; z-index: 1; transition: transform 1.9s cubic-bezier(.6,0,.2,1);
+  background: repeating-linear-gradient(90deg, rgba(0,0,0,.28) 0 3px, transparent 3px 22%), linear-gradient(180deg, #33267f, #1b1250 55%, #0e0830);
+  box-shadow: inset 0 0 0 10px #0a0620, inset 0 0 0 16px var(--gold), inset 0 0 120px rgba(0,0,0,.6); }
+.door.l { left: 0; } .door.r { right: 0; }
+.door i { position: absolute; top: 50%; width: 22px; height: 150px; margin-top: -75px; border-radius: 11px; background: linear-gradient(90deg, #fff3c4, var(--gold) 45%, #b47c00); border: 3px solid var(--out); box-shadow: 0 6px 0 rgba(0,0,0,.4); }
+.door.l i { right: 34px; } .door.r i { left: 34px; }
+.door::before { content: ""; position: absolute; top: 8%; bottom: 8%; left: 14%; right: 14%; border-radius: 18px; border: 6px solid rgba(47,224,194,.55); box-shadow: 0 0 40px rgba(47,224,194,.35), inset 0 0 60px rgba(120,95,255,.35); }
+.door::after { content: "★"; position: absolute; top: 14%; left: 0; right: 0; text-align: center; font-size: min(12vw, 16vh); color: var(--gold); text-shadow: 0 6px 0 var(--out), 0 0 40px rgba(255,194,51,.7); }
+#countdown.open .door.l { transform: translateX(-102%); } #countdown.open .door.r { transform: translateX(102%); }
+#countdown b { font-size: min(46vw, 62vh); font-weight: 900; line-height: 1; color: var(--gold); -webkit-text-stroke: 10px var(--out); paint-order: stroke fill; text-shadow: 0 10px 0 var(--out), 0 20px 0 #6a3be0, 0 30px 0 var(--out), 0 0 90px rgba(255,194,51,.7); }
+#countdown b.go { font-size: min(20vw, 34vh); color: #fff; -webkit-text-stroke-width: 7px; transform: rotate(-4deg); }
+#countdown b.pop { animation: cdpop 1s cubic-bezier(.2,1.4,.4,1) both; }
+@keyframes cdpop { 0% { transform: scale(2.6) rotate(-8deg); } 30% { transform: scale(1) rotate(0); } 75% { transform: scale(1) rotate(0); } 100% { transform: scale(.82); } }
+
+/* ---------- prowadzący ---------- */
+.pod.host .desk .front { background: linear-gradient(90deg, #2a1a05 0, #7a5412 14%, #c8961e 38%, #e3b23a 50%, #c8961e 62%, #7a5412 86%, #2a1a05 100%); min-height: 150px; }
+.pod.host .desk .front::before, .pod.host .desk .front::after { background: #fff3c4; box-shadow: 0 0 14px 2px #ffe07a; }
+.pod.host .desk .top { background: linear-gradient(180deg, #5a3d0c 0, #e3b23a 55%, #fff0b8 100%); }
+.pod.host .plate { border-color: #fff0b8; background: linear-gradient(180deg, #1a1005, #2a1a05); }
+.pod.host .nm { color: var(--gold); text-transform: uppercase; letter-spacing: .05em; font-size: 13px; }
+.pod.host .cards { height: 22px; margin: 8px auto 0; width: 62px; border-radius: 4px; background: repeating-linear-gradient(0deg, #fff 0 4px, #d9d2c0 4px 5px); border: 2px solid var(--out); transform: rotate(-4deg); }
+.pod.host .glow { background: radial-gradient(ellipse, rgba(255,194,51,.5), transparent 68%); }
+.pod.host.asking .av { animation: bob 1.1s ease-in-out infinite; }
+.bubble.q { font-size: 30px; line-height: 1; padding: 6px 16px; background: var(--gold); color: #2a1a00; }
+
+/* ---------- historia pokoju i zgłoszenia ---------- */
+.hist { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; max-height: 250px; overflow: auto; }
+.hist li { display: grid; grid-template-columns: 30px 34px 1fr auto auto; align-items: center; gap: 10px; background: #1a1240; border: 2px solid var(--out); border-radius: 12px; padding: 3px 14px 3px 8px; }
+.hist li.top { background: linear-gradient(90deg, rgba(255,194,51,.35), #1a1240 70%); }
+.hist .av { width: 34px; height: 44px; margin-top: -6px; } .hist .hg { color: var(--dim); font-size: 12px; } .hist .rs { color: var(--gold); font-weight: 900; font-variant-numeric: tabular-nums; }
+.hist .rn { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.report { display: block; margin: 10px 0 0 auto; background: none; border: 0; padding: 2px 0; color: var(--dim); font-size: 12px; font-weight: 700; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.report:hover:not(:disabled) { color: var(--pink); }
+.report:disabled { cursor: default; text-decoration: none; color: var(--good); }
+.report:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
 
 /* ---------- galeria botów ---------- */
 #gallery { position: fixed; inset: 0; z-index: 70; display: grid; place-items: center; padding: 16px; background: rgba(5,3,15,.8); }
@@ -416,5 +455,6 @@ select.inp, .pl-lv { appearance: none; -webkit-appearance: none; font-weight: 80
 }
 @media (prefers-reduced-motion: reduce) {
   #world { transition: none; }
+  #countdown b.pop { animation: none; }
   .lamp, .bd-beams i, .preview .av, .pod.active .av, .buzz, .pod.pick .plate, .led.main::after, .led.side i { animation: none !important; }
 }
