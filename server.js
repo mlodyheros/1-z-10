@@ -6,6 +6,7 @@ const path = require('path');
 const crypto = require('crypto');
 const { WebSocketServer } = require('ws');
 const { norm, isCorrect } = require('./match');
+const EN = require('./en')(norm);
 
 const PORT = process.env.PORT || 3110;
 const PUB = path.join(__dirname, 'public');
@@ -25,8 +26,11 @@ for (const f of fs.readdirSync(QDIR).filter(f => f.endsWith('.txt')).sort()) {
     if (l.startsWith('#')) { if (!qs.length) name = l.slice(1).trim(); continue; }
     const p = l.split('|').map(s => s.trim());
     if (p.length < 2 || !p[0] || !p[1]) continue;
-    qs.push({ q: p[0], a: p.slice(1).filter(Boolean) });
-    p.slice(1).forEach(a => ALL_ANS.add(norm(a)));
+    const a = p.slice(1).filter(Boolean);
+    // dopisz angielskie odpowiedniki (po polskich, żeby a[0] zostało polską odpowiedzią)
+    for (const x of a.slice()) for (const e of EN.get(norm(x)) || []) if (!a.some(y => norm(y) === norm(e))) a.push(e);
+    qs.push({ q: p[0], a });
+    a.forEach(x => ALL_ANS.add(norm(x)));
   }
   if (qs.length) CATS.push({ id: f.replace('.txt', ''), name, qs });
 }

@@ -31,6 +31,31 @@ function lev(a, b) {
   return prev[n];
 }
 
+// rdzeń słowa: obcina polskie i angielskie końcówki (ghosting / ghostowanie / zghostował → ghost)
+const SUF = ['owaniem', 'owanie', 'owania', 'owaniu', 'owalam', 'owalem', 'owala', 'owali', 'owal', 'owac', 'owany', 'owana', 'owane',
+  'aniem', 'enie', 'anie', 'ania', 'enia', 'aniu', 'eniu', 'ings', 'ing', 'ed', 'ers', 'er', 'ies',
+  'ami', 'ach', 'owi', 'ow', 'om', 'em', 'ie', 'ia', 'ii', 'ej', 'ego', 'emu', 'ym', 'ich', 'ych',
+  'a', 'y', 'i', 'e', 'o', 'u', 's'];
+function stem(w) {
+  if (w.length < 5 || /\d/.test(w)) return w;
+  for (const s of SUF) if (w.endsWith(s) && w.length - s.length >= 4) return w.slice(0, -s.length);
+  return w;
+}
+const stems = s => s.split(' ').map(stem);
+// porównanie rdzeniami słowo po słowie, dopuszcza też przedrostek z-/za-/po-/s- w grze ("zghostowal")
+function stemMatch(g, a) {
+  const G = stems(g), A = stems(a);
+  if (G.length !== A.length) return false;
+  return A.every((x, i) => {
+    const y = G[i];
+    if (x.length < 4) return x === y;
+    const t = x.length <= 7 ? 1 : x.length <= 11 ? 2 : 3;
+    if (lev(x, y) <= t) return true;
+    const m = y.match(/^(za|po|z|s|od|wy)(.{4,})$/);
+    return !!m && lev(x, m[2]) <= t;
+  });
+}
+
 const tol = len => (len <= 3 ? 0 : len <= 7 ? 1 : len <= 12 ? 2 : 3);
 
 function matchOne(g, a) {
@@ -55,8 +80,12 @@ function matchOne(g, a) {
     const so = s => s.split(' ').sort().join('');
     if (lev(so(g), so(a)) <= tol(as.length)) return true;
   }
+  // inna forma tego samego słowa (odmiana, spolszczenie, angielskie -ing)
+  if (as.length >= 5 && stemMatch(g, a)) return true;
   return false;
 }
+
+const STEM_CACHE = new WeakMap();
 
 // given: tekst gracza, answers: lista akceptowanych odpowiedzi, allAnswers: Set znormalizowanych odpowiedzi z całej bazy
 function isCorrect(given, answers, allAnswers) {
@@ -66,6 +95,13 @@ function isCorrect(given, answers, allAnswers) {
   if (list.includes(g)) return true;
   // literówka nie może zamieniać odpowiedzi w inną istniejącą (Iran/Irak, Austria/Australia)
   if (allAnswers && allAnswers.has(g)) return false;
+  // ...ani jej odmienioną formą ("Austrii" to nie "Australia")
+  if (allAnswers) {
+    let st = STEM_CACHE.get(allAnswers);
+    if (!st) { st = new Map(); for (const x of allAnswers) { const k = stems(x).join(' '); st.set(k, (st.get(k) || 0) + 1); } STEM_CACHE.set(allAnswers, st); }
+    const gk = stems(g).join(' ');
+    if (st.has(gk) && !list.some(a => stems(a).join(' ') === gk)) return false;
+  }
   return list.some(a => matchOne(g, a));
 }
 
