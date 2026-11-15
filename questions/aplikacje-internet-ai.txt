@@ -1,0 +1,155 @@
+# Aplikacje, internet i AI
+Kto jest szefem OpenAI?|Sam Altman|Altman
+Jak nazywa się model AI firmy Google, następca Barda?|Gemini
+Jak nazywa się chatbot firmy xAI Elona Muska?|Grok
+Jak nazywa się asystent AI Microsoftu wbudowany w Windows i Office?|Copilot
+Jak nazywa się chiński model AI, który zaskoczył rynek w styczniu 2025 roku?|DeepSeek
+Jak nazywa się generator obrazów AI działający m.in. przez Discorda?|Midjourney
+Jak nazywa się generator obrazów stworzony przez OpenAI?|DALL-E|DALL·E|Dall-e
+Jak nazywa się generator wideo AI od OpenAI?|Sora
+Jak nazywa się tekst wpisywany do AI jako polecenie?|prompt
+Jak nazywa się zjawisko, gdy AI pewnie podaje zmyślone informacje?|halucynacja|halucynacje
+Co oznacza skrót AI?|sztuczna inteligencja|artificial intelligence
+Co oznacza litera „G” w nazwie ChatGPT?|Generative|generatywny
+Jak nazywa się fałszywe wideo, w którym AI podmienia twarz lub głos?|deepfake
+Jak nazywa się firma produkująca najważniejsze karty graficzne do trenowania AI?|Nvidia
+Kto jest szefem Nvidii, znany ze skórzanej kurtki?|Jensen Huang|Huang
+Jak nazywa się aplikacja z krótkimi filmami należąca do chińskiej firmy ByteDance?|TikTok
+Jak nazywa się główna strona TikToka z polecanymi filmami — skrót FYP?|For You|Dla Ciebie|FYP|For You Page
+Jak nazywała się aplikacja z playbackiem, którą ByteDance połączyło z TikTokiem w 2018 roku?|Musical.ly|Musically
+Kto ma najwięcej obserwujących na TikToku?|Khaby Lame|Khaby
+Jak nazywa się licznik dni z rzędu, w których dwie osoby wysyłają sobie snapy?|streak|snapstreak|dni|ogień
+Jak nazywa się aplikacja, która raz dziennie prosi o zdjęcie z obu kamer naraz?|BeReal
+Jak nazywa się komunikator graczy z serwerami i kanałami głosowymi?|Discord
+Jak nazywa się platforma do streamowania gier należąca do Amazona?|Twitch
+Jak nazywa się platforma streamingowa z zielonym logo, konkurent Twitcha, na którą przeszedł m.in. xQc?|Kick
+Jak nazywa się szwedzki serwis do streamowania muzyki z zielonym logo?|Spotify
+Jak nazywa się coroczne podsumowanie słuchania w Spotify?|Spotify Wrapped|Wrapped
+Jak nazywa się serwis z pinezkami i tablicami inspiracji?|Pinterest
+Jak nazywa się forum podzielone na „subreddity”?|Reddit
+Jak na Reddicie nazywa się głos „w górę”?|upvote|łapka w górę
+Jak nazywa się zawodowy serwis społecznościowy do szukania pracy?|LinkedIn
+Jak nazywa się szyfrowany komunikator polecany przez obrońców prywatności, z niebieskim logo?|Signal
+Jak nazywa się komunikator Facebooka?|Messenger
+Jak nazywa się aplikacja randkowa, w której przesuwa się profile w prawo lub w lewo?|Tinder
+Jak nazywa się przesunięcie profilu w prawo na Tinderze?|swipe right|polubienie|lajk
+Jak ma na imię zielona sowa z Duolingo?|Duo
+Jak nazywa się aplikacja do zamawiania przejazdów z czarnym logo, założona w San Francisco?|Uber
+Jak nazywa się estońska aplikacja do zamawiania przejazdów z zielonym logo?|Bolt
+Jak nazywa się polska aplikacja do płatności kodem z telefonu?|BLIK|Blik
+Ile cyfr ma kod BLIK?|6
+Jak nazywa się pochodząca z Litwy aplikacja do sprzedawania używanych ubrań?|Vinted
+Jak nazywa się polski serwis zakupowy z pomarańczowym logo i paczkomatami One Box?|Allegro
+Jak nazywa się polska firma od paczkomatów?|InPost
+Jak nazywa się polska platforma ogłoszeń z rzeczami używanymi, dawniej Tablica.pl?|OLX
+Jak nazywa się chińska aplikacja zakupowa z bardzo tanimi produktami i pomarańczowym logo?|Temu
+Jak nazywa się chiński sklep internetowy z tanią modą, popularny wśród nastolatków?|Shein
+Jak nazywa się hiszpańska aplikacja dostawcza z żółtymi plecakami kurierów?|Glovo
+Jak nazywa się serwis z filmami i serialami z czerwonym logo „N”?|Netflix
+Jak nazywa się serwis streamingowy Disneya?|Disney+|Disney Plus
+Jak nazywa się serwis streamingowy z serialami HBO, od 2024 roku w Polsce pod nową nazwą?|Max|HBO Max
+Jak nazywa się płatna wersja YouTube'a bez reklam?|YouTube Premium|Premium
+Jak nazywa się mobilna gra, w której łapie się stworki w prawdziwym świecie?|Pokémon Go|Pokemon Go
+Jak nazywa się gra, w której ptakami strzela się z procy do świnek?|Angry Birds
+Jak nazywa się gra mobilna z biegnącym po torach chłopakiem uciekającym przed strażnikiem?|Subway Surfers
+Jak nazywa się gra z cukierkami łączonymi po trzy?|Candy Crush|Candy Crush Saga
+Jak nazywa się gra mobilna firmy Supercell z wioską i klanami?|Clash of Clans
+Jak nazywa się gra Supercella z kartami i wieżami?|Clash Royale
+Jak nazywa się gra Supercella z szybkimi bitwami 3 na 3?|Brawl Stars
+Jak nazywa się platforma, na której gracze tworzą własne gry, z walutą Robux?|Roblox
+Jak nazywa się gra z 2018 roku, w której wśród załogi statku kosmicznego ukrywa się zdrajca?|Among Us
+Jak nazywa się codzienna gra słowna z pięcioliterowym hasłem, kupiona przez „New York Timesa”?|Wordle
+Jak nazywa się sklep z aplikacjami na iPhone'ach?|App Store
+Jak nazywa się sklep z aplikacjami na Androidzie?|Google Play|Sklep Play
+Jak nazywa się system operacyjny iPhone'ów?|iOS
+Jak nazywa się system operacyjny Google na telefony?|Android
+Jak nazywa się funkcja Apple do bezprzewodowego przesyłania plików między urządzeniami?|AirDrop
+Jak nazywają się bezprzewodowe słuchawki Apple?|AirPods
+Jak nazywają się gogle Apple za 3500 dolarów zaprezentowane w 2023 roku?|Vision Pro|Apple Vision Pro
+Jak nazywa się zegarek Apple?|Apple Watch
+Jak nazywa się usługa płatności telefonem od Apple?|Apple Pay
+Kto jest szefem Apple od 2011 roku?|Tim Cook|Cook
+Kto współzałożył Apple i zaprezentował pierwszego iPhone'a?|Steve Jobs|Jobs
+Jak nazywa się seria składanych telefonów Samsunga z ekranem zginanym jak książka?|Galaxy Z Fold|Fold|Z Fold
+Z jakiego kraju pochodzi Samsung?|Korea Południowa
+Z jakiego kraju pochodzi firma Xiaomi?|Chiny
+Jak nazywa się wyszukiwarka Microsoftu?|Bing
+Jak nazywa się przeglądarka Google?|Chrome|Google Chrome
+Jak nazywa się przeglądarka Apple?|Safari
+Jak nazywa się przeglądarka z liskiem w logo?|Firefox|Mozilla Firefox
+Jak nazywa się tryb przeglądarki, który nie zapisuje historii?|tryb incognito|incognito|tryb prywatny
+Jak nazywają się małe pliki zapisywane przez strony w przeglądarce — „ciasteczka”?|cookies|ciasteczka|pliki cookie
+Jak nazywa się usługa ukrywająca adres IP i szyfrująca połączenie — skrót?|VPN
+Jak nazywa się bezprzewodowy internet w domu?|Wi-Fi|WiFi
+Jak nazywa się najnowsza powszechna generacja sieci komórkowej?|5G
+Jak nazywa się satelitarny internet od SpaceX?|Starlink
+Jak nazywa się udostępnianie internetu z telefonu innym urządzeniom?|hotspot|tethering
+Jak nazywa się technologia bezprzewodowego łączenia słuchawek z telefonem?|Bluetooth
+Jak nazywa się kwadratowy kod skanowany aparatem?|kod QR|QR
+Jak nazywa się logowanie z dodatkowym kodem z SMS-a lub aplikacji — skrót 2FA?|uwierzytelnianie dwuskładnikowe|weryfikacja dwuetapowa|2FA
+Jak nazywa się oszustwo polegające na podszywaniu się pod bank lub firmę w wiadomościach?|phishing
+Jak nazywa się niechciana poczta reklamowa?|spam
+Jak nazywa się program blokujący reklamy w przeglądarce?|AdBlock|adblock|bloker reklam
+Jak nazywa się osoba celowo prowokująca kłótnie w komentarzach?|troll
+Jak nazywa się zmasowana krytyka kogoś w internecie — po angielsku „cancel…”?|cancel culture|cancelowanie|cancel
+Jak nazywa się znak # używany do oznaczania tematów?|hashtag
+Jak nazywa się oznaczenie konta jako zweryfikowanego — niebieski…?|znaczek|niebieski znaczek|badge
+Jak nazywa się zdjęcie profilowe po angielsku — skrót PFP?|profile picture|PFP|profilowe
+Jak nazywa się prywatna wiadomość na Instagramie — skrót DM?|direct message|DM|wiadomość prywatna
+Jak nazywają się zdjęcia i filmy znikające po 24 godzinach na Instagramie?|Stories|relacje|story|relacja
+Jak nazywa się transmisja na żywo w mediach społecznościowych?|live|stream|transmisja na żywo
+Jak nazywa się treść, która błyskawicznie rozchodzi się po internecie?|viral
+Jak nazywa się algorytmiczny strumień postów w aplikacji?|feed
+Jak nazywa się twórca internetowy zarabiający na współpracach z markami?|influencer
+Jak nazywa się płatna współpraca twórcy z marką oznaczana w poście?|reklama|współpraca reklamowa|współpraca
+Jak nazywa się serwis, na którym fani płacą twórcom co miesiąc za dodatkowe treści?|Patreon
+Jak nazywa się encyklopedia internetowa, którą każdy może edytować?|Wikipedia
+Jak nazywa się mapa i nawigacja od Google?|Google Maps|Mapy Google
+Jak nazywa się funkcja Google Maps z panoramami ulic?|Street View|Google Street View
+Jak nazywa się gra, w której zgaduje się miejsce na podstawie Street View?|GeoGuessr|Geoguessr
+Jak nazywa się dysk w chmurze od Google?|Google Drive|Dysk Google
+Jak nazywa się dysk w chmurze od Apple?|iCloud
+Jak nazywa się poczta Google?|Gmail
+Jak nazywa się program do wideorozmów, który zyskał popularność w pandemii — z niebieskim logo kamery?|Zoom
+Jak nazywa się aplikacja Microsoftu do lekcji zdalnych i pracy zespołowej?|Teams|Microsoft Teams
+Jak nazywa się internetowy program do projektowania grafik z gotowymi szablonami?|Canva
+Jak nazywa się aplikacja do montażu filmików od twórców TikToka?|CapCut
+Jak nazywa się rządowa aplikacja z cyfrowym dowodem osobistym w Polsce?|mObywatel
+Jak nazywa się internetowa kryptowaluta, pierwsza i najbardziej znana?|Bitcoin
+Jak nazywa się druga co do wielkości kryptowaluta, stworzona przez Vitalika Buterina?|Ethereum|Ether
+Jak nazywa się kryptowaluta z psem Shiba Inu, promowana przez Elona Muska?|Dogecoin|Doge
+Jak nazywa się unikalny cyfrowy certyfikat własności, popularny w 2021 roku — skrót?|NFT
+Jak nazywa się pseudonim twórcy Bitcoina?|Satoshi Nakamoto|Satoshi
+Jak nazywa się technologia łańcucha bloków stojąca za kryptowalutami?|blockchain
+Jak nazywała się giełda kryptowalut Sama Bankmana-Frieda, która upadła w 2022 roku?|FTX
+Jak nazywa się wirtualny świat promowany przez Marka Zuckerberga od 2021 roku?|metaverse|metawersum
+Jak nazywa się obraz nakładany na twarz w aparacie Snapchata lub Instagrama?|filtr|nakładka
+Jak nazywa się mała ruchoma grafika bez dźwięku wysyłana w wiadomościach?|GIF|gif
+Jak nazywa się obrazkowy znak wyrażający emocje w wiadomości?|emoji|emotka|emotikona
+Jakie emoji było najczęściej używane na świecie przez lata — twarz ze łzami…?|radości|śmiechu|płacząca ze śmiechu
+Jak nazywa się zrzut ekranu po angielsku?|screenshot|screen
+Jak nazywa się ciemny motyw aplikacji?|tryb ciemny|dark mode|ciemny motyw
+Jak nazywa się czas spędzony przed telefonem pokazywany w ustawieniach?|czas przed ekranem|screen time|czas ekranowy
+Jak nazywa się lęk przed tym, że coś nas omija — skrót?|FOMO
+Jak nazywa się bezmyślne przewijanie złych wiadomości?|doomscrolling
+Jak nazywa się słowo roku Oxfordu 2024 opisujące „gnicie mózgu” od treści online?|brain rot|brainrot
+Jak nazywa się przerwa od mediów społecznościowych i telefonu — cyfrowy…?|detoks|detox
+Jak nazywa się internetowa część sieci dostępna tylko przez przeglądarkę Tor?|darknet|dark web
+Jak nazywa się amerykański sygnalista, który w 2013 roku ujawnił inwigilację NSA?|Edward Snowden|Snowden
+Jak nazywa się europejskie rozporządzenie o ochronie danych osobowych — skrót polski?|RODO|GDPR
+Jak nazywa się holenderski z pochodzenia serwis do zamawiania jedzenia z pomarańczowym logo, popularny w Polsce?|Pyszne.pl|Pyszne
+Jak nazywa się najpopularniejszy dziennik elektroniczny w polskich szkołach, z nazwą na „L”?|Librus
+Jak nazywa się aplikacja z duszkiem w logo i znikającymi wiadomościami?|Snapchat|Snap
+Jak nazywa się komunikator z papierowym samolotem w logo, założony przez Pawła Durowa?|Telegram
+Jak nazywa się konto na Instagramie tylko dla bliskich znajomych — „fałszywa insta”?|finsta|spam
+Jak nazywa się funkcja Instagrama do krótkich notatek nad zdjęciem profilowym w wiadomościach?|notatki|Notes
+Jak nazywa się firma, która stworzyła asystenta Claude?|Anthropic
+Jak nazywa się głosowa asystentka Google?|Asystent Google|Google Assistant
+Jak nazywa się laptop Apple?|MacBook
+Jak nazywa się tablet Apple?|iPad
+Jak nazywa się usługa muzyczna Apple?|Apple Music
+Jak nazywa się konsola Sony?|PlayStation|PS5
+Jak nazywa się konsola Microsoftu?|Xbox
+Jak nazywa się przenośna konsola Nintendo wydana w 2017 roku?|Nintendo Switch|Switch
+Jak nazywa się sklep z grami na PC firmy Valve?|Steam
+Jak nazywa się przenośny komputer do gier od Valve?|Steam Deck

@@ -1,0 +1,153 @@
+# NBA i koszykówka
+Ilu zawodników jednej drużyny gra jednocześnie na boisku w koszykówce?|5
+Ile punktów daje rzut zza łuku?|3
+Ile punktów daje jeden celny rzut wolny?|1
+Ile kwart ma mecz NBA?|4
+Ile minut trwa jedna kwarta w NBA?|12
+Ile sekund ma drużyna NBA na oddanie rzutu?|24
+Po ilu faulach osobistych zawodnik NBA musi opuścić boisko?|6
+Ile drużyn gra w NBA?|30
+Na ile konferencji podzielona jest NBA?|2
+Jak nazywają się dwie konferencje NBA?|Wschodnia i Zachodnia|Zachodnia i Wschodnia|wschod i zachod
+Ile meczów w sezonie zasadniczym rozgrywa każda drużyna NBA?|82
+Do ilu wygranych meczów gra się serię w play-offach NBA?|4
+Jak nazywa się wsad piłki do kosza z góry?|wsad|dunk|slam dunk
+Jak nazywa się podanie nad obręcz zakończone wsadem w powietrzu?|alley-oop|alley oop
+Jak nazywa się błąd polegający na zrobieniu zbyt wielu kroków z piłką?|kroki|błąd kroków|travelling|traveling
+Jak nazywa się zatrzymanie rzutu rywala ręką w powietrzu?|blok
+Jak nazywa się zebranie piłki po niecelnym rzucie?|zbiórka
+Jak nazywa się odebranie piłki rywalowi?|przechwyt
+Jak nazywa się podanie, po którym kolega zdobywa punkty?|asysta
+Jak nazywa się rzut oddany równo z końcową syreną, który wpada do kosza?|buzzer beater|buzzer-beater
+Jak nazywa się dodatkowy czas gry przy remisie?|dogrywka
+Jak nazywa się mecz najlepszych zawodników ligi rozgrywany w połowie sezonu?|Mecz Gwiazd|All-Star Game|All Star Game
+Jak nazywa się coroczny nabór młodych zawodników do NBA?|draft
+Jak nazywa się nagroda dla najbardziej wartościowego zawodnika sezonu?|MVP
+Jak nazywa się zawodnik w pierwszym sezonie gry w NBA?|debiutant|rookie
+Jak nazywa się zawodnik rozgrywający akcje drużyny — pozycja numer 1?|rozgrywający|point guard
+Jak nazywa się pozycja najwyższego zawodnika grającego pod koszem?|środkowy|center
+Jak nazywa się osiągnięcie: dwucyfrowy wynik w dwóch kategoriach statystycznych w jednym meczu?|double-double|double double
+Jak nazywa się faul tak brutalny, że sędziowie oglądają powtórkę — „flagrant”?|faul niesportowy|flagrant foul|flagrant
+Jak nazywa się kara za niesportowe zachowanie, np. kłótnię z sędzią?|faul techniczny|technik|przewinienie techniczne
+Jak nazywa się zagranie dwóch zawodników: zasłona i ścięcie do kosza?|pick and roll|pick'n'roll|pick n roll
+Jak nazywa się szybki atak po przejęciu piłki, zanim obrona zdąży wrócić?|kontratak|szybki atak|fast break
+Jak nazywa się rzut z odchyleniem do tyłu, znak firmowy Jordana i Kobego?|fadeaway|fade away|rzut z odchylenia
+Jak nazywa się rzut hakiem znad głowy, znak firmowy Kareema Abdula-Jabbara?|skyhook|sky hook
+Jak nazywa się zwód, w którym zawodnik robi krok w bok lub w tył przed rzutem — specjalność Hardena?|step-back|step back|stepback
+Jak nazywa się zwód z szybką zmianą ręki kozłującej, który „łamie kostki”?|crossover|cross
+Kto jest uważany za twórcę koszykówki?|James Naismith|Naismith
+W którym roku wymyślono koszykówkę?|1891
+W jakim kraju wymyślono koszykówkę?|Stany Zjednoczone|USA
+W którym roku powstała liga NBA (jako BAA)?|1946
+Jak nazywa się kobieca liga koszykówki w USA?|WNBA
+Jak nazywa się liga rozwojowa NBA?|G League|G-League
+Jak nazywa się hala, w której grają New York Knicks?|Madison Square Garden|MSG
+Kto widnieje na logo NBA?|Jerry West|West
+Z jakiego miasta są Lakers?|Los Angeles
+Z jakiego miasta są Celtics?|Boston
+Z jakiego miasta są Bulls?|Chicago
+Z jakiego miasta są Knicks?|Nowy Jork|New York
+Z jakiego miasta są Heat?|Miami
+Z jakiego miasta są Mavericks?|Dallas
+Z jakiego miasta są Spurs?|San Antonio
+Z jakiego miasta są Raptors?|Toronto
+Z jakiego miasta są Nuggets?|Denver
+Z jakiego miasta są Bucks?|Milwaukee
+Z jakiego miasta są 76ers?|Filadelfia|Philadelphia
+Z jakiego miasta są Suns?|Phoenix
+Z jakiego miasta są Thunder?|Oklahoma City|Oklahoma
+Z jakiego miasta są Cavaliers?|Cleveland
+Z jakiego miasta są Rockets?|Houston
+Z jakiego miasta są Pistons?|Detroit
+Z jakiego miasta są Hawks?|Atlanta
+Z jakiego miasta są Grizzlies?|Memphis
+Z jakiego miasta są Pelicans?|Nowy Orlean|New Orleans
+Z jakiego miasta są Trail Blazers?|Portland
+Z jakiego stanu są Golden State Warriors?|Kalifornia
+Z jakiego stanu są Utah Jazz?|Utah
+Która jedyna drużyna NBA ma siedzibę w Kanadzie?|Toronto Raptors|Raptors
+Jaka druga drużyna z Los Angeles, obok Lakers, gra w NBA?|Clippers|Los Angeles Clippers|LA Clippers
+Jak nazywa się drużyna NBA z Brooklynu?|Nets|Brooklyn Nets
+Jak nazywa się drużyna NBA z Minnesoty?|Timberwolves|Minnesota Timberwolves
+Jak nazywa się drużyna NBA z Sacramento?|Kings|Sacramento Kings
+Jak nazywa się drużyna NBA z Orlando?|Magic|Orlando Magic
+Jak nazywa się drużyna NBA z Indiany?|Pacers|Indiana Pacers
+Jak nazywa się drużyna NBA z Charlotte?|Hornets|Charlotte Hornets
+Jak nazywa się drużyna NBA z Waszyngtonu?|Wizards|Washington Wizards
+Jakiego koloru są klasyczne stroje Boston Celtics?|zielone|zielony|zielonego
+Jakie zwierzę jest w logo Chicago Bulls?|byk
+Jaki numer nosił Michael Jordan w Chicago Bulls?|23
+Z jakim numerem Michael Jordan grał krótko po powrocie z emerytury w 1995 roku?|45
+W jaką dyscyplinę grał zawodowo Michael Jordan podczas pierwszej przerwy od koszykówki?|baseball
+W jakim filmie z 1996 roku Michael Jordan gra w koszykówkę z bohaterami Zwariowanych Melodii?|Kosmiczny mecz|Space Jam
+Jak nazywa się serial dokumentalny Netflixa z 2020 roku o Jordanie i Bulls?|Ostatni taniec|The Last Dance|Last Dance
+Jak nazywa się marka butów Michaela Jordana w Nike?|Air Jordan|Jordan|Jordan Brand
+Ile razy Michael Jordan został MVP finałów NBA?|6
+Jak nazywał się trener Bulls z czasów Jordana, zwany „Mistrzem Zen”?|Phil Jackson|Jackson
+Jak nazywał się skrzydłowy Bulls, prawa ręka Jordana, z numerem 33?|Scottie Pippen|Pippen
+Jak nazywał się ekscentryczny król zbiórek z Bulls, znany z kolorowych włosów?|Dennis Rodman|Rodman
+Jak nazywano reprezentację USA z igrzysk w Barcelonie w 1992 roku?|Dream Team
+Jaki przydomek nosił Kobe Bryant?|Black Mamba|Czarna Mamba|Mamba
+W jakim jedynym klubie NBA grał przez całą karierę Kobe Bryant?|Los Angeles Lakers|Lakers
+Ile punktów zdobył Kobe Bryant w rekordowym meczu z Toronto w 2006 roku?|81
+Ile punktów zdobył Kobe Bryant w swoim ostatnim meczu w karierze?|60
+Ile mistrzostw NBA zdobył Kobe Bryant?|5
+Jak miała na imię córka Kobego Bryanta, która zginęła z nim w 2020 roku?|Gianna|Gigi
+Ile punktów w jednym meczu zdobył Wilt Chamberlain, co jest rekordem NBA?|100
+Ile mistrzostw NBA zdobył Bill Russell?|11
+W jakiej drużynie Bill Russell zdobył wszystkie swoje tytuły?|Boston Celtics|Celtics
+Jaki przydomek nosi LeBron James?|King James|Król|The King|Król James
+Z jakiego miasta w stanie Ohio pochodzi LeBron James?|Akron
+Jaka drużyna wybrała LeBrona Jamesa w drafcie w 2003 roku?|Cleveland Cavaliers|Cavaliers|Cavs
+Do jakiej drużyny przeszedł LeBron James w 2010 roku po słynnej „Decyzji”?|Miami Heat|Heat
+Ile mistrzostw NBA zdobył LeBron James?|4
+Jak ma na imię syn LeBrona Jamesa, z którym zagrał razem w Lakers?|Bronny|LeBron Jr.
+Który zawodnik jako pierwszy w historii przekroczył 40 tysięcy punktów w NBA?|LeBron James|LeBron
+W jakiej drużynie gra Stephen Curry?|Golden State Warriors|Warriors
+Kto ma najwięcej celnych rzutów za trzy w historii NBA?|Stephen Curry|Curry|Steph Curry
+Jak nazywano duet strzelców Curry i Klay Thompson?|Splash Brothers
+Jak nazywa się trener Warriors, były zawodnik Bulls Jordana?|Steve Kerr|Kerr
+Ile zwycięstw w sezonie zasadniczym 2015/16 odnieśli Warriors, co jest rekordem?|73
+Jaki przydomek nosi Giannis Antetokounmpo?|Greek Freak|Grecki Dziwak
+Z jakiego kraju pochodzi Giannis Antetokounmpo?|Grecja
+Z jakiego kraju pochodzi Nikola Jokić?|Serbia
+Jaki przydomek nosi Nikola Jokić?|Joker
+Z jakiego kraju pochodzi Luka Dončić?|Słowenia
+Do jakiej drużyny Luka Dončić został niespodziewanie oddany w lutym 2025 roku?|Los Angeles Lakers|Lakers
+W jakim europejskim klubie grał Luka Dončić przed NBA?|Real Madryt|Real
+Z jakiego kraju pochodził Dirk Nowitzki?|Niemcy
+W jakiej jedynej drużynie NBA grał Dirk Nowitzki?|Dallas Mavericks|Mavericks|Mavs
+Z jakiego kraju pochodzi Victor Wembanyama?|Francja
+Z jakiego kraju pochodzi Shai Gilgeous-Alexander?|Kanada
+Z jakiego kraju pochodził Yao Ming?|Chiny
+Jaki przydomek nosił Shaquille O'Neal?|Shaq|Diesel
+Jaki przydomek nosił Earvin Johnson z Lakers?|Magic|Magic Johnson
+Jak nazywał się wielki rywal Magica Johnsona z Boston Celtics?|Larry Bird|Bird
+Jaki przydomek nosił Allen Iverson?|The Answer|AI
+Jaki przydomek nosi Kevin Durant?|KD|Slim Reaper|Durantula
+Jaki przydomek nosił Tim Duncan?|The Big Fundamental|Big Fundamental
+Jaki przydomek nosi James Harden?|The Beard|Broda
+Jaki przydomek nosił Karl Malone?|Listonosz|The Mailman|Mailman
+Jaki przydomek nosił Hakeem Olajuwon?|The Dream|Dream
+Jak nazywał się trener San Antonio Spurs przez prawie 30 lat?|Gregg Popovich|Popovich
+Który Polak grał w NBA w latach 2007–2019, m.in. w Orlando Magic i Washington Wizards?|Marcin Gortat|Gortat
+Jaki przydomek nosił Marcin Gortat w NBA?|Polish Hammer|Polski Młot
+Który Polak jako pierwszy zagrał w NBA, w 2002 roku w Memphis Grizzlies?|Cezary Trybański|Trybański
+Który Polak wybrany w drafcie 2003 grał w NBA m.in. w Phoenix Suns i Houston Rockets?|Maciej Lampe|Lampe
+W jakiej drużynie NBA gra Jeremy Sochan?|San Antonio Spurs|Spurs
+Jakie miejsce zajęła Polska na Eurobaskecie w 2022 roku?|4|czwarte
+Kto był liderem reprezentacji Polski na Eurobaskecie 2022, autor triple-double z Słowenią?|Mateusz Ponitka|Ponitka
+Jaka drużyna zdobyła mistrzostwo NBA w 2016 roku?|Cleveland Cavaliers|Cavaliers|Cavs
+Jaka drużyna zdobyła mistrzostwo NBA w 2019 roku?|Toronto Raptors|Raptors
+Jaka drużyna zdobyła mistrzostwo NBA w 2020 roku, w „bańce” w Orlando?|Los Angeles Lakers|Lakers
+Jaka drużyna zdobyła mistrzostwo NBA w 2021 roku?|Milwaukee Bucks|Bucks
+Jaka drużyna zdobyła mistrzostwo NBA w 2023 roku?|Denver Nuggets|Nuggets
+Jaka drużyna zdobyła mistrzostwo NBA w 2024 roku?|Boston Celtics|Celtics
+Jaka drużyna zdobyła mistrzostwo NBA w 2025 roku?|Oklahoma City Thunder|Thunder|OKC
+Która drużyna ma najwięcej mistrzostw NBA w historii?|Boston Celtics|Celtics
+Jak nazywa się puchar za mistrzostwo NBA?|Larry O'Brien Trophy|Trofeum Larry'ego O'Briena|Larry O'Brien
+W jakim parku rozrywki rozegrano końcówkę sezonu NBA 2020 z powodu pandemii?|Disney World|Walt Disney World|Disney
+Jak nazywa się seria gier wideo o NBA wydawana co roku przez 2K?|NBA 2K|2K
+Jak nazywa się uliczna odmiana koszykówki grana na jeden kosz, dyscyplina olimpijska od 2021 roku?|koszykówka 3x3|3x3|3 na 3
+Jak nazywa się słynna pokazowa drużyna koszykarska z Harlemu?|Harlem Globetrotters|Globetrotters
+Jak nazywa się konkurs podczas Weekendu Gwiazd, w którym liczy się efektowność?|konkurs wsadów|Slam Dunk Contest|Dunk Contest
