@@ -484,11 +484,11 @@ function renderGame() {
   $('#hud').innerHTML = `
     <div class="hud-l"><span class="logo tiny"><span>Trzy</span> <span class="logo-b">Szanse</span></span><span class="chip">${stName}</span>
       ${g.stage === 3 && g.mode !== 'end' ? `<span class="chip dim">${t('left', { n: g.finalLeft })}</span>` : ''}</div>
-    <div class="hud-r">${amSpec ? `<span class="chip specchip">${t('spectating')}</span>` : ''}${S.specs.length ? `<span class="chip dim" title="${esc(S.specs.map(x => x.name).join(', '))}">👀 ${S.specs.length}</span>` : ''}<span class="chip dim">${t('room', { c: S.code })}</span>
+    <div class="hud-r">${amSpec ? `<span class="chip specchip">${t('spectating')}</span>` : ''}${S.specs.length ? `<span class="chip dim" title="${esc(S.specs.map(x => x.name).join(', '))}">👀 ${S.specs.length}</span>` : ''}<span class="chip dim roomchip">${t('room', { c: S.code })}</span>
       <button class="chip btnchip" id="hud-lang" aria-label="Język / Language">${LANG === 'pl' ? 'PL' : 'EN'}</button>
       <button class="chip btnchip" id="mute" aria-label="${t('sound')}">${muted ? '🔇' : '🔊'}</button>
       ${fsBtn('chip btnchip')}
-      <button class="chip btnchip quit ${quitArmed ? 'armed' : ''}" id="hud-quit" aria-label="${t('leaveGame')}">${quitArmed ? t('sure') : '⏏ ' + t('leaveGame')}</button></div>`;
+      <button class="chip btnchip quit ${quitArmed ? 'armed' : ''}" id="hud-quit" aria-label="${t('leaveGame')}">${quitArmed ? t('sure') : '⏏<span class="ql"> ' + t('leaveGame') + '</span>'}</button></div>`;
   $('#mute').onclick = () => { muted = !muted; store.set('ts-muted', muted); renderGame(); };
   $('#hud-quit').onclick = () => {
     // wyjście wymaga drugiego kliknięcia, żeby nie wypaść z gry przypadkiem
@@ -545,7 +545,8 @@ function renderGame() {
     if ($('#report')) $('#report').onclick = e => { reportedQ = g.qnum; tx({ t: 'report' }); e.target.disabled = true; e.target.textContent = t('reported'); };
     const f = $('#ans-form');
     if (f) { f.onsubmit = e => { e.preventDefault(); tx({ t: 'answer', text: $('#ans').value }); }; setTimeout(() => $('#ans') && $('#ans').focus(), 50); }
-    if ($('#buzz')) $('#buzz').onclick = () => tx({ t: 'buzz' });
+    // na telefonie zgłoszenie leci już przy dotknięciu ekranu, bez czekania na puszczenie palca
+    if ($('#buzz')) { $('#buzz').onpointerdown = e => { e.preventDefault(); tx({ t: 'buzz' }); }; $('#buzz').onclick = () => tx({ t: 'buzz' }); }
     panel.querySelectorAll('[data-t]').forEach(b => b.onclick = () => tx({ t: 'nominate', id: b.dataset.t }));
     if ($('#again')) $('#again').onclick = () => tx({ t: 'again' });
     if ($('#quit')) $('#quit').onclick = () => { tx({ t: 'leave' }); goHome(); };
@@ -554,7 +555,7 @@ function renderGame() {
     if (skey !== lastSoundKey) {
       lastSoundKey = skey;
       if (g.mode === 'reveal') g.reveal.ok ? beep([660, 880, 1175], 0.11) : beep([220, 165], 0.22, 'sawtooth');
-      else if (g.mode === 'question' && g.turn === myId) beep([880], 0.1);
+      else if (g.mode === 'question' && g.turn === myId) { beep([880], 0.1); try { navigator.vibrate && navigator.vibrate(80); } catch {} }
       else if (g.mode === 'intro') beep([392, 523, 659, 784], 0.14, 'triangle');
       else if (g.mode === 'end') beep([523, 659, 784, 1047, 1319], 0.16, 'triangle');
     }
