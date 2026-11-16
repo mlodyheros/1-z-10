@@ -36,23 +36,10 @@ for (const f of fs.readdirSync(QDIR).filter(f => f.endsWith('.txt')).sort()) {
 }
 console.log(`Wczytano ${CATS.length} kategorii, ${CATS.reduce((s, c) => s + c.qs.length, 0)} pytań`);
 
-// ---------- zgłoszone pytania (plik zgloszenia.txt, podgląd dla gospodarza) ----------
-const REP_FILE = path.join(__dirname, 'zgloszenia.txt');
-const repId = line => crypto.createHash('sha1').update(line).digest('hex').slice(0, 10);
-function parseReport(line) {
-  const f = line.split(' | ');
-  const o = { id: repId(line), line, ts: f[0] || '', cat: f[1] || '', q: f[2] || '' };
-  for (const x of f.slice(3)) {
-    if (x.startsWith('odp: ')) o.a = x.slice(5);
-    else if (x.startsWith('zgłosił: ')) o.by = x.slice(9);
-    else if (x.startsWith('padła odpowiedź: ')) o.given = x.slice(17);
-    else if (x.startsWith('plik: ')) o.src = x.slice(6);
-  }
-  return o;
-}
-let REPORTS = [];
-try { REPORTS = fs.readFileSync(REP_FILE, 'utf8').split('\n').filter(Boolean).map(parseReport); } catch {}
-const saveReports = () => fs.writeFile(REP_FILE, REPORTS.map(x => x.line + '\n').join(''), () => {});
+// ---------- zgłoszone pytania (GitHub albo plik zgloszenia.txt) ----------
+const REPORTS = require('./reports');
+// lista zgłoszeń się zmieniła: odśwież poczekalnie (widzą ją gospodarze)
+REPORTS.init(() => { for (const x of rooms.values()) if (x.phase === 'lobby') send(x); });
 
 // ---------- HTTP ----------
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon' };
@@ -60,6 +47,7 @@ const server = http.createServer((req, res) => {
   // zły adres (np. „/%”) nie może wywrócić całego serwera
   let p;
   try { p = decodeURIComponent(req.url.split('?')[0]); } catch { res.writeHead(400); return res.end(); }
+  if (p === '/ping') { res.writeHead(200, { 'Content-Type': 'text/plain' }); return res.end('ok'); }
   if (p === '/') p = '/index.html';
   const file = path.normalize(path.join(PUB, p));
   if (!file.startsWith(PUB + path.sep)) { res.writeHead(403); return res.end(); }
@@ -128,7 +116,7 @@ function send(r) {
   const s = pub(r);
   // gospodarz w poczekalni dostaje też listę zgłoszonych pytań
   const hs = r.phase === 'lobby' ? Object.assign({}, s, {
-    reports: REPORTS.slice(-60).reverse().map(x => ({ id: x.id, ts: x.ts, cat: x.cat, q: x.q, a: x.a, by: x.by, given: x.given, src: x.src, banned: (r.banned || new Set()).has(x.q) })),
+    reports: REPORTS.all().slice(-60).reverse().map(x => ({ id: x.id, ts: x.ts, cat: x.cat, q: x.q, a: x.a, by: x.by, given: x.given, src: x.src, banned: (r.banned || new Set()).has(x.q) })),
   }) : s;
   for (const p of humansIn(r)) if (p.connected && p.ws && p.ws.readyState === 1) p.ws.send(JSON.stringify({ t: 'state', s: p.id === r.hostId ? hs : s, you: p.id, spec: !!p.spec }));
 }
@@ -499,16 +487,15 @@ wss.on('connection', ws => {
       }
       case 'repBan': case 'repDel': {
         if (!isHost || r.phase !== 'lobby') return;
-        const rep = REPORTS.find(x => x.id === m.id);
+        const rep = REPORTS.find(m.id);
         if (!rep) return;
         if (m.t === 'repBan') {
           // wyłączenie pytania tylko w tym pokoju (do czasu poprawienia w pliku)
           r.banned = r.banned || new Set();
           r.banned.has(rep.q) ? r.banned.delete(rep.q) : r.banned.add(rep.q);
-        } else { REPORTS = REPORTS.filter(x => x !== rep); saveReports(); }
-        // zmiana listy zgłoszeń dotyczy gospodarzy wszystkich pokoi w poczekalni
-        for (const x of rooms.values()) if (x.phase === 'lobby') send(x);
-        return;
+          return send(r);
+        }
+        return REPORTS.remove(rep.id);
       }
       case 'profile':
         if (r.phase !== 'lobby') return;
@@ -526,16 +513,12 @@ wss.on('connection', ws => {
         r.players.push(b); return send(r);
       }
       case 'report': {
-        // zgłoszenie dziwnego pytania — trafia do pliku zgloszenia.txt do późniejszego sprawdzenia
+        // zgłoszenie dziwnego pytania — trafia na GitHuba (albo do pliku) do sprawdzenia
         if (!g || !g.cur || me._rep === g.id + ':' + g.qnum) return;
         me._rep = g.id + ':' + g.qnum;
         const clean = s => String(s).replace(/[\r\n]+/g, ' ').replace(/ \| /g, ' / ');
-        const line = [new Date().toISOString().slice(0, 16).replace('T', ' '), g.cur.cat.name, g.cur.item.q, 'odp: ' + g.cur.item.a.join(' / '),
-          'zgłosił: ' + clean(me.name), g.reveal && g.reveal.given ? 'padła odpowiedź: ' + clean(g.reveal.given) : '', 'plik: ' + g.cur.item.src].filter(Boolean).join(' | ');
-        REPORTS.push(parseReport(line));
-        if (REPORTS.length > 500) REPORTS.shift();
-        fs.appendFile(REP_FILE, line + '\n', () => {});
-        return;
+        return REPORTS.add({ cat: g.cur.cat.name, q: g.cur.item.q, a: g.cur.item.a.join(' / '), by: clean(me.name),
+          given: g.reveal && g.reveal.given ? clean(g.reveal.given) : '', src: g.cur.item.src });
       }
       case 'botLevel': {
         if (!isHost || r.phase !== 'lobby') return;
@@ -625,5 +608,13 @@ wss.on('connection', ws => {
 
 // pojedynczy błąd w jednym pokoju nie może zamknąć gry wszystkim pozostałym
 process.on('uncaughtException', e => console.error('Błąd:', e));
+
+// Render (darmowy plan) usypia serwer po 15 min bez ruchu, a pierwsze wejście trwa wtedy ~50 s.
+// Serwer co 10 minut odwiedza sam siebie pod publicznym adresem, więc nie zasypia (wyłączenie: KEEP_AWAKE=0).
+const SELF_URL = process.env.RENDER_EXTERNAL_URL || process.env.SELF_URL;
+if (SELF_URL && process.env.KEEP_AWAKE !== '0') {
+  setInterval(() => fetch(SELF_URL.replace(/\/$/, '') + '/ping').catch(() => {}), 10 * 60 * 1000).unref();
+  console.log('Czuwanie włączone: ' + SELF_URL);
+}
 
 server.listen(PORT, () => console.log(`Trzy Szanse działa: http://localhost:${PORT}`));

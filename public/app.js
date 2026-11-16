@@ -135,8 +135,10 @@ function connect(first) {
   if (ws && ws.readyState <= 1) { ws.onclose = null; ws.close(); }
   ws = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host);
   ws.onopen = () => ws.send(JSON.stringify(first));
+  ws.onerror = () => { if (!sess) { conn(false); toast(t('noServer')); } };
   ws.onmessage = e => {
     const m = JSON.parse(e.data);
+    conn(false);
     if (m.t === 'joined') {
       sess = { code: m.code, id: m.id, secret: m.secret }; sstore.set(sess); myId = m.id;
       history.replaceState(null, '', '?pokoj=' + m.code);
@@ -154,12 +156,21 @@ function connect(first) {
   };
   ws.onclose = () => {
     if (!sess) return;
-    toast(t('reconnecting'));
+    conn(true);
     setTimeout(() => { if (sess) connect({ t: 'rejoin', ...sess }); }, 1500);
   };
 }
 const tx = m => { if (ws && ws.readyState === 1) ws.send(JSON.stringify(m)); };
+// zasłona „Łączę ze studiem…” przy zerwanym połączeniu (np. restart serwera po aktualizacji)
+function conn(on) {
+  let el = $('#conn');
+  if (!el) { el = document.createElement('div'); el.id = 'conn'; el.setAttribute('role', 'status'); document.body.appendChild(el); }
+  el.innerHTML = `<div class="conn-box"><div class="conn-spin"></div><b>${t('connecting')}</b><small>${t('connectingSub')}</small><button class="btn ghost" id="conn-home">${t('leave')}</button></div>`;
+  el.classList.toggle('show', on);
+  $('#conn-home').onclick = () => { conn(false); goHome(); };
+}
 function goHome() {
+  conn(false);
   sess = null; sstore.set(null); S = null; closeGallery();
   if (ws) { ws.onclose = null; ws.close(); }
   history.replaceState(null, '', location.pathname); show('home');
