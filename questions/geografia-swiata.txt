@@ -155,41 +155,12 @@ Jaka waluta obowiązuje na Węgrzech?|forint
 Jaka waluta obowiązuje w Rosji?|rubel
 Jaka waluta obowiązuje w Indiach?|rupia
 Jaka waluta obowiązuje w Chinach?|juan|yuan
-W którym kraju leży najwięcej ośmiotysięczników?|Nepal
-W jakim paśmie górskim leży K2?|Karakorum
-Jaki szczyt jest drugim najwyższym na świecie?|K2|Czogori
-Jaki ośmiotysięcznik, czwarty co do wysokości na świecie, sąsiaduje z Mount Everestem?|Lhotse
-Który ośmiotysięcznik zdobyto jako pierwszy w historii, w 1950 roku?|Annapurna
-Ile jest ośmiotysięczników na świecie?|14
-Na granicy jakich dwóch państw leży Mount Everest?|Nepal i Chiny|Chiny i Nepal
-Jaki jest najniższy z ośmiotysięczników?|Sziszapangma|Shishapangma
-Jak nazywa się lud z Nepalu, słynący z pracy przewodników w Himalajach?|Szerpowie|Szerpa|Sherpa|Szerpów
-Który ośmiotysięcznik nazywany jest „Nagą Górą” albo „Górą Zabójcą”?|Nanga Parbat
 Który kraj jest najczęściej odwiedzany przez turystów na świecie?|Francja
 Jak nazywa się słynna wieża telewizyjna w Toronto?|CN Tower
 Co oznacza skrót GTA, którym określa się Toronto i okolice?|Greater Toronto Area|Wielkie Toronto
 W jakiej prowincji Kanady leży Toronto?|Ontario
 Nad jakim jeziorem leży Toronto?|Ontario|jezioro Ontario
 Jak nazywa się wodospad na granicy Kanady i USA, niedaleko Toronto?|Niagara|wodospad Niagara
-Jaka jest największa pustynia gorąca świata?|Sahara
-Jakie państwo ma najwięcej ludności?|Indie
-Jak nazywa się najwyższy wodospad świata?|Salto Angel|Angel Falls
-Jak nazywa się kanał łączący Morze Śródziemne z Czerwonym?|Kanał Sueski|Sueski
-Jak nazywa się kanał łączący Atlantyk z Pacyfikiem?|Kanał Panamski|Panamski
-Jak nazywa się cieśnina między Europą a Afryką?|Cieśnina Gibraltarska|Gibraltar
-W jakim kraju leży Machu Picchu?|Peru
-W jakim kraju leżą piramidy w Gizie?|Egipt
-W jakim kraju leży Wielki Kanion?|Stany Zjednoczone|USA
-W jakim mieście stoi Statua Wolności?|Nowy Jork
-W jakim mieście stoi wieża Eiffla?|Paryż
-W jakim mieście stoi Koloseum?|Rzym
-W jakim mieście stoi Big Ben?|Londyn
-W jakim mieście stoi najwyższy budynek świata, Burdż Chalifa?|Dubaj
 
-Jaka rzeka przepływa przez Budapeszt i Wiedeń?|Dunaj
-W jakim kraju leży Transylwania?|Rumunia
 W jakim kraju leży Bali?|Indonezja
 W jakim kraju leży Santorini?|Grecja
-Jakie państwo jest największe w Ameryce Południowej?|Brazylia
-Jakie państwo jest największe w Afryce?|Algieria
-Jak nazywa się morze między Europą a Afryką?|Morze Śródziemne|Śródziemne

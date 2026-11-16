@@ -49,7 +49,6 @@ Ile wynosi w przybliżeniu wiek Wszechświata w miliardach lat?|13,8|14
 Ile wynosi w przybliżeniu wiek Ziemi w miliardach lat?|4,5|4,6
 Ile dni trwa rok przestępny?|366
 Ile godzin trwa w przybliżeniu obrót Ziemi wokół osi?|24
-Ile dni, w zaokrągleniu, trwa obieg Księżyca wokół Ziemi?|27|28
 Jak nazywa się zjawisko, gdy Księżyc zasłania Słońce?|zaćmienie Słońca
 Jak nazywa się zjawisko, gdy Księżyc wchodzi w cień Ziemi?|zaćmienie Księżyca
 Jak nazywa się faza Księżyca, gdy widać całą tarczę?|pełnia
@@ -154,26 +153,8 @@ Jak nazywał się główny konstruktor radzieckich rakiet?|Siergiej Korolow|Koro
 Która planeta Układu Słonecznego świeci własnym światłem?|żadna|zadna|nie ma takiej|0
 Czy pulsar jest większy, czy mniejszy od gwiazdy, z której powstał?|mniejszy|mniejsza
 Co powstaje, gdy bardzo masywna gwiazda zapada się pod własnym ciężarem?|czarna dziura|czarną dziurę|czarne dziury
-Która planeta jest najbliżej Słońca?|Merkury
-Która planeta jest największa w Układzie Słonecznym?|Jowisz
-Która planeta ma najbardziej widoczne pierścienie?|Saturn
-Która planeta nazywana jest Czerwoną Planetą?|Mars
-Która planeta jest najgorętsza w Układzie Słonecznym?|Wenus
-Ile księżyców ma Ziemia?|1
-Jak nazywa się galaktyka, w której leży Układ Słoneczny?|Droga Mleczna
-Ile minut w przybliżeniu światło leci ze Słońca na Ziemię?|8
-Jak nazywa się wielka burza widoczna na Jowiszu?|Wielka Czerwona Plama
-Który pierwiastek jest głównym paliwem Słońca?|wodór
 Jak nazywa się mały helikopter, który latał na Marsie?|Ingenuity
-Jak nazywa się program NASA powrotu ludzi na Księżyc?|Artemis
 Jak nazywa się największa rakieta SpaceX, testowana od 2023 roku?|Starship
-Która planeta obraca się „na boku”, z osią prawie w płaszczyźnie orbity?|Uran
 Jak nazywa się pas planetoid leżący między Marsem a jaką planetą?|Jowisz
-Jak nazywa się planeta karłowata zdegradowana z listy planet w 2006 roku?|Pluton
 
-Jak nazywa się najjaśniejsza planeta na nocnym niebie, zwana Gwiazdą Poranną?|Wenus
 Ile lat świetlnych dzieli nas od najbliższej gwiazdy poza Słońcem (w zaokrągleniu)?|4
-Jak nazywa się pierwsza kobieta w kosmosie?|Walentina Tierieszkowa|Tierieszkowa
-Jak nazywał się pies, pierwsze zwierzę na orbicie?|Łajka
-Jak nazywa się księżyc Jowisza z oceanem pod lodem, cel misji Europa Clipper?|Europa
-Jak nazywa się obszar wokół gwiazdy, gdzie może istnieć woda w stanie ciekłym?|ekosfera|strefa zamieszkiwalna|strefa życia

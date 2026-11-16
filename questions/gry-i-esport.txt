@@ -18,7 +18,6 @@ W którym roku ukazała się konsola Nintendo Switch?|2017
 W którym roku ukazała się konsola Nintendo Switch 2?|2025
 W którym roku ukazała się konsola PlayStation 5?|2020
 Jak nazywa się pad do PlayStation 5?|DualSense
-Jak nazywa się przenośny komputer do gier firmy Valve z 2022 roku?|Steam Deck
 Jaka firma stworzyła Fortnite?|Epic Games|Epic
 Jak nazywa się waluta w grze Fortnite?|V-dolce|V-Bucks|vbucks
 Jak nazywa się battle royale z 2017 roku, w którym patelnia zatrzymuje kule?|PUBG|PlayerUnknown's Battlegrounds
@@ -77,12 +76,6 @@ Jak nazywa się gra z 2017 roku o rycerzu-robaczku w podziemnym królestwie?|Hol
 Jak nazywa się gra z 2018 roku o wspinaczce Madeline na górę?|Celeste
 Jak nazywa się gra z 2020 roku o Zagreusie uciekającym z podziemi?|Hades
 Jak nazywa się gra z 2019 roku, w której gra się złośliwą gęsią?|Untitled Goose Game
-Jak nazywa się przeglądarkowa gra o zgadywaniu pięcioliterowego słowa w sześciu próbach?|Wordle
-Jaka gazeta kupiła Wordle w 2022 roku?|The New York Times|New York Times|NYT
-Jak nazywa się mobilna gra Supercell z 2016 roku o pojedynkach kartami na arenie?|Clash Royale
-Jak nazywa się mobilna gra Supercell z 2018 roku z walkami trzech na trzech?|Brawl Stars
-Jak nazywa się mobilna gra o uciekaniu po torach przed strażnikiem i psem?|Subway Surfers
-Jak nazywa się platforma z grami tworzonymi przez graczy, z walutą Robux?|Roblox
 Jak nazywa się waluta w Robloxie?|Robux
 Jak nazywa się gra na Robloxie o uprawie ogródka, która w 2025 roku biła rekordy graczy?|Grow a Garden
 Jak nazywa się tryb Minecrafta z nieograniczonymi blokami i bez głodu?|kreatywny|creative
@@ -102,9 +95,7 @@ Jak nazywa się gra Ubisoftu z 2025 roku osadzona w feudalnej Japonii?|Assassin'
 Jak nazywa się czeska gra RPG o średniowiecznych Czechach z kontynuacją z 2025 roku?|Kingdom Come: Deliverance|Kingdom Come
 Jak nazywa się kooperacyjna gra z 2020 roku o polowaniu na duchy?|Phasmophobia
 Jak nazywa się survival z 2021 roku o wikingach w czyśćcu?|Valheim
-Jaka platforma do czatów głosowych jest najpopularniejsza wśród graczy?|Discord
 Jak nazywa się sklep z grami Epic, który co tydzień rozdaje darmowe gry?|Epic Games Store
-Jak nazywa się sklep z grami firmy Valve?|Steam
 Jak nazywa się najpopularniejsza wyprzedaż gier na Steamie, latem i zimą?|Steam Sale|wyprzedaż
 Jak nazywa się strzelanka Blizzarda z 2016 roku z bohaterami takimi jak Tracer?|Overwatch
 Jak nazywa się gra Nintendo z kolorowymi kałamarnicami strzelającymi farbą?|Splatoon
@@ -118,7 +109,6 @@ Jak nazywa się kosmiczna gra RPG Bethesdy z 2023 roku?|Starfield
 Jak nazywa się gra roguelike z 2024 roku o pokerowych układach i jokerach?|Balatro
 Jak nazywa się gra z 2024 roku o małpie z chińskiej powieści „Podróż na Zachód”?|Black Myth: Wukong|Black Myth Wukong|Wukong
 Jak nazywa się gra z 2023 roku z Marvelem, Peterem i Milesem?|Marvel's Spider-Man 2|Spider-Man 2
-Jak nazywa się nastoletni Spider-Man o imieniu Miles?|Miles Morales|Morales
 Kto jest reżyserem gier „A Way Out”, „It Takes Two” i „Split Fiction”?|Josef Fares|Fares
 Jak nazywa się gra z 2025 roku od twórców It Takes Two, także dla dwóch graczy?|Split Fiction
 Jak nazywa się darmowa gra mobilna z kartami Pokémon wydana w 2024 roku?|Pokémon TCG Pocket|Pokemon TCG Pocket
@@ -157,11 +147,9 @@ Jak nazywa się gra o budowie miasta z 2015 roku, następczyni SimCity?|Cities: 
 Jak nazywa się gra z 2022 roku z Ellie i Joelem — remake pierwszej części?|The Last of Us Part I|The Last of Us
 Jak nazywa się gra Nintendo z 2024 roku, w której główną bohaterką jest księżniczka Zelda?|Echoes of Wisdom|The Legend of Zelda: Echoes of Wisdom
 W jakim fikcyjnym mieście toczy się akcja GTA V?|Los Santos
-W jakim fikcyjnym stanie, wzorowanym na Florydzie, toczy się akcja GTA VI?|Leonida
 W którym roku ukazał się Fortnite?|2017
 Na jakim prawdziwym mieście wzorowane jest Los Santos z GTA V?|Los Angeles
 Jak ma na imię trzeci grywalny bohater GTA V, obok Michaela i Trevora?|Franklin|Franklin Clinton
-Jak ma na imię bohaterka GTA VI, pierwsza od lat grywalna kobieta w głównej serii?|Lucia
 Jakie studio tworzy serię Grand Theft Auto?|Rockstar Games|Rockstar
 W którym roku ukazało się GTA V?|2013
 Jak nazywa się tryb sieciowy GTA V?|GTA Online
@@ -173,17 +161,11 @@ Jak nazywa się bohater serii „The Legend of Zelda”?|Link
 Jak nazywa się żółty stworek, maskotka Pokémonów?|Pikachu
 Jak nazywa się polskie studio, twórca „Wiedźmina”?|CD Projekt Red|CD Projekt|CDPR
 Jak nazywa się główny bohater „Wiedźmina”?|Geralt|Geralt z Rivii
-Jak nazywa się gra CD Projektu z 2020 roku osadzona w Night City?|Cyberpunk 2077|Cyberpunk
 Jak nazywa się taktyczna strzelanka Valve z bombą i terrorystami?|Counter-Strike|CS|CS2
 Jak nazywa się gra MOBA firmy Riot z Przywoływaczami?|League of Legends|LoL
-Jak nazywa się strzelanka firmy Riot z agentami?|Valorant
-Jak nazywa się gra roku 2022 studia FromSoftware?|Elden Ring
-Jak nazywa się gra roku 2023 studia Larian?|Baldur's Gate 3|Baldurs Gate 3
 Jak nazywa się gra o Kratosie, bogu wojny?|God of War
 Jak nazywa się gra o Joelu i Ellie?|The Last of Us
-Jak nazywa się gra z 2020 roku, w której urządza się wyspę ze zwierzakami?|Animal Crossing|Animal Crossing: New Horizons
 Jak nazywa się piłkarska gra samochodami z rakietowym napędem?|Rocket League
-Jak nazywa się battle royale od Respawn z Legendami?|Apex Legends|Apex
 Jak nazywa się seria wojennych strzelanek Activision?|Call of Duty|CoD
 Jak nazywa się symulator życia od EA?|The Sims|Sims
 Jak nazywa się klasyczna gra z układaniem spadających klocków?|Tetris

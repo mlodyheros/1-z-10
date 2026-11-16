@@ -152,24 +152,9 @@ Jaka rasa kota nie ma sierści?|sfinks
 Jaka rasa konia jest najmniejsza — popularna u dzieci?|kucyk|kuc szetlandzki
 Jakie zwierzę jest wymarłym przodkiem bydła domowego, wytępionym w Polsce w 1627 roku?|tur
 Jakie zwierzę żyje najdłużej wśród ssaków, nawet ponad 200 lat?|wal grenlandzki
-Jakie zwierzę jest najszybsze na lądzie?|gepard
-Jakie zwierzę jest największe na świecie?|płetwal błękitny|wieloryb błękitny
-Jakie zwierzę lądowe jest największe?|słoń afrykański|słoń
-Jakie zwierzę jest najwyższe?|żyrafa
-Jaki ptak jest największy na świecie?|struś
 Jaki ptak jest najszybszy w locie nurkowym?|sokół wędrowny|sokół
 Jaki ptak nie lata i żyje na Antarktydzie?|pingwin
-Jaki ssak potrafi latać?|nietoperz
-Jaki ssak śpi do góry nogami?|nietoperz
-Jakie zwierzę zmienia kolor skóry?|kameleon
-Jakie zwierzę nosi dom na plecach?|ślimak|żółw
-Jakie zwierzę ma garby?|wielbłąd
-Jakie zwierzę ma paski czarno-białe?|zebra
 Jakie zwierzę je bambus i jest czarno-białe?|panda|panda wielka
-Jakie zwierzę jest królem dżungli?|lew
-Ile żołądków — komór — ma krowa?|4
-Jakie zwierzę buduje tamy?|bóbr
 Jakie zwierzę jest najwolniejszym ssakiem i wisi na drzewach?|leniwiec
 Jaki gad żyje najdłużej, nawet ponad 150 lat?|żółw|żółw olbrzymi
-Jaki owad wytwarza miód?|pszczoła
 Jaki pająk z czerwoną plamą jest jednym z najbardziej jadowitych?|czarna wdowa

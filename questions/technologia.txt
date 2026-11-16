@@ -25,9 +25,7 @@ Jaka firma stworzyła konsolę Xbox?|Microsoft
 Jaka firma stworzyła konsolę Switch?|Nintendo
 Jaka firma produkuje procesory Ryzen?|AMD
 Jaka firma produkuje procesory Core?|Intel
-Jaka firma produkuje karty graficzne GeForce?|Nvidia
 Jaka firma stworzyła ChatGPT?|OpenAI
-Jaka firma stworzyła asystenta Claude?|Anthropic
 Jaka firma jest właścicielem YouTube'a?|Google|Alphabet
 Jaka firma jest właścicielem Instagrama i WhatsAppa?|Meta|Facebook
 Jaka firma stworzyła telefony z serii Galaxy?|Samsung
@@ -55,7 +53,6 @@ Jak nazywa się złośliwy program powielający się samodzielnie?|wirus
 Jak nazywa się program szyfrujący dane i żądający okupu?|ransomware
 Jak nazywa się wyłudzanie danych przez podszywanie się pod zaufaną instytucję?|phishing
 Jak nazywa się zapora chroniąca sieć przed nieautoryzowanym dostępem?|firewall|zapora sieciowa
-Jak nazywa się niechciana poczta elektroniczna?|spam
 Jak nazywa się sieć łącząca komputery na całym świecie?|internet
 Jak nazywa się bezprzewodowa sieć lokalna?|Wi-Fi|WiFi
 Jak nazywa się technologia bezprzewodowa krótkiego zasięgu nazwana od duńskiego króla?|Bluetooth
@@ -75,7 +72,6 @@ Jak nazywa się pingwin, maskotka Linuksa?|Tux
 Jak nazywa się internetowa encyklopedia tworzona przez wolontariuszy?|Wikipedia
 Jak nazywa się pierwsza kryptowaluta?|bitcoin
 Kto jest tajemniczym twórcą bitcoina?|Satoshi Nakamoto|Nakamoto
-Jak nazywa się technologia rozproszonego rejestru stojąca za kryptowalutami?|blockchain|łańcuch bloków
 Jak nazywa się przechowywanie danych na zdalnych serwerach?|chmura|chmura obliczeniowa
 Jak nazywa się nauka maszyn na podstawie danych?|uczenie maszynowe|machine learning
 Jak brzmi angielski skrót sztucznej inteligencji?|AI
@@ -95,7 +91,6 @@ Jak nazywa się kod kreskowy w kształcie kwadratu skanowany telefonem?|kod QR|Q
 Jak nazywa się system nawigacji satelitarnej USA?|GPS
 Jak nazywa się europejski system nawigacji satelitarnej?|Galileo
 Jak nazywa się technologia płatności zbliżeniowych — podaj skrót.|NFC
-Jak nazywa się piąta generacja sieci komórkowej?|5G
 Jak nazywa się wiadomość tekstowa w telefonii komórkowej?|SMS
 Jak nazywa się ekran reagujący na dotyk?|ekran dotykowy|dotykowy
 Jak nazywa się drukowanie przestrzennych obiektów warstwa po warstwie?|druk 3D
@@ -111,18 +106,13 @@ Jak nazywa się format krótkich animowanych obrazków?|GIF
 Jak nazywa się serwis z krótkimi filmami należący do chińskiej firmy ByteDance?|TikTok
 Jak nazywał się serwis X przed zmianą nazwy w 2023 roku?|Twitter
 Jak nazywa się serwis społecznościowy dla profesjonalistów?|LinkedIn
-Jak nazywa się polski serwis aukcyjny założony w 1999 roku?|Allegro
 Jak nazywa się polski system płatności mobilnych sześciocyfrowym kodem?|BLIK
 Jak nazywała się polska „społecznościówka” szkolna popularna po 2006 roku?|Nasza Klasa|nasza-klasa
 Jak nazywał się polski komunikator internetowy ze słoneczkiem w logo?|Gadu-Gadu|GG
-Jak nazywa się platforma do wideorozmów, która zyskała popularność w pandemii?|Zoom
 Jak nazywa się serwis streamingowy z serialem „Stranger Things”?|Netflix
-Jak nazywa się szwedzki serwis streamingu muzyki?|Spotify
 Jak nazywa się platforma do transmisji gier na żywo należąca do Amazona?|Twitch
-Jak nazywa się sklep z grami komputerowymi firmy Valve?|Steam
 Jak nazywa się asystentka głosowa Apple?|Siri
 Jak nazywa się asystentka głosowa Amazona?|Alexa
-Jak nazywa się system operacyjny iPhone'a?|iOS
 Jak nazywa się system operacyjny komputerów Mac?|macOS
 Jak nazywa się nadgryziony owoc w logo firmy z Cupertino?|jabłko
 Jak nazywa się urządzenie wskazujące z przyciskami i kółkiem?|mysz|myszka
@@ -149,7 +139,6 @@ Jak nazywa się twórca języka C?|Dennis Ritchie|Ritchie
 Jak nazywa się twórca Pythona?|Guido van Rossum|van Rossum
 Jak nazywa się sieć społecznościowa ze zdjęciami znikającymi po obejrzeniu, z duszkiem w logo?|Snapchat
 Jak nazywa się elektroniczny czytnik książek Amazona?|Kindle
-Jak nazywa się tablet firmy Apple?|iPad
 Jak od 2021 roku nazywa się firma Marka Zuckerberga, właściciel Facebooka i Instagrama?|Meta|Meta Platforms
 Kto jako pierwszy człowiek w historii miał majątek wyceniany na bilion dolarów?|Elon Musk|Musk
 Jak pierwotnie miał się nazywać Amazon?|Cadabra
@@ -157,23 +146,17 @@ Co sprzedawał Amazon na samym początku działalności?|książki|ksiazki
 Jak nazywa się firma Elona Muska tworząca chip wszczepiany do mózgu?|Neuralink
 Jak nazywają się gogle VR firmy Meta?|Meta Quest|Quest|Oculus Quest|Oculus
 Jaki komunikator z zielonym logo należy do Mety?|WhatsApp
-Jak nazywa się aplikacja Mety konkurująca z Twitterem, uruchomiona w 2023 roku?|Threads
 Jak nazywa się marka samochodów elektrycznych Elona Muska?|Tesla
 W jakim mieście w RPA urodził się Elon Musk?|Pretoria
-Kto założył Microsoft razem z Paulem Allenem?|Bill Gates|Gates
 Kto stworzył system Linux?|Linus Torvalds|Torvalds
 Jak nazywa się system operacyjny Microsoftu?|Windows
 Jak nazywa się procesor graficzny — skrót?|GPU
 Jak nazywa się procesor komputera — skrót?|CPU
 Jak nazywa się pamięć operacyjna — skrót?|RAM
-Jak nazywa się szybki dysk bez ruchomych części — skrót?|SSD
-Ile bitów ma bajt?|8
 Jak nazywa się najpopularniejszy język stron internetowych do struktury — skrót?|HTML
 Jak nazywa się język programowania z wężem w nazwie?|Python
 Jak nazywa się serwis do przechowywania kodu z kotem-ośmiornicą w logo?|GitHub
 Jak nazywa się uniwersalne złącze ładowania wymagane w UE od 2024 roku?|USB-C|USB C
-Jak nazywa się firma produkująca procesory Ryzen?|AMD
-Jak nazywa się firma produkująca procesory Core?|Intel
 Jak nazywa się tajwański producent chipów dla Apple i Nvidii — skrót?|TSMC
 Jak nazywa się samochód bez kierowcy?|autonomiczny|samochód autonomiczny
 Jak nazywają się taksówki bez kierowcy firmy Google w USA?|Waymo

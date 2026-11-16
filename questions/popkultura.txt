@@ -1,19 +1,13 @@
 # Gry, seriale i popkultura
 Jak nazywa się hydraulik w czerwonej czapce z gier Nintendo?|Mario
-Jak nazywa się brat Mario w zielonej czapce?|Luigi
 Jak nazywa się niebieski jeż z gier Segi?|Sonic
-Jak nazywa się elf w zielonej tunice z serii „The Legend of Zelda”?|Link
 Jak nazywa się żółty elektryczny Pokémon, towarzysz Asha?|Pikachu
 Jak nazywa się żółta kulka zjadająca kropki w labiryncie?|Pac-Man|Pacman
-Jak nazywa się gra o układaniu spadających klocków?|Tetris
 Jak nazywa się gra, w której buduje się świat z sześciennych bloków?|Minecraft
-Jak nazywa się zielony wybuchający stwór z Minecrafta?|Creeper
 Jak nazywa się gra z trybem battle royale, w której buduje się konstrukcje i tańczy?|Fortnite
 Jak nazywa się seria gier o kradzieżach samochodów i gangsterach — podaj skrót.|GTA
 Jak nazywa się seria gier piłkarskich wydawana przez EA do 2023 roku pod nazwą federacji?|FIFA
 Jak nazywa się seria gier strategicznych Sida Meiera o budowaniu cywilizacji?|Civilization|Cywilizacja
-Jak nazywa się symulator życia, w którym steruje się ludzikami mówiącymi w simlish?|The Sims|Sims
-Jak nazywa się gra MOBA firmy Riot Games?|League of Legends|LoL
 Jak nazywa się taktyczna strzelanka z terrorystami i antyterrorystami — podaj skrót.|CS|Counter-Strike
 Jak nazywa się gra o oszuście na statku kosmicznym, popularna w 2020 roku?|Among Us
 Jak nazywa się gra z Ellie i Joelem w świecie po pandemii grzyba?|The Last of Us
@@ -109,7 +103,6 @@ Jak nazywa się robot-policjant z Detroit?|RoboCop
 Jak nazywa się lalkowa żaba z „Muppetów”?|Kermit
 Jak nazywa się świnka zakochana w Kermicie?|Panna Piggy|Piggy
 Jak nazywa się kosmita, który chciał „dzwonić do domu”?|E.T.|ET
-Jak nazywa się samochód-wehikuł czasu doktora Browna — podaj markę.|DeLorean
 Jak nazywa się rasa Spocka ze „Star Treka”?|Wolkanie|Wolkanin
 Jak nazywa się statek kapitana Kirka?|Enterprise|USS Enterprise
 Jak nazywa się budka-wehikuł czasu Doktora Who?|TARDIS
@@ -158,25 +151,14 @@ Jak nazywa się gra, w której ptaki strzela się z procy w świnie?|Angry Birds
 Jak nazywa się gra mobilna z łapaniem Pokémonów w prawdziwym świecie?|Pokémon Go|Pokemon Go
 Jak nazywa się miasto Batmana?|Gotham|Gotham City
 Jak naprawdę nazywa się Batman?|Bruce Wayne
-Jak naprawdę nazywa się Spider-Man?|Peter Parker
 Jak naprawdę nazywa się Superman na Ziemi?|Clark Kent
-Jak naprawdę nazywa się Iron Man?|Tony Stark
 Z jakiej planety pochodzi Superman?|Krypton
-Jak nazywa się młot Thora?|Mjölnir|Mjolnir
 Z jakiego metalu jest tarcza Kapitana Ameryki?|vibranium|wibranium
-Jak nazywa się kraj Czarnej Pantery?|Wakanda
-Jak nazywa się żółta rodzina z Springfield?|Simpsonowie|The Simpsons|Simpsons
-Jak nazywa się miasteczko z kreskówki o czterech chłopcach z Kolorado?|South Park
-Jak nazywa się gąbka mieszkająca w ananasie?|SpongeBob|SpongeBob Kanciastoporty
-Jak nazywa się kot, który goni mysz Jerry'ego?|Tom
 Jak nazywa się pies-detektyw z kreskówki Hanna-Barbera, który boi się duchów?|Scooby-Doo|Scooby
-Jak nazywa się żółte stworki z „Jak ukraść księżyc”?|Minionki|Miniony
 Jak nazywa się lalka firmy Mattel, bohaterka filmu z 2023 roku?|Barbie
 Jak nazywa się seria klocków z Danii?|Lego
 Jak nazywa się kraina lodu, w której rządzi Elsa?|Arendelle
-Jak ma na imię bałwan z „Krainy lodu”?|Olaf
 Jak nazywa się ryba-błazenek szukana przez tatę?|Nemo
 Jak nazywa się robot sprzątający Ziemię z filmu Pixara?|WALL-E|Wall-E
 Jak nazywa się szkoła potworów z filmu Pixara? Uniwersytet…?|Potworny|Uniwersytet Potworny|Monsters University
-Jak nazywa się żaba z Muppetów?|Kermit
 Jak nazywa się niebieski kosmita Lilo?|Stitch|Stich
