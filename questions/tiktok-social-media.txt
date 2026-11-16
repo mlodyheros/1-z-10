@@ -1,82 +1,68 @@
 # TikTok i social media
-Z jaką aplikacją połączył się TikTok w 2018 roku?|Musical.ly|Musically|!3
-Jak nazywa się główna strona TikToka z filmami dobranymi przez algorytm?|Dla Ciebie|For You|For You Page|FYP|!1
+Z jaką aplikacją połączył się TikTok w 2018 roku?|Musical.ly|Musically
+Jak nazywa się główna strona TikToka z filmami dobranymi przez algorytm?|Dla Ciebie|For You|For You Page|FYP
 Jak nazywa się funkcja TikToka pozwalająca nagrać film obok cudzego filmiku?|duet
-Jak nazywa się funkcja TikToka, która wkleja fragment cudzego filmu na początek twojego?|stitch|!3
-Który twórca, znany z niemych reakcji na skomplikowane „life hacki”, ma najwięcej obserwujących na TikToku?|Khaby Lame|Khaby|!1
-Która tancerka była pierwszą osobą ze 100 milionami obserwujących na TikToku?|Charli D'Amelio|Charli DAmelio|!3
-W jakim kraju zablokowano TikToka w 2020 roku, po starciach na granicy z Chinami?|Indie|w Indiach|Indiach|!3
-Kto był szefem TikToka przesłuchiwanym przez Kongres USA w 2023 roku?|Shou Zi Chew|Chew|!3
+Jak nazywa się funkcja TikToka, która wkleja fragment cudzego filmu na początek twojego?|stitch
+Który twórca, znany z niemych reakcji na skomplikowane „life hacki”, ma najwięcej obserwujących na TikToku?|Khaby Lame|Khaby
+Która tancerka była pierwszą osobą ze 100 milionami obserwujących na TikToku?|Charli D'Amelio|Charli DAmelio
+W jakim kraju zablokowano TikToka w 2020 roku, po starciach na granicy z Chinami?|Indie|w Indiach|Indiach
+Kto był szefem TikToka przesłuchiwanym przez Kongres USA w 2023 roku?|Shou Zi Chew|Chew
 Co oznacza skrót GRWM w tytułach filmików?|get ready with me|szykuj się ze mną
-Co oznacza skrót DM w social mediach?|direct message|wiadomość prywatna|prywatna wiadomość|!1
-Jak nazywają się filmiki z szeptem i cichymi dźwiękami, które mają odprężać?|ASMR|!1
-Jak nazywa się nieustanne przewijanie złych wiadomości w telefonie?|doomscrolling|doom scrolling
+Jak nazywają się filmiki z szeptem i cichymi dźwiękami, które mają odprężać?|ASMR
 Jak nazywa się ukryte ograniczenie zasięgów konta przez platformę?|shadowban|shadow ban
-Jak nazywa się nagłówek lub miniaturka, która podstępem zachęca do kliknięcia?|clickbait|klikbajt|!1
-Jak nazywa się filmik z rozpakowywania nowego produktu?|unboxing|!1
-Ile godzin widoczna jest relacja (story) na Instagramie?|24|!1
-Jak nazywa się lista zaufanych osób na Instagramie, oznaczana zielonym kółkiem?|bliscy znajomi|close friends|!3
-Jak nazywają się krótkie pionowe filmy na Instagramie?|Reels|rolki|!1
-Jak nazywają się krótkie pionowe filmy na YouTube?|Shorts|YouTube Shorts|!1
-W którym roku powstał Instagram?|2010|!3
+Jak nazywa się nagłówek lub miniaturka, która podstępem zachęca do kliknięcia?|clickbait|klikbajt
+Jak nazywa się filmik z rozpakowywania nowego produktu?|unboxing
+Ile godzin widoczna jest relacja (story) na Instagramie?|24
+Jak nazywa się lista zaufanych osób na Instagramie, oznaczana zielonym kółkiem?|bliscy znajomi|close friends
+Jak nazywają się krótkie pionowe filmy na Instagramie?|Reels|rolki
+Jak nazywają się krótkie pionowe filmy na YouTube?|Shorts|YouTube Shorts
+W którym roku powstał Instagram?|2010
 Która firma kupiła Instagrama w 2012 roku?|Facebook|Meta
-Kto ma najwięcej obserwujących na Instagramie?|Cristiano Ronaldo|Ronaldo|!1
+Kto ma najwięcej obserwujących na Instagramie?|Cristiano Ronaldo|Ronaldo
 Czyje zdjęcie z pucharem mistrzostw świata stało się najbardziej lubianym postem na Instagramie?|Leo Messi|Lionel Messi|Messi
 Jaki przedmiot był na zdjęciu, które w 2019 roku pobiło rekord polubień na Instagramie?|jajko|jajo|jajko kurze
 Jak nazywa się aplikacja Mety podobna do Twittera, wydana w 2023 roku?|Threads
-Jak nazywa się dziś Twitter po zmianie nazwy w 2023 roku?|X|!1
-Kto kupił Twittera w 2022 roku?|Elon Musk|Musk|!1
-Ilu znaków może mieć zwykły wpis na Twitterze od 2017 roku?|280|!3
-Jak nazywa się zdecentralizowana alternatywa dla Twittera wspierana przez Jacka Dorseya?|Bluesky|Blue Sky|!3
-Jak nazywa się firma, która powstała ze zmiany nazwy Facebooka w 2021 roku?|Meta|!1
+Jak nazywa się dziś Twitter po zmianie nazwy w 2023 roku?|X
+Kto kupił Twittera w 2022 roku?|Elon Musk|Musk
+Ilu znaków może mieć zwykły wpis na Twitterze od 2017 roku?|280
+Jak nazywa się zdecentralizowana alternatywa dla Twittera wspierana przez Jacka Dorseya?|Bluesky|Blue Sky
+Jak nazywa się firma, która powstała ze zmiany nazwy Facebooka w 2021 roku?|Meta
 Na jakiej uczelni powstał Facebook?|Harvard|na Harvardzie|Harvardzie|Uniwersytet Harvarda
 Jaki komunikator kupił Facebook w 2014 roku za około 19 miliardów dolarów?|WhatsApp|Whatsapp
-Kto założył komunikator Telegram?|Pawieł Durow|Paweł Durow|Durow|Pavel Durov|!3
-Jakie zwierzę lub postać ma w logo Snapchat?|duch|duszek|ducha|!1
-Co dzieje się ze zwykłym snapem po obejrzeniu?|znika|usuwa się|kasuje się|!1
-Jak nazywa się na Snapchacie seria codziennych snapów, oznaczana ogniem?|streak|snapstreak|płomyk|!1
-Jak nazywają się awatary-ludziki używane na Snapchacie?|Bitmoji|!3
+Kto założył komunikator Telegram?|Pawieł Durow|Paweł Durow|Durow|Pavel Durov
+Jakie zwierzę lub postać ma w logo Snapchat?|duch|duszek|ducha
+Co dzieje się ze zwykłym snapem po obejrzeniu?|znika|usuwa się|kasuje się
+Jak nazywa się na Snapchacie seria codziennych snapów, oznaczana ogniem?|streak|snapstreak|płomyk
+Jak nazywają się awatary-ludziki używane na Snapchacie?|Bitmoji
 Jak nazywa się aplikacja, która raz dziennie daje dwie minuty na zdjęcie z obu aparatów?|BeReal|Be Real
 Do jakiej firmy należy platforma streamingowa Twitch?|Amazon
-Jak nazywa się konkurencyjna wobec Twitcha platforma streamingowa, popularna od 2023 roku?|Kick|!3
-Jak nazywa się komunikator z serwerami, popularny wśród graczy?|Discord|!1
+Jak nazywa się konkurencyjna wobec Twitcha platforma streamingowa, popularna od 2023 roku?|Kick
 Jak nazywają się tematyczne fora na Reddicie, zaczynające się od „r/”?|subreddit|subreddity|subreddity
-Jak nazywają się punkty, które zbiera się na Reddicie za polubione wpisy?|karma|!3
+Jak nazywają się punkty, które zbiera się na Reddicie za polubione wpisy?|karma
 Jak nazywała się aplikacja z sześciosekundowymi filmikami, zamknięta w 2017 roku?|Vine
-Jak nazywała się aplikacja z pokojami głosowymi, modna w czasie pandemii?|Clubhouse|!3
+Jak nazywała się aplikacja z pokojami głosowymi, modna w czasie pandemii?|Clubhouse
 Do jakiej firmy należy LinkedIn?|Microsoft
-Do czego służy przede wszystkim LinkedIn?|kontakty zawodowe|praca|szukanie pracy|sieć zawodowa|kariera
 Jak nazywał się polski portal społecznościowy do odnajdywania znajomych ze szkoły?|Nasza-klasa|Nasza Klasa|NK
-Jak nazywał się popularny polski komunikator z numerem zamiast nicka?|Gadu-Gadu|Gadu Gadu|GG|!1
-Jak nazywa się polski serwis, na którym użytkownicy „wykopują” ciekawe treści?|Wykop|Wykop.pl
-Jaki symbol poprzedza hasztag?|kratka|krzyżyk|płotek|hasz|hash|!1
+Jak nazywał się popularny polski komunikator z numerem zamiast nicka?|Gadu-Gadu|Gadu Gadu|GG
 Jak nazywa się wyzwanie z 2014 roku, w którym wylewano na siebie wiadro lodowatej wody?|Ice Bucket Challenge|lodowe wiadro|wiadro lodowatej wody
-Na rzecz chorych na jaką chorobę zbierano pieniądze w Ice Bucket Challenge?|ALS|stwardnienie zanikowe boczne|!3
-Jaki taniec-mem z 2013 roku zaczynał się od jednej tańczącej osoby w kasku?|Harlem Shake|!3
-Jakie państwo jako pierwsze zakazało social mediów dzieciom poniżej 16 lat od grudnia 2025 roku?|Australia|!3
-Od ilu lat można zwykle założyć konto na Instagramie czy TikToku?|13|!1
+Na rzecz chorych na jaką chorobę zbierano pieniądze w Ice Bucket Challenge?|ALS|stwardnienie zanikowe boczne
+Jaki taniec-mem z 2013 roku zaczynał się od jednej tańczącej osoby w kasku?|Harlem Shake
+Jakie państwo jako pierwsze zakazało social mediów dzieciom poniżej 16 lat od grudnia 2025 roku?|Australia
+Od ilu lat można zwykle założyć konto na Instagramie czy TikToku?|13
 Jak nazywa się płatna weryfikacja z niebieskim znaczkiem w aplikacjach Mety?|Meta Verified|weryfikacja
-Jak nazywa się nagła popularność filmiku, który rozchodzi się po sieci?|viral|wiral|!1
-Jak nazywa się osoba, która zarabia na promowaniu produktów w social mediach?|influencer|influencerka|!1
 Jak nazywa się konkurs w social mediach z nagrodą za obserwowanie i komentowanie?|giveaway|rozdanie
-Jak nazywa się transmisja na żywo w aplikacji?|live|na żywo|stream|!1
 Jak nazywa się wspólny film lub post dwóch twórców?|collab|kolaboracja|współpraca
-Kto założył Snapchata?|Evan Spiegel|Spiegel|!3
-Kto jest właścicielem YouTube'a?|Google|Alphabet|!1
+Kto założył Snapchata?|Evan Spiegel|Spiegel
 Jak nazywa się funkcja Instagrama skopiowana ze Snapchata w 2016 roku?|Stories|relacje|InstaStories|Insta Stories
-Ilu użytkowników zdobyło Threads w ciągu pierwszych pięciu dni?|100 milionów|100 mln|100000000|!3
-Jaka platforma słynie z tablic ze zdjęciami-inspiracjami?|Pinterest
-Jak nazywa się klip z napisem i muzyką powtarzany przez tysiące osób na TikToku?|trend|!1
+Ilu użytkowników zdobyło Threads w ciągu pierwszych pięciu dni?|100 milionów|100 mln|100000000
+Jak nazywa się klip z napisem i muzyką powtarzany przez tysiące osób na TikToku?|trend
 Jak nazywa się dźwięk z filmu, który inni wykorzystują w swoich nagraniach na TikToku?|sound|dźwięk|audio
 Jak nazywają się wpłaty od widzów podczas transmisji na żywo?|donejty|donate|donacje|dotacje|napiwki
 Jak nazywa się płatne wsparcie kanału na Twitchu?|sub|subskrypcja
-Jak nazywa się osoba, która nagminnie pisze nienawistne komentarze?|hejter|hater|!1
-Co oznacza „FYP” w hasztagach na TikToku?|For You Page|Dla Ciebie|!3
-Jak nazywa się aplikacja do montażu filmów od twórców TikToka?|CapCut|Cap Cut
-Jak nazywa się na Instagramie oznaczenie konta przez wpisanie jego nazwy z małpą?|oznaczenie|wzmianka|tag|oznaczanie|!1
-Jaki znak poprzedza nazwę użytkownika w oznaczeniu?|małpa|at|!1
-Jak nazywa się konto, na które ktoś wstawia prywatne, mniej dopracowane posty dla bliskich?|finsta|spam|spam konto|!3
+Jak nazywa się osoba, która nagminnie pisze nienawistne komentarze?|hejter|hater
+Co oznacza „FYP” w hasztagach na TikToku?|For You Page|Dla Ciebie
+Jak nazywa się na Instagramie oznaczenie konta przez wpisanie jego nazwy z małpą?|oznaczenie|wzmianka|tag|oznaczanie
+Jaki znak poprzedza nazwę użytkownika w oznaczeniu?|małpa|at
 Jak nazywa się zestaw zdjęć w jednym poście, które się przesuwa palcem?|karuzela|carousel
 Jak nazywa się metryka pokazująca, ile osób zobaczyło post?|zasięg|zasięgi|wyświetlenia
-Jak nazywa się filmik pokazujący, co ktoś je w ciągu dnia?|what I eat in a day|co jem w ciągu dnia|!3
-Jak nazywa się gwałtowny spadek popularności i bojkot twórcy w sieci?|cancel culture|cancelowanie|scancelowanie|cancel
+Jak nazywa się filmik pokazujący, co ktoś je w ciągu dnia?|what I eat in a day|co jem w ciągu dnia

@@ -69,9 +69,6 @@ Kto zagrał Rocky'ego Balboę?|Sylvester Stallone|Stallone
 Kto zagrał Hannibala Lectera w „Milczeniu owiec”?|Anthony Hopkins|Hopkins
 Kto zagrał Vita Corleone w pierwszym „Ojcu chrzestnym”?|Marlon Brando|Brando
 Kto zagrał Michaela Corleone?|Al Pacino|Pacino
-Kto zagrał Jokera w „Mrocznym Rycerzu”?|Heath Ledger|Ledger
-Kto zagrał Jokera w filmie „Joker” z 2019 roku?|Joaquin Phoenix|Phoenix
-Kto zagrał Iron Mana w filmach Marvela?|Robert Downey Jr.|Downey
 Kto zagrał Harry'ego Pottera?|Daniel Radcliffe|Radcliffe
 Kto zagrał Hermionę Granger?|Emma Watson|Watson
 Kto zagrał Gandalfa we „Władcy Pierścieni”?|Ian McKellen|McKellen
@@ -124,8 +121,6 @@ Jak nazywa się rybka szukana w filmie Pixara?|Nemo
 Jak nazywa się statek kosmiczny Hana Solo?|Sokół Millennium|Millennium Falcon
 Jak nazywa się mistrz Jedi, mały i zielony?|Yoda
 Kim jest Darth Vader dla Luke'a Skywalkera?|ojcem|ojciec
-Jak nazywa się fikcyjny afrykański kraj z filmu „Czarna Pantera”?|Wakanda
-Jak nazywa się miasto, którego broni Batman?|Gotham
 Jak nazywa się samochód-wehikuł czasu z „Powrotu do przyszłości” — podaj markę.|DeLorean
 Jak nazywa się statek-widmo kapitana Jacka Sparrowa?|Czarna Perła
 Jak nazywa się fikcyjny park z dinozaurami z filmu Spielberga?|Park Jurajski
@@ -164,23 +159,8 @@ Jak nazywa się film z 2021 roku, w którym walczą dwaj najsłynniejsi tytani k
 Jak nazywa się gatunek japońskich filmów o gigantycznych potworach?|kaiju
 Jak nazywa się czarodziej z blizną w kształcie błyskawicy?|Harry Potter
 Jak nazywa się miś z Peru, który kocha marmoladę?|Paddington
-Jak nazywa się zielony ogr z bagna?|Shrek
-Jak nazywa się lew, syn Mufasy?|Simba
-Jak nazywa się statek Hana Solo?|Sokół Millennium|Millennium Falcon
-Jak nazywa się mistrz Jedi, zielony i mały?|Yoda
-Kto jest ojcem Luke'a Skywalkera?|Darth Vader|Anakin Skywalker|Vader
 Jak nazywa się pierścień, który niesie Frodo?|Jedyny Pierścień|Pierścień Władzy|Pierścień
-Jak nazywa się fioletowy złoczyńca z „Avengers”, który pstryknięciem usuwa połowę życia?|Thanos
 Jak nazywa się polski film Jana Komasy nominowany do Oscara w 2020 roku?|Boże Ciało
-Jak nazywa się polski film Pawła Pawlikowskiego, który zdobył Oscara w 2015 roku?|Ida
-Jak nazywa się nagroda Amerykańskiej Akademii Filmowej?|Oscar|Oscary
 Jak nazywa się festiwal filmowy na Lazurowym Wybrzeżu ze Złotą Palmą?|Cannes|Festiwal w Cannes
 Jaki film z 1994 roku opowiada o więzieniu Shawshank?|Skazani na Shawshank
-Jaki film Ridleya Scotta z 2000 roku opowiada o generale Maximusie?|Gladiator
 
-Jak nazywa się reżyser „Parasite”, zdobywca Oscara w 2020 roku?|Bong Joon-ho|Bong Joon Ho|Bong
-Kto zagrał Wolverine'a w filmach o X-Menach?|Hugh Jackman|Jackman
-Kto gra Ethana Hunta w „Mission: Impossible”?|Tom Cruise|Cruise
-Jak nazywa się rekin-ludojad w filmie Spielberga z 1975 roku — tytuł?|Szczęki|Jaws
-Jak nazywa się park z dinozaurami w filmie Spielberga z 1993 roku?|Park Jurajski|Jurassic Park
-Jak nazywa się polska komedia Barei o prezesie klubu sportowego „Tęcza”?|Miś

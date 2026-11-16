@@ -100,7 +100,7 @@ Jak nazywa się kanał z pochylniami, po których statki „pływają” po traw
 Jak nazywa się kanał łączący Wisłę z Niemnem przez Biebrzę?|Augustowski|Kanał Augustowski
 Jak nazywa się zapora i zbiornik wodny w Bieszczadach?|Solina|Jezioro Solińskie
 Jak nazywa się największe sztuczne jezioro w Polsce?|Jezioro Solińskie|Solina
-Jak nazywa się zapora na Wiśle zbudowana w latach 60. XX wieku w pobliżu Płocka?|Włocławek|zapora we Włocławku
+Jak nazywa się miasto z jedyną zaporą na dolnej Wiśle, zbudowaną w latach 60. XX wieku?|Włocławek
 Jakie miasto jest siedzibą największej polskiej rafinerii?|Płock
 Jaki surowiec wydobywa się w okolicach Bełchatowa?|węgiel brunatny
 Jaki surowiec wydobywa się w okolicach Lubina i Polkowic?|miedź|rudy miedzi
@@ -156,24 +156,5 @@ Na stokach jakiej góry wypływa Wisła?|Barania Góra
 Jakie miasto jest najmniejszym miastem wojewódzkim pod względem ludności?|Gorzów Wielkopolski|Gorzów
 W jakim mieście znajduje się Stadion Śląski?|Chorzów|w Chorzowie
 W jakim mieście znajduje się pomnik Neptuna przy Długim Targu?|Gdańsk|w Gdańsku
-Jaka jest druga najdłuższa rzeka Polski?|Odra
-Jakie jest największe jezioro Polski?|Śniardwy
-Jakie jest najgłębsze jezioro Polski?|Hańcza
-Jakie miasto jest stolicą Polski?|Warszawa
-Jakie morze oblewa Polskę od północy?|Bałtyk|Morze Bałtyckie
-Jakie miasto jest stolicą Małopolski?|Kraków
-Jakie miasto jest stolicą Dolnego Śląska?|Wrocław
-Jakie miasto jest stolicą Wielkopolski?|Poznań
-Jakie miasto jest stolicą Podlasia?|Białystok
-Jakie miasto leży u ujścia Wisły do Bałtyku?|Gdańsk
-Jakie miasto słynie z kopalni soli wpisanej na listę UNESCO?|Wieliczka
-Jakie miasto słynie z pierników i Mikołaja Kopernika?|Toruń
-Jakie miasto nazywane jest „polską stolicą piosenki” dzięki festiwalowi?|Opole
-Jak nazywa się półwysep z Helem na końcu?|Półwysep Helski|Mierzeja Helska|Hel
-Jak nazywa się najstarszy polski park narodowy z żubrami?|Białowieski Park Narodowy|Białowieski
-Jak nazywa się pustynia w Polsce koło Olkusza?|Pustynia Błędowska
-Jak nazywa się kraina tysiąca jezior w Polsce?|Mazury
-Jak nazywa się zamek krzyżacki, największy ceglany zamek świata?|Malbork|zamek w Malborku
-Jakie miasto jest największe pod względem powierzchni w Polsce?|Warszawa
 Jakie góry leżą na południowym wschodzie Polski, znane z połonin?|Bieszczady
 

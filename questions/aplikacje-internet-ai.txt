@@ -14,20 +14,10 @@ Co oznacza litera „G” w nazwie ChatGPT?|Generative|generatywny
 Jak nazywa się fałszywe wideo, w którym AI podmienia twarz lub głos?|deepfake
 Jak nazywa się firma produkująca najważniejsze karty graficzne do trenowania AI?|Nvidia
 Kto jest szefem Nvidii, znany ze skórzanej kurtki?|Jensen Huang|Huang
-Jak nazywa się aplikacja z krótkimi filmami należąca do chińskiej firmy ByteDance?|TikTok
-Jak nazywa się główna strona TikToka z polecanymi filmami — skrót FYP?|For You|Dla Ciebie|FYP|For You Page
-Jak nazywała się aplikacja z playbackiem, którą ByteDance połączyło z TikTokiem w 2018 roku?|Musical.ly|Musically
-Kto ma najwięcej obserwujących na TikToku?|Khaby Lame|Khaby
-Jak nazywa się licznik dni z rzędu, w których dwie osoby wysyłają sobie snapy?|streak|snapstreak|dni|ogień
-Jak nazywa się aplikacja, która raz dziennie prosi o zdjęcie z obu kamer naraz?|BeReal
 Jak nazywa się komunikator graczy z serwerami i kanałami głosowymi?|Discord
-Jak nazywa się platforma do streamowania gier należąca do Amazona?|Twitch
-Jak nazywa się platforma streamingowa z zielonym logo, konkurent Twitcha, na którą przeszedł m.in. xQc?|Kick
 Jak nazywa się szwedzki serwis do streamowania muzyki z zielonym logo?|Spotify
 Jak nazywa się coroczne podsumowanie słuchania w Spotify?|Spotify Wrapped|Wrapped
 Jak nazywa się serwis z pinezkami i tablicami inspiracji?|Pinterest
-Jak nazywa się forum podzielone na „subreddity”?|Reddit
-Jak na Reddicie nazywa się głos „w górę”?|upvote|łapka w górę
 Jak nazywa się zawodowy serwis społecznościowy do szukania pracy?|LinkedIn
 Jak nazywa się szyfrowany komunikator polecany przez obrońców prywatności, z niebieskim logo?|Signal
 Jak nazywa się komunikator Facebooka?|Messenger
@@ -47,7 +37,7 @@ Jak nazywa się chiński sklep internetowy z tanią modą, popularny wśród nas
 Jak nazywa się hiszpańska aplikacja dostawcza z żółtymi plecakami kurierów?|Glovo
 Jak nazywa się serwis z filmami i serialami z czerwonym logo „N”?|Netflix
 Jak nazywa się serwis streamingowy Disneya?|Disney+|Disney Plus
-Jak nazywa się serwis streamingowy z serialami HBO, od 2024 roku w Polsce pod nową nazwą?|Max|HBO Max
+Jak nazywa się serwis streamingowy z serialami HBO?|HBO Max|Max
 Jak nazywa się płatna wersja YouTube'a bez reklam?|YouTube Premium|Premium
 Jak nazywa się mobilna gra, w której łapie się stworki w prawdziwym świecie?|Pokémon Go|Pokemon Go
 Jak nazywa się gra, w której ptakami strzela się z procy do świnek?|Angry Birds
@@ -96,7 +86,6 @@ Jak nazywa się znak # używany do oznaczania tematów?|hashtag
 Jak nazywa się oznaczenie konta jako zweryfikowanego — niebieski…?|znaczek|niebieski znaczek|badge
 Jak nazywa się zdjęcie profilowe po angielsku — skrót PFP?|profile picture|PFP|profilowe
 Jak nazywa się prywatna wiadomość na Instagramie — skrót DM?|direct message|DM|wiadomość prywatna
-Jak nazywają się zdjęcia i filmy znikające po 24 godzinach na Instagramie?|Stories|relacje|story|relacja
 Jak nazywa się transmisja na żywo w mediach społecznościowych?|live|stream|transmisja na żywo
 Jak nazywa się treść, która błyskawicznie rozchodzi się po internecie?|viral
 Jak nazywa się algorytmiczny strumień postów w aplikacji?|feed
@@ -114,7 +103,6 @@ Jak nazywa się program do wideorozmów, który zyskał popularność w pandemii
 Jak nazywa się aplikacja Microsoftu do lekcji zdalnych i pracy zespołowej?|Teams|Microsoft Teams
 Jak nazywa się internetowy program do projektowania grafik z gotowymi szablonami?|Canva
 Jak nazywa się aplikacja do montażu filmików od twórców TikToka?|CapCut
-Jak nazywa się rządowa aplikacja z cyfrowym dowodem osobistym w Polsce?|mObywatel
 Jak nazywa się internetowa kryptowaluta, pierwsza i najbardziej znana?|Bitcoin
 Jak nazywa się druga co do wielkości kryptowaluta, stworzona przez Vitalika Buterina?|Ethereum|Ether
 Jak nazywa się kryptowaluta z psem Shiba Inu, promowana przez Elona Muska?|Dogecoin|Doge
@@ -130,18 +118,12 @@ Jakie emoji było najczęściej używane na świecie przez lata — twarz ze łz
 Jak nazywa się zrzut ekranu po angielsku?|screenshot|screen
 Jak nazywa się ciemny motyw aplikacji?|tryb ciemny|dark mode|ciemny motyw
 Jak nazywa się czas spędzony przed telefonem pokazywany w ustawieniach?|czas przed ekranem|screen time|czas ekranowy
-Jak nazywa się lęk przed tym, że coś nas omija — skrót?|FOMO
-Jak nazywa się bezmyślne przewijanie złych wiadomości?|doomscrolling
-Jak nazywa się słowo roku Oxfordu 2024 opisujące „gnicie mózgu” od treści online?|brain rot|brainrot
 Jak nazywa się przerwa od mediów społecznościowych i telefonu — cyfrowy…?|detoks|detox
 Jak nazywa się internetowa część sieci dostępna tylko przez przeglądarkę Tor?|darknet|dark web
 Jak nazywa się amerykański sygnalista, który w 2013 roku ujawnił inwigilację NSA?|Edward Snowden|Snowden
 Jak nazywa się europejskie rozporządzenie o ochronie danych osobowych — skrót polski?|RODO|GDPR
 Jak nazywa się holenderski z pochodzenia serwis do zamawiania jedzenia z pomarańczowym logo, popularny w Polsce?|Pyszne.pl|Pyszne
 Jak nazywa się najpopularniejszy dziennik elektroniczny w polskich szkołach, z nazwą na „L”?|Librus
-Jak nazywa się aplikacja z duszkiem w logo i znikającymi wiadomościami?|Snapchat|Snap
-Jak nazywa się komunikator z papierowym samolotem w logo, założony przez Pawła Durowa?|Telegram
-Jak nazywa się konto na Instagramie tylko dla bliskich znajomych — „fałszywa insta”?|finsta|spam
 Jak nazywa się funkcja Instagrama do krótkich notatek nad zdjęciem profilowym w wiadomościach?|notatki|Notes
 Jak nazywa się firma, która stworzyła asystenta Claude?|Anthropic
 Jak nazywa się głosowa asystentka Google?|Asystent Google|Google Assistant
@@ -154,13 +136,6 @@ Jak nazywa się przenośna konsola Nintendo wydana w 2017 roku?|Nintendo Switch|
 Jak nazywa się sklep z grami na PC firmy Valve?|Steam
 Jak nazywa się przenośny komputer do gier od Valve?|Steam Deck
 Jak nazywa się asystent AI w wyszukiwarce Google pokazujący podsumowania?|AI Overviews|Przegląd od AI
-Jak nazywa się sieć społecznościowa założona przez Marka Zuckerberga w 2004 roku?|Facebook
-Jak nazywała się firma Meta przed 2021 rokiem?|Facebook
-W którym roku Facebook kupił Instagram?|2012
-W którym roku Facebook kupił WhatsAppa?|2014
-Jak nazywa się twórca Telegrama?|Paweł Durow|Durow|Pavel Durov
-Jak nazywa się serwis z krótkimi wiadomościami kupiony przez Muska?|Twitter|X
-Jak nazywa się zdecentralizowana alternatywa dla Twittera z motylem w logo?|Bluesky
 Jak nazywa się zdecentralizowana sieć z mamutem w logo?|Mastodon
 Jak nazywa się serwis z filmikami, który wyprzedził telewizję w oglądalności u młodych — czerwone logo z trójkątem?|YouTube
 Jak nazywa się serwis do streamowania muzyki należący do Jay-Z i innych artystów?|Tidal

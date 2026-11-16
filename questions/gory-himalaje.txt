@@ -79,15 +79,10 @@ Jaki jest najwyższy szczyt całych Tatr?|Gerlach
 W jakim kraju leży Gerlach?|Słowacja
 Jak nazywa się najsłynniejsze jezioro w polskich Tatrach?|Morskie Oko
 Jak nazywa się najtrudniejszy znakowany szlak w polskich Tatrach?|Orla Perć
-Jak nazywa się szczyt w Tatrach z krzyżem, przypominający profil śpiącego rycerza?|Giewont
-Jak nazywa się szczyt nad Zakopanem, na który wjeżdża kolej linowa z Kuźnic?|Kasprowy Wierch|Kasprowy
 Jak nazywa się miasto u stóp polskich Tatr, „zimowa stolica Polski”?|Zakopane
 Jak nazywa się ochotnicza służba ratownicza działająca w Tatrach?|TOPR|Tatrzańskie Ochotnicze Pogotowie Ratunkowe
 Jak nazywa się służba ratownicza działająca w pozostałych polskich górach?|GOPR|Górskie Ochotnicze Pogotowie Ratunkowe
 Jaki jest numer alarmowy do ratowników górskich w Polsce?|985|601 100 300
-Jak nazywa się najwyższy szczyt Karkonoszy?|Śnieżka
-Jak nazywa się najwyższy szczyt Beskidów w Polsce, „Królowa Beskidów”?|Babia Góra|Diablak
-Jak nazywa się najwyższy szczyt Bieszczadów w Polsce?|Tarnica
 Jak nazywają się trawiaste łąki na grzbietach Bieszczadów?|połoniny|połonina
 Jak nazywa się ciepły, porywisty wiatr wiejący w Tatrach?|halny|wiatr halny
 Jak nazywa się zestaw 28 najwyższych szczytów polskich pasm górskich do zdobycia?|Korona Gór Polski
@@ -103,16 +98,12 @@ W jakim kraju leży Kilimandżaro?|Tanzania
 W jakim kraju leży Aconcagua?|Argentyna
 W jakim stanie USA leży Denali?|Alaska
 Jaki jest najwyższy szczyt Antarktydy?|Masyw Vinsona|Vinson|Mount Vinson
-Jaki jest najwyższy szczyt Australii?|Góra Kościuszki|Mount Kosciuszko
 Kto nadał nazwę Górze Kościuszki w Australii?|Paweł Edmund Strzelecki|Strzelecki
 Jaki szczyt na Nowej Gwinei zalicza się do Korony Ziemi jako najwyższy w Oceanii?|Piramida Carstensza|Puncak Jaya|Carstensz
 Jakie pasmo górskie jest najdłuższe na świecie?|Andy
-Jakie pasmo górskie oddziela Europę od Azji?|Ural
-Jakie góry oddzielają Hiszpanię od Francji?|Pireneje
 Jakie góry ciągną się przez zachód Ameryki Północnej?|Góry Skaliste
 W jakich górach leży Mount Everest?|Himalaje
 Jaki wulkan jest najwyższym szczytem Japonii?|Fudżi|Fuji
-Jaki wulkan na Sycylii jest najwyższym czynnym wulkanem Europy?|Etna
 Jaka góra na Hawajach jest najwyższa na świecie, licząc od podstawy na dnie oceanu?|Mauna Kea
 Wierzchołek jakiego wulkanu w Ekwadorze jest najdalej od środka Ziemi?|Chimborazo
 Jak nazywa się płaskowyż zwany „Dachem Świata”?|Wyżyna Tybetańska|Tybet|Pamir
@@ -145,14 +136,9 @@ Jak nazywa się dolina w Tatrach z pięcioma jeziorami i schroniskiem?|Dolina Pi
 Jak nazywa się największy wodospad w polskich Tatrach?|Siklawa|Wielka Siklawa
 Jak nazywa się park narodowy obejmujący polskie Tatry?|Tatrzański Park Narodowy|TPN
 Jak nazywa się jezioro leżące nad Morskim Okiem, pod ścianą Rysów?|Czarny Staw pod Rysami|Czarny Staw
-Jak nazywa się najwyższy szczyt Sudetów?|Śnieżka
 Jak nazywa się szczyt w Himalajach uważany za świętą górę, na którą nie wolno się wspinać — w Tybecie?|Kailas|Kajlas|Kailash
 W jakim paśmie leży Nanga Parbat?|Himalaje
-Jak nazywa się najwyższy szczyt Słowacji?|Gerlach
-Jak nazywa się najwyższy szczyt Kaukazu?|Elbrus
 Jak nazywa się kolejka linowa z Zakopanego na szczyt z widokiem na Tatry, startująca przy Krupówkach?|Gubałówka|kolej na Gubałówkę
-Jak nazywa się główny deptak Zakopanego?|Krupówki
-Jak nazywa się najwyższy szczyt Ziemi?|Mount Everest|Everest
 W jakim kraju leży południowa strona Everestu z bazą pod lodospadem Khumbu?|Nepal
 W jakim kraju leży północna strona Everestu?|Chiny|Tybet
 Jak nazywa się najwyższy szczyt Pakistanu?|K2
@@ -170,7 +156,6 @@ Jak nazywa się dolina w Tatrach Zachodnich z wąwozem Kraków i Jaskinią Mroź
 Jak nazywa się najwyższy szczyt Pienin?|Wysoka|Wysokie Skałki
 Jak nazywa się słynny szczyt w Pieninach z platformą widokową nad Dunajcem?|Trzy Korony
 Jak nazywa się rzeka, którą spływają tratwy flisackie w Pieninach?|Dunajec
-Jak nazywa się najwyższy szczyt Gór Świętokrzyskich?|Łysica
 Jak nazywa się najwyższy szczyt Beskidu Śląskiego?|Skrzyczne
 Jak nazywa się najwyższy szczyt Skandynawii?|Galdhøpiggen|Galdhopiggen
 

@@ -155,11 +155,6 @@ Jak nazywa się wyścig Formuły 1 po francusku — „wielka nagroda”?|Grand 
 Jak nazywa się dwukołowy pojazd elektryczny z platformą, na którym się stoi?|hulajnoga elektryczna|hulajnoga
 Jak nazywa się nadwozie samochodu — słowo zapożyczone z francuskiego?|karoseria
 Z jakiego kraju pochodzi marka BMW?|Niemcy
-Jaka marka ma w logo cztery koła?|Audi
-Jaka marka produkuje modele Model 3 i Model Y?|Tesla
-Jaka marka produkuje model Mustang?|Ford
-Jak nazywał się mały polski samochód zwany „maluchem”?|Fiat 126p|126p|Polski Fiat 126p
-Jak nazywał się polski samochód produkowany na Żeraniu od 1978 roku?|Polonez|FSO Polonez
 Kto jest siedmiokrotnym mistrzem świata Formuły 1 z Wielkiej Brytanii?|Lewis Hamilton|Hamilton
 Kto zdobył cztery tytuły mistrza F1 z rzędu w latach 2021–2024?|Max Verstappen|Verstappen
 Który Polak wygrał wyścig Formuły 1 w 2008 roku?|Robert Kubica|Kubica
@@ -167,11 +162,6 @@ Jak nazywa się słynny 24-godzinny wyścig we Francji?|Le Mans|24h Le Mans
 Jak nazywa się pedał po prawej stronie, którym się przyspiesza?|gaz|pedał gazu
 Jak nazywa się skrzynia biegów, w której nie trzeba wciskać sprzęgła?|automatyczna|automat
 Jaka marka produkuje modele A4 i Q7?|Audi
-Jaka marka produkuje model Duster?|Dacia
 Jaka marka z Rumunii należy do Renault?|Dacia
-Jak nazywa się paliwo do silników wysokoprężnych?|olej napędowy|diesel|ON
-Ile kół ma zwykły samochód osobowy, licząc bez zapasowego?|4
-Jak nazywa się system zapobiegający blokowaniu kół przy hamowaniu?|ABS
 Jaka marka produkuje modele Panda i 500?|Fiat
 Jaka marka z Japonii produkuje model MX-5?|Mazda
-Jaka marka produkuje model Cybertruck?|Tesla

@@ -18,7 +18,6 @@ Jak nazywa się youtuber od speedrunów Minecrafta, który przez lata ukrywał t
 Jak nazywał się youtuber od Minecrafta ze świnką w koronie, zmarły w 2022 roku?|Technoblade
 Jaki pseudonim nosi Tyler Blevins, streamer, który rozsławił się na Fortnite?|Ninja
 Na jaką platformę Ninja przeszedł z Twitcha w 2019 roku?|Mixer
-Do jakiej firmy należy Twitch?|Amazon
 Jak nazywa się platforma streamingowa założona w 2022 roku, konkurentka Twitcha z zielonym logo?|Kick
 Jaki pseudonim nosi Félix Lengyel, kanadyjski streamer słynący z bardzo szybkiego mówienia?|xQc
 Jak nazywa się amerykańska youtuberka od vlogów, która założyła własną markę kawy?|Emma Chamberlain
@@ -42,7 +41,6 @@ Jak nazywa się nagroda YouTube za 100 milionów subskrypcji?|Czerwony Diament|R
 Jaki film jest najczęściej oglądanym w historii YouTube?|Baby Shark|Baby Shark Dance
 Jaka koreańska firma wydała „Baby Shark”?|Pinkfong
 Jak nazywa się funkcja YouTube z krótkimi pionowymi filmikami, uruchomiona w 2020 roku?|Shorts|YouTube Shorts
-Jak nazywa się płatna wersja YouTube bez reklam?|YouTube Premium|Premium
 Jak nazywa się pierwszy film opublikowany na YouTube, nagrany w zoo?|Me at the zoo
 Jak nazywa się niemiecki kanał popularnonaukowy z animowanymi ptaszkami, którego nazwa znaczy „w skrócie”?|Kurzgesagt
 Jak nazywa się kanał popularnonaukowy Dereka Mullera?|Veritasium
@@ -66,15 +64,12 @@ Jak nazywa się kanał internetowy założony w 2024 roku przez Krzysztofa Stano
 Jaki dziennikarz i twórca Kanału Zero startował w wyborach prezydenckich w 2025 roku?|Krzysztof Stanowski|Stanowski
 Jak nazywa się kanał na YouTube założony w 2020 roku przez Borka, Pola, Smokowskiego i Stanowskiego?|Kanał Sportowy
 Jaki pseudonim nosi Julia Kuczyńska, polska influencerka modowa?|Maffashion
-Jak nazywa się polska trenerka fitness, autorka treningu „Skalpel”?|Ewa Chodakowska|Chodakowska
 Jak nazywa się kanał Pauliny Mikuły o poprawnej polszczyźnie?|Mówiąc Inaczej
 Jak nazywa się kanał historyczny prowadzony przez Wojciecha Drewniaka?|Historia Bez Cenzury
 Jak nazywa się popularnonaukowy kanał Dawida Myśliwca?|Uwaga! Naukowy Bełkot|Naukowy Bełkot
 Jak nazywa się film, w którym ktoś rozpakowuje nowy produkt?|unboxing
-Jak rozwija się skrót GRWM, popularny format filmików?|Get Ready With Me
 Jak nazywają się filmy z szeptem i cichymi dźwiękami wywołującymi przyjemne mrowienie — podaj skrót.|ASMR
 Jak nazywa się transmisja na żywo, która wydłuża się z każdą nową subskrypcją?|subathon
-Jak nazywa się wspólny film lub projekt dwóch twórców?|collab|kolaboracja|kolab
 Jak nazywa się przesadny tytuł lub miniatura, które mają skusić do kliknięcia?|clickbait
 Jak nazywa się obrazek-podgląd filmu na YouTube?|miniatura|miniaturka|thumbnail
 Jak nazywają się wirtualne punkty, którymi widzowie wspierają streamerów na Twitchu?|bitsy|bits
@@ -86,29 +81,22 @@ Jak nazywa się format, w którym twórca nagrywa swoją reakcję na cudzy film?
 Jak nazywa się przejście gry w jak najkrótszym czasie?|speedrun
 Jakim polskim hasztagiem oznacza się płatną współpracę w poście?|reklama|#reklama|współpraca
 Jak nazywa się aplikacja z krótkimi filmikami, która w 2018 roku wchłonęła Musical.ly?|TikTok
-Jak nazywała się aplikacja z sześciosekundowymi filmikami, zamknięta na początku 2017 roku?|Vine
 Jak nazywała się aplikacja z playbackami, połączona z TikTokiem w 2018 roku?|Musical.ly|musically
 Jaka chińska firma jest właścicielem TikToka?|ByteDance
 Jak nazywa się chińska wersja TikToka?|Douyin
-Jak nazywa się strona startowa TikToka z polecanymi filmami?|Dla Ciebie|For You|FYP
 Jak nazywa się funkcja Instagrama z krótkimi filmami, uruchomiona w 2020 roku?|Reels|rolki
 Jak nazywa się znikająca po 24 godzinach relacja na Instagramie?|InstaStories|stories|relacja
 Od jakiej aplikacji Instagram w 2016 roku skopiował relacje znikające po dobie?|Snapchat
 Jak nazywa się aplikacja z 2022 roku, która raz dziennie każe zrobić zdjęcie aparatem przednim i tylnym jednocześnie?|BeReal
-Jak nazywa się aplikacja Mety podobna do X, uruchomiona w lipcu 2023 roku?|Threads
 Za ile miliardów dolarów Elon Musk kupił Twittera w 2022 roku?|44
-Jak nazywa się Twitter od lipca 2023 roku?|X
 Jak nazywała się aplikacja do rozmów głosowych w pokojach, modna w 2021 roku?|Clubhouse
 Jak nazywa się zdecentralizowana alternatywa dla X z niebieskim motylem w logo?|Bluesky
 Jak nazywa się serwis do strumieniowania, na którym streamują Kai Cenat i Ibai — z fioletowym logo?|Twitch
 Jak nazywa się hiszpański streamer, organizator walk bokserskich „La Velada del Año”?|Ibai|Ibai Llanos
 Jak nazywa się chatbot OpenAI udostępniony w listopadzie 2022 roku?|ChatGPT
 Jak nazywa się model do generowania filmów od OpenAI?|Sora
-Jak nazywa się generator obrazów AI od OpenAI?|DALL-E|Dall-e
 Jak nazywa się program AI do generowania obrazów z serwerem na Discordzie?|Midjourney
-Jak nazywa się asystent AI od Google, następca Barda?|Gemini
 Jak nazywa się asystent AI firmy Anthropic?|Claude
-Jak nazywa się chiński model AI, który w styczniu 2025 roku zatrząsł giełdą?|DeepSeek
 Jak nazywa się fałszywe nagranie lub zdjęcie z podmienioną twarzą, stworzone przez AI?|deepfake
 Jak nazywa się Ołeksandr Kostylew, ukraiński gracz CS uznawany za jednego z najlepszych w historii?|s1mple
 Jak nazywa się brytyjski youtuber od piłki nożnej i założyciel Sidemen, Simon Minter?|Miniminter
@@ -119,10 +107,7 @@ Jak nazywa się amerykański youtuber znany z wyzwań typu „ostatni, kto zdejm
 Jak nazywa się amerykański youtuber i bokser, brat Logana Paula?|Jake Paul
 Jak nazywa się brytyjski youtuber i raper Olajide Olatunji?|KSI
 Jak nazywa się serwis z płatną subskrypcją treści twórców, kojarzony głównie z treściami dla dorosłych?|OnlyFans
-Jak nazywa się darmowa aplikacja do montażu krótkich filmów od właściciela TikToka?|CapCut
 Jak nazywa się aplikacja do nauki języków z zieloną sową?|Duolingo
-Jak ma na imię zielona sowa, maskotka Duolingo?|Duo
-Jak nazywa się konkurencyjna wobec Spotify usługa muzyczna Apple?|Apple Music
 Z jakich filmików słynie kanał 5-Minute Crafts?|life hacki|lifehacki|life hacks|DIY
 Jak nazywa się zawód osoby, która streamuje gry na żywo?|streamer
 Jak nazywa się osoba moderująca czat na transmisji?|moderator|mod
@@ -132,8 +117,6 @@ Jak nazywa się płatna subskrypcja na Twitchu dająca emotki kanału?|sub|subsk
 Jak nazywa się darmowa subskrypcja kanału na Twitchu dla klientów Amazona?|Prime Gaming|Prime
 Jak nazywa się zjawisko, gdy algorytm zamyka nas w treściach zgodnych z naszymi poglądami?|bańka informacyjna|bańka filtrująca
 Jak nazywa się nadmierne, bezmyślne przewijanie złych wiadomości w telefonie?|doomscrolling
-Jak nazywa się przerwa od mediów społecznościowych i ekranów — cyfrowy...?|detoks|cyfrowy detoks
-Jak nazywa się osoba, która celowo prowokuje w komentarzach?|troll
 Jak nazywa się zmasowana fala nienawistnych komentarzy?|hejt|hate|shitstorm
 Jak nazywa się fałszywe konto podszywające się pod kogoś lub ukrywające tożsamość?|fake|multikonto|fejk
 Jak nazywa się zapis rozmowy lub posta udostępniany jako dowód?|screenshot|zrzut ekranu|screen
@@ -148,16 +131,11 @@ Jak nazywa się wyzwanie z płukaniem wiadra lodowatej wody na głowie?|Ice Buck
 Jak nazywa się kanał MrBeasta z filmami o filantropii?|Beast Philanthropy
 Jak nazywa się aplikacja do randkowania z przesuwaniem w prawo?|Tinder
 Jak nazywa się gest akceptacji profilu w Tinderze?|przesunięcie w prawo|w prawo|swipe right
-Jak nazywa się aplikacja do zamawiania jedzenia z pomarańczowym logo, popularna w Polsce?|Pyszne.pl|Pyszne
-Jak nazywa się aplikacja Mety do wiadomości z zielonym logo?|WhatsApp
-Jak nazywa się szyfrowany komunikator z niebieskim logo, polecany przez ekspertów od prywatności?|Signal
 Jak nazywa się komunikator z papierowym samolotem w logo?|Telegram
 Jak nazywa się serwis z grupami tematycznymi i upvote'ami, zwany „pierwszą stroną internetu”?|Reddit
 Jak nazywa się polski serwis społecznościowy z newsami i „plusowaniem”, z mikroblogiem?|Wykop
 Jak nazywa się tablica ze zdjęciami-inspiracjami do zapisywania na „tablicach”?|Pinterest
-Który kanał ma najwięcej subskrypcji na całym YouTubie?|MrBeast|Mr Beast
 Który piłkarz opublikował najbardziej lajkowany post w historii Instagrama — zdjęcia z Pucharem Świata?|Leo Messi|Messi|Lionel Messi
-Kto ma najwięcej obserwujących na Instagramie, nie licząc konta samego Instagrama?|Cristiano Ronaldo|Ronaldo|CR7
 Zdjęcie czego było rekordzistą polubień na Instagramie w 2019 roku, zanim pobił je Messi?|jajko|jajo|jajka|egg
 Kto jest autorem kultowego tekstu „dobry ten wafel”?|Pasha|Pasha Biceps|pashabiceps|Jarosław Jarząbkowski
 Jak nazywa się grupa polskich influencerów siłowni?|WK Dzik|Dzik
@@ -165,7 +143,6 @@ Jakiego koloru jest przycisk przyznawany przez YouTube za milion subskrypcji?|z�
 Jaki przycisk YouTube dostaje kanał za 100 tysięcy subskrypcji?|srebrny|srebrna
 Jaki przycisk YouTube dostaje kanał za 10 milionów subskrypcji?|diamentowy|diamentowa
 Jak nazywa się krótki pionowy format filmów na YouTubie, konkurencja TikToka?|Shorts|YouTube Shorts
-Jak nazywają się krótkie filmy na Instagramie?|Reels|rolki|reelsy
 Który polski youtuber jako pierwszy przekroczył milion subskrypcji?|Sylwester Wardęga|Wardęga|SA Wardęga
 Który polski youtuber jako pierwszy przekroczył 4 miliony subskrypcji?|Blowek
 Który polski youtuber jako pierwszy przekroczył 5 milionów subskrypcji?|Friz|Karol Friz Wiśniewski|Karol Wiśniewski
@@ -175,12 +152,8 @@ Kto ze Szwecji przez lata miał największy indywidualny kanał na YouTubie?|Pew
 Jak nazywa się amerykański streamer, rekordzista subskrypcji na Twitchu, organizator „Streamer University”?|Kai Cenat|Cenat
 Jak nazywa się streamer znany z biegania i szczekania, kumpel Ronaldo?|IShowSpeed|Speed
 Jak nazywają się bracia-youtuberzy, którzy zostali bokserami — nazwisko?|Paul|Logan i Jake Paul
-Jak nazywa się napój Logana Paula i KSI?|Prime
-Jak nazywa się brytyjska grupa youtuberów z KSI?|Sidemen
 Jak nazywa się polska federacja walk influencerów — skrót?|Fame MMA|FAME|Fame
-Jak nazywa się polski youtuber, twórca Kanału Zero?|Krzysztof Stanowski|Stanowski
 Jak nazywa się polski youtuber od historii — kanał „Historia bez cenzury”?|Wojciech Drewniak|Drewniak
-Jak nazywa się polski kanał z naukowymi ciekawostkami prowadzony przez Dawida Myśliwca?|Uwaga! Naukowy Bełkot|Naukowy Bełkot
 Jakim pseudonimem posługuje się youtuber Remigiusz Wierzgoń?|reZigiusz|Rezi
 Jak nazywa się lody Ekipy, które wywołały szał w 2021 roku?|Lody Ekipa|Ekipa
 Jak nazywa się sieć burgerów MrBeasta?|MrBeast Burger|Beast Burger

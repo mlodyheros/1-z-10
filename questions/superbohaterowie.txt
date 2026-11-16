@@ -1,102 +1,101 @@
 # Marvel, DC i superbohaterowie
-Jak nazywa się Iron Man w prawdziwym życiu?|Tony Stark|Stark|!1
-Który aktor grał Iron Mana w filmach Marvela?|Robert Downey Jr.|Robert Downey|Downey|!1
-Jakiego złoczyńcę zagra Robert Downey Jr. w filmie „Avengers: Doomsday”?|Doktor Doom|Doctor Doom|Doom|!3
-Jakim filmem z 2008 roku rozpoczęło się Kinowe Uniwersum Marvela?|Iron Man|!1
+Jak nazywa się Iron Man w prawdziwym życiu?|Tony Stark|Stark
+Który aktor grał Iron Mana w filmach Marvela?|Robert Downey Jr.|Robert Downey|Downey
+Jakiego złoczyńcę zagra Robert Downey Jr. w filmie „Avengers: Doomsday”?|Doktor Doom|Doctor Doom|Doom
+Jakim filmem z 2008 roku rozpoczęło się Kinowe Uniwersum Marvela?|Iron Man
 Jak brzmi ostatnie zdanie Tony'ego Starka przed pstryknięciem w „Końcu gry”?|Jestem Iron Manem|I am Iron Man
-Ile kamieni nieskończoności zbierał Thanos?|6|!1
-Który aktor grał Thanosa?|Josh Brolin|Brolin|!3
+Ile kamieni nieskończoności zbierał Thanos?|6
+Który aktor grał Thanosa?|Josh Brolin|Brolin
 Co robi Thanos z połową życia we wszechświecie, gdy pstryka palcami?|unicestwia|zabija|znika|zamienia w pył|wymazuje
-Na jakiej planecie znajdował się Kamień Duszy?|Vormir|!3
+Na jakiej planecie znajdował się Kamień Duszy?|Vormir
 Który z Avengersów poświęca życie na Vormirze, by zdobyć Kamień Duszy?|Czarna Wdowa|Natasha Romanoff|Natasha|Black Widow
-W jakim przedmiocie ukryty był Kamień Przestrzeni?|Tesserakt|Tesseract|!3
-Jak nazywa się topór, który Thor zdobywa w „Wojnie bez granic”?|Stormbreaker|Burzołamacz|!3
-Który aktor gra Thora?|Chris Hemsworth|Hemsworth|!1
-Jak ma na imię przybrany brat Thora, bóg kłamstwa?|Loki|!1
+W jakim przedmiocie ukryty był Kamień Przestrzeni?|Tesserakt|Tesseract
+Jak nazywa się topór, który Thor zdobywa w „Wojnie bez granic”?|Stormbreaker|Burzołamacz
+Który aktor gra Thora?|Chris Hemsworth|Hemsworth
+Jak ma na imię przybrany brat Thora, bóg kłamstwa?|Loki
 Który aktor gra Lokiego?|Tom Hiddleston|Hiddleston
-Jak nazywa się ojciec Thora i Lokiego?|Odyn|Odin
-Jak nazywa się kraina bogów, z której pochodzi Thor?|Asgard|!1
-Jak nazywa się Kapitan Ameryka w prawdziwym życiu?|Steve Rogers|Rogers|!1
+Jak nazywa się kraina bogów, z której pochodzi Thor?|Asgard
+Jak nazywa się Kapitan Ameryka w prawdziwym życiu?|Steve Rogers|Rogers
 Który aktor grał Kapitana Amerykę – Steve'a Rogersa?|Chris Evans|Evans
 Z jakiego metalu wykonana jest tarcza Kapitana Ameryki?|wibranium|vibranium
 Kto przejmuje tarczę i tytuł Kapitana Ameryki po Stevie Rogersie?|Sam Wilson|Falcon|Sokół
 Jak nazywa się przyjaciel Steve'a Rogersa, który został Zimowym Żołnierzem?|Bucky Barnes|Bucky|James Barnes
-Jak nazywa się ukochana Steve'a Rogersa z czasów wojny?|Peggy Carter|Peggy|!3
+Jak nazywa się ukochana Steve'a Rogersa z czasów wojny?|Peggy Carter|Peggy
 Jak nazywa się nazistowska organizacja, z którą walczy Kapitan Ameryka?|Hydra
-Jak nazywa się Hulk w ludzkiej postaci?|Bruce Banner|Banner|!1
-Który aktor gra Hulka od „Avengers” z 2012 roku?|Mark Ruffalo|Ruffalo|!3
+Jak nazywa się Hulk w ludzkiej postaci?|Bruce Banner|Banner
+Który aktor gra Hulka od „Avengers” z 2012 roku?|Mark Ruffalo|Ruffalo
 Jak ma na imię i nazwisko Czarna Wdowa?|Natasha Romanoff|Natasza Romanow|Natasha
 Która aktorka grała Czarną Wdowę?|Scarlett Johansson|Johansson
 Jak nazywa się łucznik z drużyny Avengers?|Hawkeye|Sokole Oko|Clint Barton
-Jak nazywa się szef agencji T.A.R.C.Z.A. z opaską na oku?|Nick Fury|Fury|!1
+Jak nazywa się szef agencji T.A.R.C.Z.A. z opaską na oku?|Nick Fury|Fury
 Który aktor gra Nicka Fury'ego?|Samuel L. Jackson|Samuel Jackson|Jackson
 Jak nazywa się sztuczna inteligencja Tony'ego Starka, która stała się później Visionem?|JARVIS|Jarvis
-Jak nazywa się Spider-Man w prawdziwym życiu?|Peter Parker|Parker|!1
-Który aktor gra Spider-Mana w filmach MCU?|Tom Holland|Holland|!1
+Jak nazywa się Spider-Man w prawdziwym życiu?|Peter Parker|Parker
+Który aktor gra Spider-Mana w filmach MCU?|Tom Holland|Holland
 Jak brzmi słynna rada wujka Bena dla Petera Parkera?|z wielką mocą wiąże się wielka odpowiedzialność|wielka moc wielka odpowiedzialność
 Jak ma na imię ciocia Petera Parkera?|May|ciocia May
 Która aktorka gra MJ w filmach z Tomem Hollandem?|Zendaya
 W którym filmie z 2021 roku spotkało się trzech Spider-Manów z różnych serii?|Spider-Man: Bez drogi do domu|Bez drogi do domu|No Way Home
-Którzy aktorzy grali Spider-Mana przed Tomem Hollandem?|Tobey Maguire i Andrew Garfield|Maguire i Garfield|Tobey Maguire|Andrew Garfield|!3
-Jak nazywa się nastoletni Spider-Man z animacji „Spider-Man Uniwersum”?|Miles Morales|Miles|!3
+Którzy aktorzy grali Spider-Mana przed Tomem Hollandem?|Tobey Maguire i Andrew Garfield|Maguire i Garfield|Tobey Maguire|Andrew Garfield
+Jak nazywa się nastoletni Spider-Man z animacji „Spider-Man Uniwersum”?|Miles Morales|Miles
 Jak nazywa się symbiont, który łączy się z Eddiem Brockiem?|Venom
-W jakiej gazecie pracuje J. Jonah Jameson?|Daily Bugle|!3
-Jak nazywa się afrykańskie państwo, z którego pochodzi Czarna Pantera?|Wakanda|!1
+W jakiej gazecie pracuje J. Jonah Jameson?|Daily Bugle
+Jak nazywa się afrykańskie państwo, z którego pochodzi Czarna Pantera?|Wakanda
 Który aktor grał Czarną Panterę – T'Challę?|Chadwick Boseman|Boseman
-Kto zostaje nową Czarną Panterą w filmie „Wakanda w moim sercu”?|Shuri|!3
+Kto zostaje nową Czarną Panterą w filmie „Wakanda w moim sercu”?|Shuri
 Jak nazywa się lekarz-czarodziej grany przez Benedicta Cumberbatcha?|Doktor Strange|Doctor Strange|Stephen Strange|Strange
-Jak nazywa się drużyna, w której są Star-Lord, Gamora, Drax, Rocket i Groot?|Strażnicy Galaktyki|Guardians of the Galaxy|!1
-Jakie jedyne słowa wypowiada Groot?|Jestem Groot|I am Groot|!1
-Jakim zwierzęciem jest Rocket ze Strażników Galaktyki?|szop|szop pracz|szopem|!1
+Jak nazywa się drużyna, w której są Star-Lord, Gamora, Drax, Rocket i Groot?|Strażnicy Galaktyki|Guardians of the Galaxy
+Jakie jedyne słowa wypowiada Groot?|Jestem Groot|I am Groot
+Jakim zwierzęciem jest Rocket ze Strażników Galaktyki?|szop|szop pracz|szopem
 Który aktor gra Star-Lorda?|Chris Pratt|Pratt
-Kto wyreżyserował „Strażników Galaktyki”, a potem „Supermana” z 2025 roku?|James Gunn|Gunn|!3
+Kto wyreżyserował „Strażników Galaktyki”, a potem „Supermana” z 2025 roku?|James Gunn|Gunn
 Który superbohater potrafi się zmniejszać do rozmiarów owada?|Ant-Man|Ant Man|Scott Lang|Człowiek-Mrówka
 Który aktor gra Ant-Mana?|Paul Rudd|Rudd
-Która aktorka gra Kapitan Marvel?|Brie Larson|Larson|!3
+Która aktorka gra Kapitan Marvel?|Brie Larson|Larson
 Jak nazywa się serial Disney+ o Wandzie i Visionie żyjących w sitcomie?|WandaVision|Wanda Vision
 Jak nazywa się Wanda Maximoff jako superbohaterka?|Scarlet Witch|Szkarłatna Wiedźma
-Który pyskaty antybohater w czerwonym kostiumie łamie czwartą ścianę?|Deadpool|!1
-Który aktor gra Deadpoola?|Ryan Reynolds|Reynolds|!1
+Który pyskaty antybohater w czerwonym kostiumie łamie czwartą ścianę?|Deadpool
+Który aktor gra Deadpoola?|Ryan Reynolds|Reynolds
 Z jakiego metalu zrobione są pazury Wolverine'a?|adamantium
 Który aktor grał Wolverine'a przez ponad dwadzieścia lat?|Hugh Jackman|Jackman
 Jak nazywa się przywódca X-Menów na wózku inwalidzkim?|Profesor X|Charles Xavier|Xavier|Profesor Xavier
 Który mutant potrafi sterować metalem i jest wrogiem X-Menów?|Magneto
-Który twórca komiksów Marvela pojawiał się w krótkich cameo w niemal każdym filmie?|Stan Lee|Lee|!1
+Który twórca komiksów Marvela pojawiał się w krótkich cameo w niemal każdym filmie?|Stan Lee|Lee
 Która firma kupiła Marvela w 2009 roku?|Disney|Walt Disney|The Walt Disney Company
-Kto jest szefem Marvel Studios?|Kevin Feige|Feige|!3
-Którzy bracia wyreżyserowali „Wojnę bez granic” i „Koniec gry”?|Russo|bracia Russo|Anthony i Joe Russo|!3
-Który aktor gra Reeda Richardsa w „Fantastycznej Czwórce” z 2025 roku?|Pedro Pascal|Pascal|!3
-Jak nazywa się pożeracz planet, wróg Fantastycznej Czwórki?|Galactus|!3
-Która aktorka gra Yelenę Belovą, siostrę Czarnej Wdowy?|Florence Pugh|Pugh|!3
-Jak nazywa się agencja pilnująca linii czasu w serialu „Loki”?|TVA|Time Variance Authority|!3
-Jakiego bohatera zagrał Simu Liu w filmie z 2021 roku?|Shang-Chi|Shang Chi|!3
-Jak nazywa się Superman w ludzkiej postaci?|Clark Kent|Kent|!1
-Co osłabia Supermana?|kryptonit|kryptonite|!1
-W jakiej gazecie pracuje Clark Kent?|Daily Planet|!3
+Kto jest szefem Marvel Studios?|Kevin Feige|Feige
+Którzy bracia wyreżyserowali „Wojnę bez granic” i „Koniec gry”?|Russo|bracia Russo|Anthony i Joe Russo
+Który aktor gra Reeda Richardsa w „Fantastycznej Czwórce” z 2025 roku?|Pedro Pascal|Pascal
+Jak nazywa się pożeracz planet, wróg Fantastycznej Czwórki?|Galactus
+Która aktorka gra Yelenę Belovą, siostrę Czarnej Wdowy?|Florence Pugh|Pugh
+Jak nazywa się agencja pilnująca linii czasu w serialu „Loki”?|TVA|Time Variance Authority
+Jakiego bohatera zagrał Simu Liu w filmie z 2021 roku?|Shang-Chi|Shang Chi
+Jak nazywa się Superman w ludzkiej postaci?|Clark Kent|Kent
+Co osłabia Supermana?|kryptonit|kryptonite
+W jakiej gazecie pracuje Clark Kent?|Daily Planet
 Jak ma na imię dziennikarka, ukochana Supermana?|Lois Lane|Lois
 W jakim mieście mieszka Superman?|Metropolis
 Jak nazywa się największy wróg Supermana, łysy miliarder?|Lex Luthor|Luthor
-Który aktor zagrał Supermana w filmie z 2025 roku?|David Corenswet|Corenswet|!3
-Jak nazywa się pies Supermana z filmu z 2025 roku?|Krypto|!3
-Jak nazywa się Batman w prawdziwym życiu?|Bruce Wayne|Wayne|!1
-W jakim mieście działa Batman?|Gotham|Gotham City|!1
-Jak ma na imię lokaj Batmana?|Alfred|Alfred Pennyworth|!1
+Który aktor zagrał Supermana w filmie z 2025 roku?|David Corenswet|Corenswet
+Jak nazywa się pies Supermana z filmu z 2025 roku?|Krypto
+Jak nazywa się Batman w prawdziwym życiu?|Bruce Wayne|Wayne
+W jakim mieście działa Batman?|Gotham|Gotham City
+Jak ma na imię lokaj Batmana?|Alfred|Alfred Pennyworth
 Jak nazywa się pomocnik Batmana?|Robin
-Jak nazywa się największy wróg Batmana o makabrycznym uśmiechu?|Joker|!1
+Jak nazywa się największy wróg Batmana o makabrycznym uśmiechu?|Joker
 Który aktor dostał pośmiertnie Oscara za rolę Jokera w „Mrocznym rycerzu”?|Heath Ledger|Ledger
 Który aktor dostał Oscara za film „Joker” z 2019 roku?|Joaquin Phoenix|Phoenix
 Kto wyreżyserował trylogię „Mroczny Rycerz” z Christianem Bale'em?|Christopher Nolan|Nolan
 Który aktor grał Batmana w filmie „Batman” z 2022 roku?|Robert Pattinson|Pattinson
-Jak nazywa się samochód Batmana?|Batmobil|Batmobile|!1
+Jak nazywa się samochód Batmana?|Batmobil|Batmobile
 Jak nazywa się kryjówka Batmana pod jego posiadłością?|Jaskinia Batmana|Batcave|Batjaskinia
 Jak nazywa się złodziejka w kocim kostiumie, Selina Kyle?|Kobieta-Kot|Catwoman|Kobieta Kot
 Jak nazywa się zagadkowy złoczyńca z Gotham zostawiający łamigłówki?|Riddler|Człowiek-Zagadka
-Jak nazywa się dwulicowy prokurator Harvey Dent?|Dwie Twarze|Two-Face|Dwie Twarze Harvey Dent|!3
-Jak nazywa się mafioso, bohater serialu HBO z Colinem Farrellem z 2024 roku?|Pingwin|Penguin|Oswald Cobb|Oz Cobb|!3
+Jak nazywa się dwulicowy prokurator Harvey Dent?|Dwie Twarze|Two-Face|Dwie Twarze Harvey Dent
+Jak nazywa się mafioso, bohater serialu HBO z Colinem Farrellem z 2024 roku?|Pingwin|Penguin|Oswald Cobb|Oz Cobb
 Jak ma na imię Wonder Woman?|Diana|Diana Prince
 Która aktorka grała Wonder Woman?|Gal Gadot|Gadot
-Jaki magiczny przedmiot zmusza do mówienia prawdy w rękach Wonder Woman?|lasso prawdy|lasso|!3
-Z jakiej wyspy amazonek pochodzi Wonder Woman?|Themyscira|Temiskira|!3
+Jaki magiczny przedmiot zmusza do mówienia prawdy w rękach Wonder Woman?|lasso prawdy|lasso
+Z jakiej wyspy amazonek pochodzi Wonder Woman?|Themyscira|Temiskira
 Który superbohater DC jest najszybszym człowiekiem na świecie?|Flash|Barry Allen
 Który aktor grał Aquamana?|Jason Momoa|Momoa
 Jakim podwodnym królestwem rządzi Aquaman?|Atlantyda|Atlantis
@@ -104,8 +103,8 @@ Jaki pierścień nosi Hal Jordan?|pierścień Zielonej Latarni|zielony pierście
 Jak nazywa się drużyna superbohaterów DC z Batmanem, Supermanem i Wonder Woman?|Liga Sprawiedliwości|Justice League
 Która aktorka grała Harley Quinn?|Margot Robbie|Robbie
 Jak nazywa się zły superbohater, przywódca Siódemki w serialu „The Boys”?|Homelander|Ojczyznosław
-Jak nazywa się ojciec bohatera animacji „Invincible”?|Omni-Man|Omni Man|Nolan Grayson|!3
-W którym roku w komiksie pierwszy raz pojawił się Superman?|1938|!3
+Jak nazywa się ojciec bohatera animacji „Invincible”?|Omni-Man|Omni Man|Nolan Grayson
+W którym roku w komiksie pierwszy raz pojawił się Superman?|1938
 Które wydawnictwo wydaje komiksy o Batmanie i Supermanie?|DC|DC Comics
 Jak brzmi okrzyk Hulka, gdy wpada w szał?|Hulk miażdży|Hulk smash
-Jak nazywa się wieża Avengersów w Nowym Jorku, dawniej należąca do Starka?|Stark Tower|Avengers Tower|Wieża Avengers|Wieża Starka|!3
+Jak nazywa się wieża Avengersów w Nowym Jorku, dawniej należąca do Starka?|Stark Tower|Avengers Tower|Wieża Avengers|Wieża Starka

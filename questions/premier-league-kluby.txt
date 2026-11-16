@@ -19,14 +19,12 @@ Kto zastąpił Kloppa w Liverpoolu w 2024 roku?|Arne Slot|Slot
 Kto prowadził Manchester United przez 27 lat, do 2013 roku?|Alex Ferguson|Ferguson|Sir Alex Ferguson
 Kto prowadził Arsenal przez 22 lata, do 2018 roku?|Arsène Wenger|Arsene Wenger|Wenger
 Kto jest trenerem Arsenalu od 2019 roku?|Mikel Arteta|Arteta
-Jaki trener nazwał siebie „The Special One”?|José Mourinho|Jose Mourinho|Mourinho
 Jak nazywa się stadion Manchesteru United?|Old Trafford
 Jak nazywa się stadion Liverpoolu?|Anfield
 Jak nazywa się stadion Arsenalu?|Emirates Stadium|Emirates
 Jak nazywa się stadion Chelsea?|Stamford Bridge
 Jak nazywa się stadion Manchesteru City?|Etihad Stadium|Etihad
 Jak nazywa się stadion Newcastle United?|St James' Park|St James Park
-Jak nazywa się narodowy stadion Anglii w Londynie?|Wembley
 Jak brzmi tytuł hymnu kibiców Liverpoolu?|You'll Never Walk Alone|YNWA
 Jaki przydomek noszą piłkarze Manchesteru United?|Czerwone Diabły|Red Devils
 Jaki przydomek noszą piłkarze Arsenalu?|Kanonierzy|The Gunners|Gunners
@@ -67,12 +65,9 @@ Jak nazywa się najstarszy piłkarski puchar świata, rozgrywany w Anglii?|Pucha
 Jak nazywa się mecz o Tarczę Wspólnoty po angielsku?|Community Shield|Tarcza Wspólnoty
 Jak nazywa się popularna gra menedżerska fanów Premier League — skrót FPL?|Fantasy Premier League|FPL|Fantasy
 Jak nazywa się system wideoweryfikacji używany przez sędziów?|VAR
-Który polski bramkarz grał w Arsenalu, a potem w Juventusie i Barcelonie?|Wojciech Szczęsny|Szczęsny
 Który polski bramkarz zdobył z West Hamem Ligę Konferencji w 2023 roku?|Łukasz Fabiański|Fabiański
-Który polski bramkarz wygrał z Liverpoolem Ligę Mistrzów w 2005 roku?|Jerzy Dudek|Dudek
 Który polski obrońca gra w Aston Villi?|Matty Cash|Cash
 Jak nazywają się najważniejsze klubowe rozgrywki w Europie?|Liga Mistrzów|Champions League
-Który klub ma najwięcej zwycięstw w Lidze Mistrzów?|Real Madryt|Real
 Ile razy Real Madryt wygrał Puchar Europy i Ligę Mistrzów?|15
 Jakim wynikiem PSG pokonało Inter w finale Ligi Mistrzów 2025?|5:0|5-0
 Który klub wygrał Ligę Mistrzów w 2023 roku, zdobywając potrójną koronę?|Manchester City|Man City|City
@@ -92,7 +87,6 @@ Jak nazywa się stadion Barcelony?|Camp Nou|Spotify Camp Nou
 Jak nazywa się akademia piłkarska Barcelony?|La Masia
 Jak nazywa się nastoletni skrzydłowy Barcelony, mistrz Europy z Hiszpanią w 2024 roku?|Lamine Yamal|Yamal
 Ile goli w 9 minut strzelił Lewandowski Wolfsburgowi w 2015 roku?|5
-Ile goli w sezonie Bundesligi 2020/21 strzelił Lewandowski, bijąc rekord Gerda Müllera?|41
 Jaki trener prowadzi Barcelonę od 2024 roku?|Hansi Flick|Flick
 Jaki trener wygrał z Realem Madryt trzy Ligi Mistrzów z rzędu w latach 2016–2018?|Zinédine Zidane|Zinedine Zidane|Zidane
 Jaki włoski trener prowadził Real Madryt do 2025 roku, a potem objął reprezentację Brazylii?|Carlo Ancelotti|Ancelotti
@@ -109,13 +103,10 @@ Jak nazywa się słynna trybuna kibiców Borussii Dortmund?|Żółta Ściana|Yel
 Jaki klub wygrał Bundesligę bez porażki w sezonie 2023/24?|Bayer Leverkusen|Leverkusen
 Kto był trenerem Bayeru Leverkusen w mistrzowskim sezonie 2023/24?|Xabi Alonso|Alonso
 Jaki klub z Neapolu zdobył mistrzostwo Włoch w 2023 roku po 33 latach?|Napoli|SSC Napoli
-Jaki klub z Turynu nosi przydomek „Stara Dama”?|Juventus|Juve
 Jaki klub z Paryża należy do katarskich właścicieli?|Paris Saint-Germain|PSG
 Jaki klub z Amsterdamu słynie ze szkolenia młodzieży?|Ajax|Ajax Amsterdam
 Jaki klub z Lizbony nosi przydomek „Orły”?|Benfica|Benfica Lizbona
 Jakie dwa kluby z Glasgow grają w derbach Old Firm?|Celtic i Rangers|Rangers i Celtic
-Jaki polski klub zdobył mistrzostwo Polski w 2025 roku?|Lech Poznań|Lech
-Jaki polski klub zdobył mistrzostwo Polski w 2024 roku?|Jagiellonia Białystok|Jagiellonia
 Jaki polski klub zdobył mistrzostwo Polski w 2023 roku?|Raków Częstochowa|Raków
 Jak nazywa się mecz Wisły Kraków z Cracovią?|Święta Wojna|derby Krakowa
 Jak nazywa się mecz Ruchu Chorzów z Górnikiem Zabrze?|Wielkie Derby Śląska|derby Śląska
@@ -137,11 +128,9 @@ Jak nazywa się styl gry krótkimi podaniami kojarzony z Barceloną Guardioli?|t
 Jak nazywa się agresywny odbiór piłki tuż po jej stracie, znak firmowy Kloppa?|gegenpressing|kontrpressing|pressing
 Jak nazywa się ustawienie obrony „autobus” — potocznie?|parkowanie autobusu|autobus|murowanie bramki
 Jak nazywa się seria gier piłkarskich EA, która w 2023 roku zmieniła nazwę z FIFA?|EA Sports FC|EA FC|FC
-Jak nazywa się tryb w grach EA FC, w którym zbiera się karty piłkarzy?|Ultimate Team|FUT
 Jak nazywa się gra, w której wciela się w menedżera klubu i ustala taktykę — skrót FM?|Football Manager|FM
 Jak nazywa się serial dokumentalny o klubie Wrexham kupionym przez Ryana Reynoldsa?|Welcome to Wrexham|Witajcie w Wrexham
 Jak nazywa się serial komediowy o amerykańskim trenerze futbolu, który prowadzi angielski klub piłkarski?|Ted Lasso
-Jaki klub z Warszawy ma na koncie najwięcej tytułów mistrza Polski?|Legia Warszawa|Legia
 Jak nazywa się skrzydłowy Arsenalu z numerem 7, wychowanek klubu i gwiazda kadry Anglii?|Bukayo Saka|Saka
 Który polski obrońca, filar reprezentacji, przez lata grał w Southampton?|Jan Bednarek|Bednarek
 Który polski bramkarz zakończył karierę w 2024 roku, po czym wrócił, by grać w Barcelonie?|Wojciech Szczęsny|Szczęsny

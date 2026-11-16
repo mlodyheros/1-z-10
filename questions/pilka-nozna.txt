@@ -98,7 +98,6 @@ Z jakiego miasta pochodzi klub Pogoń, grający w Ekstraklasie w barwach granato
 Z jakiego miasta pochodzi klub Raków?|Częstochowa|z Częstochowy
 Z jakiego miasta pochodzi klub Lechia?|Gdańsk|z Gdańska
 Z jakiego miasta pochodzi klub Cracovia?|Kraków|z Krakowa
-Który klub zdobył mistrzostwo Polski w 2024 roku po raz pierwszy w historii?|Jagiellonia Białystok|Jagiellonia
 Który polski klub dotarł do finału Pucharu Zdobywców Pucharów w 1970 roku?|Górnik Zabrze|Górnik
 Jak nazywa się stadion narodowy w Warszawie — imienia którego trenera?|Kazimierza Górskiego|Górskiego
 Na jakim stadionie tradycyjnie grała reprezentacja Polski, zwanym „Kotłem Czarownic”?|Stadion Śląski|Śląski
@@ -170,24 +169,19 @@ Który napastnik stał się najdroższym transferem w historii Premier League, p
 Z jakiego miasta w Argentynie pochodzi Leo Messi?|Rosario
 Kto zdobył Złotą Piłkę w 2024 roku?|Rodri|Rodrigo Hernández
 Kto zdobył Złotą Piłkę w 2025 roku?|Ousmane Dembélé|Dembélé|Dembele
-Ilu zawodników jednej drużyny jest na boisku w piłce nożnej?|11
 Ile minut trwa mecz piłkarski bez dogrywki?|90
 Jakie trzy kraje organizują mistrzostwa świata w 2026 roku?|USA, Kanada i Meksyk|Stany Zjednoczone, Kanada i Meksyk|USA Kanada Meksyk
-Która reprezentacja ma najwięcej tytułów mistrza świata?|Brazylia
 Ile tytułów mistrza świata ma Brazylia?|5
 Jakim wynikiem Niemcy pokonali Brazylię w półfinale mundialu 2014?|7:1|7-1
 Kto strzelił „ręką Boga” w 1986 roku?|Diego Maradona|Maradona
 Kto jest królem strzelców wszech czasów reprezentacji Polski?|Robert Lewandowski|Lewandowski
 Które miejsce zajęła Polska na mundialach w 1974 i 1982 roku?|3|trzecie
-Kto był selekcjonerem Polski podczas mundialu 1974?|Kazimierz Górski|Górski
 Jaki kolor kartki oznacza wykluczenie z gry?|czerwona|czerwony
-Jak nazywa się sytuacja, gdy napastnik jest bliżej bramki niż przedostatni obrońca w chwili podania?|spalony|pozycja spalona
 Jak nazywa się brazylijski piłkarz, trzykrotny mistrz świata, „Król Futbolu”?|Pelé|Pele
 Jak nazywa się brazylijski napastnik z lat 90. i 2000., „Fenomen”?|Ronaldo|Ronaldo Nazário
 Jak nazywa się francuski pomocnik, który uderzył głową Materazziego w finale 2006?|Zinédine Zidane|Zidane|Zinedine Zidane
 Kto strzelił hat-tricka w finale mundialu 2022, a mimo to przegrał?|Kylian Mbappé|Mbappé|Mbappe
 Jak nazywa się organizacja rządząca światową piłką?|FIFA
-Ile zmian można zrobić w meczu piłkarskim według obecnych przepisów?|5
 Kto wygrał Copa América w 2024 roku?|Argentyna
 Kto był kapitanem Argentyny na mundialu 2022?|Leo Messi|Messi|Lionel Messi
 Na jakim stadionie w Warszawie gra reprezentacja Polski?|PGE Narodowy|Stadion Narodowy|Narodowy

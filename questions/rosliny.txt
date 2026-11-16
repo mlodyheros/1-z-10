@@ -118,7 +118,6 @@ Jak nazywa się las pierwotny, nietknięty przez człowieka?|puszcza|las pierwot
 Jak nazywa się podmokły teren z torfem?|torfowisko|bagno
 Jak nazywa się zarośnięta trawą przestrzeń koszona na siano?|łąka
 Jak nazywa się górska łąka w Tatrach wypasana przez owce?|hala|polana
-Jak nazywa się karłowata sosna rosnąca w górach?|kosodrzewina|kosówka
 Jak nazywa się piętro roślinności w Tatrach powyżej lasu?|kosodrzewina|piętro kosodrzewiny
 Jak nazywa się pora roku zaczynająca się 21 marca?|wiosna
 Jak nazywa się pora roku zaczynająca się około 23 września?|jesień
@@ -128,7 +127,6 @@ Jak nazywa się opad lodowych kulek?|grad
 Jak nazywa się skroplona para wodna tuż przy ziemi ograniczająca widoczność?|mgła
 Jak nazywają się chmury burzowe o kształcie kowadła?|cumulonimbus
 Jak nazywają się pierzaste chmury wysokie?|cirrus|cirrusy
-Jak nazywa się wiatr wiejący w Tatrach, ciepły i porywisty?|halny
 Jak nazywa się wirujący lej powietrza niszczący wszystko na drodze?|tornado|trąba powietrzna
 Jak nazywa się tropikalny cyklon na Atlantyku?|huragan
 Jak nazywa się tropikalny cyklon na zachodnim Pacyfiku?|tajfun
@@ -150,27 +148,17 @@ Jak nazywa się naturalny nawóz z rozłożonych resztek roślin?|kompost
 Jak nazywa się zwierzę spulchniające glebę, różowe i bez nóg?|dżdżownica
 Jak nazywa się proces niszczenia skał przez wodę i wiatr?|erozja
 Jak nazywa się wylesianie, czyli wycinanie lasów?|deforestacja|wylesianie
-Jak nazywa się największy las równikowy świata?|Amazonia|Puszcza Amazońska
 Jaki gaz pochłaniają drzewa z powietrza?|dwutlenek węgla
 Jakie drzewo ma żołędzie?|dąb
 Jakie drzewo ma kasztany?|kasztanowiec|kasztan
-Jakie drzewo jest symbolem Kanady?|klon
-Jaki kwiat jest symbolem Holandii?|tulipan
 Jaki kwiat jest symbolem Japonii — kwitnąca wiśnia po japońsku?|sakura
 Jaka roślina łapie owady w kleiste lub zamykające się liście — muchołówka należy do roślin…?|owadożernych|owadożerne|mięsożernych
 Z jakiej rośliny robi się olej rzepakowy?|rzepak
-Z jakiej rośliny robi się len na tkaniny?|len
-Jaki grzyb z czerwonym kapeluszem w białe kropki jest trujący?|muchomor czerwony|muchomor
 Jaki grzyb jest uznawany za króla polskich lasów?|borowik|prawdziwek|borowik szlachetny
-Jak nazywa się część rośliny pobierająca wodę z gleby?|korzeń|korzenie
 Jak nazywa się część kwiatu wabiąca owady kolorem?|płatki|płatek|korona
 Jak nazywa się pyłek przenoszony przez pszczoły — proces?|zapylanie|zapylenie
-Jak nazywają się rośliny żyjące tylko jeden sezon?|jednoroczne|rośliny jednoroczne
-Jak nazywa się roślina pustynna magazynująca wodę, z kolcami?|kaktus
 Jaka roślina doniczkowa „teściowej język” to inaczej?|sansewieria|wężownica
 Jaka trawa jest najwyższa na świecie i rośnie bardzo szybko?|bambus
 Jak nazywa się owoc dębu?|żołądź
 Jak nazywa się drzewo, z którego liści żywią się koale?|eukaliptus
 Jak nazywa się kwiat, z którego nasion tłoczy się olej i je się pestki?|słonecznik
-Jak nazywa się zboże, z którego robi się popcorn?|kukurydza
-Jak nazywa się kwiat, którego płatki się obrywa, wróżąc „kocha, nie kocha”?|stokrotka|rumianek|margerytka

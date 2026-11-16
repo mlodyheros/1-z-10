@@ -56,7 +56,6 @@ Jak nazywa się nielegalny doping budujący mięśnie — potocznie „koks”?|
 Jak nazywa się osoba trenująca bez dopingu?|natural|naturalny|natty
 Jak nazywa się hormon męski odpowiadający m.in. za masę mięśniową?|testosteron
 Jak nazywa się hormon stresu, który kulturyści chcą trzymać nisko?|kortyzol
-Jak nazywa się wskaźnik masy ciała liczony z wagi i wzrostu — skrót?|BMI
 Jak nazywa się podstawowa przemiana materii — skrót?|PPM|BMR
 Jak nazywa się cukier zapasowy magazynowany w mięśniach i wątrobie?|glikogen
 Jak nazywa się kwas, który gromadzi się w mięśniach przy intensywnym wysiłku?|kwas mlekowy|mleczan
@@ -70,7 +69,6 @@ Jak potocznie nazywają się mięśnie naramienne?|barki|naramienne
 Jak potocznie nazywają się mięśnie czworoboczne przy szyi?|kaptury|czworoboczny
 Jak potocznie nazywa się widoczny mięsień prosty brzucha?|sześciopak|kaloryfer|six pack|sixpack
 Jak nazywają się mięśnie tylnej części uda — „dwójki”?|dwugłowe uda|dwójki|mięsień dwugłowy uda
-Jak nazywa się największy mięsień ludzkiego ciała?|pośladkowy wielki|pośladek|mięsień pośladkowy wielki
 Jak nazywa się mięsień klatki piersiowej — „klata”?|piersiowy większy|mięsień piersiowy|klatka
 Jak nazywają się mięśnie głębokie tułowia stabilizujące kręgosłup — po angielsku?|core|mięśnie core
 Jak nazywa się kulturysta, który 7 razy wygrał Mr. Olympia, a potem został gubernatorem Kalifornii?|Arnold Schwarzenegger|Schwarzenegger|Arnold
@@ -143,7 +141,6 @@ Jak nazywa się zdjęcie robione w lustrze na siłowni?|gym selfie|selfie|mirror
 Jak nazywa się pozowanie z napiętymi mięśniami?|napinka|flex|fleks|pozowanie
 Jak nazywa się poza z uniesionymi i napiętymi obiema rękami — klasyka Arnolda?|podwójny biceps|double biceps|front double biceps
 Jak nazywa się wciągnięcie brzucha pod żebra, popisowa poza złotej ery kulturystyki?|vacuum|próżnia|stomach vacuum
-Jak nazywa się mem z czarno-białym zdjęciem mężczyzny o idealnej szczęce i sylwetce?|GigaChad|Chad
 Jak w internecie nazywa się maksymalne poprawianie własnego wyglądu?|looksmaxxing|looksmaxing
 Jak nazywa się baton z dużą zawartością białka?|baton proteinowy|baton białkowy|protein bar
 Jak nazywa się ćwiczenie brzucha polegające na unoszeniu tułowia z leżenia?|brzuszki|brzuszek
