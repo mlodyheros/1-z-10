@@ -1,0 +1,151 @@
+# Wiedza ogólna
+Ile dni ma tydzień?|7|siedem
+Ile miesięcy ma rok?|12
+Ile dni ma luty w roku przestępnym?|29
+Który miesiąc ma w nazwie imię rzymskiego cesarza Juliusza?|lipiec|lipca
+Jak nazywa się pierwszy dzień tygodnia według polskiej normy?|poniedziałek
+Ile sekund ma minuta?|60
+Ile godzin ma doba?|24
+Ile lat ma wiek?|100|sto
+Ile lat trwa dekada?|10
+Ile lat trwa milenium?|1000|tysiąc
+Jak nazywa się okres dwustu lat?|dwustulecie|bicentennial
+Jak nazywa się 25. rocznica ślubu?|srebrne gody|srebrne wesele
+Jak nazywa się 50. rocznica ślubu?|złote gody|złote wesele
+Jak nazywa się 60. rocznica ślubu?|diamentowe gody|diamentowe wesele
+Ile kart ma talia do brydża?|52
+Jak nazywa się karta z wizerunkiem błazna w talii?|joker|dżoker
+Jaki kolor kart oznacza się serduszkiem?|kier
+Jaki kolor kart oznacza się czarnym listkiem z ogonkiem?|pik
+Jak nazywa się kolor kart oznaczany czarną koniczyną?|trefl
+Jak nazywa się kolor kart oznaczany czerwonym rombem?|karo
+Jak nazywa się zakończenie partii szachów, gdy król jest atakowany i nie ma ruchu?|mat|szach mat|szachmat
+Jak nazywa się sytuacja w szachach, gdy gracz nie ma ruchu, ale jego król nie jest atakowany?|pat
+Jak nazywa się ruch w szachach, w którym król i wieża zmieniają się miejscami?|roszada
+Ile oczek ma kostka do gry łącznie na wszystkich ściankach?|21
+Ile ścianek ma zwykła kostka do gry?|6
+Jak nazywa się gra planszowa, w której kupuje się ulice i stawia hotele?|Monopoly|Monopol
+Jak nazywa się gra, w której układa się słowa z płytek z literami?|Scrabble|scrabble
+Jak nazywa się łamigłówka z kostką o sześciu kolorowych ściankach?|kostka Rubika|Rubik
+Jak nazywa się japońska łamigłówka liczbowa na planszy 9 na 9?|sudoku
+Ile kolorów ma tęcza według tradycyjnego podziału?|7|siedem
+Jaki kolor powstaje z połączenia czerwonego i białego?|różowy
+Jakie kolory ma polska flaga?|biało-czerwona|biały i czerwony|biel i czerwień
+Jaki kolor jest na górze polskiej flagi?|biały
+Jakie zwierzę jest w godle Polski?|orzeł|biały orzeł
+Jak zaczyna się polski hymn?|Jeszcze Polska nie zginęła|Jeszcze Polska nie zginela
+Którego dnia obchodzimy Święto Konstytucji 3 Maja?|3 maja
+Którego dnia obchodzi się w Polsce Dzień Kobiet?|8 marca
+Którego dnia przypada Dzień Dziecka?|1 czerwca
+Którego dnia przypada Wszystkich Świętych?|1 listopada
+Którego dnia przypadają walentynki?|14 lutego
+Którego dnia przypada Wigilia Bożego Narodzenia?|24 grudnia
+Którego dnia przypada Święto Trzech Króli?|6 stycznia
+Którego dnia przypadają mikołajki?|6 grudnia
+Jak nazywa się ostatni wieczór roku?|sylwester
+Jak nazywa się pierwszy dzień wiosny w kalendarzu astronomicznym — dzień…?|równonocy|równonoc wiosenna|równonoc
+Jak nazywa się tradycja topienia kukły na powitanie wiosny?|topienie Marzanny|Marzanna
+Jak nazywa się wielkanocny zwyczaj oblewania się wodą?|śmigus-dyngus|lany poniedziałek|śmigus dyngus
+Jak nazywają się malowane jajka wielkanocne?|pisanki|kraszanki
+Co dzieli się przy wigilijnym stole przed kolacją?|opłatek
+Jak nazywa się okres postu przed Wielkanocą?|Wielki Post
+Jak nazywa się okres oczekiwania na Boże Narodzenie?|adwent
+Jak nazywa się środa rozpoczynająca Wielki Post?|Popielec|środa popielcowa
+Jak nazywa się noc z 23 na 24 czerwca, w którą szuka się kwiatu paproci?|noc Kupały|noc świętojańska|Kupała|sobótka
+Ile było apostołów Jezusa?|12|dwunastu
+Kto według Biblii zbudował arkę?|Noe
+Jak mieli na imię pierwsi ludzie według Biblii?|Adam i Ewa|Adam|Ewa
+Jak nazywał się olbrzym pokonany przez Dawida z procy?|Goliat
+Jak nazywa się pierwsza księga Biblii?|Księga Rodzaju|Genesis
+Ile lat ma pełnoletni obywatel w Polsce?|18
+Ile wynosi kadencja prezydenta Polski w latach?|5|pięć
+Ile wynosi kadencja Sejmu w latach?|4|cztery
+Ilu posłów liczy Sejm?|460
+Ilu senatorów liczy Senat?|100|sto
+Pod jakim numerem wzywa się w Polsce straż pożarną?|998
+Pod jakim numerem wzywa się w Polsce policję?|997
+Jaka jest waluta Polski?|złoty|polski złoty|PLN
+Ile groszy ma złoty?|100
+Jak nazywa się waluta Stanów Zjednoczonych?|dolar|dolar amerykański
+Ile centymetrów ma cal, w przybliżeniu?|2,54|2.54
+Ile wynosi tuzin?|12|dwanaście
+Ile sztuk to kopa?|60|sześćdziesiąt
+Ile to jest gros?|144|dwanaście tuzinów
+Ile to jest 7 razy 8?|56
+Ile to jest 12 razy 12?|144
+Jak zapisuje się cyframi rzymskimi liczbę 50?|L
+Jak zapisuje się cyframi rzymskimi liczbę 10?|X
+Ile liter ma alfabet łaciński używany w angielskim?|26
+Jak nazywa się alfabet używany w Rosji i Bułgarii?|cyrylica
+Jak nazywa się pierwsza litera alfabetu greckiego?|alfa
+Jak nazywa się ostatnia litera alfabetu greckiego?|omega
+Jak nazywa się międzynarodowy sygnał wzywania pomocy alfabetem Morse'a?|SOS
+Jak nazywa się język sztuczny stworzony przez Ludwika Zamenhofa?|esperanto
+Jak nazywa się najpopularniejszy język świata pod względem liczby mówiących jako pierwszy język?|chiński|mandaryński|chiński mandaryński
+Który instrument ma 88 klawiszy?|fortepian|pianino
+Jak nazywa się zestaw pięciu linii, na których zapisuje się nuty?|pięciolinia
+Jak nazywa się dźwięk wydawany przez kamerton, którym stroi się orkiestrę?|a|la
+Jak nazywa się osoba prowadząca orkiestrę?|dyrygent
+Kto namalował „Monę Lizę”?|Leonardo da Vinci|Leonardo
+Jak nazywa się słynny posąg ze zwiniętą pięścią przy brodzie autorstwa Rodina?|Myśliciel
+Kto wynalazł żarówkę, która podbiła świat?|Thomas Edison|Edison
+Kto wymyślił dynamit i ufundował nagrody?|Alfred Nobel|Nobel
+W jakim mieście wręcza się pozostałe Nagrody Nobla?|Sztokholm
+Ile kół ma rower?|2
+Ile zawodników liczy drużyna piłkarska na boisku?|11
+Ile kółek jest w symbolu olimpijskim?|5|pięć
+Jak nazywa się najdłuższy bieg olimpijski w lekkoatletyce, liczący ponad 42 km?|maraton
+Jakiego koloru jest światło oznaczające „stój” w sygnalizatorze?|czerwone|czerwony
+Jak nazywa się przejście dla pieszych w pasy?|zebra
+Jak nazywa się przyrząd do mierzenia czasu z piaskiem?|klepsydra
+Jak nazywa się mapa całej kuli ziemskiej na kuli?|globus
+Ile jest kontynentów według polskiej szkoły?|7|siedem
+Ile oceanów wyróżnia się zwykle na Ziemi?|5|pięć
+Jak nazywa się najdłuższa rzeka świata według większości źródeł?|Nil
+Jak nazywa się najbardziej zaludnione miasto świata wraz z aglomeracją?|Tokio|Tokyo
+Ile zmysłów ma według tradycji człowiek?|5|pięć
+Jaki gaz wdychamy, by żyć?|tlen
+Jak nazywa się mieszkaniec Krakowa?|krakowianin|krakowianka
+Jak nazywa się mieszkaniec Gdańska?|gdańszczanin|gdańszczanka
+Jak nazywa się mieszkaniec Łodzi?|łodzianin|łodzianka
+Jak nazywa się mieszkaniec Warszawy?|warszawiak|warszawianin|warszawianka
+Jak nazywa się mieszkaniec Poznania?|poznaniak|poznanianin|poznanianka
+Jak nazywa się mieszkaniec Zakopanego?|zakopiańczyk|zakopianin|zakopianka
+Jak nazywa się smok, który według legendy mieszkał pod Wawelem?|Smok Wawelski|wawelski
+Kto pokonał Smoka Wawelskiego według legendy?|szewczyk Dratewka|Skuba|szewc Skuba|Dratewka|szewczyk
+Jak nazywa się syrenka, symbol Warszawy?|Syrenka|Warszawska Syrenka
+Jak nazywali się bracia z legendy o powstaniu Polski, obok Lecha?|Czech i Rus|Czech|Rus
+Jaki ptak z legendy o Lechu stał się godłem Polski?|orzeł|biały orzeł
+Jak nazywał się książę, który według legendy został zjedzony przez myszy?|Popiel
+Co według legendy przerwała strzała tatarska trębaczowi z wieży Mariackiej?|hejnał|melodię
+Jak nazywa się wiosenny ptak, który według przysłowia „wiosny nie czyni” w pojedynkę?|jaskółka
+Jak nazywa się baśń o dziewczynie gubiącej szklany pantofelek?|Kopciuszek
+Jak nazywa się baśń o dziewczynce w czerwonej czapce i wilku?|Czerwony Kapturek
+Jak nazywa się królewna, która zasnęła po ukłuciu się wrzecionem?|Śpiąca Królewna
+Ilu krasnoludków było w baśni o Królewnie Śnieżce?|7|siedmiu
+Jak nazywa się chłopiec z baśni Andersena, któremu w oko wpadł odłamek lustra?|Kaj
+Jak ma na imię brat Małgosi z baśni o chatce z piernika?|Jaś
+Jak nazywa się ogr z bajki, przyjaciel Osła?|Shrek
+Jak nazywa się mysz z kreskówek Disneya, partnerka Mikiego?|Minnie|Myszka Minnie
+Jak nazywa się misiek z klapniętym uchem z polskiej dobranocki?|Miś Uszatek|Uszatek
+Jak nazywa się psiak, bohater polskiej kreskówki dla dzieci?|Reksio
+Jak nazywa się dwójka chłopców z kreskówki o bolku i...?|Lolek|Bolek i Lolek
+Jak nazywa się żółty prostokątny bohater kreskówki mieszkający w Bikini Dolnym?|SpongeBob|Spongebob Kanciastoporty
+Jaki owoc trzymała Ewa w raju według popularnych przedstawień?|jabłko
+Z jakiego owocu robi się konfiturę wiśniową?|wiśnie|wiśnia
+Jaki owoc jest żółty, długi i rośnie w kiściach?|banan
+Jaki owoc ma pestkę i włochatą skórkę?|brzoskwinia
+Jakie zwierzę daje mleko, z którego najczęściej robi się ser w Polsce?|krowa
+Jakie zwierzę jest symbolem roku 2026 w chińskim kalendarzu?|koń
+Jakie zwierzę jest największym ssakiem lądowym?|słoń|słoń afrykański
+Jak nazywa się naturalny satelita Ziemi?|Księżyc
+Jak nazywa się słynna wieża w Paryżu?|wieża Eiffla|Eiffla
+Jak nazywa się słynny zegar przy parlamencie w Londynie?|Big Ben
+Jak nazywa się słynny budynek w Agrze zbudowany z miłości do żony?|Tadż Mahal|Taj Mahal
+Jak nazywa się najwyższy budynek świata?|Burdż Chalifa|Burj Khalifa
+Jak nazywa się „krzywa” wieża we Włoszech?|wieża w Pizie|Krzywa Wieża w Pizie|Piza
+Jak nazywał się polski kompozytor, autor polonezów i mazurków, urodzony w Żelazowej Woli?|Fryderyk Chopin|Chopin
+Jak nazywała się Polka, dwukrotna noblistka?|Maria Skłodowska-Curie|Skłodowska|Maria Curie
+Jak nazywał się Polak, który został papieżem?|Jan Paweł II|Karol Wojtyła
+Jak nazywa się liczba z dwunastoma zerami w polskim nazewnictwie?|bilion
+Jak nazywa się tysiąc milionów?|miliard

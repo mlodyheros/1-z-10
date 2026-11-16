@@ -78,6 +78,9 @@ function newCode() {
 }
 function cleanName(n) { return String(n || '').replace(/\s+/g, ' ').trim().slice(0, 16) || 'Gracz'; }
 function cleanAvatar(a) {
+  // postać wybrana z galerii: bierzemy jej pełny wygląd (z własnymi kolorami)
+  const gal = a && typeof a.gid === 'string' && GALLERY.find(x => x.id === a.gid);
+  if (gal) return Object.assign({}, gal.avatar, { gid: gal.id });
   const o = {};
   for (const k of AV_KEYS) o[k] = Math.max(0, Math.min(30, parseInt(a && a[k], 10) || 0));
   return o;
@@ -203,15 +206,23 @@ function next(r) {
   return buzzMode(r);
 }
 
+// waga kategorii przy losowaniu: więcej klasycznej wiedzy ogólnej (jak w teleturniejach), mniej sportu
+const CAT_W = { 'wiedza-ogolna': 4, 'pilka-nozna': 0.4, 'premier-league-kluby': 0.4, sport: 0.5, 'nba-koszykowka': 0.4, 'formula-1': 0.5, 'silownia-fitness': 0.5 };
+function randCat(pool) {
+  const w = c => CAT_W[c.id] || 1;
+  let x = Math.random() * pool.reduce((s, c) => s + w(c), 0);
+  for (const c of pool) { x -= w(c); if (x <= 0) return c; }
+  return pool[pool.length - 1];
+}
 function pickQ(r) {
   const g = r.game;
   const banned = r.banned || new Set();
   for (let i = 0; i < 80; i++) {
-    const c = rand(g.pool), k = rint(c.qs.length), key = c.id + ':' + k;
+    const c = randCat(g.pool), k = rint(c.qs.length), key = c.id + ':' + k;
     if (!g.used.has(key) && !banned.has(c.qs[k].q)) { g.used.add(key); return { cat: c, item: c.qs[k] }; }
   }
   g.used.clear();
-  const c = rand(g.pool);
+  const c = randCat(g.pool);
   return { cat: c, item: rand(c.qs) };
 }
 
