@@ -478,7 +478,7 @@ function renderWorld() {
           <div class="plate">
             <div class="nm">${esc(p.name)}${!p.connected && !p.isBot ? ` <small>(${t('offline')})</small>` : ''}</div>
             <div class="lives" aria-label="${t('chances', { n: p.lives })}">${lives}</div>
-            ${g.stage === 3 && !p.out ? `<div class="pts">${p.points} ${t('pts')}</div>` : ''}
+            ${g.stage === 3 && (!p.out || p.points > 0) ? `<div class="pts">${p.points} ${t('pts')}</div>` : ''}
           </div>
         </div>
         <div class="foot"></div>

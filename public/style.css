@@ -372,6 +372,7 @@ select.inp, .pl-lv { appearance: none; -webkit-appearance: none; font-weight: 80
 .pod.me .nm { color: var(--gold); }
 .pod.chooser .seat { background: radial-gradient(circle at 35% 30%, #eafffa, var(--teal) 60%, #0c8f7a); }
 .pod.out { filter: grayscale(1) brightness(.45); opacity: .75; }
+.pod.out .pts { color: #cfcbe6; text-shadow: none; }
 .pod.pick { cursor: pointer; }
 .pod.pick .plate { animation: pulse 1s ease-in-out infinite; }
 @keyframes pulse { 50% { border-color: var(--teal); box-shadow: 0 0 30px rgba(47,224,194,.9); } }
@@ -527,7 +528,7 @@ select.inp, .pl-lv { appearance: none; -webkit-appearance: none; font-weight: 80
 /* zmiana postaci: edytor + galeria */
 #picker { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; padding: 16px; background: rgba(8,5,22,.75); }
 #picker.hidden { display: none; }
-.pick { width: min(1000px, 100%); }
+.gal.pick { width: min(1000px, 100%); }
 .pick-grid { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 18px; min-height: 0; flex: 1; }
 .pick-grid.only { grid-template-columns: minmax(0, 1fr); }
 .pick-ed { display: flex; flex-direction: column; gap: 10px; align-items: stretch; overflow: auto; }
