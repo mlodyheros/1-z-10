@@ -92,8 +92,6 @@ Kto przewodził walce Indii o niepodległość metodą biernego oporu?|Mahatma G
 Kto był przywódcą rewolucji kubańskiej?|Fidel Castro|Castro
 Który prezydent USA został zastrzelony w Dallas w 1963 roku?|John F. Kennedy|Kennedy
 Który pastor wygłosił przemówienie „Mam marzenie”?|Martin Luther King|King
-Kto był pierwszym człowiekiem w kosmosie?|Jurij Gagarin|Gagarin
-Kto był pierwszym człowiekiem na Księżycu?|Neil Armstrong|Armstrong
 Który prezydent USA ustąpił po aferze Watergate?|Richard Nixon|Nixon
 Kto był ostatnim przywódcą ZSRR?|Michaił Gorbaczow|Gorbaczow
 Jak nazywała się polityka przebudowy prowadzona przez Gorbaczowa?|pierestrojka
@@ -142,7 +140,6 @@ Jak nazywał się niemiecki przemysłowiec, który uratował ponad tysiąc Żyd�
 Kto był twórcą teorii komunizmu, autorem „Kapitału”?|Karol Marks|Marks
 Jak nazywa się hiszpański dyktator rządzący do 1975 roku?|Francisco Franco|Franco
 Który papież zwołał Sobór Watykański II?|Jan XXIII
-Jak nazywał się pierwszy sztuczny satelita Ziemi?|Sputnik
 Jak nazywa się program, w ramach którego Amerykanie polecieli na Księżyc?|Apollo
 Jak nazywa się wyspa, na której wylądowali alianci w 1943 roku, rozpoczynając inwazję na Włochy?|Sycylia
 Jak nazywał się francuski generał, przywódca Wolnych Francuzów?|Charles de Gaulle|de Gaulle
