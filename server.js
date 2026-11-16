@@ -39,10 +39,12 @@ console.log(`Wczytano ${CATS.length} kategorii, ${CATS.reduce((s, c) => s + c.qs
 // ---------- HTTP ----------
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon' };
 const server = http.createServer((req, res) => {
-  let p = decodeURIComponent(req.url.split('?')[0]);
+  // zły adres (np. „/%”) nie może wywrócić całego serwera
+  let p;
+  try { p = decodeURIComponent(req.url.split('?')[0]); } catch { res.writeHead(400); return res.end(); }
   if (p === '/') p = '/index.html';
   const file = path.normalize(path.join(PUB, p));
-  if (!file.startsWith(PUB)) { res.writeHead(403); return res.end(); }
+  if (!file.startsWith(PUB + path.sep)) { res.writeHead(403); return res.end(); }
   fs.readFile(file, (err, data) => {
     if (err) { res.writeHead(404); return res.end('Nie znaleziono'); }
     res.writeHead(200, { 'Content-Type': MIME[path.extname(file)] || 'application/octet-stream', 'Cache-Control': 'no-cache' });
@@ -131,7 +133,7 @@ function startGame(r) {
   r.players.forEach((p, i) => { p.lives = 3; p.points = 0; p.out = false; p.seat = i + 1; p.corrects = 0; p.s1wrong = 0; p.inFinal = false; });
   let pool = CATS.filter(c => r.settings.categories.includes(c.id));
   if (!pool.length) pool = CATS;
-  r.game = { stage: 0, mode: 'intro', used: new Set(), outOrder: [], qnum: 0, pool, chooser: null, turn: null };
+  r.game = { id: uid(), stage: 0, mode: 'intro', used: new Set(), outOrder: [], qnum: 0, pool, chooser: null, turn: null };
   stageIntro(r, 1);
 }
 
@@ -376,7 +378,7 @@ function scheduleCleanup(r) {
 const wss = new WebSocketServer({ server, maxPayload: 16 * 1024 });
 wss.on('connection', ws => {
   let room = null, me = null;
-  const attach = (r, p) => { room = r; me = p; p.ws = ws; p.connected = true; clearTimeout(r.cleanup); ws.send(JSON.stringify({ t: 'joined', code: r.code, id: p.id, secret: p.secret })); send(r); };
+  const attach = (r, p) => { room = r; me = p; p.ws = ws; p.connected = true; clearTimeout(r.cleanup); clearTimeout(p.gone); ws.send(JSON.stringify({ t: 'joined', code: r.code, id: p.id, secret: p.secret })); send(r); };
 
   ws.on('message', raw => {
     let m; try { m = JSON.parse(raw); } catch { return; }
@@ -428,8 +430,8 @@ wss.on('connection', ws => {
       }
       case 'report': {
         // zgłoszenie dziwnego pytania — trafia do pliku zgloszenia.txt do późniejszego sprawdzenia
-        if (!g || !g.cur || me._rep === g.qnum) return;
-        me._rep = g.qnum;
+        if (!g || !g.cur || me._rep === g.id + ':' + g.qnum) return;
+        me._rep = g.id + ':' + g.qnum;
         const line = [new Date().toISOString().slice(0, 16).replace('T', ' '), g.cur.cat.name, g.cur.item.q, 'odp: ' + g.cur.item.a.join(' / '),
           'zgłosił: ' + me.name, g.reveal && g.reveal.given ? 'padła odpowiedź: ' + g.reveal.given : ''].filter(Boolean).join(' | ').replace(/[\r\n]+/g, ' ');
         fs.appendFile(path.join(__dirname, 'zgloszenia.txt'), line + '\n', () => {});
@@ -500,8 +502,12 @@ wss.on('connection', ws => {
   ws.on('close', () => {
     if (!room || !me || me.ws !== ws) return;
     const r = room, p = me;
-    if (r.phase === 'lobby') return removePlayer(r, p);
     p.connected = false;
+    // odświeżenie strony w poczekalni: miejsce czeka 20 s, zanim gracz zostanie usunięty
+    if (r.phase === 'lobby') {
+      p.gone = setTimeout(() => { if (!p.connected && r.players.includes(p) && rooms.get(r.code) === r) removePlayer(r, p); }, 20000);
+      return send(r);
+    }
     const g = r.game;
     if (g && g.turn === p.id && (g.mode === 'question' || g.mode === 'nominate') && r.onTimeout) setDeadline(r, 3000, r.onTimeout);
     const humans = r.players.filter(x => !x.isBot && x.connected);
@@ -510,5 +516,8 @@ wss.on('connection', ws => {
     scheduleCleanup(r);
   });
 });
+
+// pojedynczy błąd w jednym pokoju nie może zamknąć gry wszystkim pozostałym
+process.on('uncaughtException', e => console.error('Błąd:', e));
 
 server.listen(PORT, () => console.log(`Trzy Szanse działa: http://localhost:${PORT}`));

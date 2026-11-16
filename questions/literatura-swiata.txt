@@ -179,7 +179,6 @@ Jak nazywa się pustynna planeta z „Diuny”?|Arrakis|Diuna
 Jak nazywa się doktor, przyjaciel Sherlocka Holmesa?|Watson|doktor Watson|John Watson
 Jak nazywa się naukowiec, który stworzył potwora w powieści Mary Shelley?|Frankenstein|Wiktor Frankenstein
 Jak nazywa się hrabia-wampir z powieści Brama Stokera?|Dracula|Drakula
-Kto napisał „Władcę much”?|William Golding|Golding
 Jak nazywa się autor „Nowego wspaniałego świata”?|Aldous Huxley|Huxley
 Jak nazywa się autor „Procesu”?|Franz Kafka|Kafka
 Jak nazywa się autor „Dżumy”?|Albert Camus|Camus

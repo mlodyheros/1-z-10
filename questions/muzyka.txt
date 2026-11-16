@@ -109,7 +109,6 @@ Kto zaśpiewał „Like a Rolling Stone” i dostał literackiego Nobla?|Bob Dyl
 Kto zaśpiewał „I Will Always Love You” w filmie „Bodyguard”?|Whitney Houston|Houston
 Kto zaśpiewał „My Heart Will Go On” z „Titanica”?|Céline Dion|Celine Dion|Dion
 Kto zaśpiewał „Rolling in the Deep” i „Hello”?|Adele
-Kto zaśpiewał „Shape of You”?|Ed Sheeran|Sheeran
 Kto zaśpiewał „Rocket Man” i „Candle in the Wind”?|Elton John
 Kto zaśpiewał „Space Oddity” i „Heroes”?|David Bowie|Bowie
 Kto zaśpiewał „Purple Rain”?|Prince

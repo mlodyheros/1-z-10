@@ -1,9 +1,6 @@
 # Odkrycia i wynalazki
 Kto wynalazł druk z ruchomą czcionką w Europie?|Jan Gutenberg|Gutenberg
-Kto wynalazł telefon?|Alexander Graham Bell|Bell
 Kto wynalazł fonograf?|Thomas Edison|Edison
-Kto wynalazł dynamit?|Alfred Nobel|Nobel
-Kto wynalazł piorunochron?|Benjamin Franklin|Franklin
 Kto wynalazł telegraf elektryczny i swój alfabet?|Samuel Morse|Morse
 Kto udoskonalił maszynę parową, co zapoczątkowało rewolucję przemysłową?|James Watt|Watt
 Kto wynalazł lampę naftową?|Ignacy Łukasiewicz|Łukasiewicz
@@ -51,13 +48,11 @@ Kto odkrył, że Ziemia krąży wokół Słońca?|Mikołaj Kopernik|Kopernik
 Kto odkrył księżyce Jowisza?|Galileusz|Galileo Galilei
 Kto odkrył polon i rad?|Maria Skłodowska-Curie|Skłodowska
 Kto odkrył promienie X?|Wilhelm Röntgen|Roentgen|Rentgen
-Kto odkrył elektron?|Joseph John Thomson|Thomson
 Kto odkrył strukturę DNA razem z Crickiem?|James Watson|Watson
 Kto odkrył bakterie gruźlicy?|Robert Koch|Koch
 Kto odkrył witaminy i nadał im nazwę?|Kazimierz Funk|Funk
 Kto odkrył insulinę razem z Bestem?|Frederick Banting|Banting
 Kto odkrył prawa dziedziczenia?|Gregor Mendel|Mendel
-Kto odkrył krążenie krwi?|William Harvey|Harvey
 Kto odkrył bakterie, obserwując je pod własnym mikroskopem?|Antonie van Leeuwenhoek|Leeuwenhoek
 Kto jako pierwszy skroplił tlen i azot, wraz z Olszewskim?|Zygmunt Wróblewski|Wróblewski
 Kto opracował metodę otrzymywania monokryształów, podstawę elektroniki?|Jan Czochralski|Czochralski

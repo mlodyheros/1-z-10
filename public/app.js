@@ -167,7 +167,7 @@ function goHome() {
 
 function render() {
   if (!S) return show('home');
-  if (S.phase === 'lobby') { show('lobby'); renderLobby(); panelKey = ''; introDone = false; }
+  if (S.phase === 'lobby') { show('lobby'); renderLobby(); panelKey = ''; introDone = false; reportedQ = -1; }
   else { show('game'); renderGame(); }
   renderGallery();
   repaintEmotes();
