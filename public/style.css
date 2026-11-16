@@ -515,3 +515,11 @@ select.inp, .pl-lv { appearance: none; -webkit-appearance: none; font-weight: 80
   #panel .buzz { width: 100%; min-height: 60px; font-size: 22px; touch-action: manipulation; }
   .rank, .awards { max-height: none; }
 }
+
+/* zasłona przy zerwanym połączeniu */
+#conn { position: fixed; inset: 0; z-index: 90; display: none; place-items: center; background: rgba(8,5,22,.82); backdrop-filter: blur(4px); padding: 16px; }
+#conn.show { display: grid; }
+.conn-box { display: grid; justify-items: center; gap: 10px; text-align: center; max-width: 360px; background: linear-gradient(180deg, #3b2d92, #241a55); border: 3px solid var(--out); border-radius: 22px; padding: 24px; box-shadow: 0 8px 0 var(--out); }
+.conn-box b { font-size: 20px; } .conn-box small { color: var(--dim); }
+.conn-spin { width: 46px; height: 46px; border-radius: 50%; border: 5px solid rgba(255,255,255,.15); border-top-color: var(--gold); animation: connspin .8s linear infinite; }
+@keyframes connspin { to { transform: rotate(360deg); } }
