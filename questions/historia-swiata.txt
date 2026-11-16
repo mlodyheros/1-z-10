@@ -104,7 +104,7 @@ Jak nazywał się statek, którym pielgrzymi przypłynęli do Ameryki w 1620 rok
 Jak nazywa się cywilizacja, która zbudowała Machu Picchu?|Inkowie
 Jak nazywała się stolica Azteków?|Tenochtitlán|Tenochtitlan
 Jak nazywa się mur zbudowany dla ochrony Chin przed najazdami z północy?|Wielki Mur Chiński|Wielki Mur
-Jak nazywał się szlak handlowy łączący Chiny z Europą?|Jedwabny Szlak
+Jak nazywał się szlak handlowy łączący Chiny z Europą?|Jedwabny Szlak|Jedwabny
 Jak nazywał się wenecki kupiec, który dotarł na dwór Kubilaj-chana?|Marco Polo
 Jak nazywali się japońscy wojownicy feudalni?|samuraje
 Jak nazywano skandynawskich wojowników-żeglarzy wczesnego średniowiecza?|wikingowie

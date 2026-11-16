@@ -19,22 +19,40 @@ const CATS = [];
 const ALL_ANS = new Set();
 const QDIR = path.join(__dirname, 'questions');
 for (const f of fs.readdirSync(QDIR).filter(f => f.endsWith('.txt')).sort()) {
-  const lines = fs.readFileSync(path.join(QDIR, f), 'utf8').split('\n').map(l => l.trim()).filter(Boolean);
+  const lines = fs.readFileSync(path.join(QDIR, f), 'utf8').split('\n').map((l, i) => [l.trim(), i + 1]).filter(x => x[0]);
   let name = f.replace('.txt', '');
   const qs = [];
-  for (const l of lines) {
+  for (const [l, ln] of lines) {
     if (l.startsWith('#')) { if (!qs.length) name = l.slice(1).trim(); continue; }
     const p = l.split('|').map(s => s.trim());
     if (p.length < 2 || !p[0] || !p[1]) continue;
     const a = p.slice(1).filter(Boolean);
     // dopisz angielskie odpowiedniki (po polskich, żeby a[0] zostało polską odpowiedzią)
     for (const x of a.slice()) for (const e of EN.get(norm(x)) || []) if (!a.some(y => norm(y) === norm(e))) a.push(e);
-    qs.push({ q: p[0], a });
+    qs.push({ q: p[0], a, src: 'questions/' + f + ':' + ln });
     a.forEach(x => ALL_ANS.add(norm(x)));
   }
   if (qs.length) CATS.push({ id: f.replace('.txt', ''), name, qs });
 }
 console.log(`Wczytano ${CATS.length} kategorii, ${CATS.reduce((s, c) => s + c.qs.length, 0)} pytań`);
+
+// ---------- zgłoszone pytania (plik zgloszenia.txt, podgląd dla gospodarza) ----------
+const REP_FILE = path.join(__dirname, 'zgloszenia.txt');
+const repId = line => crypto.createHash('sha1').update(line).digest('hex').slice(0, 10);
+function parseReport(line) {
+  const f = line.split(' | ');
+  const o = { id: repId(line), line, ts: f[0] || '', cat: f[1] || '', q: f[2] || '' };
+  for (const x of f.slice(3)) {
+    if (x.startsWith('odp: ')) o.a = x.slice(5);
+    else if (x.startsWith('zgłosił: ')) o.by = x.slice(9);
+    else if (x.startsWith('padła odpowiedź: ')) o.given = x.slice(17);
+    else if (x.startsWith('plik: ')) o.src = x.slice(6);
+  }
+  return o;
+}
+let REPORTS = [];
+try { REPORTS = fs.readFileSync(REP_FILE, 'utf8').split('\n').filter(Boolean).map(parseReport); } catch {}
+const saveReports = () => fs.writeFile(REP_FILE, REPORTS.map(x => x.line + '\n').join(''), () => {});
 
 // ---------- HTTP ----------
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon' };
@@ -90,6 +108,8 @@ function pub(r) {
   const s = {
     code: r.code, hostId: r.hostId, phase: r.phase, settings: r.settings,
     players: r.players.map(p => ({ id: p.id, name: p.name, avatar: p.avatar, isBot: p.isBot, level: p.level, gid: p.gid, connected: p.connected, lives: p.lives, points: p.points, out: p.out, seat: p.seat })),
+    specs: (r.specs || []).filter(p => p.connected).map(p => ({ id: p.id, name: p.name, avatar: p.avatar })),
+    chat: r.chat || [],
   };
   s.history = r.history || [];
   if (r.phase === 'lobby') s.cats = CATS.map(c => ({ id: c.id, name: c.name, n: c.qs.length }));
@@ -98,14 +118,28 @@ function pub(r) {
       stage: g.stage, mode: g.mode, turn: g.turn, chooser: g.chooser, kind: g.kind, qnum: g.qnum,
       allowSelf: g.stage === 3, finalLeft: g.finalLeft, reveal: g.reveal, ranking: g.ranking,
       q: g.cur && g.mode !== 'intro' && g.mode !== 'nominate' && g.mode !== 'end' ? { text: g.cur.item.q, cat: g.cur.cat.name } : null,
-      timeLeft: r.deadline ? Math.max(0, r.deadline - Date.now()) : 0, total: r.total || 0,
+      timeLeft: r.deadline ? Math.max(0, r.deadline - Date.now()) : 0, total: r.total || 0, stats: g.stats || null,
     };
   }
   return s;
 }
+const humansIn = r => r.players.concat(r.specs || []).filter(p => !p.isBot);
 function send(r) {
   const s = pub(r);
-  for (const p of r.players) if (!p.isBot && p.connected && p.ws && p.ws.readyState === 1) p.ws.send(JSON.stringify({ t: 'state', s, you: p.id }));
+  // gospodarz w poczekalni dostaje też listę zgłoszonych pytań
+  const hs = r.phase === 'lobby' ? Object.assign({}, s, {
+    reports: REPORTS.slice(-60).reverse().map(x => ({ id: x.id, ts: x.ts, cat: x.cat, q: x.q, a: x.a, by: x.by, given: x.given, src: x.src, banned: (r.banned || new Set()).has(x.q) })),
+  }) : s;
+  for (const p of humansIn(r)) if (p.connected && p.ws && p.ws.readyState === 1) p.ws.send(JSON.stringify({ t: 'state', s: p.id === r.hostId ? hs : s, you: p.id, spec: !!p.spec }));
+}
+// widzowie wchodzą do gry, gdy w poczekalni jest wolne miejsce
+function promoteSpecs(r) {
+  r.specs = (r.specs || []).filter(p => p.connected);
+  while (r.specs.length && r.players.length < MAX_PLAYERS) {
+    const p = r.specs.shift();
+    p.spec = false; p.lives = 3; p.points = 0; p.out = false;
+    r.players.push(p);
+  }
 }
 function err(ws, code, fatal) { if (ws.readyState === 1) ws.send(JSON.stringify({ t: 'error', code, fatal: !!fatal })); }
 function emote(r, p, e) {
@@ -113,7 +147,7 @@ function emote(r, p, e) {
   if (now - (p.lastEmote || 0) < 700) return;
   p.lastEmote = now;
   const msg = JSON.stringify({ t: 'emote', id: p.id, e });
-  for (const x of r.players) if (!x.isBot && x.connected && x.ws && x.ws.readyState === 1) x.ws.send(msg);
+  for (const x of humansIn(r)) if (x.connected && x.ws && x.ws.readyState === 1) x.ws.send(msg);
 }
 
 function clearTimers(r) {
@@ -130,7 +164,7 @@ function botLater(r, ms, fn) { r.botTimers = r.botTimers || []; r.botTimers.push
 // ---------- przebieg gry ----------
 function startGame(r) {
   r.phase = 'game';
-  r.players.forEach((p, i) => { p.lives = 3; p.points = 0; p.out = false; p.seat = i + 1; p.corrects = 0; p.s1wrong = 0; p.inFinal = false; });
+  r.players.forEach((p, i) => { p.lives = 3; p.points = 0; p.out = false; p.seat = i + 1; p.corrects = 0; p.s1wrong = 0; p.inFinal = false; p.st = { ok: 0, bad: 0, streak: 0, best: 0, fast: null }; });
   let pool = CATS.filter(c => r.settings.categories.includes(c.id));
   if (!pool.length) pool = CATS;
   r.game = { id: uid(), stage: 0, mode: 'intro', used: new Set(), outOrder: [], qnum: 0, pool, chooser: null, turn: null };
@@ -181,9 +215,10 @@ function next(r) {
 
 function pickQ(r) {
   const g = r.game;
+  const banned = r.banned || new Set();
   for (let i = 0; i < 80; i++) {
     const c = rand(g.pool), k = rint(c.qs.length), key = c.id + ':' + k;
-    if (!g.used.has(key)) { g.used.add(key); return { cat: c, item: c.qs[k] }; }
+    if (!g.used.has(key) && !banned.has(c.qs[k].q)) { g.used.add(key); return { cat: c, item: c.qs[k] }; }
   }
   g.used.clear();
   const c = rand(g.pool);
@@ -194,7 +229,7 @@ function ask(r, pid, kind, keepQ) {
   const g = r.game, p = byId(r, pid);
   clearTimers(r);
   if (!keepQ) { g.cur = pickQ(r); g.qnum++; }
-  g.mode = 'question'; g.turn = pid; g.kind = kind; g.reveal = null;
+  g.mode = 'question'; g.turn = pid; g.kind = kind; g.reveal = null; g.askedAt = Date.now();
   const ms = (p.isBot || p.connected) ? r.settings.answerTime * 1000 : 3000;
   setDeadline(r, ms, () => resolve(r, ''));
   send(r);
@@ -258,6 +293,13 @@ function resolve(r, text) {
   text = String(text || '').slice(0, 80);
   const ok = isCorrect(text, g.cur.item.a, ALL_ANS);
   let gained = 0;
+  // statystyki do podsumowania gry
+  const st = p.st || (p.st = { ok: 0, bad: 0, streak: 0, best: 0, fast: null });
+  if (ok) {
+    st.ok++; st.streak++; st.best = Math.max(st.best, st.streak);
+    const ms = Date.now() - (g.askedAt || Date.now());
+    if (!st.fast || ms < st.fast.ms) st.fast = { ms, q: g.cur.item.q };
+  } else { st.bad++; st.streak = 0; }
   if (g.stage === 1) {
     // rozgrzewka nikogo nie eliminuje — każdy błąd kosztuje jedną szansę
     if (!ok) { p.lives--; p.s1wrong++; if (p.lives <= 0) eliminate(r, p); }
@@ -352,6 +394,7 @@ function endGame(r) {
   const al = alive(r).filter(p => !(final && p.inFinal)).map(p => ({ id: p.id, score: null, points: p.points, lives: p.lives }));
   const outs = g.outOrder.slice().reverse().filter(id => !(final && byId(r, id).inFinal)).map(id => ({ id, score: null, points: 0, lives: 0, out: true }));
   g.ranking = fin.concat(al, outs);
+  g.stats = gameStats(r);
   const w = g.ranking[0] && byId(r, g.ranking[0].id);
   if (w) { r.games = (r.games || 0) + 1; r.history = r.history || []; r.history.push({ game: r.games, name: w.name, avatar: w.avatar, score: g.ranking[0].score || 0, isBot: w.isBot }); if (r.history.length > 50) r.history.shift(); }
   g.mode = 'end'; g.turn = null; g.reveal = null;
@@ -359,9 +402,33 @@ function endGame(r) {
   send(r);
 }
 
+// wyróżnienia po grze: najwięcej dobrych odpowiedzi, najszybsza odpowiedź, najdłuższa seria
+function gameStats(r) {
+  const ps = r.players.filter(p => p.st);
+  const best = (score, min) => {
+    let top = null;
+    for (const p of ps) { const v = score(p); if (v != null && v >= min && (!top || v > top.v)) top = { id: p.id, v }; }
+    return top;
+  };
+  const out = [];
+  const most = best(p => p.st.ok, 1);
+  if (most) out.push({ k: 'most', id: most.id, v: most.v, bad: byId(r, most.id).st.bad });
+  const fast = best(p => (p.st.fast ? -p.st.fast.ms : null), -Infinity);
+  if (fast) out.push({ k: 'fast', id: fast.id, v: -fast.v, q: byId(r, fast.id).st.fast.q });
+  const streak = best(p => p.st.best, 2);
+  if (streak) out.push({ k: 'streak', id: streak.id, v: streak.v });
+  // przy równej skuteczności wygrywa ten, kto odpowiadał częściej
+  const acc = best(p => (p.st.ok + p.st.bad >= 3 ? Math.round(p.st.ok / (p.st.ok + p.st.bad) * 100) + (p.st.ok + p.st.bad) / 1000 : null), 1);
+  if (acc) out.push({ k: 'acc', id: acc.id, v: Math.floor(acc.v) });
+  // wszyscy gracze w tabelce: dobre / złe / najszybsza
+  const table = ps.map(p => ({ id: p.id, ok: p.st.ok, bad: p.st.bad, fast: p.st.fast ? p.st.fast.ms : null }));
+  return { awards: out, table };
+}
+
 // ---------- obsługa połączeń ----------
 function removePlayer(r, p) {
   r.players = r.players.filter(x => x !== p);
+  if (r.phase === 'lobby') promoteSpecs(r);
   const humans = r.players.filter(x => !x.isBot);
   if (!humans.length) { clearTimers(r); rooms.delete(r.code); return; }
   if (r.hostId === p.id) r.hostId = humans[0].id;
@@ -369,9 +436,9 @@ function removePlayer(r, p) {
 }
 function scheduleCleanup(r) {
   clearTimeout(r.cleanup);
-  if (r.players.some(p => !p.isBot && p.connected)) return;
+  if (humansIn(r).some(p => p.connected)) return;
   r.cleanup = setTimeout(() => {
-    if (!r.players.some(p => !p.isBot && p.connected)) { clearTimers(r); rooms.delete(r.code); }
+    if (!humansIn(r).some(p => p.connected)) { clearTimers(r); rooms.delete(r.code); }
   }, 120000);
 }
 
@@ -395,24 +462,54 @@ wss.on('connection', ws => {
       if (room) return;
       const r = rooms.get(String(m.code || '').toUpperCase().trim());
       if (!r) return err(ws, 'no_room', true);
-      if (r.phase !== 'lobby') return err(ws, 'in_progress', true);
-      if (r.players.length >= MAX_PLAYERS) return err(ws, 'full', true);
       const p = makePlayer(m.name, m.avatar, ws);
-      r.players.push(p);
+      // gra trwa albo brak miejsc: wchodzisz jako widz i dołączasz do następnej gry
+      if (r.phase !== 'lobby' || r.players.length >= MAX_PLAYERS) {
+        r.specs = r.specs || [];
+        if (r.specs.length >= 20) return err(ws, 'full', true);
+        p.spec = true; p.out = true; p.lives = 0;
+        r.specs.push(p);
+      } else r.players.push(p);
       return attach(r, p);
     }
     if (m.t === 'rejoin') {
       if (room) return;
       const r = rooms.get(String(m.code || ''));
-      const p = r && r.players.find(x => x.id === m.id && x.secret === m.secret && !x.isBot);
+      const p = r && humansIn(r).find(x => x.id === m.id && x.secret === m.secret);
       if (!p) return err(ws, 'session', true);
       if (p.ws && p.ws !== ws) { try { p.ws.close(); } catch {} }
       return attach(r, p);
     }
     if (!room || !me) return;
     const r = room, isHost = r.hostId === me.id, g = r.game;
+    if (me.spec && !['chat', 'leave', 'report', 'profile'].includes(m.t)) return;
 
     switch (m.t) {
+      case 'chat': {
+        // czat i szybkie reakcje w poczekalni
+        if (r.phase !== 'lobby') return;
+        const text = String(m.text || '').replace(/\s+/g, ' ').trim().slice(0, 140);
+        const now = Date.now();
+        if (!text || now - (me.lastChat || 0) < 700) return;
+        me.lastChat = now;
+        r.chat = r.chat || [];
+        r.chat.push({ id: me.id, name: me.name, text, ts: now });
+        if (r.chat.length > 40) r.chat.shift();
+        return send(r);
+      }
+      case 'repBan': case 'repDel': {
+        if (!isHost || r.phase !== 'lobby') return;
+        const rep = REPORTS.find(x => x.id === m.id);
+        if (!rep) return;
+        if (m.t === 'repBan') {
+          // wyłączenie pytania tylko w tym pokoju (do czasu poprawienia w pliku)
+          r.banned = r.banned || new Set();
+          r.banned.has(rep.q) ? r.banned.delete(rep.q) : r.banned.add(rep.q);
+        } else { REPORTS = REPORTS.filter(x => x !== rep); saveReports(); }
+        // zmiana listy zgłoszeń dotyczy gospodarzy wszystkich pokoi w poczekalni
+        for (const x of rooms.values()) if (x.phase === 'lobby') send(x);
+        return;
+      }
       case 'profile':
         if (r.phase !== 'lobby') return;
         me.name = cleanName(m.name); me.avatar = cleanAvatar(m.avatar); return send(r);
@@ -432,9 +529,12 @@ wss.on('connection', ws => {
         // zgłoszenie dziwnego pytania — trafia do pliku zgloszenia.txt do późniejszego sprawdzenia
         if (!g || !g.cur || me._rep === g.id + ':' + g.qnum) return;
         me._rep = g.id + ':' + g.qnum;
+        const clean = s => String(s).replace(/[\r\n]+/g, ' ').replace(/ \| /g, ' / ');
         const line = [new Date().toISOString().slice(0, 16).replace('T', ' '), g.cur.cat.name, g.cur.item.q, 'odp: ' + g.cur.item.a.join(' / '),
-          'zgłosił: ' + me.name, g.reveal && g.reveal.given ? 'padła odpowiedź: ' + g.reveal.given : ''].filter(Boolean).join(' | ').replace(/[\r\n]+/g, ' ');
-        fs.appendFile(path.join(__dirname, 'zgloszenia.txt'), line + '\n', () => {});
+          'zgłosił: ' + clean(me.name), g.reveal && g.reveal.given ? 'padła odpowiedź: ' + clean(g.reveal.given) : '', 'plik: ' + g.cur.item.src].filter(Boolean).join(' | ');
+        REPORTS.push(parseReport(line));
+        if (REPORTS.length > 500) REPORTS.shift();
+        fs.appendFile(REP_FILE, line + '\n', () => {});
         return;
       }
       case 'botLevel': {
@@ -478,8 +578,10 @@ wss.on('connection', ws => {
         clearTimers(r); r.game = null; r.phase = 'lobby';
         r.players = r.players.filter(p => p.isBot || p.connected);
         r.players.forEach(p => { p.lives = 3; p.points = 0; p.out = false; });
+        promoteSpecs(r);
         return send(r);
       case 'leave':
+        if (me.spec) { const p = me; room = null; me = null; r.specs = r.specs.filter(x => x !== p); send(r); scheduleCleanup(r); return; }
         if (r.phase === 'lobby') { const p = me; room = null; me = null; removePlayer(r, p); return; }
         {
           // wyjście w trakcie gry: gracz odpada, a gra toczy się dalej bez niego
@@ -503,6 +605,10 @@ wss.on('connection', ws => {
     if (!room || !me || me.ws !== ws) return;
     const r = room, p = me;
     p.connected = false;
+    if (p.spec) {
+      p.gone = setTimeout(() => { if (!p.connected) { r.specs = (r.specs || []).filter(x => x !== p); send(r); } }, 20000);
+      send(r); return scheduleCleanup(r);
+    }
     // odświeżenie strony w poczekalni: miejsce czeka 20 s, zanim gracz zostanie usunięty
     if (r.phase === 'lobby') {
       p.gone = setTimeout(() => { if (!p.connected && r.players.includes(p) && rooms.get(r.code) === r) removePlayer(r, p); }, 20000);
