@@ -26,10 +26,12 @@ for (const f of fs.readdirSync(QDIR).filter(f => f.endsWith('.txt')).sort()) {
     if (l.startsWith('#')) { if (!qs.length) name = l.slice(1).trim(); continue; }
     const p = l.split('|').map(s => s.trim());
     if (p.length < 2 || !p[0] || !p[1]) continue;
-    const a = p.slice(1).filter(Boolean);
+    // opcjonalne pole !1 / !2 / !3 to poziom trudności (łatwe / średnie / trudne), domyślnie średnie
+    const dm = p.slice(1).find(x => /^![123]$/.test(x));
+    const a = p.slice(1).filter(x => x && !/^![123]$/.test(x));
     // dopisz angielskie odpowiedniki (po polskich, żeby a[0] zostało polską odpowiedzią)
     for (const x of a.slice()) for (const e of EN.get(norm(x)) || []) if (!a.some(y => norm(y) === norm(e))) a.push(e);
-    qs.push({ q: p[0], a, src: 'questions/' + f + ':' + ln });
+    qs.push({ q: p[0], a, d: dm ? +dm[1] : 2, src: 'questions/' + f + ':' + ln });
     a.forEach(x => ALL_ANS.add(norm(x)));
   }
   if (qs.length) CATS.push({ id: f.replace('.txt', ''), name, qs });
