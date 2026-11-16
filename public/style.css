@@ -539,3 +539,23 @@ select.inp, .pl-lv { appearance: none; -webkit-appearance: none; font-weight: 80
   .pick-ed .preview.small { height: 140px; }
   .pick-grid .gal-body { max-height: 45vh; }
 }
+
+/* profil gracza */
+#profile { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; padding: 16px; background: rgba(8,5,22,.75); }
+#profile.hidden { display: none; }
+.pf { width: min(640px, 100%); overflow: auto; }
+.pf h3 { margin: 14px 0 6px; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--dim); }
+.pf-top { display: flex; gap: 14px; align-items: center; margin-bottom: 8px; }
+.pf-av { width: 70px; height: 96px; border-radius: 16px; overflow: hidden; background: radial-gradient(circle at 50% 30%, #5a48c8, #1a1240); border: 3px solid var(--out); }
+.pf-av .av { width: 100%; height: auto; margin-top: 4px; }
+.pf-name { font-size: 22px; font-weight: 900; }
+.pf-tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.pf-t { background: #1a1240; border: 2px solid var(--out); border-radius: 14px; padding: 10px; text-align: center; }
+.pf-t b { display: block; font-size: 26px; color: var(--gold); } .pf-t small { color: var(--dim); font-size: 12px; }
+.pf-cats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.pf-c { display: flex; justify-content: space-between; gap: 8px; background: #1a1240; border-radius: 10px; padding: 5px 10px; margin-bottom: 4px; font-size: 14px; }
+.pf-c b { color: var(--gold); }
+.pf-rec { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 4px; }
+.pf-rec li { display: grid; grid-template-columns: 100px 1fr auto; gap: 8px; background: #1a1240; border-radius: 10px; padding: 5px 10px; font-size: 14px; }
+.pf-rec b { color: var(--gold); }
+@media (max-width: 760px) { .pf-tiles { grid-template-columns: repeat(2, 1fr); } .pf-cats { grid-template-columns: 1fr; } }

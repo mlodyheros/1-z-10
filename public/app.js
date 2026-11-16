@@ -78,7 +78,7 @@ document.addEventListener('click', e => {
 });
 addEventListener('keydown', e => {
   if (e.key === 'Escape' && wheelOpen()) return closeWheel();
-  if (e.key === 'Escape') { closeGallery(); closePicker(); }
+  if (e.key === 'Escape') { closeGallery(); closePicker(); $('#profile').classList.add('hidden'); }
   if ((e.key === 'b' || e.key === 'B') && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) wheelOpen() ? closeWheel() : openWheel();
 });
 function emoteTarget(id) {
@@ -613,7 +613,8 @@ function renderGame() {
     }
   }
   renderWorld();
-  if (!introDone && g.stage === 1 && g.mode === 'intro') { introDone = true; if (g.timeLeft > 2800) startIntro(); }
+  if (!introDone && g.stage === 1 && g.mode === 'intro') { introDone = true; gameSeq++; if (g.timeLeft > 2800) startIntro(); }
+  recordStats(g);
 }
 addEventListener('keydown', e => {
   if (e.code === 'Space' && S && S.game && S.game.mode === 'buzz' && $('#buzz')) { e.preventDefault(); tx({ t: 'buzz' }); }
@@ -627,6 +628,61 @@ addEventListener('keydown', e => {
   }
   requestAnimationFrame(tick);
 })();
+
+// ---------- profil gracza: statystyki zapisywane w tej przeglądarce ----------
+let gameSeq = 0, statKeys = new Set();
+const PROF0 = () => ({ games: 0, wins: 0, finals: 0, ok: 0, bad: 0, best: 0, cats: {}, recent: [] });
+function recordStats(g) {
+  if (amSpec || !gameSeq) return;
+  const P = Object.assign(PROF0(), store.get('ts-profile', {}));
+  let changed = false;
+  if (g.mode === 'reveal' && g.reveal && g.reveal.pid === myId && g.q) {
+    const k = gameSeq + ':' + g.qnum;
+    if (!statKeys.has(k)) {
+      statKeys.add(k); changed = true;
+      g.reveal.ok ? P.ok++ : P.bad++;
+      const c = P.cats[g.q.cat] || (P.cats[g.q.cat] = [0, 0]);
+      c[1]++; if (g.reveal.ok) c[0]++;
+    }
+  }
+  if (g.mode === 'end' && g.ranking && !statKeys.has('end' + gameSeq)) {
+    statKeys.add('end' + gameSeq); changed = true;
+    const i = g.ranking.findIndex(r => r.id === myId), me = g.ranking[i];
+    if (me) {
+      P.games++;
+      if (i === 0) P.wins++;
+      if (me.score != null) { P.finals++; P.best = Math.max(P.best, me.score); }
+      P.recent.unshift({ d: new Date().toISOString().slice(0, 10), place: i + 1, of: g.ranking.length, score: me.score });
+      P.recent = P.recent.slice(0, 10);
+    }
+  }
+  if (changed) store.set('ts-profile', P);
+}
+function openProfile() {
+  const P = Object.assign(PROF0(), store.get('ts-profile', {})), el = $('#profile');
+  const pct = (a, b) => (b ? Math.round(a / b * 100) : 0);
+  const cats = Object.entries(P.cats).filter(([, v]) => v[1] >= 3).map(([n, v]) => ({ n, p: pct(v[0], v[1]), t: v[1] })).sort((a, b) => b.p - a.p || b.t - a.t);
+  const tile = (v, l) => `<div class="pf-t"><b>${v}</b><small>${l}</small></div>`;
+  el.innerHTML = `<div class="gal card pf" role="dialog" aria-label="${t('myProfile')}">
+    <div class="gal-head"><h2>${t('myProfile')}</h2><button class="btn primary" id="pf-close">${t('close')}</button></div>
+    <div class="pf-top"><div class="pf-av">${avatarSVG(avatar)}</div><div><div class="pf-name">${esc(myName())}</div><div class="hint">${t('pfLocal')}</div></div></div>
+    ${P.games || P.ok + P.bad ? `<div class="pf-tiles">
+      ${tile(P.games, t('pfGames'))}${tile(P.wins, t('pfWins'))}${tile(pct(P.wins, P.games) + '%', t('pfWinRate'))}
+      ${tile(P.finals, t('pfFinals'))}${tile(pct(P.ok, P.ok + P.bad) + '%', t('pfAcc'))}${tile(P.best, t('pfBest'))}</div>
+    ${cats.length ? `<div class="pf-cats"><div><h3>${t('pfBestCat')}</h3>${cats.slice(0, 3).map(c => `<div class="pf-c"><span>${esc(c.n)}</span><b>${c.p}%</b></div>`).join('')}</div>
+      ${cats.length > 3 ? `<div><h3>${t('pfWorstCat')}</h3>${cats.slice(-3).reverse().map(c => `<div class="pf-c"><span>${esc(c.n)}</span><b>${c.p}%</b></div>`).join('')}</div>` : ''}</div>` : ''}
+    ${P.recent.length ? `<h3>${t('pfRecent')}</h3><ol class="pf-rec">${P.recent.map(r => `<li><span>${r.d}</span><span>${t('pfPlace', { p: r.place, n: r.of })}</span><b>${r.score != null ? r.score + ' ' + t('pts') : '—'}</b></li>`).join('')}</ol>` : ''}
+    <button class="btn ghost" id="pf-reset">${t('pfReset')}</button>` : `<p class="hint">${t('pfEmpty')}</p>`}
+  </div>`;
+  el.classList.remove('hidden');
+  $('#pf-close').onclick = () => el.classList.add('hidden');
+  if ($('#pf-reset')) $('#pf-reset').onclick = e => {
+    if (e.target.dataset.sure) { store.set('ts-profile', PROF0()); openProfile(); }
+    else { e.target.dataset.sure = 1; e.target.textContent = t('sure'); }
+  };
+}
+$('#btn-profile').onclick = openProfile;
+$('#profile').addEventListener('click', e => { if (e.target.id === 'profile') $('#profile').classList.add('hidden'); });
 
 // ---------- start ----------
 applyStatic();
