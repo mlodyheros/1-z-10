@@ -78,7 +78,7 @@ document.addEventListener('click', e => {
 });
 addEventListener('keydown', e => {
   if (e.key === 'Escape' && wheelOpen()) return closeWheel();
-  if (e.key === 'Escape') closeGallery();
+  if (e.key === 'Escape') { closeGallery(); closePicker(); }
   if ((e.key === 'b' || e.key === 'B') && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) wheelOpen() ? closeWheel() : openWheel();
 });
 function emoteTarget(id) {
@@ -111,13 +111,53 @@ function renderEditor() {
     return `<div class="part"><button class="arrow" data-k="${k}" data-d="-1" aria-label="${label}: ${t('prev')}">‹</button><span>${label} <em>${(avatar[k] || 0) + 1}/${avCount(k)}</em></span><button class="arrow" data-k="${k}" data-d="1" aria-label="${label}: ${t('next')}">›</button></div>`;
   }).join('');
 }
+// zwykły ludek z edytora (bez kolorów i dodatków postaci z galerii)
+const plainAv = a => { const o = {}; for (const k of AV_PARTS) o[k] = a[k] || 0; return o; };
+function stepPart(k, d) {
+  const n = avCount(k);
+  if (avatar.gid) avatar = plainAv(avatar);
+  avatar[k] = ((avatar[k] || 0) + d + n) % n;
+  avatarChanged();
+}
+// po każdej zmianie: zapisz w przeglądarce, odśwież widoki, a w pokoju wyślij nowy wygląd
+function avatarChanged() {
+  store.set('ts-avatar2', avatar); renderEditor();
+  if (S && S.phase === 'lobby') tx({ t: 'profile', name: myName(), avatar });
+  if (!$('#picker').classList.contains('hidden')) renderPicker();
+}
 $('#av-parts').addEventListener('click', e => {
   const b = e.target.closest('.arrow'); if (!b) return;
-  const k = b.dataset.k, n = avCount(k);
-  avatar[k] = ((avatar[k] || 0) + (+b.dataset.d) + n) % n;
-  store.set('ts-avatar2', avatar); renderEditor();
+  stepPart(b.dataset.k, +b.dataset.d);
 });
-$('#btn-random').onclick = () => { avatar = avRandom(); store.set('ts-avatar2', avatar); renderEditor(); };
+$('#btn-random').onclick = () => { avatar = avRandom(); avatarChanged(); };
+$('#btn-gal-me').onclick = () => openPicker(false);
+
+// ---------- zmiana postaci: edytor i galeria gotowych postaci ----------
+let pickerFull = false;
+function openPicker(full) { pickerFull = full; $('#picker').classList.remove('hidden'); renderPicker(); }
+function closePicker() { $('#picker').classList.add('hidden'); }
+function renderPicker() {
+  const el = $('#picker'), sc = (el.querySelector('.gal-body') || {}).scrollTop || 0;
+  el.innerHTML = `<div class="gal card pick" role="dialog" aria-label="${t('changeChar')}">
+    <div class="gal-head"><h2>${t(pickerFull ? 'changeChar' : 'galleryMe')}</h2><button class="btn primary" id="pick-close">${t('done')}</button></div>
+    <div class="pick-grid ${pickerFull ? '' : 'only'}">
+      ${pickerFull ? `<div class="pick-ed"><div class="preview small">${avatarSVG(avatar)}</div>
+        <div class="parts">${AV_PARTS.map(k => `<div class="part"><button class="arrow" data-pk="${k}" data-d="-1" aria-label="${t('p_' + k)}: ${t('prev')}">‹</button><span>${t('p_' + k)}</span><button class="arrow" data-pk="${k}" data-d="1" aria-label="${t('p_' + k)}: ${t('next')}">›</button></div>`).join('')}</div>
+        <button class="btn ghost" id="pick-rand">${t('randomize')}</button></div>` : ''}
+      <div class="gal-body">${['friends', 'sport', 'music', 'world'].map(gr => `<h3>${t('g_' + gr)}</h3><div class="gal-grid">
+        ${BOT_GALLERY.filter(b => b.group === gr).map(b => `<button class="gal-item ${avatar.gid === b.id ? 'used' : ''}" data-mygid="${b.id}">${avatarSVG(b.avatar)}<b>${esc(b.name)}</b>${avatar.gid === b.id ? `<em>${t('chosen')}</em>` : ''}</button>`).join('')}</div>`).join('')}</div>
+    </div></div>`;
+  el.querySelector('.gal-body').scrollTop = sc;
+  $('#pick-close').onclick = closePicker;
+  if ($('#pick-rand')) $('#pick-rand').onclick = () => { avatar = avRandom(); avatarChanged(); };
+  el.querySelectorAll('[data-pk]').forEach(b => b.onclick = () => stepPart(b.dataset.pk, +b.dataset.d));
+  el.querySelectorAll('[data-mygid]').forEach(b => b.onclick = () => {
+    const g = BOT_GALLERY.find(x => x.id === b.dataset.mygid);
+    avatar = Object.assign({}, g.avatar, { gid: g.id });
+    avatarChanged();
+  });
+}
+$('#picker').addEventListener('click', e => { if (e.target.id === 'picker') closePicker(); });
 $('#name').value = store.get('ts-name', '');
 $('#name').oninput = e => store.set('ts-name', e.target.value);
 $('#code').oninput = e => { e.target.value = e.target.value.toUpperCase().replace(/[^A-Z]/g, ''); };
@@ -239,7 +279,7 @@ function renderLobby() {
             </div>` : `<div class="pl empty"><div class="pl-fig"></div><div class="pl-desk"><span class="pl-seat">${i + 1}</span><div class="pl-sub">${t('free')}</div></div></div>`; }).join('')}
         </div>
         ${S.specs.length ? `<div class="specs">👀 ${t('specs')}: ${S.specs.map(x => `<b>${esc(x.name)}</b>`).join(', ')}</div>` : ''}
-        <div class="emo-row">${amSpec ? '' : `<button class="emo-btn" data-wheel>${emoBtnInner()}</button>`}
+        <div class="emo-row">${amSpec ? '' : `<button class="emo-btn" data-wheel>${emoBtnInner()}</button><button class="btn" id="change-char">🎭 ${t('changeChar')}</button>`}
         ${host ? `<span class="botrow">
           <select id="bot-level" class="inp">${levelOpts(botLevel, true)}</select>
           <button class="btn" id="add-bot" ${S.players.length >= 10 ? 'disabled' : ''}>${t('addBot')}</button>
@@ -305,6 +345,7 @@ function renderLobby() {
   if (chatKeep) { inp.value = chatKeep.v; if (chatKeep.f) { inp.focus(); try { inp.setSelectionRange(chatKeep.s, chatKeep.s); } catch {} } }
   $('#chat-form').onsubmit = e => { e.preventDefault(); if (inp.value.trim()) { tx({ t: 'chat', text: inp.value }); inp.value = ''; } };
   el.querySelectorAll('[data-quick]').forEach(b => b.onclick = () => tx({ t: 'chat', text: b.dataset.quick }));
+  if ($('#change-char')) $('#change-char').onclick = () => openPicker(true);
   $('#lb-leave').onclick = () => { tx({ t: 'leave' }); goHome(); };
   $('#copy-link').onclick = () => { navigator.clipboard?.writeText(link).then(() => toast(t('linkCopied')), () => toast(link)); };
   if (!host) return;

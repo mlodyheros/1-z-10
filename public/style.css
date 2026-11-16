@@ -523,3 +523,19 @@ select.inp, .pl-lv { appearance: none; -webkit-appearance: none; font-weight: 80
 .conn-box b { font-size: 20px; } .conn-box small { color: var(--dim); }
 .conn-spin { width: 46px; height: 46px; border-radius: 50%; border: 5px solid rgba(255,255,255,.15); border-top-color: var(--gold); animation: connspin .8s linear infinite; }
 @keyframes connspin { to { transform: rotate(360deg); } }
+
+/* zmiana postaci: edytor + galeria */
+#picker { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; padding: 16px; background: rgba(8,5,22,.75); }
+#picker.hidden { display: none; }
+.pick { width: min(1000px, 100%); }
+.pick-grid { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 18px; min-height: 0; flex: 1; }
+.pick-grid.only { grid-template-columns: minmax(0, 1fr); }
+.pick-ed { display: flex; flex-direction: column; gap: 10px; align-items: stretch; overflow: auto; }
+.pick-ed .preview.small { height: 190px; position: relative; }
+.pick-ed .preview.small .av { height: 100%; width: auto; display: block; margin: 0 auto; }
+.pick-grid .gal-body { overflow: auto; max-height: calc(100vh - 160px); }
+@media (max-width: 760px) {
+  .pick-grid { grid-template-columns: minmax(0, 1fr); }
+  .pick-ed .preview.small { height: 140px; }
+  .pick-grid .gal-body { max-height: 45vh; }
+}
