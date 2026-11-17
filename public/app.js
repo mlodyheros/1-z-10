@@ -39,10 +39,31 @@ function show(id) {
   $('#lang').classList.toggle('hidden', id === 'game');
 }
 
+// ---------- ikony (własne, rysowane w SVG) ----------
+const ICON = {
+  dice: '<rect x="3.5" y="3.5" width="17" height="17" rx="4.5" transform="rotate(-8 12 12)"/><g fill="currentColor" stroke="none"><circle cx="8.3" cy="8.9" r="1.5"/><circle cx="15.2" cy="7.9" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="8.8" cy="16.1" r="1.5"/><circle cx="15.7" cy="15.1" r="1.5"/></g>',
+  cards: '<rect x="8" y="3" width="13" height="16" rx="3" transform="rotate(8 14.5 11)"/><rect x="3" y="5" width="13" height="16" rx="3" fill="var(--icbg, #241a55)"/><circle cx="9.5" cy="11" r="2.4"/><path d="M5.6 18.2c.6-2.2 2-3.3 3.9-3.3s3.3 1.1 3.9 3.3"/>',
+  stats: '<path d="M3.5 20.5h17"/><rect x="5" y="12" width="3.6" height="6" rx="1.2"/><rect x="10.2" y="7.5" width="3.6" height="10.5" rx="1.2"/><rect x="15.4" y="3.5" width="3.6" height="14.5" rx="1.2"/>',
+  swap: '<circle cx="12" cy="9.2" r="2.7"/><path d="M7.6 16.6c.7-2.1 2.2-3.2 4.4-3.2s3.7 1.1 4.4 3.2"/><path d="M20.5 12a8.5 8.5 0 0 1-14.6 5.9"/><path d="M3.5 12A8.5 8.5 0 0 1 18.1 6.1"/><path d="M18.4 2.8v3.5h-3.5"/><path d="M5.6 21.2v-3.5h3.5"/>',
+  eye: '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>',
+  sound: '<path d="M4 9.5h3.2L12 5.5v13l-4.8-4H4z"/><path d="M15.5 9a4.2 4.2 0 0 1 0 6"/><path d="M18 6.3a8 8 0 0 1 0 11.4"/>',
+  mute: '<path d="M4 9.5h3.2L12 5.5v13l-4.8-4H4z"/><path d="M16 9.5l5 5"/><path d="M21 9.5l-5 5"/>',
+  trophy: '<path d="M7.5 4h9v5a4.5 4.5 0 0 1-9 0z"/><path d="M7.5 5.5H4.2c0 3 1.4 4.6 3.6 4.9"/><path d="M16.5 5.5h3.3c0 3-1.4 4.6-3.6 4.9"/><path d="M12 13.5v3.5"/><path d="M8 20.5h8"/><path d="M9.5 17h5v3.5h-5z"/>',
+  flag: '<path d="M5.5 21V3.5"/><path d="M5.5 4.5c4-2 6 2 10.5 0 .9-.4 1.7-.6 2.5-.6v8.6c-.8 0-1.6.2-2.5.6-4.5 2-6.5-2-10.5 0"/>',
+  play: '<circle cx="12" cy="12" r="9"/><path d="M10 8.3v7.4l6-3.7z" fill="currentColor"/>',
+  star: '<path d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6L3.4 9.5l6-.8z"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/>',
+  percent: '<circle cx="7.5" cy="7.5" r="3"/><circle cx="16.5" cy="16.5" r="3"/><path d="M18.5 5.5l-13 13"/>',
+  bolt: '<path d="M13.5 2.8L5 13.5h5.6l-1.1 7.7L18.5 10h-5.8z"/>',
+  check: '<circle cx="12" cy="12" r="9"/><path d="M7.8 12.4l2.9 2.9 5.6-6"/>',
+};
+const ic = n => `<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[n]}</svg>`;
+
 // ---------- język ----------
 function applyStatic() {
   document.documentElement.lang = LANG;
-  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll('[data-i18n]').forEach(el => { if (el.dataset.ic) el.innerHTML = `<i>${ic(el.dataset.ic)}</i><span>${esc(t(el.dataset.i18n))}</span>`; else el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll('[data-i18n-title]').forEach(el => { el.title = t(el.dataset.i18nTitle); el.setAttribute('aria-label', el.title); });
   document.querySelectorAll('[data-i18n-ph]').forEach(el => { el.placeholder = t(el.dataset.i18nPh); });
   $('#lang').innerHTML = `<b class="${LANG === 'pl' ? 'on' : ''}">PL</b><b class="${LANG === 'en' ? 'on' : ''}">EN</b>`;
   renderEditor();
@@ -143,7 +164,7 @@ function renderPicker() {
     <div class="pick-grid ${pickerFull ? '' : 'only'}">
       ${pickerFull ? `<div class="pick-ed"><div class="preview small">${avatarSVG(avatar)}</div>
         <div class="parts">${AV_PARTS.map(k => `<div class="part"><button class="arrow" data-pk="${k}" data-d="-1" aria-label="${t('p_' + k)}: ${t('prev')}">‹</button><span>${t('p_' + k)}</span><button class="arrow" data-pk="${k}" data-d="1" aria-label="${t('p_' + k)}: ${t('next')}">›</button></div>`).join('')}</div>
-        <button class="btn ghost" id="pick-rand">${t('randomize')}</button></div>` : ''}
+        <button class="btn ghost icb" id="pick-rand">${ic('dice')}${t('randomize')}</button></div>` : ''}
       <div class="gal-body">${['friends', 'sport', 'music', 'world'].map(gr => `<h3>${t('g_' + gr)}</h3><div class="gal-grid">
         ${BOT_GALLERY.filter(b => b.group === gr).map(b => `<button class="gal-item ${avatar.gid === b.id ? 'used' : ''}" data-mygid="${b.id}">${avatarSVG(b.avatar)}<b>${esc(b.name)}</b>${avatar.gid === b.id ? `<em>${t('chosen')}</em>` : ''}</button>`).join('')}</div>`).join('')}</div>
     </div></div>`;
@@ -264,7 +285,7 @@ function renderLobby() {
       <span class="lobby-btns">${fsBtn('btn ghost')}<button class="btn ghost" id="lb-leave">${t('leave')}</button></span>
     </div>
     <div class="lobby-grid">
-      ${amSpec ? `<div class="specbar">${t('specWait')}</div>` : ''}
+      ${amSpec ? `<div class="specbar">${ic('eye')}<span>${t('specWait')}</span></div>` : ''}
       <section class="card stagecard">
         <h2>${t('players')} <small>${S.players.length}/10</small></h2>
         <div class="plist">
@@ -278,8 +299,8 @@ function renderLobby() {
               ${host && p.id !== myId ? `<button class="x" data-kick="${p.id}" aria-label="${esc(t('remove', { name: p.name }))}">×</button>` : ''}
             </div>` : `<div class="pl empty"><div class="pl-fig"></div><div class="pl-desk"><span class="pl-seat">${i + 1}</span><div class="pl-sub">${t('free')}</div></div></div>`; }).join('')}
         </div>
-        ${S.specs.length ? `<div class="specs">👀 ${t('specs')}: ${S.specs.map(x => `<b>${esc(x.name)}</b>`).join(', ')}</div>` : ''}
-        <div class="emo-row">${amSpec ? '' : `<button class="emo-btn" data-wheel>${emoBtnInner()}</button><button class="btn" id="change-char">🎭 ${t('changeChar')}</button>`}
+        ${S.specs.length ? `<div class="specs">${ic('eye')} ${t('specs')}: ${S.specs.map(x => `<b>${esc(x.name)}</b>`).join(', ')}</div>` : ''}
+        <div class="emo-row">${amSpec ? '' : `<button class="emo-btn" data-wheel>${emoBtnInner()}</button><button class="btn icb" id="change-char">${ic('swap')}${t('changeChar')}</button>`}
         ${host ? `<span class="botrow">
           <select id="bot-level" class="inp">${levelOpts(botLevel, true)}</select>
           <button class="btn" id="add-bot" ${S.players.length >= 10 ? 'disabled' : ''}>${t('addBot')}</button>
@@ -536,9 +557,9 @@ function renderGame() {
   $('#hud').innerHTML = `
     <div class="hud-l"><span class="logo tiny"><span>Trzy</span> <span class="logo-b">Szanse</span></span><span class="chip">${stName}</span>
       ${g.stage === 3 && g.mode !== 'end' ? `<span class="chip dim">${t('left', { n: g.finalLeft })}</span>` : ''}</div>
-    <div class="hud-r">${amSpec ? `<span class="chip specchip">${t('spectating')}</span>` : ''}${S.specs.length ? `<span class="chip dim" title="${esc(S.specs.map(x => x.name).join(', '))}">👀 ${S.specs.length}</span>` : ''}<span class="chip dim roomchip">${t('room', { c: S.code })}</span>
+    <div class="hud-r">${amSpec ? `<span class="chip specchip">${ic('eye')} ${t('spectating')}</span>` : ''}${S.specs.length ? `<span class="chip dim" title="${esc(S.specs.map(x => x.name).join(', '))}">${ic('eye')} ${S.specs.length}</span>` : ''}<span class="chip dim roomchip">${t('room', { c: S.code })}</span>
       <button class="chip btnchip" id="hud-lang" aria-label="Język / Language">${LANG === 'pl' ? 'PL' : 'EN'}</button>
-      <button class="chip btnchip" id="mute" aria-label="${t('sound')}">${muted ? '🔇' : '🔊'}</button>
+      <button class="chip btnchip" id="mute" aria-label="${t('sound')}">${ic(muted ? 'mute' : 'sound')}</button>
       ${fsBtn('chip btnchip')}
       <button class="chip btnchip quit ${quitArmed ? 'armed' : ''}" id="hud-quit" aria-label="${t('leaveGame')}">${quitArmed ? t('sure') : '⏏<span class="ql"> ' + t('leaveGame') + '</span>'}</button></div>`;
   $('#mute').onclick = () => { muted = !muted; store.set('ts-muted', muted); renderGame(); };
@@ -587,14 +608,14 @@ function renderGame() {
       const awVal = a => a.k === 'most' ? `${a.v} ✓ · ${a.bad} ✗` : a.k === 'fast' ? `${(a.v / 1000).toFixed(1)} s` : a.k === 'streak' ? `${a.v} ${t('inRow')}` : `${a.v}%`;
       const awards = stats.awards.filter(a => byId(a.id)).map(a => { const p = byId(a.id); return `<div class="aw" ${a.q ? `title="${esc(a.q)}"` : ''}>
         ${avatarSVG(p.avatar)}<div><small>${t('aw_' + a.k)}</small><b>${esc(p.name)}</b><span>${awVal(a)}</span></div></div>`; }).join('');
-      h = `<div class="end"><h2>${esc(t('wins', { name: w ? w.name : '—' }))}</h2><div class="end-cols"><ol class="rank">
+      h = `<div class="end"><h2>${ic('trophy')}${esc(t('wins', { name: w ? w.name : '—' }))}</h2><div class="end-cols"><ol class="rank">
         ${g.ranking.map((r, i) => { const p = byId(r.id), st = row(r.id); return `<li class="${r.id === myId ? 'me' : ''}"><span class="rk">${i + 1}</span>${avatarSVG(p.avatar)}<span class="rn">${esc(p.name)}</span><span class="okbad">${st ? `<i class="g">${st.ok}✓</i> <i class="b">${st.bad}✗</i>` : ''}</span><span class="rs">${r.score != null ? r.score + ' ' + t('pts') : r.out ? t('eliminated') : ''}</span></li>`; }).join('')}
         </ol>${awards ? `<div class="awards"><h3>${t('stats')}</h3>${awards}</div>` : ''}</div>
         <div class="end-btns">${host ? `<button class="btn primary" id="again">${t('backLobby')}</button>` : `<span class="hint">${amSpec ? t('specNext') : t('hostAgain')}</span>`}<button class="btn ghost" id="quit">${t('leave')}</button></div></div>`;
     }
-    if (g.q && g.mode !== 'intro') h += `<button class="report" id="report" ${reportedQ === g.qnum ? 'disabled' : ''}>${reportedQ === g.qnum ? t('reported') : t('report')}</button>`;
+    if (g.q && g.mode !== 'intro') h += `<button class="report" id="report" ${reportedQ === g.qnum ? 'disabled' : ''}>${reportedQ === g.qnum ? t('reported') : ic('flag') + t('report')}</button>`;
     panel.innerHTML = h;
-    if ($('#report')) $('#report').onclick = e => { reportedQ = g.qnum; tx({ t: 'report' }); e.target.disabled = true; e.target.textContent = t('reported'); };
+    if ($('#report')) $('#report').onclick = e => { reportedQ = g.qnum; tx({ t: 'report' }); e.currentTarget.disabled = true; e.currentTarget.textContent = t('reported'); };
     const f = $('#ans-form');
     if (f) { f.onsubmit = e => { e.preventDefault(); tx({ t: 'answer', text: $('#ans').value }); }; setTimeout(() => $('#ans') && $('#ans').focus(), 50); }
     // na telefonie zgłoszenie leci już przy dotknięciu ekranu, bez czekania na puszczenie palca
@@ -662,17 +683,23 @@ function openProfile() {
   const P = Object.assign(PROF0(), store.get('ts-profile', {})), el = $('#profile');
   const pct = (a, b) => (b ? Math.round(a / b * 100) : 0);
   const cats = Object.entries(P.cats).filter(([, v]) => v[1] >= 3).map(([n, v]) => ({ n, p: pct(v[0], v[1]), t: v[1] })).sort((a, b) => b.p - a.p || b.t - a.t);
-  const tile = (v, l) => `<div class="pf-t"><b>${v}</b><small>${l}</small></div>`;
+  const tile = (i, v, l, c) => `<div class="pf-t ${c}"><i>${ic(i)}</i><b>${v}</b><small>${l}</small></div>`;
+  const catRow = (c, cl) => `<div class="pf-c ${cl}"><span>${esc(c.n)}</span><b>${c.p}%</b><u><s style="width:${Math.max(c.p, 3)}%"></s></u></div>`;
+  const acc = pct(P.ok, P.ok + P.bad);
   el.innerHTML = `<div class="gal card pf" role="dialog" aria-label="${t('myProfile')}">
     <div class="gal-head"><h2>${t('myProfile')}</h2><button class="btn primary" id="pf-close">${t('close')}</button></div>
-    <div class="pf-top"><div class="pf-av">${avatarSVG(avatar)}</div><div><div class="pf-name">${esc(myName())}</div><div class="hint">${t('pfLocal')}</div></div></div>
+    <div class="gal-body">
+    <div class="pf-top"><div class="pf-av">${avatarSVG(avatar)}</div>
+      <div class="pf-id"><div class="pf-name">${esc(myName())}</div><div class="hint">${t('pfLocal')}</div></div>
+      ${P.ok + P.bad ? `<div class="pf-ring" style="--p:${acc}"><b>${acc}%</b><small>${t('pfAcc')}</small></div>` : ''}</div>
     ${P.games || P.ok + P.bad ? `<div class="pf-tiles">
-      ${tile(P.games, t('pfGames'))}${tile(P.wins, t('pfWins'))}${tile(pct(P.wins, P.games) + '%', t('pfWinRate'))}
-      ${tile(P.finals, t('pfFinals'))}${tile(pct(P.ok, P.ok + P.bad) + '%', t('pfAcc'))}${tile(P.best, t('pfBest'))}</div>
-    ${cats.length ? `<div class="pf-cats"><div><h3>${t('pfBestCat')}</h3>${cats.slice(0, 3).map(c => `<div class="pf-c"><span>${esc(c.n)}</span><b>${c.p}%</b></div>`).join('')}</div>
-      ${cats.length > 3 ? `<div><h3>${t('pfWorstCat')}</h3>${cats.slice(-3).reverse().map(c => `<div class="pf-c"><span>${esc(c.n)}</span><b>${c.p}%</b></div>`).join('')}</div>` : ''}</div>` : ''}
-    ${P.recent.length ? `<h3>${t('pfRecent')}</h3><ol class="pf-rec">${P.recent.map(r => `<li><span>${r.d}</span><span>${t('pfPlace', { p: r.place, n: r.of })}</span><b>${r.score != null ? r.score + ' ' + t('pts') : '—'}</b></li>`).join('')}</ol>` : ''}
-    <button class="btn ghost" id="pf-reset">${t('pfReset')}</button>` : `<p class="hint">${t('pfEmpty')}</p>`}
+      ${tile('play', P.games, t('pfGames'), 't-teal')}${tile('trophy', P.wins, t('pfWins'), 't-gold')}${tile('percent', pct(P.wins, P.games) + '%', t('pfWinRate'), 't-gold')}
+      ${tile('star', P.finals, t('pfFinals'), 't-pink')}${tile('check', P.ok, t('pfAcc'), 't-teal')}${tile('bolt', P.best, t('pfBest'), 't-pink')}</div>
+    ${cats.length ? `<div class="pf-cats"><div><h3>${t('pfBestCat')}</h3>${cats.slice(0, 3).map(c => catRow(c, 'up')).join('')}</div>
+      ${cats.length > 3 ? `<div><h3>${t('pfWorstCat')}</h3>${cats.slice(-3).reverse().map(c => catRow(c, 'dn')).join('')}</div>` : ''}</div>` : ''}
+    ${P.recent.length ? `<h3>${t('pfRecent')}</h3><ol class="pf-rec">${P.recent.map(r => `<li class="${r.place === 1 ? 'won' : ''}"><i>${r.place}</i><span>${t('pfPlace', { p: r.place, n: r.of })}<small>${r.d}</small></span><b>${r.score != null ? r.score + ' ' + t('pts') : '—'}</b></li>`).join('')}</ol>` : ''}
+    <button class="btn ghost" id="pf-reset">${t('pfReset')}</button>` : `<div class="pf-empty"><i>${ic('stats')}</i><p>${t('pfEmpty')}</p></div>`}
+    </div>
   </div>`;
   el.classList.remove('hidden');
   $('#pf-close').onclick = () => el.classList.add('hidden');
