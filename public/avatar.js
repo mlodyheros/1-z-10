@@ -1,6 +1,7 @@
 // Ludki — rysowane w SVG z wymiennych warstw.
 // Kolejność warstw: włosy z tyłu → ręce → tułów → głowa → zarost → twarz → włosy z przodu → okulary → nakrycie głowy.
 // Nakrycie głowy przycina włosy (clipPath), więc fryzura nigdy nie wystaje przez czapkę.
+// palety kolorów (tablice) i liczba wariantów każdej części (liczby)
 const AV = {
   skin: ['#ffe0c2', '#ffd0a6', '#f1b98a', '#d99a6c', '#b87a4b', '#8d5a34', '#5e3a20', '#9be37a', '#8fd3ff', '#d6a5ff'],
   hairColor: ['#1f1410', '#4a2c17', '#7a4a22', '#c98a2b', '#f1d24a', '#e2572b', '#8e8e99', '#f4f4f4', '#ff5fa2', '#3ec7c2'],
@@ -8,6 +9,7 @@ const AV = {
   hair: 20, eyes: 9, mouth: 9, outfit: 11, hat: 11, glasses: 5, beard: 6,
 };
 const AV_PARTS = ['skin', 'hair', 'hairColor', 'eyes', 'mouth', 'beard', 'glasses', 'hat', 'shirt', 'outfit'];
+// szansa, że losowy ludek nie dostanie tej części (wariant 0 = brak)
 const AV_OPTIONAL = { hat: 0.5, glasses: 0.6, beard: 0.65 };
 function avCount(k) { return Array.isArray(AV[k]) ? AV[k].length : AV[k]; }
 function avRandom() {
@@ -15,16 +17,22 @@ function avRandom() {
   for (const k of AV_PARTS) a[k] = AV_OPTIONAL[k] && Math.random() < AV_OPTIONAL[k] ? 0 : Math.floor(Math.random() * avCount(k));
   return a;
 }
+// licznik do unikalnych id clipPath — na stronie jest naraz wiele ludków
 let avUid = 0;
+// przyciemnia (f < 1) lub rozjaśnia (f > 1) kolor #rrggbb
 function avShade(hex, f) {
   const n = parseInt(hex.slice(1), 16);
   const c = [n >> 16, (n >> 8) & 255, n & 255].map(v => Math.max(0, Math.min(255, Math.round(v * f))));
   return '#' + c.map(v => v.toString(16).padStart(2, '0')).join('');
 }
 
+// Zwraca SVG ludka jako tekst. a: numery wariantów części, a postacie z galerii mają też
+// własne kolory (*Hex), napis/numer na koszulce i dodatki (kaptur, łańcuch, opaska…).
 function avatarSVG(a, cls) {
   a = a || {};
+  // indeks zawsze w zakresie (także ujemny albo za duży z serwera), więc stary zapis nie psuje rysunku
   const g = k => ((parseInt(a[k], 10) || 0) % avCount(k) + avCount(k)) % avCount(k);
+  // własny kolor z galerii zastępuje kolor z palety
   const hex = (k, d) => (/^#[0-9a-f]{6}$/i.test(a[k]) ? a[k] : d);
   const skin = hex('skinHex', AV.skin[g('skin')]), hc = hex('hairHex', AV.hairColor[g('hairColor')]), shirt = hex('shirtHex', AV.shirt[g('shirt')]);
   const dark = avShade(shirt, 0.72), trim = hex('trimHex', dark), num = Math.max(0, Math.min(99, parseInt(a.num, 10) || 0)),
@@ -33,6 +41,7 @@ function avatarSVG(a, cls) {
   const hair = g('hair'), hat = g('hat');
   const cap = `<path d="M26 60 Q22 22 60 22 Q98 22 94 60 Q88 42 60 40 Q32 42 26 60Z" fill="${hc}"/>`;
 
+  // tylna warstwa włosów (za tułowiem) — tylko fryzury, które spadają na ramiona lub wystają za głowę
   const hairBack = {
     3: `<path d="M22 64 Q18 18 60 18 Q102 18 98 64 L102 112 Q92 118 84 110 L86 62 L34 62 L36 110 Q28 118 18 112Z" fill="${hc}"/>`,
     7: `<circle cx="60" cy="50" r="45" fill="${hc}"/>`,
@@ -91,6 +100,7 @@ function avatarSVG(a, cls) {
     `<path d="M48 86 Q62 92 74 80" stroke="${ink}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`,
     `<path d="M43 81 Q60 103 77 81Z" fill="${ink}"/><path d="M46 82 H74 Q72 88 60 88 Q48 88 46 82Z" fill="#fff"/>`,
   ][g('mouth')];
+  // wspólny kształt pełnej brody; wariant 4 to ta sama broda półprzezroczysta (zarost)
   const beardShape = 'M26 68 Q26 104 60 104 Q94 104 94 68 Q90 82 76 80 Q60 74 44 80 Q30 82 26 68Z';
   const beard = [
     '',
@@ -121,6 +131,7 @@ function avatarSVG(a, cls) {
     `<path d="M35 30 Q34 0 50 4 Q60 9 70 4 Q86 0 85 30Z" fill="${hex('hatHex', '#1c1c22')}"/><path d="M35 22 H85 V31 H35Z" fill="${hex('hatHex2', '#f5f5f5')}"/><path d="M8 30 Q34 24 60 31 Q88 24 112 36 Q88 44 60 39 Q32 43 8 30Z" fill="${avShade(hex('hatHex', '#1c1c22'), 1.25)}"/>`,
   ][hat];
   const bodyPath = 'M18 160 Q18 106 60 106 Q102 106 102 160Z';
+  // stroje; paski i lampasy są przycinane do kształtu tułowia (clipPath …b), żeby nie wychodziły poza koszulkę
   const outfit = [
     '',
     `<g clip-path="url(#${uid}b)" stroke="${dark}" stroke-width="7"><path d="M0 122 H120 M0 138 H120 M0 154 H120"/></g>`,
@@ -134,7 +145,9 @@ function avatarSVG(a, cls) {
     `<g clip-path="url(#${uid}b)"><path d="M43 104 H77 L74 164 H46Z" fill="#f1efe8"/><path d="M40 118 H80 M40 128 H80 M40 138 H80 M40 148 H80 M40 158 H80" stroke="#1d1d26" stroke-width="5"/><path d="M43 104 L47 164 H14 V104Z M77 104 L73 164 H106 V104Z" fill="${shirt}"/><path d="M43 106 L47 164 M77 106 L73 164" stroke="${avShade(shirt, 1.9)}" stroke-width="2.5"/></g>`,
     `<path d="M46 106 L60 136 L74 106Z" fill="${skin}"/><path d="M36 112 L44 88 L60 136 Z M84 112 L76 88 L60 136Z" fill="${shirt}" stroke="#d9a900" stroke-width="2.5" stroke-linejoin="round"/><g fill="#d9a900"><circle cx="40" cy="146" r="2.5"/><circle cx="50" cy="150" r="2.5"/><circle cx="60" cy="152" r="2.5"/><circle cx="70" cy="150" r="2.5"/><circle cx="80" cy="146" r="2.5"/></g>`,
   ][g('outfit')] + (txt ? `<text x="60" y="143" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="900" font-size="${txt.length > 4 ? 13 : 16}" letter-spacing="1" fill="${trim}" stroke="${avShade(trim, 0.7)}" stroke-width=".6">${txt}</text>` : '') + (num ? `<text x="60" y="151" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="26" fill="${trim}" stroke="rgba(0,0,0,.35)" stroke-width="1">${num}</text>` : '')
+    // paski (strój 1) w kolorze wykończenia rysowane jeszcze raz nad napisem i numerem
     + (g('outfit') === 1 && a.trimHex ? `<g clip-path="url(#${uid}b)" stroke="${trim}" stroke-width="7"><path d="M0 122 H120 M0 138 H120 M0 154 H120"/></g>` : '');
+  // dodatki tylko dla postaci z galerii
   const hood = a.hoodUp ? `<path d="M12 74 Q6 2 60 2 Q114 2 108 74 L104 122 Q60 104 16 122Z" fill="${shirt}" stroke="rgba(0,0,0,.25)" stroke-width="2"/><path d="M22 70 Q20 14 60 14 Q100 14 98 70 L96 100 Q60 90 24 100Z" fill="${avShade(shirt, 0.6)}"/>` : '';
   const chain = a.chain ? `<path d="M43 109 Q60 140 77 109" stroke="#f2c230" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-dasharray="1 4.500"/><circle cx="60" cy="128" r="5.500" fill="#f2c230" stroke="#b98a00" stroke-width="1.5"/>` : '';
   const band = /^#[0-9a-f]{6}$/i.test(a.headband) ? `<path d="M26 44 Q60 28 94 44 L94 53 Q60 37 26 53Z" fill="${a.headband}" stroke="rgba(0,0,0,.2)" stroke-width="1.5"/>` : '';
@@ -144,6 +157,7 @@ function avatarSVG(a, cls) {
   const stud = a.stud ? `<circle cx="22" cy="72" r="2.6" fill="#f2c230"/>` : '';
   const buds = a.buds ? `<rect x="20" y="67" width="6" height="13" rx="3" fill="#fff"/><rect x="94" y="67" width="6" height="13" rx="3" fill="#fff"/>` : '';
 
+  // grupy .fx to miny i ręka do emotek: domyślnie ukryte, CSS pokazuje je w klasach .emo-N
   return `<svg class="av ${cls || ''}" viewBox="0 -30 120 198" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <defs><clipPath id="${uid}b"><path d="${bodyPath}"/></clipPath>${clipY == null ? '' : `<clipPath id="${uid}h"><rect x="-20" y="${clipY}" width="160" height="220"/></clipPath>`}</defs>
     ${hood}<g${clip}>${hairBack}</g>

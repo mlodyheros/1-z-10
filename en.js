@@ -20,14 +20,18 @@ telefon komorkowy=mobile phone;cell phone|klawiatura=keyboard|mysz komputerowa=c
 czlowiek=human;man|dzieci=children;kids|ludzie=people|bracia=brothers|syn=son|wdowa=widow|nauczycielka=teacher|przyjaciele=friends|bohater=hero|oczy=eyes|rece=hands|uszy=ears|reka boga=hand of god|kamien=stone;rock|drewno=wood|ziemniaki=potatoes|sol=salt|dziura=hole|dachu=roof|hala=hall|meczet=mosque|synagoga=synagogue|cerkiew=orthodox church|minaret=minaret|obelisk=obelisk|kopula=dome|krypta=crypt|akwedukt=aqueduct|rozeta=rose window|rzygacz=gargoyle|molo w sopocie=sopot pier|park narodowy=national park|korona=crown;corona|zloty rog=golden horn|husaria=winged hussars;hussars|elekcja=election|liberum veto=liberum veto|potop=deluge|sarmatyzm=sarmatism|wegiel brunatny=lignite;brown coal|wegiel kamienny=hard coal;bituminous coal|beka=lol|hajs=cash;money|ziomek=homie;bro|sztos=banger|wymiekac=give up|odklejka=detached from reality|zasiegi=reach|dzban=jug|jesc=eat|wziac=take|naprawde=really|w ogole=at all|lepiej=better|lepszy=better|gorszy=worse|wiekszy=bigger|najmniejszy=smallest|na pewno=surely;for sure|ponieważ=because|poniewaz=because|grzybobranie=mushroom picking|domowka=house party|niebieski znaczek=blue checkmark;verified badge|dzien z mojego zycia=day in my life;a day in my life|milenialsi=millennials|banka informacyjna=filter bubble;echo chamber|scrollowanie=scrolling|weganizm=veganism|detoks=detox|reinkarnacja=reincarnation|nirwana=nirvana|zapylenie=pollination|miecz swietlny=lightsaber|kostka rubika=rubik s cube;rubiks cube|swieta barbara=saint barbara;st barbara|swiety florian=saint florian|swiety krzysztof=saint christopher|swiety patryk=saint patrick;st patrick|swiety walenty=saint valentine;st valentine|swiety stanislaw=saint stanislaus|szewc dratewka=dratewka the shoemaker|wielki wybuch=big bang
 `;
 
+// Buduje mapę: znormalizowana polska odpowiedź → lista angielskich odpowiedników.
+// norm przychodzi z match.js (bez require tutaj), żeby klucze były w tej samej postaci co odpowiedzi graczy.
 module.exports = function load(norm) {
   const map = new Map();
+  // pary rozdziela „|” albo nowa linia, warianty angielskie — „;”
   for (const pair of RAW.split(/[|\n]/)) {
     const i = pair.indexOf('=');
     if (i < 1) continue;
     const k = norm(pair.slice(0, i));
     const vals = pair.slice(i + 1).split(';').map(s => s.trim()).filter(Boolean);
     if (!k || !vals.length) continue;
+    // ten sam klucz w kilku miejscach: odpowiedniki się sumują, nie nadpisują
     map.set(k, [...(map.get(k) || []), ...vals]);
   }
   return map;

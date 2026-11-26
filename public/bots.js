@@ -42,4 +42,5 @@ const BOT_GALLERY = [
   { id: 'zendaya', group: 'world', name: 'Zendaya', avatar: { skinHex: '#b98458', hair: 13, hairHex: '#3a2415', eyes: 8, eyeHex: '#4a2f1a', mouth: 0, lipHex: '#a8473a', outfit: 5, shirtHex: '#8a4fd6' } },
   { id: 'einstein', group: 'world', name: 'Albert Einstein', avatar: { skinHex: '#f1c9a5', hair: 18, hairColor: 7, eyes: 8, eyeHex: '#5a3d22', mouth: 4, beard: 1, outfit: 3, shirtHex: '#8a5a3c' } },
 ];
+// w przeglądarce BOT_GALLERY jest zmienną globalną, a serwer wczytuje ten sam plik przez require
 if (typeof module !== 'undefined') module.exports = BOT_GALLERY;

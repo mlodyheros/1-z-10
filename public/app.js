@@ -1,22 +1,29 @@
 'use strict';
+// Klient gry: ekran startowy z edytorem ludka, poczekalnia i studio z grą.
+// Nie liczy nic sam — każdy stan przychodzi z serwera (wiadomość „state”) i jest rysowany od nowa w render().
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+// localStorage na stałe ustawienia (ludek, imię, dźwięk, profil); try, bo bywa niedostępny
 const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
 };
+// sessionStorage na dane do powrotu do pokoju — osobno w każdej karcie, więc dwie karty to dwóch graczy
 const sstore = {
   get() { try { return JSON.parse(sessionStorage.getItem('ts-sess')); } catch { return null; } },
   set(v) { try { v ? sessionStorage.setItem('ts-sess', JSON.stringify(v)) : sessionStorage.removeItem('ts-sess'); } catch {} },
 };
 
+// S: ostatni stan pokoju z serwera, myId: moje id, amSpec: oglądam jako widz, sess: { code, id, secret }
 let ws = null, S = null, myId = null, amSpec = false, sess = sstore.get();
 let avatar = Object.assign(avRandom(), store.get('ts-avatar2', null) || {});
+// panelKey / lastSoundKey: panel pytań i dźwięki odświeżane tylko przy zmianie fazy, nie przy każdym stanie
 let deadline = 0, total = 0, panelKey = '', lastSoundKey = '', muted = store.get('ts-muted', false);
 const activeEmotes = {}; // id gracza -> { e, timer }
 
 // ---------- dźwięki ----------
 let actx = null;
+// krótkie sygnały z Web Audio, bez plików dźwiękowych; kolejne częstotliwości grane po sobie
 function beep(freqs, dur = 0.12, type = 'sine') {
   if (muted) return;
   try {
@@ -34,6 +41,7 @@ function toast(msg) {
   const el = $('#toast'); el.textContent = msg; el.classList.add('show');
   clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('show'), 3500);
 }
+// przełącza ekran: home / lobby / game
 function show(id) {
   for (const s of ['home', 'lobby', 'game']) $('#' + s).classList.toggle('hidden', s !== id);
   $('#lang').classList.toggle('hidden', id === 'game');
@@ -60,6 +68,7 @@ const ICON = {
 const ic = n => `<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[n]}</svg>`;
 
 // ---------- język ----------
+// tłumaczy statyczny HTML z atrybutów data-i18n*; widoki dynamiczne same wołają t()
 function applyStatic() {
   document.documentElement.lang = LANG;
   document.querySelectorAll('[data-i18n]').forEach(el => { if (el.dataset.ic) el.innerHTML = `<i>${ic(el.dataset.ic)}</i><span>${esc(t(el.dataset.i18n))}</span>`; else el.textContent = t(el.dataset.i18n); });
@@ -91,6 +100,7 @@ const wheelOpen = () => !$('#wheel').classList.contains('hidden');
 $('#wheel').addEventListener('pointerover', e => {
   const s = e.target.closest('.seg'); if (s) $('#wheel-name').textContent = t('em' + s.dataset.emote);
 });
+// jeden nasłuch dla wszystkich przycisków emotek; bez pokoju emotka gra tylko na podglądzie
 document.addEventListener('click', e => {
   if (e.target.closest('[data-wheel]')) return wheelOpen() ? closeWheel() : openWheel();
   const b = e.target.closest('[data-emote]');
@@ -102,6 +112,8 @@ addEventListener('keydown', e => {
   if (e.key === 'Escape') { closeGallery(); closePicker(); $('#profile').classList.add('hidden'); }
   if ((e.key === 'b' || e.key === 'B') && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) wheelOpen() ? closeWheel() : openWheel();
 });
+// Emotki to klasy CSS (.emoting .emo-N) na elemencie z ludkiem. Elementy są przerysowywane przy każdym stanie,
+// więc aktywne emotki trzymamy w activeEmotes i nakładamy ponownie (repaintEmotes).
 function emoteTarget(id) {
   if (id === 'preview') return $('#av-preview');
   return document.querySelector(`#lobby:not(.hidden) .pl[data-pid="${id}"], #game:not(.hidden) .pod[data-id="${id}"]`);
@@ -116,6 +128,7 @@ function clearEmote(id) {
   if (el) el.className = el.className.replace(/\s*\bemo(ting|-\d)\b/g, '');
   delete activeEmotes[id];
 }
+// emotka trwa 2,6 s; nowa przerywa poprzednią
 function playEmote(id, e) {
   if (activeEmotes[id]) { clearTimeout(activeEmotes[id].timer); clearEmote(id); }
   activeEmotes[id] = { e, timer: setTimeout(() => clearEmote(id), 2600) };
@@ -124,6 +137,7 @@ function playEmote(id, e) {
 const repaintEmotes = () => Object.keys(activeEmotes).forEach(paintEmote);
 
 // ---------- ekran startowy ----------
+// edytor ludka: strzałki przełączają warianty każdej części
 function renderEditor() {
   $('#av-preview').innerHTML = `<div class="spot"></div>${avatarSVG(avatar)}<div class="pedestal"></div>`;
   $('#home-emo').innerHTML = emoBtnInner();
@@ -134,6 +148,7 @@ function renderEditor() {
 }
 // zwykły ludek z edytora (bez kolorów i dodatków postaci z galerii)
 const plainAv = a => { const o = {}; for (const k of AV_PARTS) o[k] = a[k] || 0; return o; };
+// zmiana części postaci z galerii zamienia ją na zwykłego ludka (galeria ma własne kolory)
 function stepPart(k, d) {
   const n = avCount(k);
   if (avatar.gid) avatar = plainAv(avatar);
@@ -155,9 +170,11 @@ $('#btn-gal-me').onclick = () => openPicker(false);
 
 // ---------- zmiana postaci: edytor i galeria gotowych postaci ----------
 let pickerFull = false;
+// full: z edytorem części (w poczekalni), inaczej sama galeria (ekran startowy)
 function openPicker(full) { pickerFull = full; $('#picker').classList.remove('hidden'); renderPicker(); }
 function closePicker() { $('#picker').classList.add('hidden'); }
 function renderPicker() {
+  // przewinięcie galerii zachowane po przerysowaniu
   const el = $('#picker'), sc = (el.querySelector('.gal-body') || {}).scrollTop || 0;
   el.innerHTML = `<div class="gal card pick" role="dialog" aria-label="${t('changeChar')}">
     <div class="gal-head"><h2>${t(pickerFull ? 'changeChar' : 'galleryMe')}</h2><button class="btn primary" id="pick-close">${t('done')}</button></div>
@@ -192,6 +209,8 @@ $('#btn-join').onclick = () => {
 $('#code').onkeydown = e => { if (e.key === 'Enter') $('#btn-join').click(); };
 
 // ---------- połączenie ----------
+// Otwiera WebSocket i wysyła pierwszą wiadomość (create / join / rejoin).
+// Po zerwaniu połączenia próbuje co 1,5 s wrócić przez rejoin, dopóki jest sesja.
 function connect(first) {
   if (ws && ws.readyState <= 1) { ws.onclose = null; ws.close(); }
   ws = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host);
@@ -206,6 +225,7 @@ function connect(first) {
     } else if (m.t === 'state') {
       S = m.s; myId = m.you; amSpec = !!m.spec;
       const g = S.game;
+      // serwer podaje pozostały czas; liczymy koniec według własnego zegara
       if (g) { deadline = performance.now() + g.timeLeft; total = g.total; }
       render();
     } else if (m.t === 'emote') {
@@ -221,6 +241,7 @@ function connect(first) {
     setTimeout(() => { if (sess) connect({ t: 'rejoin', ...sess }); }, 1500);
   };
 }
+// wysyła akcję do serwera (gdy brak połączenia — po cichu nic)
 const tx = m => { if (ws && ws.readyState === 1) ws.send(JSON.stringify(m)); };
 // zasłona „Łączę ze studiem…” przy zerwanym połączeniu (np. restart serwera po aktualizacji)
 function conn(on) {
@@ -230,6 +251,7 @@ function conn(on) {
   el.classList.toggle('show', on);
   $('#conn-home').onclick = () => { conn(false); goHome(); };
 }
+// wyjście do ekranu startowego: kasuje sesję, żeby nie wracać do pokoju po odświeżeniu
 function goHome() {
   conn(false);
   sess = null; sstore.set(null); S = null; closeGallery();
@@ -237,6 +259,7 @@ function goHome() {
   history.replaceState(null, '', location.pathname); show('home');
 }
 
+// główne rysowanie po każdym stanie z serwera; w poczekalni zeruje znaczniki z poprzedniej gry
 function render() {
   if (!S) return show('home');
   if (S.phase === 'lobby') { show('lobby'); renderLobby(); panelKey = ''; introDone = false; reportedQ = -1; }
@@ -267,6 +290,8 @@ document.addEventListener('fullscreenchange', fsSync);
 document.addEventListener('webkitfullscreenchange', fsSync);
 
 // ---------- poczekalnia ----------
+// Poczekalnia jest przerysowywana w całości przy każdym stanie (prosto i zawsze zgodnie z serwerem),
+// dlatego najpierw zapamiętujemy przewinięcia i tekst w czacie, a potem je przywracamy.
 function renderLobby() {
   const host = S.hostId === myId, el = $('#lobby');
   const link = location.origin + '/?pokoj=' + S.code;
@@ -369,6 +394,7 @@ function renderLobby() {
   if ($('#change-char')) $('#change-char').onclick = () => openPicker(true);
   $('#lb-leave').onclick = () => { tx({ t: 'leave' }); goHome(); };
   $('#copy-link').onclick = () => { navigator.clipboard?.writeText(link).then(() => toast(t('linkCopied')), () => toast(link)); };
+  // dalej tylko przyciski gospodarza (serwer i tak odrzuci je od innych)
   if (!host) return;
   el.querySelectorAll('[data-repban]').forEach(b => b.onclick = () => tx({ t: 'repBan', id: b.dataset.repban }));
   el.querySelectorAll('[data-repdel]').forEach(b => b.onclick = () => tx({ t: 'repDel', id: b.dataset.repdel }));
@@ -401,6 +427,7 @@ function levelOpts(cur, long) {
 }
 function openGallery() { $('#gallery').classList.remove('hidden'); renderGallery(); }
 function closeGallery() { $('#gallery').classList.add('hidden'); }
+// galeria jest tylko dla gospodarza w poczekalni — w innej sytuacji sama się zamyka
 function renderGallery() {
   const el = $('#gallery');
   if (el.classList.contains('hidden')) return;
@@ -424,6 +451,7 @@ $('#gallery').addEventListener('click', e => { if (e.target.id === 'gallery') cl
 
 // ---------- wejście do studia: najazd kamery, odliczanie i muzyka ----------
 let entering = false, introDone = false;
+// muzyka do odliczania przed pierwszym pytaniem, złożona z pojedynczych nut
 function fanfare() {
   if (muted) return;
   try {
@@ -442,6 +470,7 @@ function fanfare() {
     note(1047, 2.9, 0.8, 'triangle', 0.1); note(1319, 2.9, 0.8, 'triangle', 0.08); note(1568, 2.9, 0.8, 'triangle', 0.07);
   } catch {}
 }
+// najazd kamery na studio z odliczaniem 3-2-1-START (tylko na początku gry)
 function startIntro() {
   const world = $('#world'), st = $('#stage'), cd = $('#countdown'), num = cd.firstElementChild;
   const W = parseFloat(world.style.width) || 1800, vw = st.clientWidth, vh = st.clientHeight;
@@ -467,8 +496,11 @@ function startIntro() {
 }
 
 // ---------- scena ----------
+// Studio to „świat” w pikselach (szerokość zależy od liczby graczy), skalowany i przesuwany jak kamera.
+// GAP: odstęp stanowisk, FLOOR_Y: linia podłogi; pos: miejsca głów graczy, w które celuje kamera.
 const GAP = 225, WORLD_H = 760, FLOOR_Y = 640;
 let pos = {};
+// rysuje studio i stanowiska graczy z bieżącym stanem (szanse, punkty, dymki z odpowiedzią)
 function renderWorld() {
   const ps = S.players, n = ps.length, g = S.game;
   const W = Math.max(1800, n * GAP + 800);
@@ -521,6 +553,7 @@ function renderWorld() {
     <div class="dais" style="left:${W / 2}px;top:${FLOOR_Y - 30}px;width:${n * GAP + 420}px"></div>${pods}`;
   camera();
 }
+// na kogo patrzy kamera: odpowiadający, oceniany albo zwycięzca; null = całe studio
 function focusId() {
   const g = S.game;
   if (g.mode === 'question') return g.turn;
@@ -528,6 +561,8 @@ function focusId() {
   if (g.mode === 'end' && g.ranking && g.ranking[0]) return g.ranking[0].id;
   return null;
 }
+// dopasowuje skalę i przesunięcie świata, żeby wybrany gracz (albo wszyscy) mieścił się nad panelem pytań;
+// przesunięcie animuje CSS (transition na #world)
 function camera() {
   if (!S || !S.game || entering) return;
   const st = $('#stage'), vw = st.clientWidth, vh = st.clientHeight;
@@ -546,11 +581,13 @@ function camera() {
 }
 addEventListener('resize', camera);
 
+// wskazanie gracza kliknięciem w jego stanowisko (klasa .pick tylko, gdy to ja wyznaczam)
 $('#world').addEventListener('click', e => {
   const p = e.target.closest('.pod.pick'); if (p) tx({ t: 'nominate', id: p.dataset.id });
 });
 
 // ---------- panel pytań ----------
+// Ekran gry: pasek u góry, panel zależny od trybu (intro / question / buzz / reveal / nominate / end) i studio.
 function renderGame() {
   const g = S.game, me = S.players.find(p => p.id === myId), byId = id => S.players.find(p => p.id === id);
   const stName = t('s' + g.stage), stDesc = t('s' + g.stage + 'd');
@@ -572,6 +609,7 @@ function renderGame() {
   const emoKey = LANG + (amSpec ? 's' : '');
   if (!$('#emotes').firstChild || $('#emotes').dataset.lang !== emoKey) { $('#emotes').innerHTML = amSpec ? '<span></span>' : `<button class="emo-btn" data-wheel>${emoBtnInner()}</button>`; $('#emotes').dataset.lang = emoKey; }
 
+  // panel przerysowujemy tylko przy zmianie fazy — inaczej każdy stan kasowałby wpisywaną odpowiedź
   const key = [g.stage, g.mode, g.turn, g.qnum, g.reveal && g.reveal.pid, S.phase, LANG].join('|');
   if (key !== panelKey) {
     panelKey = key;
@@ -624,6 +662,7 @@ function renderGame() {
     if ($('#again')) $('#again').onclick = () => tx({ t: 'again' });
     if ($('#quit')) $('#quit').onclick = () => { tx({ t: 'leave' }); goHome(); };
 
+    // zmiana samego języka nie gra dźwięku ponownie
     const skey = key.replace(/\|(pl|en)$/, '');
     if (skey !== lastSoundKey) {
       lastSoundKey = skey;
@@ -634,12 +673,14 @@ function renderGame() {
     }
   }
   renderWorld();
+  // intro tylko raz na grę i tylko wtedy, gdy zostało na nie dość czasu (nie po wejściu w połowie)
   if (!introDone && g.stage === 1 && g.mode === 'intro') { introDone = true; gameSeq++; if (g.timeLeft > 2800) startIntro(); }
   recordStats(g);
 }
 addEventListener('keydown', e => {
   if (e.code === 'Space' && S && S.game && S.game.mode === 'buzz' && $('#buzz')) { e.preventDefault(); tx({ t: 'buzz' }); }
 });
+// pasek czasu odświeżany co klatkę z lokalnego deadline, bez czekania na serwer
 (function tick() {
   const b = $('#tbar');
   if (b && total) {
@@ -651,8 +692,10 @@ addEventListener('keydown', e => {
 })();
 
 // ---------- profil gracza: statystyki zapisywane w tej przeglądarce ----------
+// gameSeq: numer gry w tej karcie; statKeys: co już zapisano, bo ten sam stan może przyjść kilka razy
 let gameSeq = 0, statKeys = new Set();
 const PROF0 = () => ({ games: 0, wins: 0, finals: 0, ok: 0, bad: 0, best: 0, cats: {}, recent: [] });
+// zapisuje moje odpowiedzi (z podziałem na kategorie) i wynik gry w localStorage
 function recordStats(g) {
   if (amSpec || !gameSeq) return;
   const P = Object.assign(PROF0(), store.get('ts-profile', {}));
@@ -679,6 +722,7 @@ function recordStats(g) {
   }
   if (changed) store.set('ts-profile', P);
 }
+// okno profilu; kategorie liczone dopiero od 3 pytań, żeby jedno trafienie nie dawało 100%
 function openProfile() {
   const P = Object.assign(PROF0(), store.get('ts-profile', {})), el = $('#profile');
   const pct = (a, b) => (b ? Math.round(a / b * 100) : 0);
@@ -712,6 +756,7 @@ $('#btn-profile').onclick = openProfile;
 $('#profile').addEventListener('click', e => { if (e.target.id === 'profile') $('#profile').classList.add('hidden'); });
 
 // ---------- start ----------
+// sesja w tej karcie → wróć do pokoju; link z ?pokoj= → wpisz kod i czekaj na „Dołącz”
 applyStatic();
 show('home');
 const urlCode = (new URLSearchParams(location.search).get('pokoj') || '').toUpperCase().replace(/[^A-Z]/g, '').slice(0, 5);

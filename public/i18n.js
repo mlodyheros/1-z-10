@@ -1,4 +1,5 @@
 // Tłumaczenia interfejsu (PL / EN). Pytania i odpowiedzi są po polsku.
+// {n}, {name} itp. to miejsca na wartości wstawiane przez t()
 const I18N = {
   pl: {
     tagline: 'Quiz na żywo: odpowiadasz, wyznaczasz rywala, zostaje najlepszy.',
@@ -77,7 +78,9 @@ const I18N = {
 };
 const EMOTE_N = 8; // 0 machanie, 1 dab, 2 śmiech, 3 podskok, 4 płacz, 5 strach, 6 taniec, 7 brawa
 let LANG = 'pl';
+// wybór języka zapamiętany w przeglądarce (try: localStorage bywa zablokowany, np. w trybie prywatnym)
 try { LANG = localStorage.getItem('ts-lang') === 'en' ? 'en' : 'pl'; } catch {}
+// tłumaczenie klucza; brak w EN → wersja polska, brak w ogóle → sam klucz (widać, czego brakuje)
 function t(key, vars) {
   let s = (I18N[LANG] && I18N[LANG][key]);
   if (s == null) s = I18N.pl[key] != null ? I18N.pl[key] : key;

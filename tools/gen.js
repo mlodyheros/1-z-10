@@ -1,16 +1,20 @@
 'use strict';
 // Generuje kategorie, które da się zbudować z tabel danych: stolice, chemia, matematyka.
 // Uruchom: node tools/gen.js
+// Uwaga: nadpisuje pliki questions/stolice-i-panstwa.txt, chemia.txt i matematyka.txt — poprawki rób tutaj, nie w nich.
 const fs = require('fs');
 const path = require('path');
+// zapisuje kategorię w formacie serwera: pierwsza linia „# Nazwa”, potem „pytanie|odpowiedź|inna odpowiedź”
 const out = (id, name, lines) => {
   fs.writeFileSync(path.join(__dirname, '..', 'questions', id + '.txt'), '# ' + name + '\n' + lines.join('\n') + '\n');
   console.log(id, lines.length);
 };
 
 // ---------- Stolice i państwa ----------
+// Państwo=Stolica; po „/” warianty nazwy, wszystkie akceptowane jako odpowiedź (w pytaniu pada pierwszy)
 const CAP = `Francja=Paryż;Niemcy=Berlin;Włochy=Rzym;Hiszpania=Madryt;Portugalia=Lizbona;Wielka Brytania/Zjednoczone Królestwo=Londyn;Irlandia=Dublin;Islandia=Reykjavik/Rejkiawik;Norwegia=Oslo;Szwecja=Sztokholm;Finlandia=Helsinki;Dania=Kopenhaga;Holandia/Niderlandy=Amsterdam;Belgia=Bruksela;Szwajcaria=Berno;Austria=Wiedeń;Czechy=Praga;Słowacja=Bratysława;Węgry=Budapeszt;Rumunia=Bukareszt;Bułgaria=Sofia;Grecja=Ateny;Turcja=Ankara;Ukraina=Kijów;Białoruś=Mińsk;Litwa=Wilno;Łotwa=Ryga;Estonia=Tallin;Rosja=Moskwa;Chorwacja=Zagrzeb;Słowenia=Lublana;Serbia=Belgrad;Bośnia i Hercegowina/Bośnia=Sarajewo;Czarnogóra=Podgorica;Albania=Tirana;Macedonia Północna/Macedonia=Skopje;Mołdawia=Kiszyniów;Malta=Valletta;Cypr=Nikozja;Polska=Warszawa;Gruzja=Tbilisi;Armenia=Erywań;Azerbejdżan=Baku;Kazachstan=Astana;Uzbekistan=Taszkent;Kirgistan=Biszkek;Tadżykistan=Duszanbe;Turkmenistan=Aszchabad;Chiny=Pekin;Japonia=Tokio;Korea Południowa=Seul;Korea Północna=Pjongjang/Phenian;Mongolia=Ułan Bator;Indie=Nowe Delhi/Delhi;Pakistan=Islamabad;Bangladesz=Dhaka/Dakka;Nepal=Katmandu;Afganistan=Kabul;Iran=Teheran;Irak=Bagdad;Syria=Damaszek;Liban=Bejrut;Jordania=Amman;Arabia Saudyjska=Rijad;Zjednoczone Emiraty Arabskie/ZEA/Emiraty=Abu Zabi/Abu Dhabi;Katar=Doha/Ad-Dauha;Oman=Maskat;Jemen=Sana;Bahrajn=Manama;Tajlandia=Bangkok;Wietnam=Hanoi;Kambodża=Phnom Penh;Laos=Wientian;Malezja=Kuala Lumpur;Indonezja=Dżakarta;Filipiny=Manila;Australia=Canberra;Nowa Zelandia=Wellington;Fidżi=Suva;Egipt=Kair;Libia=Trypolis;Algieria=Algier;Maroko=Rabat;Etiopia=Addis Abeba;Kenia=Nairobi;Nigeria=Abudża;Ghana=Akra;Senegal=Dakar;Angola=Luanda;Zimbabwe=Harare;Madagaskar=Antananarywa;Somalia=Mogadiszu;Sudan=Chartum;Uganda=Kampala;Demokratyczna Republika Konga/DRK/Kongo=Kinszasa;Tanzania=Dodoma;Zambia=Lusaka;Mozambik=Maputo;Namibia=Windhuk;Botswana=Gaborone;Rwanda=Kigali;Mali=Bamako;Kanada=Ottawa;Stany Zjednoczone/USA=Waszyngton/Washington;Kuba=Hawana;Jamajka=Kingston;Haiti=Port-au-Prince;Dominikana=Santo Domingo;Nikaragua=Managua;Honduras=Tegucigalpa;Kostaryka=San José;Kolumbia=Bogota;Wenezuela=Caracas;Peru=Lima;Chile=Santiago;Argentyna=Buenos Aires;Urugwaj=Montevideo;Paragwaj=Asunción;Brazylia=Brasília;Ekwador=Quito;Liechtenstein=Vaduz`;
 const cap = [];
+// każda para daje dwa pytania: o stolicę i odwrotnie — o państwo
 for (const pair of CAP.split(';')) {
   const [c, k] = pair.split('=').map(s => s.split('/'));
   cap.push(`Jakie miasto jest stolicą państwa: ${c[0]}?|${k.join('|')}`);
@@ -19,6 +23,7 @@ for (const pair of CAP.split(';')) {
 out('stolice-i-panstwa', 'Stolice i państwa', cap);
 
 // ---------- Chemia ----------
+// Symbol=nazwa pierwiastka (po „/” nazwy alternatywne)
 const EL = `H=wodór;He=hel;Li=lit;Be=beryl;B=bor;C=węgiel;N=azot;O=tlen;F=fluor;Ne=neon;Na=sód;Mg=magnez;Al=glin/aluminium;Si=krzem;P=fosfor;S=siarka;Cl=chlor;Ar=argon;K=potas;Ca=wapń;Ti=tytan;Cr=chrom;Mn=mangan;Fe=żelazo;Co=kobalt;Ni=nikiel;Cu=miedź;Zn=cynk;As=arsen;Br=brom;Kr=krypton;Sr=stront;Ag=srebro;Sn=cyna;I=jod;Xe=ksenon;Ba=bar;W=wolfram;Pt=platyna;Au=złoto;Hg=rtęć;Pb=ołów;Rn=radon;Ra=rad;U=uran;Pu=pluton;Bi=bizmut;Cs=cez;Sb=antymon;Se=selen`;
 const chem = [];
 for (const pair of EL.split(';')) {
@@ -27,6 +32,7 @@ for (const pair of EL.split(';')) {
   chem.push(`Jaki pierwiastek ma symbol chemiczny ${sym}?|${n.join('|')}`);
   chem.push(`Podaj symbol chemiczny pierwiastka: ${n[0]}.|${sym}`);
 }
+// pytania, których nie da się wygenerować z tabeli, w gotowym formacie
 chem.push(...`Jaki jest wzór chemiczny wody?|H2O
 Jaki jest wzór chemiczny dwutlenku węgla?|CO2
 Jaki jest wzór chemiczny soli kuchennej?|NaCl
@@ -91,6 +97,7 @@ out('chemia', 'Chemia', chem);
 
 // ---------- Matematyka ----------
 const mat = [];
+// wyniki liczone w kodzie, więc odpowiedź zawsze się zgadza z pytaniem
 for (let n = 11; n <= 25; n++) mat.push(`Ile wynosi ${n} do kwadratu?|${n * n}`);
 for (const [a, b] of [[6, 7], [7, 8], [8, 9], [9, 6], [12, 7], [13, 6], [14, 5], [15, 8], [16, 4], [17, 3], [18, 6], [19, 5], [21, 4], [23, 3], [24, 5], [25, 8], [12, 12], [15, 15], [11, 13], [9, 14], [7, 16], [8, 17], [6, 19], [4, 27], [3, 37], [5, 44], [9, 25], [8, 35], [7, 45], [6, 55]]) mat.push(`Ile to ${a} × ${b}?|${a * b}`);
 for (const [a, b] of [[47, 38], [125, 76], [89, 64], [256, 144], [73, 49], [199, 202], [58, 67], [345, 155]]) mat.push(`Ile to ${a} + ${b}?|${a + b}`);
